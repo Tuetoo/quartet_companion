@@ -1,0 +1,35 @@
+{
+ "id": "haydn76_3_1",
+ "title": "Haydn: String Quartet Op. 76 No. 3 'Emperor' – I. Allegro",
+ "composer": "Joseph Haydn",
+ "score": {
+  "type": "file",
+  "path": "pieces/haydn76_3_1/score_openscore.musicxml",
+  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/20428156",
+  "openscore_id": "20428156"
+ },
+ "audio": {
+  "path": "incoming/IMSLP502448-PMLP739337-DG_18326_(1)_Joseph_Haydn_-_Streichquartett_Nr._77_C-dur_op._76_Nr._3_-Kaiserquartett-,_Hob._III_77.mp3",
+  "credit": "Koeckert Quartet, Deutsche Grammophon (IMSLP #502448, public domain outside the US)",
+  "start_sec": 0.0,
+  "end_sec": 389.0,
+  "open_sec": 30.0,
+  "name": "Koeckert Quartet",
+  "license": "Public domain outside the US (not in the US)"
+ },
+ "parts": [
+  "Violin 1",
+  "Violin 2",
+  "Viola",
+  "Cello"
+ ],
+ "recordings": {
+  "budapest_quartet": {
+   "name": "Budapest Quartet",
+   "path": "incoming/IMSLP722028-PMLP739337-01.01._Quartet_In_C_Major,_Op._76,_No._3_(\"Emperor\")-_First_Movement-_Allegro.mp3",
+   "credit": "Budapest String Quartet, LP (IMSLP #722028, via archive.org)",
+   "license": "Public domain outside the US (not in the US)"
+  }
+ },
+ "public": false
+}

@@ -1,0 +1,20 @@
+{
+ "id": "d810_3",
+ "title": "Schubert: String Quartet in D minor, D.810, No.14 (“Death and the Maiden”) – III. Scherzo Allegro molto",
+ "composer": "Franz Schubert",
+ "score": {
+  "type": "file",
+  "path": "pieces/d810_3/score.musicxml",
+  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/7397765",
+  "openscore_id": "7397765"
+ },
+ "audio": {
+  "path": "incoming/IMSLP76160-PMLP09913-schubert_d810.mp3",
+  "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #76160, CC BY-NC-ND 3.0)",
+  "start_sec": 1490.6,
+  "end_sec": 1731.3,
+  "open_sec": 6.0,
+  "range_from": "split",
+  "license": "CC BY-NC-ND 3.0"
+ }
+}

@@ -1,0 +1,747 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 105,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 105,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 4141,
+   "output": 6128,
+   "cache_read": 21577,
+   "cache_write": 0
+  },
+  {
+   "input": 6466,
+   "output": 7063,
+   "cache_read": 21577,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Borodin: String Quartet No. 2 – II. Scherzo (Allegro)",
+  "overview": "This is a quick movement in 3/4 time with F major as its home key. It opens softly with a main tune in the first violin. That tune comes back in other parts and other keys. Keys and chords here are estimated by computer, so treat them as a guide. A computer estimate marks measure 158 as the loudest point, where all four players share the tune.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "F major"
+   },
+   {
+    "type": "theme",
+    "measure": "1",
+    "value": "Violin 1"
+   },
+   {
+    "type": "climax",
+    "measure": "158",
+    "value": "ff"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "16",
+    "headline": "The main tune opens softly in the first violin",
+    "text": "The first violin plays the main tune softly, and the others accompany it [m. 1-2]. The tune comes back at the same pitch a few bars later [m. 9-10]. The first violin leads here.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Part 1"
+     },
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "9",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "F major"
+     }
+    ]
+   },
+   {
+    "start_measure": "17",
+    "end_measure": "28",
+    "headline": "Darker minor colours, then a swell",
+    "text": "The key turns to F minor, which sounds darker [m. 17-23]. The marking fz asks for sharp accents [m. 21]. Then the music swells [m. 25] and reaches a brief loud moment at f [m. 26].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "17",
+      "value": "F minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "21",
+      "value": "fz"
+     },
+     {
+      "type": "dynamic",
+      "measure": "25",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "26",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "24",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "29",
+    "end_measure": "36",
+    "headline": "A slower, quiet passage",
+    "text": "The marking changes to larghetto, which means a slower pace. The music stays soft. The texture changes often, with independent lines at times [m. 29, m. 35-36]. The lead is probably shared between the first violin and cello. The key moves to E minor near the end [m. 33-36].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "29",
+      "value": "Section 2 (larghetto)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "29",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "29",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "33",
+      "value": "E minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "37",
+    "end_measure": "50",
+    "headline": "Back to tempo, with shifting keys",
+    "text": "The original speed returns. The music passes through E major, B major and A major [m. 37-50]. Each change gives the music a new colour. Mostly the lines are independent, so no single part clearly has the tune.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "37",
+      "value": "Section 3 (a tempo)"
+     },
+     {
+      "type": "key",
+      "measure": "37",
+      "value": "E major"
+     },
+     {
+      "type": "modulation",
+      "measure": "38",
+      "value": "B major"
+     },
+     {
+      "type": "modulation",
+      "measure": "43",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "42",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "51",
+    "end_measure": "60",
+    "headline": "The viola takes up the main tune",
+    "text": "The viola plays the main tune, pitched lower than at the start, in G major [m. 51-52]. It plays it again [m. 55-56]. Then it plays it in C major [m. 59-60]. The level is mf at first, then p.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "51",
+      "value": "Viola"
+     },
+     {
+      "type": "theme",
+      "measure": "55",
+      "value": "Viola"
+     },
+     {
+      "type": "theme",
+      "measure": "59",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "51",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "51",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "mf"
+     },
+     {
+      "type": "key",
+      "measure": "59",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "59",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "72",
+    "end_measure": "99",
+    "headline": "A build to loud, cello solos, and a silence",
+    "text": "The music swells [m. 72-73] and becomes loud at f [m. 76]. The cello plays alone [m. 85] and again [m. 89]. The violins then trade the lead bar by bar [m. 90-95]. The level reaches ff [m. 96], with players in unison or octaves [m. 97]. Then comes a stretch of tacet, meaning nobody plays [m. 98-99].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "72",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "76",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "85",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "89",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "91",
+      "value": "Violin 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "96",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "97",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "texture",
+      "measure": "98",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "100",
+    "end_measure": "125",
+    "headline": "Soft again, with the lead passed around",
+    "text": "The music is soft, at p, from here [m. 100]. The marking Tempo I. (back to the opening speed) appears at [m. 97]. The viola and second violin trade the lead [m. 100-110]. The key moves through B-flat major, F minor, E-flat major and B-flat minor [m. 105-122].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "97",
+      "value": "Section 5 (Tempo I.)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "100",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "100",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "101",
+      "value": "Violin 2"
+     },
+     {
+      "type": "modulation",
+      "measure": "105",
+      "value": "Bb major"
+     },
+     {
+      "type": "key",
+      "measure": "107",
+      "value": "F minor"
+     },
+     {
+      "type": "key",
+      "measure": "118",
+      "value": "Eb major"
+     },
+     {
+      "type": "key",
+      "measure": "122",
+      "value": "Bb minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "126",
+    "end_measure": "143",
+    "headline": "Vivace: moving through darker keys",
+    "text": "The marking changes to vivace, which means lively. The music swells at the start [m. 126]. It passes through F minor and then C minor [m. 129-142]. The lead moves between the violins. The stretch ends in F-sharp major [m. 143].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "126",
+      "value": "Section 6 (vivace)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "126",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "129",
+      "value": "F minor"
+     },
+     {
+      "type": "key",
+      "measure": "135",
+      "value": "C minor"
+     },
+     {
+      "type": "key",
+      "measure": "143",
+      "value": "F# major"
+     }
+    ]
+   },
+   {
+    "start_measure": "144",
+    "end_measure": "157",
+    "headline": "Cello tune, then a louder first violin",
+    "text": "The cello probably leads, softly, in F-sharp major and then D-flat major [m. 144-151]. Then the first violin takes over, loud at f [m. 152-157]. Its lead is clear.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "144",
+      "value": "Section 7 (a tempo)"
+     },
+     {
+      "type": "lead",
+      "measure": "144",
+      "value": "Cello"
+     },
+     {
+      "type": "key",
+      "measure": "148",
+      "value": "Db major"
+     },
+     {
+      "type": "lead",
+      "measure": "152",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "152",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "158",
+    "end_measure": "163",
+    "headline": "Estimated peak: the main tune in all four parts",
+    "text": "A computer estimate marks measure 158 as the loudest point, at ff. All four instruments play the main tune together in unison or octaves, in A-flat major [m. 158-159]. After that the level is mp, which is moderately soft [m. 160].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "climax",
+      "measure": "158",
+      "value": "ff"
+     },
+     {
+      "type": "theme",
+      "measure": "158",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "158",
+      "value": "Violin 2"
+     },
+     {
+      "type": "theme",
+      "measure": "158",
+      "value": "Viola"
+     },
+     {
+      "type": "theme",
+      "measure": "158",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "158",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "158",
+      "value": "Ab major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "160",
+      "value": "mp"
+     }
+    ]
+   },
+   {
+    "start_measure": "164",
+    "end_measure": "189",
+    "headline": "Soft again, then a loud burst and a pause",
+    "text": "The music is soft again in F major, then D minor [m. 164-176]. The violins trade the lead [m. 178-185]. The music then reaches ff [m. 186]. The marking presto means very fast [m. 187]. A tacet bar follows [m. 189].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "164",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "170",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "186",
+      "value": "ff"
+     },
+     {
+      "type": "section",
+      "measure": "187",
+      "value": "Section 8 (presto)"
+     },
+     {
+      "type": "texture",
+      "measure": "189",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "192",
+    "end_measure": "217",
+    "headline": "The opening tune returns at its original pitch",
+    "text": "Tempo I. brings back the main tune in the first violin, soft and at the same pitch as the start [m. 192-193]. It comes again in F major [m. 200-201]. Later the key darkens to B-flat minor [m. 210-216].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "192",
+      "value": "Section 9 (Tempo I.)"
+     },
+     {
+      "type": "theme",
+      "measure": "192",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "200",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "192",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "192",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "200",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "210",
+      "value": "Bb minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "221",
+    "end_measure": "251",
+    "headline": "Faster, then the viola tune returns loudly",
+    "text": "The marking becomes molto allegro, which means very fast [m. 221]. The music passes through A minor, E major and D major [m. 228-243]. Then the viola brings the main tune back in C major, loud at f [m. 244-249].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "221",
+      "value": "Section 10 (molto allegro)"
+     },
+     {
+      "type": "key",
+      "measure": "228",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "231",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "236",
+      "value": "D major"
+     },
+     {
+      "type": "theme",
+      "measure": "244",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "244",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "244",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "252",
+    "end_measure": "276",
+    "headline": "Hush, then a swell and a fall",
+    "text": "The viola plays the tune softly in F major [m. 252-253]. The level falls to pp, very soft [m. 255]. Then it swells [m. 256, m. 260] and reaches f [m. 262]. It is p again in minor keys [m. 269].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "252",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "252",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "255",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "256",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "262",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "269",
+      "value": "Eb minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "269",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "277",
+    "end_measure": "286",
+    "headline": "Vivace: a loud, confident first violin",
+    "text": "Vivace returns, loud at f. The first violin clearly leads in F major while the others accompany [m. 277-284]. Then the viola plays alone [m. 286]. The key shifts to B-flat minor.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "277",
+      "value": "Section 13 (Vivace)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "277",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "277",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "277",
+      "value": "F major"
+     },
+     {
+      "type": "texture",
+      "measure": "286",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "286",
+      "value": "Bb minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "287",
+    "end_measure": "299",
+    "headline": "A quiet fade back to F major",
+    "text": "Tempo I. returns, with accents marked fp and a fading marking. Single instruments play alone in turn [m. 290, m. 294, m. 296]. The key returns to F major [m. 294]. The level goes from mp to p and finally pp, so the movement ends very softly [m. 295-299].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "287",
+      "value": "Section 14 (Tempo I.)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "288",
+      "value": "fp"
+     },
+     {
+      "type": "texture",
+      "measure": "290",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "294",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "295",
+      "value": "mp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "298",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "299",
+      "value": "pp"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Main theme",
+    "explanation": "The opening tune, which returns in different parts and keys."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale of the music. Major keys sound brighter. Minor keys sound darker."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "Instruments play the same tune together, at the same pitch or at different octaves."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A part or the whole group is silent."
+   },
+   {
+    "term": "Tempo I.",
+    "explanation": "A marking to go back to the opening speed."
+   },
+   {
+    "term": "fz / fp",
+    "explanation": "fz is a sharp accent. fp is loud, then quickly soft."
+   },
+   {
+    "term": "Larghetto / vivace / presto / molto allegro",
+    "explanation": "Speed words: slowish, lively, very fast, and very quick."
+   }
+  ]
+ },
+ "facts_fingerprint": "b7b2131f75a2",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 5,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

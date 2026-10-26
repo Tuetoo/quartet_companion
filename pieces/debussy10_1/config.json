@@ -1,0 +1,20 @@
+{
+ "id": "debussy10_1",
+ "title": "Debussy: String Quartet in G minor, Op.10 – I. Animé et très décidé",
+ "composer": "Claude Debussy",
+ "score": {
+  "type": "file",
+  "path": "pieces/debussy10_1/score.musicxml",
+  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/8661306",
+  "openscore_id": "8661306"
+ },
+ "audio": {
+  "path": "incoming/IMSLP73533-PMLP06153-debussy_op10.mp3",
+  "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #73533, CC BY-NC-ND 3.0)",
+  "start_sec": 0.0,
+  "end_sec": 372.2,
+  "open_sec": 6.0,
+  "range_from": "split",
+  "license": "CC BY-NC-ND 3.0"
+ }
+}

@@ -1,0 +1,442 @@
+[
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": "overview",
+  "field": "overview",
+  "old": "Trust the big picture: sections, keys, who leads, and loud versus soft.",
+  "new": "Trust the big picture: sections, keys, and loud versus soft. Who leads is a computer guess, so treat it as a hint."
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 2,
+  "field": "text",
+  "old": "The violin still leads, but the mood is gentler. The three instruments now sound like a team of equals.",
+  "new": "The violin leads at first, and the mood is gentler. Then the lead is shared, and the three instruments sound more like equal partners."
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 4,
+  "field": "headline",
+  "old": "The cello sings alone",
+  "new": "The cello steps forward"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 4,
+  "field": "text",
+  "old": "The cello steps out with a solo line in [m. 16b-21]. It is clearly in the lead. The key moves to F major at [m. 17b]. Then it settles into B-flat major at [m. 21].",
+  "new": "The cello plays alone at [m. 16b-17b], and the key moves to F major. At [m. 18b] the violin briefly takes over and the music gets loud. Then the cello plays alone again, and the key settles into B-flat major at [m. 21]."
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 8,
+  "field": "text",
+  "old": "After a short silence, the violin plays alone",
+  "new": "After a short silence (all parts are tacet), the violin plays alone"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 9,
+  "field": "headline",
+  "old": "Cello and piano share a gentle tune",
+  "new": "Cello and piano take turns, very softly"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 9,
+  "field": "text",
+  "old": "The music swells and fades in small waves.",
+  "new": "The music swells and fades in small waves (crescendo and diminuendo)."
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 10,
+  "field": "text",
+  "old": "It centres on A major from [m. 176], with the piano leading.",
+  "new": "It centres on A major from [m. 176]. The piano leads at first, then probably shares the lead with the violin."
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 12,
+  "field": "text",
+  "old": "It reaches the loudest and busiest point of the movement at [m. 254].",
+  "new": "It reaches one of the loudest and busiest moments of the movement at [m. 254]."
+ },
+ {
+  "piece": "d929_1",
+  "lang": "en",
+  "where": 15,
+  "field": "headline",
+  "old": "Final return to E-flat and a loud ending",
+  "new": "Final return to E-flat: a loud build-up, then a soft close"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": "overview",
+  "field": "overview",
+  "old": "所以本指南只讲大框架:段落、调性、谁在带领、声音大小。",
+  "new": "所以本指南只讲大框架:段落、调性和声音大小。“谁在带领”是电脑推测的,只能作为参考。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": "overview",
+  "field": "overview",
+  "old": "文中的调和和弦都是自动估计的。",
+  "new": "文中的调性与和弦都是电脑自动估计的。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": "overview",
+  "field": "overview",
+  "old": "以及全曲里频繁的调性转换",
+  "new": "以及本乐章里频繁的调性转换"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 1,
+  "field": "text",
+  "old": "三件乐器的织体像一起和声,比较整齐。请记住这个开头,它是全曲的起点。",
+  "new": "三件乐器节奏一致,一起奏出和弦,托着小提琴的旋律。请记住这个开头,它是本乐章的起点。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 4,
+  "field": "headline",
+  "old": "大提琴独唱,转向明亮的调",
+  "new": "大提琴独奏,调性转到F大调和降B大调"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 6,
+  "field": "text",
+  "old": "声音降到极轻(pp)",
+  "new": "声音降到很弱(pp)"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 8,
+  "field": "text",
+  "old": "大约在 [m. 160] 起音乐稳定在降B大调。",
+  "new": "大约从 [m. 160] 起转到降B大调,之后主要由钢琴带领;到 [m. 173] 转入D小调。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 9,
+  "field": "text",
+  "old": "[m. 175] 起声音突然变得很响(ff),调性为A大调。",
+  "new": "[m. 175] 起声音突然变得很响(ff),随后在 [m. 176] 转到A大调。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 10,
+  "field": "headline",
+  "old": "遥远的升F大调,轻声漫游",
+  "new": "很弱的声音中不断转调"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 10,
+  "field": "text",
+  "old": "声音极轻(pp)。调性在升F大调、B小调、D大调、C大调之间变换,色彩不断改变。这些快速的转换,像在远方漫步。",
+  "new": "声音很弱(pp)。调性依次经过升F大调、B小调、D大调、D小调和C大调,色彩不断变化,听起来飘忽不定。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 11,
+  "field": "headline",
+  "old": "紧张攀升到最响点",
+  "new": "紧张攀升,到达最响的时刻之一"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 11,
+  "field": "text",
+  "old": "到 [m. 254] 达到全乐章最响、最忙的地方(ff),调性为B小调。钢琴在这里主导。",
+  "new": "到 [m. 254] 达到本乐章最响、最忙的时刻之一(ff),调性为B小调。这里可能主要是钢琴在带领,但判断不太确定。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 12,
+  "field": "headline",
+  "old": "从降B小调慢慢走远,再来一次高潮",
+  "new": "从降B小调慢慢走远,再次变得很响"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 12,
+  "field": "text",
+  "old": "到 [m. 305] 又变得很响,然后在 [m. 308] 戛然而止。",
+  "new": "到 [m. 305] 又变得很响,随后渐弱,在 [m. 308] 停下来。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 13,
+  "field": "text",
+  "old": "声音又变得很轻(pp)",
+  "new": "声音又变得很弱(pp)"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 15,
+  "field": "text",
+  "old": "这里织体比较整齐,像一起和声。",
+  "new": "这里三件乐器又一起奏和弦,节奏整齐,和开头很像。"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 16,
+  "field": "headline",
+  "old": "尾声:降E大调中安静收束",
+  "new": "最后一段:回到降E大调,轻声结束"
+ },
+ {
+  "piece": "d929_1",
+  "lang": "zh",
+  "where": 16,
+  "field": "text",
+  "old": "尾声从 [m. 612] 开始。先在G小调中轻声进行,",
+  "new": "最后一段从 [m. 616] 开始(前面 [m. 612-615] 是一小段过渡),先在G小调中轻声进行,"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": "overview",
+  "field": "overview",
+  "old": "This is a passacaglia. A short four-measure pattern is played again and again, and the music above it keeps changing. Here there is a theme and 22 variations, each four measures long.",
+  "new": "This is a passacaglia: a short four-measure theme followed by 22 variations, each also four measures long. Early variations stay close to the theme; later ones move far from it."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": "glossary",
+  "field": "explanation",
+  "old": "A piece built on a short pattern that repeats many times while the music above it changes.",
+  "new": "A set of variations on a short theme; each variation keeps the theme's length but changes the music."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": "glossary",
+  "field": "explanation",
+  "old": "Loudness levels, from very soft (pp) up to very loud (fff).",
+  "new": "Loudness levels, from very soft (pp) through very loud (ff) to extremely loud (fff)."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 1,
+  "field": "text",
+  "old": "The violin plays the theme alone on top, loud, with the viola accompanying [m. 1-4].",
+  "new": "The violin plays the theme loudly on top, and the viola accompanies below [m. 1-4]."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 1,
+  "field": "text",
+  "old": "Learn it, because everything that follows is built on its four-measure shape.",
+  "new": "Learn it. Every variation keeps its four-measure length, and the early ones stay close to its tune."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 2,
+  "field": "text",
+  "old": "The volume stays at a strong, steady loud level.",
+  "new": "The volume stays loud, then eases off at the end [m. 8]."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 5,
+  "field": "text",
+  "old": "The notes get faster and more crowded, but the volume mostly stays soft [m. 25-36]. The violin leads.",
+  "new": "Each bar holds more and more notes, but the volume mostly stays soft [m. 25-36]. The violin mostly seems to lead, though this is less certain in Variation 8."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 8,
+  "field": "text",
+  "old": "The players again move together in chords.",
+  "new": "The players sometimes move together in chords and sometimes play separate lines."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 9,
+  "field": "headline",
+  "old": "Variations 14–15: viola in the spotlight, fading to pianissimo",
+  "new": "Variations 14–15: the viola probably leads, then a sudden hush"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 9,
+  "field": "text",
+  "old": "The sound fades from medium loud to very soft [m. 60-64].",
+  "new": "The sound drops suddenly from medium loud to very soft at [m. 60] and stays very soft until [m. 63]."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 11,
+  "field": "headline",
+  "old": "Variation 18: near silence, then a quiet return",
+  "new": "Variation 18: a quiet return, led by the viola"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 11,
+  "field": "text",
+  "old": "Both players rest for two measures [m. 73-74]. The viola then enters alone [m. 75]. The violin joins and the key returns to G minor [m. 75-76]. This pause is a held breath before the final stretch.",
+  "new": "The score shows two silent measures here [m. 73-74], though this may be a recognition error. The viola then enters alone [m. 75]. The violin joins and the key returns to G minor [m. 75-76]."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 13,
+  "field": "text",
+  "old": "The violin leads, and [m. 88] is a silent bar that builds tension.",
+  "new": "The violin leads. The score shows [m. 88] as silent, which may be a recognition error."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "en",
+  "where": 14,
+  "field": "text",
+  "old": "The very loud playing continues through the last bars [m. 91-93].",
+  "new": "The extremely loud playing continues through the last bars [m. 91-93]."
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": "overview",
+  "field": "overview",
+  "old": "在第73至74小节出现两小节的停奏,",
+  "new": "乐谱在第73至74小节显示两小节无声(这可能是识别错误),"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": "glossary",
+  "field": "explanation",
+  "old": "一种变奏形式:一小段音乐不断重复,上方的音乐每次都改写。",
+  "new": "一种变奏曲:一段短主题之后跟着许多变奏,每段长度相同,但内容不断改写。"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": "glossary",
+  "field": "term",
+  "old": "同步和声式(homophonic)",
+  "new": "主调织体(homophonic)"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 4,
+  "field": "headline",
+  "old": "轻与响交替,中提琴常带头",
+  "new": "轻与响交替,中提琴一度接过主导"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 4,
+  "field": "text",
+  "old": "这一段中提琴可能常常领头,但主导者判断并不十分确定。",
+  "new": "大约在 [m. 19-22] 中提琴可能接过主导,之后小提琴又回到前面。"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 6,
+  "field": "text",
+  "old": "这种写法叫“同步和声式”,听起来更厚实、更像和弦。",
+  "new": "这种写法叫“主调织体”:两件乐器节奏一致,听起来更厚实、更像一起奏和弦。"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 8,
+  "field": "headline",
+  "old": "再次转强,变得宽广",
+  "new": "再次转强"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 9,
+  "field": "headline",
+  "old": "中提琴可能领头,声音渐弱到极轻",
+  "new": "中提琴可能领头,声音突然变得很弱"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 9,
+  "field": "text",
+  "old": "力度从中强降到极弱 [m. 60]。第十五变奏保持很轻 [m. 61-64]。",
+  "new": "到 [m. 60] 力度从中强突然降到很弱(pp),并一直保持到 [m. 63]。"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 10,
+  "field": "text",
+  "old": "最后一小节只有小提琴独奏 [m. 72]。",
+  "new": "这一变奏的最后一小节 [m. 72] 只有小提琴独奏。"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 11,
+  "field": "headline",
+  "old": "两小节停奏,中提琴先重新进入",
+  "new": "中提琴先重新进入"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 11,
+  "field": "text",
+  "old": "第十八变奏开头两小节,两件乐器都不演奏 [m. 73-74]。",
+  "new": "乐谱显示第十八变奏开头两小节没有音符 [m. 73-74],这可能是识别错误。"
+ },
+ {
+  "piece": "passacaglia",
+  "lang": "zh",
+  "where": 13,
+  "field": "text",
+  "old": "[m. 88] 是短暂的停奏,为终曲做准备。",
+  "new": "乐谱显示 [m. 88] 为空小节(可能是识别错误),之后进入最后一个变奏。"
+ }
+]

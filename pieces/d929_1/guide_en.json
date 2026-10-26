@@ -1,0 +1,608 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 78,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 78,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4175,
+   "cache_read": 0,
+   "cache_write": 38444
+  },
+  {
+   "input": 4810,
+   "output": 5879,
+   "cache_read": 38444,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Schubert: Piano Trio No. 2 in E-flat, D. 929 – I. Allegro",
+  "overview": "This is a long first movement for violin, cello and piano. It is in 3/4 time and starts in E-flat major. The key changes very often, so listen for shifts that brighten or darken the mood. The score came from optical recognition with many errors, so details may be imprecise. The keys and chords are also estimated by computer. Trust the big picture: sections, keys, and loud versus soft. Who leads is a computer guess, so treat it as a hint.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "Eb major"
+   },
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "The bold opening tune",
+    "text": "The violin leads from the very first bar in E-flat major [m. 1-4]. All three instruments play loudly together. The texture is called homophonic: one tune with chords moving together underneath.",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "Eb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "8",
+    "headline": "Suddenly soft",
+    "text": "The music drops to soft at [m. 5]. The violin leads at first, and the mood is gentler. Then the lead is shared, and the three instruments sound more like equal partners.",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "trio"
+     },
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "9",
+    "end_measure": "12b",
+    "headline": "Piano probably takes charge, growing louder",
+    "text": "The piano probably takes the lead at [m. 9-12b]. The lead here is uncertain. The music gets louder and reaches a very loud peak at [m. 11a]. Then it falls back to soft.",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Piano"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "11a",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12b",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "16b",
+    "end_measure": "21",
+    "headline": "The cello steps forward",
+    "text": "The cello plays alone at [m. 16b-17b], and the key moves to F major. At [m. 18b] the violin briefly takes over and the music gets loud. Then the cello plays alone again, and the key settles into B-flat major at [m. 21].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "16b",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "16b",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "17b",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "21",
+      "value": "Bb major"
+     }
+    ]
+   },
+   {
+    "start_measure": "24",
+    "end_measure": "30",
+    "headline": "Loud, dark turn to E-flat minor",
+    "text": "The music becomes very loud at [m. 24]. At [m. 26] the key darkens to E-flat minor. The piano leads with accents. An accent is a sudden strong hit on a note.",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "24",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "26",
+      "value": "Eb minor"
+     },
+     {
+      "type": "lead",
+      "measure": "26",
+      "value": "Piano"
+     },
+     {
+      "type": "dynamic",
+      "measure": "26",
+      "value": "sf"
+     }
+    ]
+   },
+   {
+    "start_measure": "42",
+    "end_measure": "56",
+    "headline": "A hush in new keys",
+    "text": "The key jumps to F-sharp major at [m. 42]. Then it moves to B minor, where the music becomes very quiet at [m. 47]. The piano leads over soft accompaniment from [m. 49]. At [m. 54] the key brightens to G major.",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "42",
+      "value": "F# major"
+     },
+     {
+      "type": "key",
+      "measure": "47",
+      "value": "B minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "47",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "54",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "49",
+      "value": "Piano"
+     }
+    ]
+   },
+   {
+    "start_measure": "130",
+    "end_measure": "135",
+    "headline": "The first part ends quietly in F major",
+    "text": "The first big part ends calmly in F major [m. 130-135]. The sound drops to very soft at [m. 131]. This first part is marked as repeated.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "130",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "131",
+      "value": "pp"
+     },
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Part 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "139",
+    "end_measure": "149",
+    "headline": "A lone violin in a new world",
+    "text": "After a short silence in the score (all parts tacet, which may be a recognition gap), the violin plays alone and very softly [m. 139-149]. The key starts in B minor. It shifts to G major at [m. 142] and then to F major at [m. 146]. The mood is hushed and mysterious.",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "137",
+      "value": "Section 2 (new key signature)"
+     },
+     {
+      "type": "texture",
+      "measure": "136",
+      "value": "tacet"
+     },
+     {
+      "type": "lead",
+      "measure": "139",
+      "value": "Violin"
+     },
+     {
+      "type": "texture",
+      "measure": "139",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "139",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "142",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "146",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "139",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "152",
+    "end_measure": "161",
+    "headline": "Cello and piano take turns, very softly",
+    "text": "In Section 3 the cello and piano pass the lead back and forth very softly [m. 152-161]. The music swells and fades in small waves (crescendo and diminuendo). The key settles in B-flat major at [m. 160].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "152",
+      "value": "Section 3 (new key signature)"
+     },
+     {
+      "type": "lead",
+      "measure": "152",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "154",
+      "value": "Piano"
+     },
+     {
+      "type": "key",
+      "measure": "160",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "154",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "175",
+    "end_measure": "181",
+    "headline": "A loud burst, then a whisper",
+    "text": "A very loud passage begins at [m. 175]. It centres on A major from [m. 176]. The piano leads at first, then probably shares the lead with the violin. At [m. 180] the key moves to F major. The sound drops suddenly to very soft at [m. 181].",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "175",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "176",
+      "value": "A major"
+     },
+     {
+      "type": "lead",
+      "measure": "176",
+      "value": "Piano"
+     },
+     {
+      "type": "key",
+      "measure": "180",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "181",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "209",
+    "end_measure": "232",
+    "headline": "Mysterious wandering through many keys",
+    "text": "The music stays very quiet and moves through many keys. These are F-sharp major, B minor, D major, D minor and C major. Each change gives a new shade of colour. Listen for the floating, unsettled feeling.",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "209",
+      "value": "Section 5 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "209",
+      "value": "F# major"
+     },
+     {
+      "type": "key",
+      "measure": "217",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "221",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "226",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "230",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "209",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "249",
+    "end_measure": "255",
+    "headline": "Getting louder, to one of the loudest moments",
+    "text": "From [m. 249] the music turns loud in F-sharp minor, probably with the piano leading. The computer estimates [m. 254] as one of the loudest and busiest moments of the movement. The key shifts to B minor there. Then the sound drops to soft at [m. 255].",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "249",
+      "value": "F# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "249",
+      "value": "f"
+     },
+     {
+      "type": "climax",
+      "measure": "254",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "254",
+      "value": "B minor"
+     },
+     {
+      "type": "lead",
+      "measure": "249",
+      "value": "Piano"
+     },
+     {
+      "type": "dynamic",
+      "measure": "255",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "347",
+    "end_measure": "358",
+    "headline": "Loud drama in B-flat and F minor",
+    "text": "Section 11 is very long. It opens loudly at [m. 347]. The piano leads from [m. 348]. The key turns to darker F minor at [m. 350]. At [m. 355] it returns to bright B-flat major and gets even louder.",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "347",
+      "value": "Section 11 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "347",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "348",
+      "value": "Piano"
+     },
+     {
+      "type": "key",
+      "measure": "350",
+      "value": "F minor"
+     },
+     {
+      "type": "key",
+      "measure": "355",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "355",
+      "value": "ff"
+     }
+    ]
+   },
+   {
+    "start_measure": "393",
+    "end_measure": "399",
+    "headline": "Loud chords in E-flat, then soft",
+    "text": "The key is E-flat major from [m. 393]. At [m. 395-398] the music is loud and chordal, much like the opening. The violin probably leads, but this is uncertain. At [m. 399] the sound drops to soft, as it did at [m. 5].",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "393",
+      "value": "Eb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "395",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "395",
+      "value": "homophonic"
+     },
+     {
+      "type": "lead",
+      "measure": "395",
+      "value": "Violin"
+     },
+     {
+      "type": "dynamic",
+      "measure": "399",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "616",
+    "end_measure": "644",
+    "headline": "Final return to E-flat: sudden loud outbursts, then a soft close",
+    "text": "The last section starts very soft in G minor [m. 616]. At [m. 623] the key turns to E-flat major. The music gets very loud at [m. 632]. The final bars at [m. 642] are soft, in E-flat major.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "616",
+      "value": "Section 13 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "616",
+      "value": "G minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "616",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "623",
+      "value": "Eb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "632",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "642",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "642",
+      "value": "Eb major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Homophonic",
+    "explanation": "One main tune with chords moving together underneath."
+   },
+   {
+    "term": "Accent (sf)",
+    "explanation": "A sudden strong hit on a note."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home base of a stretch of music. Major keys usually sound brighter. Minor keys usually sound darker."
+   },
+   {
+    "term": "Crescendo (cresc)",
+    "explanation": "Gradually getting louder."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A part is silent."
+   }
+  ]
+ },
+ "facts_fingerprint": "f2a0205387bf",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 10,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 4,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 4,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

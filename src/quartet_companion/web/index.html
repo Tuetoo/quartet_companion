@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quartet Companion</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg stroke='%238a3b12' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M6 8v16M12 6v20M18 8v16M24 11v10'/%3E%3C/g%3E%3C/svg%3E">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo" aria-hidden="true">
+      <svg viewBox="0 0 32 32" width="28" height="28"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 8v16"/><path d="M12 6v20"/><path d="M18 8v16"/><path d="M24 11v10"/></g></svg>
+    </span>
+    <div>
+      <div class="brand-name">Quartet Companion</div>
+      <div class="brand-sub" data-i18n="tagline">Listen with the score's eyes</div>
+    </div>
+  </div>
+  <div class="top-controls">
+    <button id="lib-open" class="lib-btn" type="button" aria-haspopup="dialog">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M4 5h4v14H4zM10 5h4v14h-4zM16.5 5.3l3.8-1 3.6 13.5-3.8 1z" fill="currentColor"/></svg>
+      <span data-i18n="library">Library</span></button>
+    <select id="piece-select" aria-label="Choose a piece"></select>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="en" class="on">EN</button><button data-lang="zh">中文</button>
+    </div>
+  </div>
+</header>
+
+<main id="app">
+  <section class="hero">
+    <h1 id="title">Loading…</h1>
+    <p id="subtitle" class="muted"></p>
+    <div id="warnings"></div>
+  </section>
+
+  <section class="player card">
+    <audio id="audio" preload="auto"></audio>
+    <div class="transport">
+      <button id="play" class="play" aria-label="Play">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path id="play-icon" d="M8 5v14l11-7z" fill="currentColor"/></svg>
+      </button>
+      <div class="time"><span id="cur">0:00</span> / <span id="dur">0:00</span></div>
+      <label class="rec-pick" id="rec-wrap" hidden><span data-i18n="recording">Recording</span>
+        <select id="rec-select" aria-label="Recording"></select></label>
+      <div class="now">
+        <div class="now-item"><span class="lbl" data-i18n="measure">Measure</span><b id="now-measure">–</b></div>
+        <div class="now-item"><span class="lbl" data-i18n="section">Section</span><b id="now-section">–</b></div>
+        <div class="now-item"><span class="lbl" data-i18n="key">Key</span><b id="now-key">–</b></div>
+        <div class="now-item"><span class="lbl" data-i18n="dynamic">Dynamic</span><b id="now-dyn">–</b></div>
+        <div class="now-item"><span class="lbl" data-i18n="texture">Texture</span><b id="now-tex">–</b></div>
+      </div>
+    </div>
+
+    <div id="timeline" class="timeline">
+      <div class="row-label" data-i18n="sections">Sections</div><div class="lane" id="lane-sections"></div>
+      <div class="row-label" data-i18n="keys">Keys</div><div class="lane" id="lane-keys"></div>
+      <div id="part-lanes" class="part-lanes"></div>
+      <div class="playhead" id="playhead"></div>
+    </div>
+    <div class="legend muted">
+      <span><i class="sw lead"></i><span data-i18n="leg_lead">has the tune</span></span>
+      <span><i class="sw active"></i><span data-i18n="leg_active">playing</span></span>
+      <span><i class="sw theme">★</i><span data-i18n="leg_theme">opening theme returns</span></span>
+      <span><i class="sw flag"></i><span data-i18n="leg_flag">uncertain timing</span></span>
+      <label id="autonext-wrap" class="autonext" hidden><input type="checkbox" id="autonext" checked> <span data-i18n="autonext">Play the next movement automatically</span></label>
+      <span class="hint" data-i18n="leg_click">Click anywhere on the timeline to jump there.</span>
+    </div>
+    <div id="no-audio" class="notice" hidden data-i18n="no_audio">No recording is aligned with this piece yet.</div>
+
+    <div class="practice" id="practice" hidden>
+      <span class="practice-title" data-i18n="practice">Practice</span>
+      <label class="speed"><span data-i18n="speed">Speed</span>
+        <input type="range" id="speed" min="50" max="100" step="5" value="100" aria-label="Speed">
+        <b id="speed-val">100%</b></label>
+      <button id="loop-pick" class="pbtn" data-i18n="loop_pick">Choose bars to loop</button>
+      <span id="loop-info" class="loop-info" aria-live="polite"></span>
+      <button id="loop-clear" class="pbtn ghost" hidden data-i18n="loop_clear">Stop looping</button>
+      <label class="autonext"><input type="checkbox" id="countin"> <span data-i18n="countin">Count-in before each start</span></label>
+    </div>
+  </section>
+
+  <section class="card compare-card" id="compare-card" hidden>
+    <div class="card-head">
+      <h2 data-i18n="compare">Compare recordings</h2>
+      <div id="compare-legend" class="compare-legend"></div>
+    </div>
+    <div id="compare-chart" class="compare-chart"></div>
+    <div id="compare-tip" class="compare-tip" hidden></div>
+    <ul id="compare-notes" class="compare-notes"></ul>
+    <p class="muted small" data-i18n="compare_hint">Each line is how fast one recording plays each bar (higher = faster). Click the chart to jump there; switch recordings above to hear the same bar in another performance.</p>
+  </section>
+
+  <section class="card score-card" id="score-card" hidden>
+    <div class="card-head">
+      <h2 data-i18n="score">Score</h2>
+      <div class="score-nav">
+        <label class="autonext"><input type="checkbox" id="follow" checked> <span data-i18n="follow">Follow the music</span></label>
+        <button id="prev-page" aria-label="Previous page">‹</button>
+        <span id="page-label" class="muted small"></span>
+        <button id="next-page" aria-label="Next page">›</button>
+      </div>
+    </div>
+    <details id="doubts" class="notice soft doubts" hidden>
+      <summary id="doubts-title"></summary>
+      <p id="doubts-body" class="small"></p>
+      <div id="doubts-list" class="doubt-chips"></div>
+    </details>
+    <div id="score" class="score"></div>
+    <p class="muted small" data-i18n="score_hint">The highlighted bar is playing now. Click any bar to jump there.</p>
+    <p class="muted small" id="score-source" hidden></p>
+  </section>
+
+  <section class="grid">
+    <div class="card guide">
+      <div class="card-head">
+        <h2 data-i18n="guide">Listening guide</h2>
+        <span id="verified" class="badge"></span>
+      </div>
+      <p id="overview" class="overview"></p>
+      <ol id="points" class="points"></ol>
+      <details id="glossary-box"><summary data-i18n="glossary">Words used</summary><dl id="glossary"></dl></details>
+      <p id="no-guide" class="notice" hidden data-i18n="no_guide">No guide yet in this language. Run: qc guide &lt;piece&gt; --lang en zh</p>
+    </div>
+    <div class="card facts">
+      <h2 data-i18n="at_a_glance">At a glance</h2>
+      <div id="glance"></div>
+      <h3 data-i18n="variations" id="var-title" hidden>Variations</h3>
+      <div id="variations"></div>
+      <h3 data-i18n="method">How this was made</h3>
+      <ul id="method" class="method muted"></ul>
+      <p id="credits" class="muted small"></p>
+    </div>
+  </section>
+</main>
+<footer class="foot muted small">
+  <span data-i18n="footer">Facts come from the score analysis. The guide is written by Claude and every claim is checked against those facts.</span>
+  · <a href="credits.html" data-i18n="credits_link" style="color:inherit">Credits and licences</a>
+</footer>
+<script src="app.js"></script>
+
+<dialog id="library" aria-labelledby="lib-title">
+  <div class="lib-head">
+    <h2 id="lib-title" data-i18n="library">Library</h2>
+    <button id="lib-close" class="lib-x" type="button" aria-label="Close">×</button>
+  </div>
+  <input id="lib-q" type="search" autocomplete="off" data-i18n-ph="lib_search" placeholder="Search: composer, title, key…">
+  <div class="lib-filters">
+    <select id="lib-composer" aria-label="Composer"></select>
+    <select id="lib-mode" aria-label="Major or minor"></select>
+    <select id="lib-len" aria-label="Length"></select>
+    <select id="lib-ens" aria-label="Ensemble"></select>
+    <label class="chk"><input type="checkbox" id="lib-guide"> <span data-i18n="lib_guide">Has a guide in this language</span></label>
+  </div>
+  <p id="lib-count" class="muted small"></p>
+  <div id="lib-list"></div>
+</dialog>
+</body>
+</html>

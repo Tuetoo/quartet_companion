@@ -1,0 +1,535 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 69,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 69,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 3669,
+   "cache_read": 0,
+   "cache_write": 5809
+  },
+  {
+   "input": 4422,
+   "output": 4588,
+   "cache_read": 5809,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Beethoven, String Quartet No. 16, Op. 135 – III. Lento assai, cantante e tranquillo",
+  "overview": "This is a slow, quiet movement in three sections. It is in 6/8 time and its home key is Db major. The keys and chords here are estimated by computer, so some labels may be imprecise. The first violin usually carries the tune, but the analysis often rates this as uncertain. Listen for the hushed middle section and the calm return of the opening mood.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "23",
+    "value": "Section 2 (Più lento)"
+   },
+   {
+    "type": "section",
+    "measure": "33",
+    "value": "Section 3 (Tempo I)"
+   },
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "Db major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "A soft opening and the first tune",
+    "text": "The movement begins softly [m. 1]. The second violin probably leads the first bar. Then Violin 1 takes the tune [m. 2-4], while the others accompany. The key is Db major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Vn2"
+     },
+     {
+      "type": "lead",
+      "measure": "2",
+      "value": "Vn1"
+     },
+     {
+      "type": "texture",
+      "measure": "2",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "key",
+      "measure": "2",
+      "value": "Db major"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "9",
+    "headline": "The tune is shared among the voices",
+    "text": "Violin 1 keeps the tune at first [m. 5-6]. After that the lead is unclear. Violin 1 and the viola probably share it [m. 7]. In [m. 9] the parts move as independent lines. A crescendo (gradual swell) is marked.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Vn1"
+     },
+     {
+      "type": "lead",
+      "measure": "7",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "7",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "10",
+    "end_measure": "15",
+    "headline": "Swelling and fading, still in Db major",
+    "text": "The music swells and fades in small waves [m. 11-12]. In [m. 12] the parts move together in chords, which is called homophonic texture. Violin 1 probably leads through [m. 13-15]. A crescendo is marked in [m. 15].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "11",
+      "value": "dim"
+     },
+     {
+      "type": "texture",
+      "measure": "11",
+      "value": "independent lines"
+     },
+     {
+      "type": "texture",
+      "measure": "12",
+      "value": "homophonic"
+     },
+     {
+      "type": "texture",
+      "measure": "13",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "15",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "10",
+      "value": "Db major"
+     }
+    ]
+   },
+   {
+    "start_measure": "16",
+    "end_measure": "19",
+    "headline": "A new key and sudden accents",
+    "text": "The estimated key moves to Ab major [m. 16]. This is a modulation, a change of key. The marking rfz is a sudden strong accent, and it appears in [m. 17-19]. The parts mostly move in chords.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "16",
+      "value": "Ab major"
+     },
+     {
+      "type": "key",
+      "measure": "16",
+      "value": "Ab major"
+     },
+     {
+      "type": "texture",
+      "measure": "16",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "rfz"
+     },
+     {
+      "type": "texture",
+      "measure": "18",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "20",
+    "end_measure": "22",
+    "headline": "Closing the first part",
+    "text": "Violin 1 probably leads again in [m. 20-21]. The lines become more independent [m. 21-22]. Swelling and fading are both marked here. The estimated key stays Ab major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "20",
+      "value": "Vn1"
+     },
+     {
+      "type": "texture",
+      "measure": "21",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "20",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "20",
+      "value": "dim"
+     },
+     {
+      "type": "key",
+      "measure": "20",
+      "value": "Ab major"
+     }
+    ]
+   },
+   {
+    "start_measure": "23",
+    "end_measure": "27",
+    "headline": "Slower and hushed: the middle section",
+    "text": "The tempo marking changes to Più lento, which means slower [m. 23]. The dynamic drops to pp, very soft. The parts move in chords. Violin 1 leads. The estimated key turns to G# minor [m. 24-27], which is darker.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "23",
+      "value": "Section 2 (Più lento)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "23",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "23",
+      "value": "homophonic"
+     },
+     {
+      "type": "lead",
+      "measure": "24",
+      "value": "Vn1"
+     },
+     {
+      "type": "modulation",
+      "measure": "24",
+      "value": "G# minor"
+     },
+     {
+      "type": "key",
+      "measure": "24",
+      "value": "G# minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "28",
+    "end_measure": "31",
+    "headline": "Deeper into minor, with a rise in volume",
+    "text": "The estimated key shifts to C# minor [m. 28]. The level rises from pp to p by [m. 29]. An rfz accent is marked there. Violin 1 leads, with less certainty near the end. The chords still move together.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "28",
+      "value": "C# minor"
+     },
+     {
+      "type": "key",
+      "measure": "28",
+      "value": "C# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "29",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "29",
+      "value": "rfz"
+     },
+     {
+      "type": "texture",
+      "measure": "30",
+      "value": "homophonic"
+     },
+     {
+      "type": "lead",
+      "measure": "30",
+      "value": "Vn1"
+     }
+    ]
+   },
+   {
+    "start_measure": "32",
+    "end_measure": "34",
+    "headline": "Back to Db major and the original tempo",
+    "text": "Db major returns [m. 32]. The viola probably leads there, with the others accompanying. Section 3 begins at the original tempo [m. 33]. Violin 1 probably takes the tune again [m. 33-34].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "32",
+      "value": "Db major"
+     },
+     {
+      "type": "key",
+      "measure": "32",
+      "value": "Db major"
+     },
+     {
+      "type": "lead",
+      "measure": "32",
+      "value": "Va"
+     },
+     {
+      "type": "texture",
+      "measure": "32",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "section",
+      "measure": "33",
+      "value": "Section 3 (Tempo I)"
+     },
+     {
+      "type": "lead",
+      "measure": "33",
+      "value": "Vn1"
+     }
+    ]
+   },
+   {
+    "start_measure": "35",
+    "end_measure": "39",
+    "headline": "A brief visit to F minor",
+    "text": "The estimated key darkens to F minor [m. 35-39]. The four parts mostly move as independent lines. The lead is unclear; Violin 1 and the viola probably share it. The music is soft throughout.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "35",
+      "value": "F minor"
+     },
+     {
+      "type": "key",
+      "measure": "35",
+      "value": "F minor"
+     },
+     {
+      "type": "texture",
+      "measure": "35",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "35",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "35",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "35",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "40",
+    "end_measure": "45",
+    "headline": "Home key again, with interwoven lines",
+    "text": "Db major returns [m. 40]. The voices weave their own lines, and this continues through [m. 44]. Swelling and fading are marked in [m. 41-42]. Violin 1 probably leads in [m. 41-45].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "40",
+      "value": "Db major"
+     },
+     {
+      "type": "key",
+      "measure": "40",
+      "value": "Db major"
+     },
+     {
+      "type": "texture",
+      "measure": "41",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "41",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "41",
+      "value": "dim"
+     },
+     {
+      "type": "lead",
+      "measure": "41",
+      "value": "Vn1"
+     }
+    ]
+   },
+   {
+    "start_measure": "46",
+    "end_measure": "52",
+    "headline": "Toward the computer-estimated peak",
+    "text": "The lines stay independent [m. 46-52]. A crescendo is marked in [m. 48], and a diminuendo, a gradual softening, in [m. 49]. A sudden accent rfz comes in [m. 51]. A computer estimate marks [m. 52] as the loudest or busiest point. It is still marked p.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "46",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "48",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "49",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "rfz"
+     },
+     {
+      "type": "climax",
+      "measure": "52",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "53",
+    "end_measure": "54",
+    "headline": "A very soft close",
+    "text": "The music settles to pp, very soft [m. 53]. Violin 1 leads over a quiet accompaniment. The movement ends in Db major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "53",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "53",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "54",
+      "value": "Vn1"
+     },
+     {
+      "type": "key",
+      "measure": "54",
+      "value": "Db major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Modulation",
+    "explanation": "A change from one key to another. It can brighten or darken the mood."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "The parts move together in chords, with one main line on top."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each instrument plays its own line, and the lines weave together."
+   },
+   {
+    "term": "Crescendo",
+    "explanation": "A gradual increase in loudness."
+   },
+   {
+    "term": "Diminuendo",
+    "explanation": "A gradual decrease in loudness."
+   },
+   {
+    "term": "rfz",
+    "explanation": "A sudden, strong accent on a note or chord."
+   },
+   {
+    "term": "Più lento",
+    "explanation": "An Italian marking meaning slower."
+   },
+   {
+    "term": "pp",
+    "explanation": "Very soft."
+   }
+  ]
+ },
+ "facts_fingerprint": "7f17838c437b",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 5,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

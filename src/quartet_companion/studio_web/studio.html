@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quartet Companion · Add a piece</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  main { max-width: 860px; }
+  .step { margin-top: 16px; }
+  .step h2 { display: flex; gap: 10px; align-items: baseline; }
+  .num { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%;
+    background: var(--accent); color: var(--paper); font: 600 14px var(--sans); flex: none; }
+  .step.off { opacity: .45; pointer-events: none; }
+  input[type=text], input[type=search] { width: 100%; padding: 10px 12px; font: inherit; border-radius: 10px;
+    border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+  .results { display: grid; gap: 4px; margin-top: 10px; max-height: 340px; overflow: auto; }
+  .row { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; text-align: left;
+    padding: 8px 10px; border: 0; border-radius: 8px; background: transparent; cursor: pointer; width: 100%; }
+  .row:hover, .row.on { background: var(--accent-soft); }
+  .row small { color: var(--muted); }
+  .badge { font-size: 12px; padding: 1px 8px; border-radius: 6px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+  .files { display: grid; gap: 2px; margin: 8px 0; max-height: 300px; overflow: auto; }
+  .file { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 6px 8px; border-radius: 8px; }
+  .file:hover { background: var(--accent-soft); }
+  .file.used { color: var(--muted); }
+  .order { min-width: 22px; text-align: center; font-weight: 700; color: var(--accent); }
+  label.f { display: block; font-size: 14px; color: var(--muted); margin: 12px 0 4px; }
+  .go { margin-top: 14px; padding: 10px 18px; border: 0; border-radius: 10px; background: var(--accent); color: var(--paper);
+    font: 600 15px var(--sans); cursor: pointer; }
+  .go:disabled { opacity: .5; cursor: default; }
+  .err { color: var(--flag); margin-top: 8px; }
+  pre.log { background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; max-height: 360px;
+    overflow: auto; font: 12.5px/1.5 ui-monospace, Menlo, monospace; white-space: pre-wrap; }
+  .done a { color: var(--accent); font-weight: 600; }
+  a.lib-btn { color: var(--ink); }
+  code.cmd { display: block; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; margin: 6px 0;
+    font: 13px ui-monospace, Menlo, monospace; user-select: all; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo"><svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M5 4v16M10 6v12M15 4v16M20 8v8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span>
+    <div><div class="brand-name">Quartet Companion</div><div class="brand-sub" data-t="sub"></div></div>
+  </div>
+  <div class="top-controls">
+    <a href="./" class="lib-btn" data-t="player" style="text-decoration:none"></a>
+    <div class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="zh">中文</button></div>
+  </div>
+</header>
+
+<main>
+  <section class="card step" id="s1">
+    <h2><span class="num">1</span><span data-t="s1"></span></h2>
+    <input id="q" type="search" autocomplete="off">
+    <p class="muted small" data-t="s1_hint"></p>
+    <div id="results" class="results"></div>
+  </section>
+
+  <section class="card step off" id="s2">
+    <h2><span class="num">2</span><span data-t="s2"></span></h2>
+    <p id="chosen" style="font-family: var(--serif); font-weight: 700; margin: 0 0 6px"></p>
+    <p class="muted small" data-t="s2_hint"></p>
+    <div id="files" class="files"></div>
+    <label class="f" for="credit" data-t="credit"></label>
+    <input id="credit" type="text">
+    <label class="f" for="prefix" data-t="prefix"></label>
+    <input id="prefix" type="text" autocomplete="off" spellcheck="false">
+    <button id="go" class="go" data-t="go"></button>
+    <div id="err" class="err"></div>
+  </section>
+
+  <section class="card step off" id="s3">
+    <h2><span class="num">3</span><span data-t="s3"></span></h2>
+    <pre id="log" class="log"></pre>
+    <div id="done" class="done"></div>
+  </section>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  const T = {
+    en: { sub: "Add a piece", player: "← Player", s1: "Find the work", s1_hint: "Searches the OpenScore string quartet library (free scores). Try: haydn 76 4, schubert maiden, mozart 458.",
+      in_lib: "already in your library", s2: "Choose the recording",
+      s2_hint: "Tick one file for the whole work, or one file per movement in order (the numbers show the order). Files already used by a piece are greyed. Put new downloads in the incoming folder first.",
+      credit: "Who plays (shown under the player, optional)", prefix: "Short name for the piece (letters, digits, _)",
+      go: "Add to the library", s3: "Progress", running: "Working… (a whole work takes 1–5 minutes)",
+      ok: "Done. ", open: "Open it in the player", guide_cmd: "Listening guides use the API; when you are ready, run in the terminal:",
+      failed: "Something went wrong — see the last lines above, and tell Claude.", none: "Nothing found.",
+      no_files: "No recordings in the incoming folder yet.", need_audio: "Choose at least one recording.", mb: "MB",
+      bad_name: "The short name may use only lower-case letters, digits and _.", name_taken: "This short name is already used; choose another.",
+      bad_file: "That recording is not in the incoming folder.", bad_request: "Something is missing; choose a work and a recording." },
+    zh: { sub: "添加曲目", player: "← 播放器", s1: "找到作品", s1_hint: "在 OpenScore 弦乐四重奏曲库（免费乐谱）里搜索。例如：haydn 76 4、schubert maiden、mozart 458。",
+      in_lib: "已在你的曲库里", s2: "选择录音",
+      s2_hint: "整部作品一个文件就勾一个；每个乐章一个文件就按乐章顺序勾选（数字表示顺序）。已经被使用的文件显示为灰色。新下载的录音请先放进 incoming 文件夹。",
+      credit: "演奏者（显示在播放器下方，可不填）", prefix: "曲目简称（字母、数字、下划线）",
+      go: "加入曲库", s3: "进度", running: "正在处理……（一部作品大约 1–5 分钟）",
+      ok: "完成。", open: "在播放器里打开", guide_cmd: "导读要用 API，准备好后在终端运行：",
+      failed: "出了问题——请看上面最后几行，告诉 Claude。", none: "没有找到。",
+      no_files: "incoming 文件夹里还没有录音。", need_audio: "请至少选一个录音文件。", mb: "MB",
+      bad_name: "简称只能用小写字母、数字和下划线。", name_taken: "这个简称已经用过了，请换一个。",
+      bad_file: "这个录音不在 incoming 文件夹里。", bad_request: "缺少信息：请先选作品和录音。" },
+  };
+  let lang = "zh";
+  try { lang = localStorage.getItem("qc-lang") || "zh"; } catch (e) { /* ignore */ }
+  const $ = (id) => document.getElementById(id);
+  const t = (k) => T[lang][k] || T.en[k] || k;
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+  let work = null, picked = [], files = [];
+
+  function setLang(l) {
+    lang = l;
+    try { localStorage.setItem("qc-lang", l); } catch (e) { /* ignore */ }
+    document.documentElement.lang = l === "zh" ? "zh-CN" : "en";
+    document.querySelectorAll(".lang button").forEach((b) => b.classList.toggle("on", b.dataset.lang === l));
+    document.querySelectorAll("[data-t]").forEach((el) => { el.textContent = t(el.dataset.t); });
+    $("q").placeholder = "haydn 76 4";
+    renderFiles();
+  }
+
+  let timer = null;
+  $("q").addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(search, 250); });
+  async function search() {
+    const q = $("q").value.trim();
+    if (!q) { $("results").innerHTML = ""; return; }
+    const hits = await (await fetch("api/search?q=" + encodeURIComponent(q))).json();
+    $("results").innerHTML = hits.length ? hits.map((h, i) =>
+      `<button class="row" data-i="${i}"><span>${esc(h.name)}<br><small>${esc(h.composer)}</small></span>` +
+      `${h.in_lib ? `<span class="badge">${esc(t("in_lib"))}</span>` : "<span></span>"}</button>`).join("")
+      : `<p class="muted">${esc(t("none"))}</p>`;
+    $("results").querySelectorAll(".row").forEach((b) => b.addEventListener("click", () => choose(hits[+b.dataset.i], b)));
+  }
+
+  async function choose(h, btn) {
+    work = h;
+    $("results").querySelectorAll(".row").forEach((b) => b.classList.toggle("on", b === btn));
+    $("chosen").textContent = `${h.composer}: ${h.name}`;
+    $("prefix").value = h.prefix;
+    $("s2").classList.remove("off");
+    files = await (await fetch("api/incoming")).json();
+    files.sort((a, b) => (a.used - b.used) || a.name.localeCompare(b.name));
+    picked = [];
+    renderFiles();
+  }
+
+  function renderFiles() {
+    if (!work) return;
+    $("files").innerHTML = files.length ? files.map((f, i) => {
+      const k = picked.indexOf(f.path);
+      return `<label class="file${f.used ? " used" : ""}"><input type="checkbox" data-i="${i}"${k >= 0 ? " checked" : ""}>` +
+        `<span>${esc(f.name)} <small class="muted">${f.mb} ${t("mb")}</small></span><span class="order">${k >= 0 ? k + 1 : ""}</span></label>`;
+    }).join("") : `<p class="muted">${esc(t("no_files"))}</p>`;
+    $("files").querySelectorAll("input").forEach((c) => c.addEventListener("change", () => {
+      const p = files[+c.dataset.i].path;
+      picked = c.checked ? [...picked, p] : picked.filter((x) => x !== p);
+      renderFiles();
+    }));
+  }
+
+  $("go").addEventListener("click", async () => {
+    $("err").textContent = "";
+    if (!picked.length) { $("err").textContent = t("need_audio"); return; }
+    $("go").disabled = true;
+    const r = await fetch("api/add", {method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({id: work.id, prefix: $("prefix").value.trim(), audio: picked, credit: $("credit").value})});
+    const res = await r.json();
+    if (!r.ok) { $("err").textContent = (res.code && T[lang][res.code]) || res.error; $("go").disabled = false; return; }
+    $("s3").classList.remove("off");
+    $("log").textContent = t("running") + "\n";
+    $("done").innerHTML = "";
+    poll(res.job, 0);
+  });
+
+  async function poll(job, since) {
+    const s = await (await fetch(`api/jobs/${job}?since=${since}`)).json();
+    if (s.log.length) { $("log").textContent += s.log.join("\n") + "\n"; $("log").scrollTop = 1e9; }
+    if (s.status === "running") { setTimeout(() => poll(job, s.next), 1000); return; }
+    $("go").disabled = false;
+    if (s.status === "done") {
+      $("done").innerHTML = `<p>${esc(t("ok"))}<a href="./#${esc(s.prefix)}_1">${esc(t("open"))} →</a></p>` +
+        `<p class="muted small">${esc(t("guide_cmd"))}</p><code class="cmd">qc guide ${esc(s.prefix)}</code>`;
+    } else {
+      $("done").innerHTML = `<p class="err">${esc(t("failed"))}</p>`;
+    }
+  }
+
+  document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
+  setLang(lang);
+  $("q").focus();
+})();
+</script>
+</body>
+</html>

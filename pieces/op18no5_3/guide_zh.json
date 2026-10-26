@@ -1,0 +1,575 @@
+{
+ "language": "zh",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 70,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 70,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 84,
+   "output": 4248,
+   "cache_read": 0,
+   "cache_write": 10494
+  },
+  {
+   "input": 8584,
+   "output": 5776,
+   "cache_read": 10494,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "贝多芬弦乐四重奏 Op. 18 No. 5 – 第三乐章 如歌的行板(主题与变奏)",
+  "overview": "这是一个主题与变奏乐章:先出现一支简单的旋律,然后用五种不同的方式改造它,最后以一段缓慢的尾声收束。本乐章以D大调为主,2/4拍。请留意旋律在四件乐器之间如何转手,以及每段变奏音符的疏密变化:第三变奏最密,第四变奏又回到和主题差不多。第五变奏最长、最响,尾声则安静地结束。本指南的和声标注来自专家标注,可信度较高。",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Theme"
+   },
+   {
+    "type": "section",
+    "measure": "16",
+    "value": "Var. 1"
+   },
+   {
+    "type": "section",
+    "measure": "32",
+    "value": "Var. 2"
+   },
+   {
+    "type": "section",
+    "measure": "48",
+    "value": "Var. 3"
+   },
+   {
+    "type": "section",
+    "measure": "64",
+    "value": "Var. 4"
+   },
+   {
+    "type": "section",
+    "measure": "80",
+    "value": "Var. 5"
+   },
+   {
+    "type": "section",
+    "measure": "129",
+    "value": "Coda (Poco Adagio)"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "D major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "6",
+    "headline": "第一小提琴唱出主题",
+    "text": "乐章一开始,第一小提琴先独自轻声奏出主题的开头 [m. 0],从第 1 小节起其他乐器加入。旋律先向上一跳,然后一步步往下走,简单又好记。从第 2 小节起,其他声部也有各自的线条 [m. 2-6],力度弱(p)。请记住这支旋律,它会再次出现。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "solo"
+     }
+    ]
+   },
+   {
+    "start_measure": "7",
+    "end_measure": "16",
+    "headline": "短暂转到A大调,再回到D大调",
+    "text": "[m. 7-8] 音乐短暂走到A大调,色彩稍有变化。随后在 [m. 9] 回到D大调。中间有一小段渐强 [m. 11],之后又回到轻声 [m. 13]。主题在 [m. 16] 结束。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "7",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "9",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "11",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "13",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "16",
+    "end_measure": "32",
+    "headline": "第一变奏:大提琴接过旋律",
+    "text": "第一变奏里,大提琴最常带着旋律,声音低沉温暖 [m. 16-20]。音符比主题更密,大约是1.5倍。之后旋律在中提琴和第二小提琴之间转手,这部分的领奏判断不太确定。[m. 23] 和 [m. 31] 有突然加重的重音(sf)。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "16",
+      "value": "Var. 1"
+     },
+     {
+      "type": "lead",
+      "measure": "16",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "16",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "22",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "23",
+      "value": "sf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "31",
+      "value": "sf"
+     }
+    ]
+   },
+   {
+    "start_measure": "32",
+    "end_measure": "48",
+    "headline": "第二变奏:很弱的小提琴流动线条",
+    "text": "第一小提琴重新领奏,声音降到很弱(pp)[m. 32-47]。旋律被装饰得更流畅,音符比主题密。请听这段安静而细腻的歌唱。[m. 39-40] 再次短暂转到A大调,[m. 41] 回到D大调。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "32",
+      "value": "Var. 2"
+     },
+     {
+      "type": "lead",
+      "measure": "32",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "39",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "41",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "48",
+    "end_measure": "64b",
+    "headline": "第三变奏:音符最密,旋律在声部间轮流出现",
+    "text": "这一段音符最密,约是主题的2.5倍。中提琴先开始 [m. 48],然后第二小提琴和第一小提琴轮流出现。旋律在各声部间流转,领奏很分散。快到结尾 [m. 62-63] 有渐强和突强的重音。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "48",
+      "value": "Var. 3"
+     },
+     {
+      "type": "lead",
+      "measure": "48",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "50",
+      "value": "Violin 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "48",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "62",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "63",
+      "value": "sf"
+     }
+    ]
+   },
+   {
+    "start_measure": "64",
+    "end_measure": "72",
+    "headline": "第四变奏:旋律回到小提琴,转入小调",
+    "text": "第一小提琴又清楚地领奏,音符数量与主题差不多 [m. 64-72]。到 [m. 69-72] 音乐转入升F小调,气氛变暗。这是全乐章唯一的小调段落。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "64",
+      "value": "Var. 4"
+     },
+     {
+      "type": "lead",
+      "measure": "64",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "69",
+      "value": "F# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "64",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "73",
+    "end_measure": "80",
+    "headline": "回到D大调,渐强之后转为很弱",
+    "text": "[m. 73] 回到明亮的D大调。[m. 77] 有渐强,随后到 [m. 79] 变成很弱(pp)。这为下一段突然的爆发做好了铺垫。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "73",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "77",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "79",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "80",
+    "end_measure": "88a",
+    "headline": "第五变奏突然变响",
+    "text": "第五变奏一开始就是强(f),几件乐器同度或八度齐奏 [m. 80]。旋律主要在中提琴和第二小提琴一带,领奏不明确,可以当作共同分担。按分析,[m. 84] 是全乐章最响的地方。[m. 86-88a] 短暂转到A大调。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "80",
+      "value": "Var. 5"
+     },
+     {
+      "type": "dynamic",
+      "measure": "80",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "80",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "climax",
+      "measure": "84",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "86",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "96b",
+    "end_measure": "105",
+    "headline": "突然转入降B大调,声音骤然安静",
+    "text": "[m. 96b] 音乐突然变轻(p),并转入降B大调。听起来像是忽然换了一个远方的色彩。[m. 97] 只有大提琴独奏,之后降到更弱(pp)[m. 98]。[m. 105] 又回到D大调。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "96b",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "96b",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "98",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "105",
+      "value": "D major"
+     },
+     {
+      "type": "lead",
+      "measure": "97",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "106",
+    "end_measure": "110",
+    "headline": "主题在低音大提琴中回归",
+    "text": "[m. 107-110] 大提琴低两个八度重新奏出开头的主题旋律,音的走向与最初一致。声音很弱(pp)。这是辨认“老朋友”的好时机。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "107",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "107",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "106",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "107",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "111",
+    "end_measure": "128",
+    "headline": "逐步积累,在第 128 小节变强",
+    "text": "第一小提琴可能接着唱 [m. 111-115],然后由第二小提琴接过旋律 [m. 116-118]。之后几个声部的线条交错,反复渐强 [m. 119, 124]。到 [m. 126] 有突强的重音,[m. 128] 变强(f)。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "111",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "116",
+      "value": "Violin 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "124",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "126",
+      "value": "sf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "128",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "129",
+    "end_measure": "134",
+    "headline": "尾声:速度放慢,变得很弱",
+    "text": "尾声标为 Poco Adagio,意思是稍慢一点。[m. 129] 先是强,然后迅速减弱,到 [m. 130] 变为很弱(pp)。[m. 129] 各声部以和弦一起进行,随后第一小提琴独奏 [m. 130-131],再变成二重、三重的薄织体 [m. 132-134]。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "129",
+      "value": "Coda (Poco Adagio)"
+     },
+     {
+      "type": "texture",
+      "measure": "129",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "130",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "130",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "130",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "135",
+    "end_measure": "139",
+    "headline": "轻柔的和弦收束本乐章",
+    "text": "最后几小节有短暂的渐强和渐弱 [m. 135-137],像一次轻轻的呼吸。第一小提琴可能领着旋律。[m. 138-139] 以整齐的和弦在D大调里安静地结束。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "135",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "135",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "136",
+      "value": "cresc"
+     },
+     {
+      "type": "texture",
+      "measure": "138",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "138",
+      "value": "D major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "变奏",
+    "explanation": "把同一支旋律用不同的装饰、音型、声部或情绪再演奏一遍。"
+   },
+   {
+    "term": "主题",
+    "explanation": "本乐章最先出现、之后被反复改造的那支旋律。"
+   },
+   {
+    "term": "调(大调/小调)",
+    "explanation": "音乐的“中心音”和色彩。大调通常明亮,小调通常较暗。"
+   },
+   {
+    "term": "转调",
+    "explanation": "音乐暂时走到另一个调,听起来像换了一种色彩。"
+   },
+   {
+    "term": "p / pp / f",
+    "explanation": "p是弱,pp是很弱,f是强。"
+   },
+   {
+    "term": "sf",
+    "explanation": "突然加重的一个音或和弦。"
+   },
+   {
+    "term": "渐强",
+    "explanation": "声音逐渐变大。"
+   },
+   {
+    "term": "Poco Adagio",
+    "explanation": "意大利语,意思是“稍微慢一些”。"
+   },
+   {
+    "term": "尾声",
+    "explanation": "乐章最后的收束段落。"
+   },
+   {
+    "term": "同度/八度齐奏",
+    "explanation": "几件乐器同时奏出相同的音,或相差八度的同一个音。"
+   }
+  ]
+ },
+ "facts_fingerprint": "19d0db7bdb47",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 14,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

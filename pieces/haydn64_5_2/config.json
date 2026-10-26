@@ -1,0 +1,16 @@
+{
+ "id": "haydn64_5_2",
+ "title": "Haydn: String Quartet in D major, Hob.III:63, Op.64 No.5 – II. Adagio cantabile",
+ "composer": "Joseph Haydn",
+ "score": {
+  "type": "file",
+  "path": "pieces/haydn64_5_2/score.musicxml",
+  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/7284122",
+  "openscore_id": "7284122"
+ },
+ "audio": {
+  "path": "incoming/IMSLP247100-PMLP15812-String_Quartet_In_D,_Op._645,_H_363,_Lark_-_II._Adagio,_Cantabile.mp3",
+  "credit": "Musopen String Quartet, 2012 (IMSLP, CC BY 3.0)",
+  "license": "CC BY 3.0"
+ }
+}

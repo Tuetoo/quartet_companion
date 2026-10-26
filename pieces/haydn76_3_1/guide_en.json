@@ -1,0 +1,595 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 76,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 76,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 3998,
+   "cache_read": 0,
+   "cache_write": 8699
+  },
+  {
+   "input": 4616,
+   "output": 4984,
+   "cache_read": 8699,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Haydn: String Quartet Op. 76 No. 3 'Emperor' – I. Allegro",
+  "overview": "This is a fast opening movement in C major, in three parts. Part 1 is repeated. Part 2 wanders through several keys. Section 3 is marked to be played faster (\"più presto\") on the second time through and brings the music home. Keys and chords here are estimated by computer, so treat them as a guide. Listen for the opening tune in Violin 1, and for how it comes back.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "45",
+    "value": "Part 2"
+   },
+   {
+    "type": "section",
+    "measure": "105",
+    "value": "Section 3 (la seconda volta più presto)"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "C major"
+   },
+   {
+    "type": "lead",
+    "measure": "0",
+    "value": "Violin 1"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "2",
+    "headline": "The opening tune in Violin 1",
+    "text": "Violin 1 plays the main theme in C major [m. 0-2]. The players move together, with chords under the tune. It starts loud, then drops to soft in [m. 1].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "C major"
+     },
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "3",
+    "end_measure": "10",
+    "headline": "Louder, busier, still at home in C",
+    "text": "The music gets louder at [m. 3] and the lines become more independent. Violin 2 probably takes the tune briefly in [m. 5]. Sharp accents (marked fz) land in [m. 8-10].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "3",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "3",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin 2"
+     },
+     {
+      "type": "texture",
+      "measure": "7",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "5",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "8",
+      "value": "fz"
+     }
+    ]
+   },
+   {
+    "start_measure": "11",
+    "end_measure": "19",
+    "headline": "A move up to G major",
+    "text": "At [m. 11] the key changes to G major. The computer estimates this key change. The lead is shared and unclear here, but Violin 1 probably has the tune from [m. 13].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "11",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "11",
+      "value": "G major"
+     },
+     {
+      "type": "texture",
+      "measure": "13",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "13",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "20",
+    "end_measure": "28",
+    "headline": "A touch of D major, then back to G",
+    "text": "The key moves briefly to D major at [m. 20]. Accents (fz) stand out. At [m. 22] there is a very loud ff, and then the music drops at once to soft. By [m. 25] we are back in G major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "20",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "20",
+      "value": "fz"
+     },
+     {
+      "type": "dynamic",
+      "measure": "22",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "25",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "29",
+    "end_measure": "31",
+    "headline": "The dark, loud peak of Part 1",
+    "text": "The mood turns stormy in G minor. Minor keys sound darker. At [m. 30] the music is marked ff (very loud). The computer estimates this as the loudest and busiest point of the movement. Everyone plays together in block chords.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "29",
+      "value": "G minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "29",
+      "value": "G minor"
+     },
+     {
+      "type": "climax",
+      "measure": "30",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "30",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "30",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "32",
+    "end_measure": "36",
+    "headline": "A sudden hush in E-flat major",
+    "text": "After the peak, the music drops to soft in a new key, E-flat major [m. 32-36]. Cello probably takes the tune briefly at [m. 33]. At [m. 36] the music is marked even softer, pp, and three instruments seem to play.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "32",
+      "value": "Eb major"
+     },
+     {
+      "type": "modulation",
+      "measure": "32",
+      "value": "Eb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "36",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "36",
+      "value": "trio"
+     },
+     {
+      "type": "lead",
+      "measure": "33",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "37",
+    "end_measure": "44b",
+    "headline": "Closing Part 1 in G major",
+    "text": "G major returns at [m. 37], starting very soft. It turns loud at [m. 38]. The part ends softly in G major at [m. 44b]. Then it is repeated.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "37",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "37",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "38",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "44b",
+      "value": "p"
+     },
+     {
+      "type": "section",
+      "measure": "44b",
+      "value": "Part 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "59",
+    "headline": "Part 2 begins in minor keys",
+    "text": "Part 2 opens in E minor [m. 45]. It then visits A minor [m. 53] and returns to E minor [m. 58]. Violin 1 leads clearly at the start. The mood is more restless and serious than before.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "45",
+      "value": "Part 2"
+     },
+     {
+      "type": "key",
+      "measure": "45",
+      "value": "E minor"
+     },
+     {
+      "type": "lead",
+      "measure": "45",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "53",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "58",
+      "value": "E minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "60",
+    "end_measure": "74",
+    "headline": "Bright B major and E major, then a hush",
+    "text": "The music moves to B major at [m. 60]. It goes soft, then lands in E major at [m. 64]. Many accents (fz) run through [m. 66-73], with busy independent lines. At [m. 74] it drops to soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "60",
+      "value": "B major"
+     },
+     {
+      "type": "modulation",
+      "measure": "60",
+      "value": "B major"
+     },
+     {
+      "type": "key",
+      "measure": "64",
+      "value": "E major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "66",
+      "value": "fz"
+     },
+     {
+      "type": "texture",
+      "measure": "68",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "74",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "75",
+    "end_measure": "79",
+    "headline": "Quiet E minor and a theme return",
+    "text": "The key turns to E minor and the music gets very soft [m. 76-77]. Then Violin 1 plays the main theme again, loud, at exactly the same pitch as the opening [m. 78-80]. The computer labels the key of these bars as E minor, but the tune is at the opening's pitch, and from [m. 80] the key is C major again.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "75",
+      "value": "E minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "76",
+      "value": "pp"
+     },
+     {
+      "type": "theme",
+      "measure": "78",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "78",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "78",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "80",
+    "end_measure": "89",
+    "headline": "Back in C major",
+    "text": "From [m. 80] the key is C major again. Violin 2 probably leads at [m. 83]. Accents return in [m. 86-88].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "80",
+      "value": "C major"
+     },
+     {
+      "type": "modulation",
+      "measure": "80",
+      "value": "C major"
+     },
+     {
+      "type": "lead",
+      "measure": "83",
+      "value": "Violin 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "86",
+      "value": "fz"
+     },
+     {
+      "type": "texture",
+      "measure": "85",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "90",
+    "end_measure": "104",
+    "headline": "Through G major and back to C",
+    "text": "G major appears at [m. 90]. C major settles again at [m. 96]. The music is mostly loud, with a soft dip at [m. 94] and again at [m. 97]. At [m. 104] it goes soft, as if holding its breath.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "90",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "96",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "94",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "97",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "104",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "105",
+    "end_measure": "113",
+    "headline": "Soft, with a turn to C minor (faster the second time)",
+    "text": "Section 3 starts soft [m. 105]. It is marked to go faster on the repeat. From [m. 108] to [m. 112] the key darkens into C minor. At [m. 113] C major comes back.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "105",
+      "value": "Section 3 (la seconda volta più presto)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "105",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "108",
+      "value": "C minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "108",
+      "value": "C minor"
+     },
+     {
+      "type": "key",
+      "measure": "113",
+      "value": "C major"
+     }
+    ]
+   },
+   {
+    "start_measure": "114",
+    "end_measure": "121b",
+    "headline": "A loud push, then a soft ending",
+    "text": "The music turns loud at [m. 115] with Violin 1 probably on the melody. In the last bars it softens again. It ends quietly in C major at [m. 121b].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "115",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "114",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "119a",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "121b",
+      "value": "C major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Key",
+    "explanation": "The home note and scale a passage feels built around. Major keys sound brighter. Minor keys sound darker."
+   },
+   {
+    "term": "Modulation",
+    "explanation": "A change from one key to another."
+   },
+   {
+    "term": "Theme",
+    "explanation": "A main tune that you can recognise when it comes back."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All the instruments move together in the same rhythm, like a hymn."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One part has the tune. The others play support underneath."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each instrument plays its own line at the same time."
+   },
+   {
+    "term": "fz",
+    "explanation": "A sudden sharp accent on a note."
+   },
+   {
+    "term": "p / pp / f / ff",
+    "explanation": "Soft / very soft / loud / very loud."
+   },
+   {
+    "term": "più presto",
+    "explanation": "An Italian marking meaning faster."
+   }
+  ]
+ },
+ "facts_fingerprint": "c3d79cb3f263",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 7,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 3,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

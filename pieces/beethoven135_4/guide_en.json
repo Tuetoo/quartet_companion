@@ -1,0 +1,642 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 83,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 83,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": [
+   {
+    "point": "point 15 (A sudden very loud ending)",
+    "problem": "the text names F major, but the facts show ['A minor', 'C major'] here"
+   }
+  ]
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4784,
+   "cache_read": 0,
+   "cache_write": 18474
+  },
+  {
+   "input": 5467,
+   "output": 5408,
+   "cache_read": 18474,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Beethoven, String Quartet No. 16, Op. 135 – IV. Grave ma non troppo tratto: Listening Guide",
+  "overview": "This movement runs 277 measures in 3/2 time. It opens slowly and darkly in F minor, then moves through many keys and moods. The keys and chords here are estimated by computer, so some labels may be off. The score is described as good quality, but small details may still be imprecise. Listen for the soft-to-loud swings, the fast Allegro section, and the calm return of the opening tempo near the end.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "F minor"
+   },
+   {
+    "type": "section",
+    "measure": "174",
+    "value": "Section 9 (Allegro)"
+   },
+   {
+    "type": "section",
+    "measure": "250",
+    "value": "Section 12 (Tempo I)"
+   },
+   {
+    "type": "climax",
+    "measure": "164",
+    "value": "Section 8 (Grave ma non troppo tratto)"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "A quiet opening in F minor",
+    "text": "The first violin leads, softly, in F minor [m. 1-4]. The other instruments accompany it. Crescendo signs (getting gradually louder) are marked in these bars.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "F minor"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "13",
+    "headline": "Big loud-soft swings as the key moves to C major",
+    "text": "The music grows to loud (f) at [m. 5-6]. The voices then move as independent lines [m. 7-12]. The key shifts to C major at [m. 8]. Crescendo marks lead to very loud (ff) at [m. 9]. A diminuendo (gradual get-softer) follows [m. 10], and the music reaches very soft (pp) at [m. 12]. A loud unison then closes the passage [m. 12-13].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "7",
+      "value": "independent lines"
+     },
+     {
+      "type": "modulation",
+      "measure": "8",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "10",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "14",
+    "end_measure": "30",
+    "headline": "Brighter F major, with a visit to B-flat",
+    "text": "Part 2 begins in F major, and the mood brightens [m. 14]. It starts loud, then drops to soft at [m. 17], where the first violin leads. The key touches B-flat major for a moment [m. 28-30].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "14",
+      "value": "Part 2"
+     },
+     {
+      "type": "key",
+      "measure": "14",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "17",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "28",
+      "value": "Bb major"
+     }
+    ]
+   },
+   {
+    "start_measure": "31",
+    "end_measure": "44",
+    "headline": "Loud chords, a darker turn, then a bare solo",
+    "text": "The music returns to F major and gets loud [m. 31-37]. It turns to D minor, which sounds darker [m. 38]. The first violin plays solo in A major [m. 42-43]. Then the whole quartet is silent for a bar [m. 44].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "31",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "38",
+      "value": "D minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "42",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "42",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "44",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "67",
+    "headline": "A soft, light stretch in A major",
+    "text": "Section 3 has a new key signature and is repeated. It stays soft in A major. The first violin probably leads at first. Then the tune passes among the upper parts and the lead is shared [m. 54-61]. A crescendo mark appears along the way [m. 50].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "45",
+      "value": "Section 3 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "45",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "45",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "45",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "50",
+      "value": "cresc"
+     },
+     {
+      "type": "lead",
+      "measure": "54",
+      "value": "Violin 2"
+     }
+    ]
+   },
+   {
+    "start_measure": "68",
+    "end_measure": "82b",
+    "headline": "Building to very loud, then a cello solo",
+    "text": "The key moves to E major, then C-sharp minor [m. 68, m. 74]. The music gets louder and reaches very loud (ff) at [m. 76-79]. It then drops suddenly to soft [m. 79a]. The section ends with a cello solo [m. 82b].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "68",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "74",
+      "value": "C# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "76",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "79a",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "82b",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "82b",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "82",
+    "end_measure": "87",
+    "headline": "All four play the same line",
+    "text": "Part 4 opens loud with the instruments in unison or octaves. That means they all play the same notes, or the same notes at different heights [m. 82-87]. The key moves to C major. Then the music turns soft with a tune and accompaniment [m. 88].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "82",
+      "value": "Part 4"
+     },
+     {
+      "type": "texture",
+      "measure": "82",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "83",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "82",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "88",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "92",
+    "end_measure": "110",
+    "headline": "Soft wandering, then a hush",
+    "text": "The harmony moves through A minor, F major and D minor [m. 92, m. 98, m. 102]. The music is soft throughout. It sinks to very soft (pp) at [m. 105]. D major then brings a little light [m. 109].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "92",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "98",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "102",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "105",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "109",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "111",
+    "end_measure": "132",
+    "headline": "Chordal D major, with a cello moment",
+    "text": "Section 5 is mostly homophonic: the parts move together in chords. It is soft, with crescendo marks [m. 116-124]. The cello probably takes the tune at [m. 124-128], with a cello solo at [m. 126]. The music drops to very soft at [m. 129].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "111",
+      "value": "Section 5 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "115",
+      "value": "D major"
+     },
+     {
+      "type": "texture",
+      "measure": "113",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "116",
+      "value": "cresc"
+     },
+     {
+      "type": "texture",
+      "measure": "126",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "129",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "133",
+    "end_measure": "160",
+    "headline": "A long, very quiet dark stretch in F minor",
+    "text": "The key slides through G minor and B-flat minor into F minor [m. 132-136]. The music stays very soft for many bars (pp) [m. 133-154]. A cello solo appears at [m. 154]. The volume rises to soft at [m. 155], and the key brightens to C major [m. 157].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "133",
+      "value": "Section 6 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "136",
+      "value": "F minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "143",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "154",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "155",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "157",
+      "value": "C major"
+     }
+    ]
+   },
+   {
+    "start_measure": "161",
+    "end_measure": "173",
+    "headline": "Sudden, very loud outburst in the slow tempo",
+    "text": "Section 8 returns to the Grave ma non troppo tratto marking. It jumps suddenly to very loud (ff) [m. 161]. A computer estimate marks measure 164 as the loudest and busiest point. The music then softens [m. 169] and swells again toward [m. 172].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "161",
+      "value": "Section 8 (Grave ma non troppo tratto)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "161",
+      "value": "ff"
+     },
+     {
+      "type": "climax",
+      "measure": "164",
+      "value": "Section 8 (Grave ma non troppo tratto)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "169",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "170",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "174",
+    "end_measure": "199",
+    "headline": "The Allegro: loud, punchy and bright",
+    "text": "The Allegro starts soft [m. 174] and soon turns loud [m. 177]. Many accented hits (sf) land in F major [m. 178-187]. Then B-flat major follows [m. 188]. The first violin plays solo at the end [m. 197-198], and a silent bar follows [m. 199].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "174",
+      "value": "Section 9 (Allegro)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "177",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "178",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "188",
+      "value": "Bb major"
+     },
+     {
+      "type": "texture",
+      "measure": "197",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "199",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "200",
+    "end_measure": "249",
+    "headline": "Soft again, then a rise and a sudden drop",
+    "text": "Section 10 is soft in D major [m. 200]. Section 11 is repeated, and most of it sits in F major [m. 209]. The music reaches loud (f) at [m. 235] and very loud (ff) at [m. 239]. It then drops suddenly to soft at [m. 243b] and to very soft at [m. 247].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "200",
+      "value": "Section 10 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "200",
+      "value": "p"
+     },
+     {
+      "type": "section",
+      "measure": "208",
+      "value": "Section 11 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "209",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "235",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "239",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "247",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "250",
+    "end_measure": "272",
+    "headline": "Tempo I returns, hushed, in F major",
+    "text": "The opening tempo comes back in F major [m. 250]. The first violin probably leads. It is very soft (pp) and mostly chordal. The key slips to C major at [m. 265]. The quiet lasts until [m. 272].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "250",
+      "value": "Section 12 (Tempo I)"
+     },
+     {
+      "type": "key",
+      "measure": "250",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "250",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "250",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "265",
+      "value": "C major"
+     }
+    ]
+   },
+   {
+    "start_measure": "273",
+    "end_measure": "277",
+    "headline": "A sudden very loud ending",
+    "text": "After the quiet, the music jumps suddenly to very loud (ff) at [m. 273]. The instruments play in unison or octaves at [m. 274]. The estimated key for these closing bars is A minor, but the final chord is estimated as F major.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "273",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "274",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "273",
+      "value": "A minor"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Crescendo (cresc)",
+    "explanation": "The music gradually gets louder."
+   },
+   {
+    "term": "Diminuendo (dim)",
+    "explanation": "The music gradually gets softer."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "All the instruments play the same notes, or the same notes at different heights."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "The parts move together in chords, with the same rhythm."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "An instrument or the whole group is silent for a bar."
+   },
+   {
+    "term": "Key signature",
+    "explanation": "The marking at the start of a line of music that sets the home key. A new one means the key area has changed."
+   },
+   {
+    "term": "Sf (sforzando)",
+    "explanation": "A sudden, sharp accent on a note or chord."
+   },
+   {
+    "term": "Pp / ff",
+    "explanation": "Very soft (pp) and very loud (ff)."
+   }
+  ]
+ },
+ "facts_fingerprint": "26c79d9c9e40",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 10,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": [
+  {
+   "point": "point 15 (A sudden very loud ending)",
+   "problem": "the text names F major, but the facts show ['A minor', 'C major'] here"
+  }
+ ]
+}

@@ -1,0 +1,678 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 86,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 86,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4673,
+   "cache_read": 0,
+   "cache_write": 12294
+  },
+  {
+   "input": 5208,
+   "output": 5781,
+   "cache_read": 12294,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Schubert: String Quartet No. 14, II. Andante con moto – Listening Guide",
+  "overview": "This movement opens with a quiet tune in G minor. Keys and chords here are estimated by computer, so treat them as a guide. Listen for the shifts between G minor (darker), B-flat major and G major (brighter), and for big swings between very soft and very loud. A computer estimate puts the loudest point at [m. 73]. The movement ends very softly in G major.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "G minor"
+   },
+   {
+    "type": "climax",
+    "measure": "73",
+    "value": "ff"
+   },
+   {
+    "type": "key",
+    "measure": "172",
+    "value": "G major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "8",
+    "headline": "The quiet opening tune",
+    "text": "The first violin leads with the opening tune in G minor, very softly [m. 1-3]. The four instruments move together in chords, which is called homophonic texture. Remember this quiet, dark sound as your starting point.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "G minor"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "9",
+    "end_measure": "13",
+    "headline": "Growing louder",
+    "text": "The music is still in G minor. A marking for getting louder at [m. 9] leads to loud at [m. 11]. The first violin leads, and the cello leads at [m. 13]. A marking for getting softer appears at [m. 13].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "11",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "13",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "13",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "14",
+    "end_measure": "19",
+    "headline": "A brighter turn to B-flat major",
+    "text": "The key brightens to B-flat major [m. 14-19]. The volume drops to soft [m. 15], then very soft [m. 17]. The second violin leads at first, then the first violin takes over.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "14",
+      "value": "Bb major"
+     },
+     {
+      "type": "key",
+      "measure": "14",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "15",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "14",
+      "value": "Violin 2"
+     }
+    ]
+   },
+   {
+    "start_measure": "20",
+    "end_measure": "25",
+    "headline": "Back to minor, then a G major glow",
+    "text": "The music returns to G minor [m. 20-21], then settles in G major [m. 22-25]. The cello probably leads for a moment, though this is uncertain. A marking for getting louder appears at [m. 21].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "20",
+      "value": "G minor"
+     },
+     {
+      "type": "key",
+      "measure": "22",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "21",
+      "value": "cresc"
+     },
+     {
+      "type": "lead",
+      "measure": "20",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "25",
+    "end_measure": "32b",
+    "headline": "A slower, hushed section",
+    "text": "A new section marked lento (slow) begins very softly [m. 25]. The first violin has the tune and the others accompany. The cello leads at the end of the section [m. 31a-32b].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "25",
+      "value": "Section 3 (lento)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "25",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "25",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "25",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "31a",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "33",
+    "end_measure": "42",
+    "headline": "Louder, then fading in B-flat major",
+    "text": "The next section starts soft and reaches loud at [m. 35]. The first violin leads. Then the music turns to B-flat major [m. 38]. A marking for getting softer appears at [m. 40], and the volume is very soft at [m. 41].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "33",
+      "value": "Section 4 (lento)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "35",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "38",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "40",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "41",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "33",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "49",
+    "end_measure": "58",
+    "headline": "Largo: a slower, soft passage",
+    "text": "A largo (very slow) section begins in soft G major, moving to G minor at [m. 50]. The lead is unclear here, though the first violin probably has the tune. The others accompany.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "49",
+      "value": "Section 5 (largo)"
+     },
+     {
+      "type": "key",
+      "measure": "50",
+      "value": "G minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "49",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "49",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "49",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "59",
+    "end_measure": "72b",
+    "headline": "Loud burst, then a hush",
+    "text": "After markings for getting louder at [m. 57-58], the music reaches loud at [m. 59], where the parts move as independent lines. It then softens to soft [m. 63] and very soft [m. 65], with B-flat major in between. G major returns at [m. 70].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "59",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "59",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "63",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "65",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "62",
+      "value": "Bb major"
+     },
+     {
+      "type": "key",
+      "measure": "70",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "73",
+    "end_measure": "76",
+    "headline": "The estimated loudest point",
+    "text": "A computer estimate marks [m. 73] as the loudest point. It is very loud (ff). The four instruments play in chords in G minor [m. 74-75]. Then it drops suddenly to soft at [m. 76].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "73",
+      "value": "Section 7 (lento)"
+     },
+     {
+      "type": "climax",
+      "measure": "73",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "74",
+      "value": "G minor"
+     },
+     {
+      "type": "texture",
+      "measure": "74",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "76",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "81",
+    "end_measure": "88",
+    "headline": "Loud, busy, interwoven lines",
+    "text": "This stretch stays loud and the parts move independently. The second violin probably leads, but with low confidence, so the lead is better heard as shared. The key moves from G minor to B-flat major at [m. 86].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "81",
+      "value": "Part 8"
+     },
+     {
+      "type": "dynamic",
+      "measure": "81",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "81",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "81",
+      "value": "Violin 2"
+     },
+     {
+      "type": "key",
+      "measure": "86",
+      "value": "Bb major"
+     }
+    ]
+   },
+   {
+    "start_measure": "93",
+    "end_measure": "96b",
+    "headline": "Very soft, then a swell to a very loud close",
+    "text": "The music is very soft and in chords [m. 93-94]. A marking for getting louder at [m. 93] leads to very loud at [m. 95]. The loud chords close this part in G minor.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "93",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "93",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "95",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "95",
+      "value": "G minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "97",
+    "end_measure": "104b",
+    "headline": "Largo in G major",
+    "text": "A largo section settles in G major, very softly. The first violin probably has the tune, with the others accompanying. The lead is uncertain here.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "97",
+      "value": "Section 9 (largo)"
+     },
+     {
+      "type": "key",
+      "measure": "97",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "97",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "97",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "105",
+    "end_measure": "120b",
+    "headline": "A shadowy turn to E minor",
+    "text": "The key moves to E minor, a darker colour [m. 105-111]. It then brightens to G major at [m. 112]. It stays very soft the whole way, with the first violin leading over accompaniment.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "105",
+      "value": "Part 10"
+     },
+     {
+      "type": "key",
+      "measure": "105",
+      "value": "E minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "112",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "105",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "105",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "121",
+    "end_measure": "128b",
+    "headline": "Back to G minor, ending very loud",
+    "text": "G minor returns and the music is very soft [m. 121-127]. There is a marking for getting louder at [m. 124]. At the end it reaches very loud [m. 127a-128b], with the first violin leading.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "121",
+      "value": "Section 11 (lento)"
+     },
+     {
+      "type": "key",
+      "measure": "122",
+      "value": "G minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "124",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "127a",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "127a",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "129",
+    "end_measure": "144",
+    "headline": "Cello comes forward",
+    "text": "The volume is now medium loud [m. 129]. The cello probably leads for much of this section, though the lead is often shared. It reaches loud at [m. 137]. A marking for getting softer appears at [m. 142], and the volume is soft at [m. 143].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "129",
+      "value": "Section 12 (lento)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "129",
+      "value": "mf"
+     },
+     {
+      "type": "lead",
+      "measure": "130",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "137",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "143",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "142",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "145",
+    "end_measure": "157",
+    "headline": "Dropping toward silence",
+    "text": "The music drops to very soft at [m. 145]. One measure is labelled as a trio, meaning three parts [m. 146]. It falls to extremely soft at [m. 153]. The key moves between G minor and B-flat major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "145",
+      "value": "Section 13 (lento)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "145",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "146",
+      "value": "trio"
+     },
+     {
+      "type": "dynamic",
+      "measure": "153",
+      "value": "ppp"
+     },
+     {
+      "type": "key",
+      "measure": "151",
+      "value": "Bb major"
+     }
+    ]
+   },
+   {
+    "start_measure": "158",
+    "end_measure": "172",
+    "headline": "A gentle close in G major",
+    "text": "The key settles on a bright G major and stays extremely soft [m. 158-170]. The parts mostly play in chords, and the lead is often shared. A final largo [m. 171-172] ends very softly.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "158",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "161",
+      "value": "ppp"
+     },
+     {
+      "type": "texture",
+      "measure": "165",
+      "value": "homophonic"
+     },
+     {
+      "type": "section",
+      "measure": "171",
+      "value": "Section 14 (largo)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "172",
+      "value": "pp"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Homophonic",
+    "explanation": "All the instruments move together, like a hymn with chords."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One instrument has the tune while the others support it."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each instrument plays its own line at the same time."
+   },
+   {
+    "term": "Lento / largo",
+    "explanation": "Italian words for slow and very slow."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale the music centres on. Minor sounds darker and major sounds brighter."
+   },
+   {
+    "term": "pp / ppp",
+    "explanation": "Very soft and extremely soft."
+   },
+   {
+    "term": "ff",
+    "explanation": "Very loud."
+   },
+   {
+    "term": "Diminishing (dim)",
+    "explanation": "A marking to get gradually softer."
+   },
+   {
+    "term": "Swelling (cresc)",
+    "explanation": "A marking to get gradually louder."
+   },
+   {
+    "term": "Trio",
+    "explanation": "A texture of three parts playing together."
+   }
+  ]
+ },
+ "facts_fingerprint": "a1a908800b06",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 8,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 3,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

@@ -1,0 +1,729 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 97,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 97,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 5222,
+   "cache_read": 0,
+   "cache_write": 18166
+  },
+  {
+   "input": 5850,
+   "output": 6219,
+   "cache_read": 18166,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Mendelssohn: String Quartet No. 2, Op. 13 – I. Adagio: A Listening Guide",
+  "overview": "This movement has three parts, and its home key is A minor. A slow opening (Part 1) leads into a fast middle (Section 2, Allegro vivace). Then comes a return marked \"a tempo\" (Section 3). The score is in good shape, but keys and chords here are estimated by computer. Listen for Violin 1 at the very start, the change of pace at [m. 19], and the loudest point near [m. 197], as estimated by computer.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "19",
+    "value": "Section 2 (Allegro vivace)"
+   },
+   {
+    "type": "section",
+    "measure": "141",
+    "value": "Section 3 (a tempo)"
+   },
+   {
+    "type": "lead",
+    "measure": "0",
+    "value": "Violin 1"
+   },
+   {
+    "type": "climax",
+    "measure": "197",
+    "value": "ff"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "4",
+    "headline": "Violin 1 leads the opening",
+    "text": "Violin 1 leads at the start [m. 0-3]. The other instruments move together with it in block-like harmony. The key is A major, and the volume starts at mf and settles to p. A marked swell (crescendo) appears in [m. 3].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "mf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "2",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "3",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "10",
+    "headline": "A darker, hushed turn to F# minor",
+    "text": "The key estimate moves to F# minor, which sounds more shadowy [m. 5-10]. The music gets very soft (pp) at [m. 6]. A marked swell appears at [m. 7], and a marked fade at [m. 9]. Violin 1 probably leads, with low confidence in places.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "5",
+      "value": "F# minor"
+     },
+     {
+      "type": "key",
+      "measure": "5",
+      "value": "F# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "6",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "7",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "11",
+    "end_measure": "13",
+    "headline": "Brightening back to A major, then louder",
+    "text": "The key returns to A major [m. 11-13]. The volume rises to f at [m. 12], with a marked swell. It then settles to mf at [m. 13].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "11",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "11",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "13",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "14",
+    "end_measure": "18",
+    "headline": "Fading in E major, ending the slow opening",
+    "text": "The key moves to E major [m. 14]. The lines become independent, each part going its own way. The music grows soft (p at [m. 16], pp at [m. 17]). At [m. 17] the parts play in unison or octaves, meaning the same notes at different heights. A swell is marked at [m. 18].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "14",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "14",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "16",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "17",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "dynamic",
+      "measure": "18",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "19",
+    "end_measure": "23",
+    "headline": "Allegro vivace begins; the mood turns to A minor",
+    "text": "The fast section starts at [m. 19]. A trio texture appears at [m. 20]: only three of the four parts play. The key estimate turns to A minor at [m. 22], which darkens the mood. Violin 1 probably leads at [m. 23].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "19",
+      "value": "Section 2 (Allegro vivace)"
+     },
+     {
+      "type": "texture",
+      "measure": "20",
+      "value": "trio"
+     },
+     {
+      "type": "modulation",
+      "measure": "22",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "22",
+      "value": "A minor"
+     },
+     {
+      "type": "lead",
+      "measure": "23",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "24",
+    "end_measure": "30",
+    "headline": "The lead passes around the quartet",
+    "text": "The lead passes from Viola [m. 24] to Violin 2 [m. 25] to Cello [m. 26]. Violin 1 then takes over [m. 27-30], and the volume drops to p. The others accompany. Listen for the changing voices.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "24",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "25",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "26",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "27",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "27",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "27",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "44",
+    "end_measure": "57",
+    "headline": "E minor and a louder, driving stretch",
+    "text": "The key estimate moves to E minor at [m. 44] and stays there for a long time. The volume rises to f at [m. 45]. At [m. 52] the music reaches ff. Violin 1 probably leads much of this.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "44",
+      "value": "E minor"
+     },
+     {
+      "type": "key",
+      "measure": "44",
+      "value": "E minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "45",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "52",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "47",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "58",
+    "end_measure": "66",
+    "headline": "Quiet again, with Violin 1 clearly in front",
+    "text": "After a fade marked at [m. 57], the volume is p at [m. 58]. It drops to pp at [m. 65]. Violin 1 carries the lead with high confidence [m. 59-62].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "58",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "65",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "59",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "59",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "89",
+    "end_measure": "94",
+    "headline": "A lone violin in E major",
+    "text": "The key brightens to E major at [m. 89]. At [m. 91] the texture is solo: Violin 1 plays alone, very softly (pp). Then the lines become independent again at [m. 93].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "89",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "91",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "91",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "91",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "93",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "98",
+    "end_measure": "107",
+    "headline": "A loud, restless stretch through changing keys",
+    "text": "The music reaches ff at [m. 98]. Violin 1 leads [m. 98-102]. The estimated key shifts quickly: B minor [m. 99], F# minor [m. 102], then D major [m. 105].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "98",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "98",
+      "value": "Violin 1"
+     },
+     {
+      "type": "modulation",
+      "measure": "99",
+      "value": "B minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "102",
+      "value": "F# minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "105",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "108",
+    "end_measure": "117",
+    "headline": "A hushed, uncertain passage",
+    "text": "The key estimate moves to G minor, and the volume falls to pp at [m. 108]. It then moves to A minor [m. 111], with p. A swell is marked at [m. 114]. The lead is unclear here, because confidence is low.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "108",
+      "value": "G minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "108",
+      "value": "pp"
+     },
+     {
+      "type": "modulation",
+      "measure": "111",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "111",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "114",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "123",
+    "end_measure": "140",
+    "headline": "Loud, then fading toward the return",
+    "text": "After a loud stretch at ff [m. 124], the volume drops suddenly to p at [m. 128], and a fade is also marked there. The music settles in A minor at [m. 130], and reaches pp at [m. 137].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "124",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "128",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "128",
+      "value": "dim"
+     },
+     {
+      "type": "key",
+      "measure": "130",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "137",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "141",
+    "end_measure": "151",
+    "headline": "The \"a tempo\" section begins",
+    "text": "Section 3 starts at [m. 141] and is marked a tempo, which means back to the earlier speed. Violin 1 leads at [m. 142] with p. A crescendo at [m. 149] then leads to ff at [m. 150], and a marked fade follows at [m. 151].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "141",
+      "value": "Section 3 (a tempo)"
+     },
+     {
+      "type": "lead",
+      "measure": "142",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "142",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "150",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "151",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "164",
+    "end_measure": "173",
+    "headline": "Very loud, then a hush in E major",
+    "text": "The music is ff at [m. 164], with Violin 1 leading clearly. It softens to f at [m. 168] and then to p at [m. 171]. A short brightening to E major comes at [m. 171-173].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "164",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "164",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "168",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "171",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "171",
+      "value": "E major"
+     }
+    ]
+   },
+   {
+    "start_measure": "189",
+    "end_measure": "198",
+    "headline": "The loudest moment (a computer estimate)",
+    "text": "The music is ff at [m. 189], then suddenly p at [m. 190]. It returns to f at [m. 194] and ff at [m. 196]. A computer estimate marks [m. 197] as the loudest and busiest point. The lines there are independent.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "189",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "190",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "194",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "196",
+      "value": "ff"
+     },
+     {
+      "type": "climax",
+      "measure": "197",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "197",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "208",
+    "end_measure": "224",
+    "headline": "Wandering keys, then home to A minor",
+    "text": "The estimated key moves to B minor [m. 208], then D minor [m. 212], then F major [m. 221]. Violin 1 plays solo at [m. 210] and [m. 213]. The music is very soft (pp) from [m. 218]. A minor returns at [m. 224].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "208",
+      "value": "B minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "212",
+      "value": "D minor"
+     },
+     {
+      "type": "texture",
+      "measure": "210",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "213",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "218",
+      "value": "pp"
+     },
+     {
+      "type": "modulation",
+      "measure": "221",
+      "value": "F major"
+     },
+     {
+      "type": "modulation",
+      "measure": "224",
+      "value": "A minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "238",
+    "end_measure": "251",
+    "headline": "A soft stretch, then a loud ending",
+    "text": "The music is ff at [m. 238], then falls to p at [m. 244]. A swell is marked at [m. 245-246]. At [m. 248] it is ff again, and Violin 1 leads. It ends in A minor with all parts together (homophonic) at [m. 251].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "238",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "244",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "245",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "248",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "248",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "251",
+      "value": "A minor"
+     },
+     {
+      "type": "texture",
+      "measure": "251",
+      "value": "homophonic"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Homophonic",
+    "explanation": "All parts move together in the same rhythm, like a hymn. One part is the tune and the others make chords under it."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One part has the tune. The others play support underneath."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each part plays its own tune-like line at the same time."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "Parts play the same notes, either at the same height or an octave apart."
+   },
+   {
+    "term": "Solo",
+    "explanation": "One part plays by itself."
+   },
+   {
+    "term": "Crescendo (swell)",
+    "explanation": "A marked gradual getting louder."
+   },
+   {
+    "term": "Diminuendo (fade)",
+    "explanation": "A marked gradual getting softer."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that a passage feels based on. Major keys sound brighter. Minor keys sound darker."
+   },
+   {
+    "term": "Dynamics (pp, p, mf, f, ff)",
+    "explanation": "Loudness marks: pp is very soft, p soft, mf medium loud, f loud, ff very loud."
+   }
+  ]
+ },
+ "facts_fingerprint": "73000e039867",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 12,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

@@ -1,0 +1,619 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 77,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 77,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4295,
+   "cache_read": 0,
+   "cache_write": 16169
+  },
+  {
+   "input": 5214,
+   "output": 5333,
+   "cache_read": 16169,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Beethoven: String Quartet Op. 18 No. 5 – IV. Allegro",
+  "overview": "This is a quick movement in A major. It has two big parts, and the first part is repeated. A light, bouncing main tune opens the movement and comes back several times. Listen for the tune, for sudden drops from loud to very soft, and for the long very loud stretch in the middle of Part 2. The final return of the tune leads to a playful, quiet close.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "94",
+    "value": "Part 2"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "A major"
+   },
+   {
+    "type": "theme",
+    "measure": "1",
+    "value": "Violin 1"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "3",
+    "headline": "The main tune appears, soft and light",
+    "text": "The viola starts alone, quietly [m. 0]. Then Violin 1 plays the main tune over a gentle accompaniment [m. 1-3]. Everything is soft here. The key is A major, the home key.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "solo"
+     },
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "4",
+    "end_measure": "20",
+    "headline": "Violin 1 leads in a calm A major",
+    "text": "Violin 1 probably carries the tune for most of this stretch. The others mostly accompany. The music stays soft and settled in the home key.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "4",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "4",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "4",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "21",
+    "end_measure": "33",
+    "headline": "A brighter key: E major",
+    "text": "The music moves to E major. This is a new key, and it sounds like a fresh area. The violins pass little phrases back and forth. Leadership is shared here, so who has the tune is unclear.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "21",
+      "value": "E major"
+     },
+     {
+      "type": "modulation",
+      "measure": "21",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "24",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "34",
+    "end_measure": "41",
+    "headline": "Loud, then a sudden whisper",
+    "text": "A crescendo (getting louder) leads to two loud bars [m. 34-35]. Then the music drops to very soft at [m. 36]. The soft phrases sound hushed. Another crescendo starts at [m. 40].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "34",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "36",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "35",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "40",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "51",
+    "end_measure": "67",
+    "headline": "Sharp accents, a loud burst, then a hush",
+    "text": "Sharp accents (sf, a sudden strong note) poke through the soft playing [m. 51-64]. Then comes a loud moment [m. 65]. Violin 1 is alone at [m. 66]. After that the music falls to very soft [m. 67].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "sf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "65",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "66",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "66",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "67",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "71",
+    "end_measure": "92",
+    "headline": "Repeating patterns wind down Part 1",
+    "text": "Violin 1 plays a four-bar pattern twice [m. 71-78]. Then the parts take turns in small groups. The viola and Violin 2 each get a moment [m. 83-85]. At [m. 92] the music returns to A major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "71",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "71",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "83",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "85",
+      "value": "Violin 2"
+     },
+     {
+      "type": "key",
+      "measure": "92",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "93b",
+    "end_measure": "98",
+    "headline": "Part 2 begins in a darker key",
+    "text": "The music slips into F# minor, a darker key. The viola plays alone as Part 2 starts [m. 94]. Then the music stays loud [m. 95-98], first with three parts and then with the tune over accompaniment. Sharp accents mark the end of this phrase.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "94",
+      "value": "Part 2"
+     },
+     {
+      "type": "key",
+      "measure": "93b",
+      "value": "F# minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "93b",
+      "value": "F# minor"
+     },
+     {
+      "type": "lead",
+      "measure": "94",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "94",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "97",
+      "value": "sf"
+     }
+    ]
+   },
+   {
+    "start_measure": "99",
+    "end_measure": "110",
+    "headline": "The tune returns in D major",
+    "text": "A short stop in C# minor leads to a hush [m. 99-100]. Then Violin 1 plays the main tune in D major, loud [m. 103-104]. The tune has the same shape but sits higher. It is easy to spot.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "99",
+      "value": "C# minor"
+     },
+     {
+      "type": "key",
+      "measure": "101",
+      "value": "D major"
+     },
+     {
+      "type": "theme",
+      "measure": "103",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "103",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "103",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "110",
+    "end_measure": "116",
+    "headline": "Stormy minor keys and fortissimo",
+    "text": "The mood turns stormy in D minor and then C minor. The volume jumps to ff, very loud, at [m. 114]. The harmony shifts quickly, so the music feels unsettled.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "110",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "115",
+      "value": "C minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "114",
+      "value": "ff"
+     }
+    ]
+   },
+   {
+    "start_measure": "117",
+    "end_measure": "131",
+    "headline": "C major, very loud throughout",
+    "text": "The music brightens to C major but stays very loud. Accents hit again and again. The analysis marks [m. 128] as the busiest point.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "117",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "117",
+      "value": "ff"
+     },
+     {
+      "type": "climax",
+      "measure": "128",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "128",
+      "value": "sf"
+     }
+    ]
+   },
+   {
+    "start_measure": "132",
+    "end_measure": "146",
+    "headline": "Sudden calm, then very soft",
+    "text": "After the peak the music drops to soft [m. 132]. Then it gets even softer, to pp [m. 135]. The parts weave quiet lines. Around [m. 143] the key darkens to A minor.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "132",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "135",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "143",
+      "value": "A minor"
+     },
+     {
+      "type": "texture",
+      "measure": "136",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "147",
+    "end_measure": "167",
+    "headline": "Back to A major, growing toward the return",
+    "text": "A major comes back at [m. 147], still very soft. A crescendo starts at [m. 148]. The music then settles to soft [m. 166]. The viola plays alone at [m. 167] and leads into the tune.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "147",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "148",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "166",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "167",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "167",
+      "value": "solo"
+     }
+    ]
+   },
+   {
+    "start_measure": "168",
+    "end_measure": "183",
+    "headline": "The opening tune comes home",
+    "text": "Violin 1 plays the main tune again in A major, soft [m. 168-170]. It is just as at the start. This is a clear return.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "168",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "168",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "168",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "168",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "203",
+    "end_measure": "214",
+    "headline": "Loud chord, then hush, as before",
+    "text": "A crescendo leads to two loud bars [m. 205-206]. Then the music drops to very soft [m. 207]. You heard this loud-to-soft drop in Part 1, but now it stays in A major.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "203",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "205",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "207",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "205",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "264",
+    "end_measure": "280",
+    "headline": "Final return of the tune, loud",
+    "text": "Violin 1 plays the main tune one last time, now loud [m. 264-266]. Accents push it forward. Then it goes soft again for steady phrases [m. 269].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "264",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "264",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "264",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "269",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "281",
+    "end_measure": "300",
+    "headline": "Loud accents, a soft stretch, and a quiet final chord",
+    "text": "Loud accents return briefly [m. 281-284], then the music hushes again [m. 285]. Violin 1 leads a soft closing stretch [m. 289-296]. The cello has a loud last statement [m. 297-298]. A short, soft chord ends it [m. 299].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "281",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "285",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "289",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "297",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "297",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "299",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "299",
+      "value": "A major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that the music is built around. Major sounds brighter. Minor sounds darker."
+   },
+   {
+    "term": "Modulation",
+    "explanation": "A move from one key to another."
+   },
+   {
+    "term": "Crescendo (cresc)",
+    "explanation": "Gradually getting louder."
+   },
+   {
+    "term": "Sforzando (sf)",
+    "explanation": "A sudden, sharp accent on a note or chord."
+   },
+   {
+    "term": "Dynamics (p, f, pp, ff)",
+    "explanation": "Loudness markings: p is soft, pp is very soft, f is loud, ff is very loud."
+   },
+   {
+    "term": "Main theme",
+    "explanation": "The tune that Violin 1 plays at the start. It comes back several times."
+   },
+   {
+    "term": "Texture",
+    "explanation": "How the parts fit together, for example one tune with accompaniment, or several equal lines."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All parts move together with the same rhythm, like a hymn."
+   }
+  ]
+ },
+ "facts_fingerprint": "524f835449b4",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 10,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 3,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

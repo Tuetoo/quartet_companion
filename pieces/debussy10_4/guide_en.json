@@ -1,0 +1,664 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 84,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 84,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4824,
+   "cache_read": 0,
+   "cache_write": 24341
+  },
+  {
+   "input": 5352,
+   "output": 6083,
+   "cache_read": 24341,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Debussy: String Quartet in G minor, Op.10 – IV. Très modéré",
+  "overview": "This is a long finale for four players: two violins, viola and cello. It runs 355 measures and ends in G major. Keys and chords here are estimated by computer, and the key changes very often, so treat them as a rough guide. Listen for the cello opening alone, the loud peak in the allegro, the long quiet stretches, and the loud finish. The score has a few small errors, so fine details may be imprecise.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "key",
+    "measure": "351",
+    "value": "G major"
+   },
+   {
+    "type": "climax",
+    "measure": "54",
+    "value": "ff"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "2",
+    "headline": "The cello begins alone, softly",
+    "text": "The cello plays by itself at the start [m. 1-2]. The level is soft (p). The score marks a swell and then a fade here.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "3",
+    "end_measure": "4",
+    "headline": "The first violin takes the lead, very softly",
+    "text": "Violin 1 takes the lead at [m. 3-4]. It is very soft (pp). The estimated key is C# minor at [m. 3] and A major at [m. 4].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "3",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "3",
+      "value": "C# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "3",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "4",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "14",
+    "headline": "Soft, shifting harmony in the opening part",
+    "text": "The lead passes between Violin 2 and Violin 1. The music is mostly soft, with a brief rise to medium loud (mf) at [m. 10]. The estimated key moves to Db major at [m. 6] and E major by [m. 12]. The players often move together in chords here, which is called homophonic.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "5",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "6",
+      "value": "Db major"
+     },
+     {
+      "type": "key",
+      "measure": "12",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "15",
+    "end_measure": "30",
+    "headline": "Allegretto: cello alone, then a louder burst",
+    "text": "The cello is alone again at [m. 15-16]. A duet follows at [m. 17-18], and the lead there is uncertain. The music is loud (f) at [m. 25-28]. The cello is alone again at [m. 29-30], and the volume is p and then pp.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "15",
+      "value": "Section 2 (allegretto)"
+     },
+     {
+      "type": "texture",
+      "measure": "15",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "17",
+      "value": "duet"
+     },
+     {
+      "type": "dynamic",
+      "measure": "25",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "29",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "30",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "31",
+    "end_measure": "44",
+    "headline": "Allegro starts quiet, then gets louder",
+    "text": "The faster allegro begins softly at [m. 31]. The viola probably has the tune first. The music swells at [m. 34] and is loud (f) at [m. 35]. Violin 1 probably leads there. A similar pattern comes at [m. 39-43].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "31",
+      "value": "Section 3 (allegro)"
+     },
+     {
+      "type": "lead",
+      "measure": "31",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "34",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "35",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "43",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "56",
+    "headline": "Building to the estimated loudest point",
+    "text": "The volume rises from mp at [m. 45] to mf at [m. 49]. It then reaches f at [m. 51] and ff at [m. 53]. A computer estimate marks [m. 54] as the loudest and busiest point. The estimated key is C# minor there.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "45",
+      "value": "mp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "49",
+      "value": "mf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "53",
+      "value": "ff"
+     },
+     {
+      "type": "climax",
+      "measure": "54",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "54",
+      "value": "C# minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "57",
+    "end_measure": "76",
+    "headline": "Calm after the peak, with the viola prominent",
+    "text": "The music is soft (p) from [m. 59]. The viola probably leads around [m. 62-68]. At [m. 68] the viola is alone. Then it is very soft (pp) at [m. 69-76], in an estimated Bb major from [m. 71].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "59",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "62",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "68",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "69",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "71",
+      "value": "Bb major"
+     }
+    ]
+   },
+   {
+    "start_measure": "77",
+    "end_measure": "97",
+    "headline": "Interwoven lines grow to a second loud peak",
+    "text": "From [m. 77] the lines move on their own and nobody clearly leads. The level is f at [m. 86]. It reaches ff at [m. 90], and this stays through [m. 97]. The estimated key is F# major at [m. 93].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "77",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "86",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "90",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "93",
+      "value": "F# major"
+     }
+    ]
+   },
+   {
+    "start_measure": "98",
+    "end_measure": "124",
+    "headline": "Hush, then loud, then a lone violin",
+    "text": "The volume is p at [m. 98] and pp at [m. 99]. It stays quiet until [m. 113]. It is then loud (f) at [m. 114]. Violin 2 plays alone at [m. 123-124].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "98",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "99",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "114",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "123",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "123",
+      "value": "Violin 2"
+     }
+    ]
+   },
+   {
+    "start_measure": "125",
+    "end_measure": "140",
+    "headline": "A tempo section, soft and singing",
+    "text": "A section marked \"A tempo\" begins at [m. 125]. It is soft (p). Violin 2 leads and is alone at [m. 126] and [m. 131]. The estimated key is E major from [m. 132]. The viola probably takes over around [m. 133].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "125",
+      "value": "Section 4 (A tempo 1)"
+     },
+     {
+      "type": "lead",
+      "measure": "126",
+      "value": "Violin 2"
+     },
+     {
+      "type": "texture",
+      "measure": "126",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "132",
+      "value": "E major"
+     },
+     {
+      "type": "lead",
+      "measure": "133",
+      "value": "Viola"
+     }
+    ]
+   },
+   {
+    "start_measure": "141",
+    "end_measure": "166",
+    "headline": "Very soft, then building to loud in stages",
+    "text": "A new key signature begins at [m. 141], in very soft playing (pp). The music swells at [m. 143]. It reaches mf at [m. 149] and f at [m. 157]. The lead is often uncertain.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "141",
+      "value": "Section 5 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "141",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "143",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "149",
+      "value": "mf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "157",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "181",
+    "end_measure": "188",
+    "headline": "A very loud burst inside the long section",
+    "text": "After a quiet stretch, the music is very loud (ff) from [m. 181] through [m. 188]. The lines are independent. It is p again at [m. 189].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "181",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "181",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "189",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "213",
+    "end_measure": "251",
+    "headline": "Hushed cello solo, then quiet music",
+    "text": "The cello is alone and very soft at [m. 213-215]. The viola leads next. The lead then passes to Violin 2 and Violin 1 at [m. 218-219]. Much of the music from [m. 216] to [m. 251] is soft (pp or p).",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "213",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "213",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "213",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "218",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "219",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "252",
+    "end_measure": "288",
+    "headline": "Loud chords, then soft, then rebuilding",
+    "text": "A new section begins at [m. 252] with a sudden ff. The players move together in chords. The sound stays ff to [m. 267]. It is p at [m. 268]. It then reaches f at [m. 282].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "252",
+      "value": "Section 7 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "252",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "252",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "268",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "282",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "289",
+    "end_measure": "307",
+    "headline": "Soft, a brief loud moment, then calm again",
+    "text": "A new section at [m. 289] is soft (p). It is loud (f) at [m. 295], with Violin 1 leading. It is p again at [m. 299-307], in an estimated E major and A major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "289",
+      "value": "Section 8 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "289",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "295",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "295",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "299",
+      "value": "E major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "299",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "308",
+    "end_measure": "337",
+    "headline": "The last section: a cello solo and a soft stretch",
+    "text": "The final section starts loud (f) at [m. 308]. It is p at [m. 317]. The cello is alone at [m. 319]. The viola probably takes the tune for the next stretch.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "308",
+      "value": "Section 10 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "308",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "317",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "319",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "319",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "349",
+    "end_measure": "355",
+    "headline": "A rush to a loud close in G major",
+    "text": "The music is loud (f) from [m. 349] and reaches ff at [m. 353]. The estimated key becomes G major at [m. 351]. The analysis labels [m. 354] as silent (tacet), but this may be wrong. The final chord in [m. 355] is in G major.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "349",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "351",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "353",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "354",
+      "value": "tacet"
+     },
+     {
+      "type": "key",
+      "measure": "355",
+      "value": "G major"
+     },
+     {
+      "type": "texture",
+      "measure": "355",
+      "value": "homophonic"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Homophonic",
+    "explanation": "All the players move together, like chords under or with one tune."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One part has the tune and the others support it."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each player has their own line, so there is no single clear tune."
+   },
+   {
+    "term": "Solo",
+    "explanation": "One player plays alone."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A part or a whole group does not play."
+   },
+   {
+    "term": "pp, p, mp, mf, f, ff",
+    "explanation": "Loudness levels, from very soft to very loud."
+   },
+   {
+    "term": "Swell (crescendo)",
+    "explanation": "A gradual increase in volume."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that the music centres on. Here keys are estimated by computer."
+   },
+   {
+    "term": "Key signature",
+    "explanation": "The sharps or flats written at the start of a line, which set the key. A new one marks a new section."
+   }
+  ]
+ },
+ "facts_fingerprint": "03942444a556",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 4,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

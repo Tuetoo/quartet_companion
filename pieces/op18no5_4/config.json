@@ -1,0 +1,15 @@
+{
+ "id": "op18no5_4",
+ "title": "Beethoven: String Quartet Op. 18 No. 5 – IV. Allegro",
+ "composer": "Ludwig van Beethoven",
+ "score": {
+  "type": "abc",
+  "abc_dir": "data/ABC",
+  "piece": "n05op18-5_04"
+ },
+ "audio": {
+  "path": "data/musicnet/musicnet/train_data/2483.wav",
+  "credit": "MusicNet #2483, Pascal String Quartet (CC BY 4.0)",
+  "license": "CC BY 4.0"
+ }
+}

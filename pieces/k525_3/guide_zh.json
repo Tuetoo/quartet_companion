@@ -1,0 +1,462 @@
+{
+ "language": "zh",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 53,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 53,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 84,
+   "output": 3468,
+   "cache_read": 4310,
+   "cache_write": 0
+  },
+  {
+   "input": 6974,
+   "output": 4358,
+   "cache_read": 4310,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "莫扎特《弦乐小夜曲》K. 525 第三乐章:小步舞曲(小快板)听赏指南",
+  "overview": "这是一首3/4拍的小步舞曲,由两把小提琴、中提琴和大提琴演奏,主调为G大调。乐曲分成几个带反复的段落,力度在强与弱之间来回切换。请注意开头第一小提琴的主题,以及后面大段的轻声和突然的强奏。需要说明:和声与调性是软件自动估计的。乐谱来自光学识别,可能有错误,所以请多关注大的轮廓(段落、调性、强弱);谁在领奏只是程序的粗略判断,细节可能不准确。",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "G major"
+   },
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "40",
+    "value": "Part 5"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "3",
+    "headline": "强奏开场,主题登场",
+    "text": "乐曲一开始就是强奏(f,即大声)[m. 0]。第一小提琴奏出主题,从D上行到G、A、B[m. 0-3]。第二小提琴低八度奏同一旋律,所以听起来很厚实。这里领奏的判断把握不大,可视为大家共同参与。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "4",
+    "end_measure": "8",
+    "headline": "第一部分在G大调中收束",
+    "text": "接下来仍是强奏,[m. 4] 旋律可能由第一小提琴和中提琴分担。到[m. 7]各声部更有各自的走向。第一部分在G大调上结束 [m. 8],并会重复。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "4",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "4",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "texture",
+      "measure": "7",
+      "value": "independent lines"
+     },
+     {
+      "type": "section",
+      "measure": "0",
+      "value": "Part 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "9",
+    "end_measure": "13",
+    "headline": "突然转弱,气氛变安静",
+    "text": "第二部分一开始,声音忽然变轻(p,即小声)[m. 9]。各声部先齐奏,再变成旋律加伴奏[m. 10-12]。到[m. 13]声音标记为更轻(pp,即很小声)。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "9",
+      "value": "Part 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "texture",
+      "measure": "10",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "13",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "14",
+    "end_measure": "17",
+    "headline": "强奏回归,第二部分在G大调上结束",
+    "text": "[m. 14]力度重新回到强(f),各声部的线条交织在一起。这里的领奏不明确,可以听成大家共享。随后在[m. 17]再度转弱,第二部分在G大调上结束,并会重复。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "14",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "14",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "17",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "17",
+    "end_measure": "18",
+    "headline": "大提琴与小提琴的独白式过渡",
+    "text": "第三部分以轻声开始,先是大提琴独奏[m. 17],接着第一小提琴独奏[m. 18]。此时音乐转入D大调,色彩有所变化。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "17",
+      "value": "Part 3"
+     },
+     {
+      "type": "key",
+      "measure": "17",
+      "value": "D major"
+     },
+     {
+      "type": "modulation",
+      "measure": "17",
+      "value": "D major"
+     },
+     {
+      "type": "lead",
+      "measure": "17",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "17",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "18",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "19",
+    "end_measure": "24",
+    "headline": "轻柔的歌唱:小提琴带着旋律",
+    "text": "从[m. 19]起,第一小提琴明确领奏,其余三个声部在下面轻轻伴奏。整段保持小声(p)。把耳朵放在最高的声部,跟着它唱。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "19",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "19",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "19",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "19",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "25",
+    "end_measure": "26",
+    "headline": "第三部分收在D大调",
+    "text": "[m. 25-26]四个声部更整齐地一起行动,像在合上这一段。音乐在D大调上停稳,然后这一部分重复。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "25",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "26",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "27",
+    "end_measure": "28",
+    "headline": "第四部分:强奏重现",
+    "text": "[m. 27]声音突然转强(f)。程序估计 [m. 28] 是本乐章最响、最忙的地方(力度记号与开头一样是 f)。调性仍是D大调。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "27",
+      "value": "Part 4"
+     },
+     {
+      "type": "dynamic",
+      "measure": "27",
+      "value": "f"
+     },
+     {
+      "type": "climax",
+      "measure": "28",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "28",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "29",
+    "end_measure": "32",
+    "headline": "渐弱,声音退下来",
+    "text": "强奏继续一段[m. 29-30]。到[m. 31]各声部各走各的,并出现渐弱(逐渐变轻)。[m. 32]回到小声。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "31",
+      "value": "dim"
+     },
+     {
+      "type": "texture",
+      "measure": "31",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "28",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "33",
+    "end_measure": "37",
+    "headline": "轻声的旋律再现",
+    "text": "[m. 33-37]第一小提琴再次清楚地领奏,下方轻声伴奏。听起来与前面[m. 19-24]的轻柔段落很相似。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "33",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "33",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "33",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "33",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "38",
+    "end_measure": "39",
+    "headline": "整齐的结束句",
+    "text": "[m. 38]有一个短促的突强(fp,先强后立刻弱)。接着四个声部一起走,落在D大调上[m. 39]。第四部分到此结束。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "38",
+      "value": "fp"
+     },
+     {
+      "type": "texture",
+      "measure": "38",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "39",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "40",
+    "end_measure": "40",
+    "headline": "最后一小节:第一小提琴独奏",
+    "text": "最后的[m. 40]只有第一小提琴单独发声,声音轻(p)。自动估计这里偏向E小调。因乐谱识别可能有误,这一处请当作参考。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "40",
+      "value": "Part 5"
+     },
+     {
+      "type": "texture",
+      "measure": "40",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "40",
+      "value": "E minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "40",
+      "value": "p"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "强(f)",
+    "explanation": "演奏得大声。"
+   },
+   {
+    "term": "弱(p)",
+    "explanation": "演奏得小声。pp 表示更小声。"
+   },
+   {
+    "term": "渐弱",
+    "explanation": "声音慢慢变轻。"
+   },
+   {
+    "term": "fp",
+    "explanation": "先强后立刻转弱,是一个突然的重音。"
+   },
+   {
+    "term": "调性",
+    "explanation": "乐曲围绕的中心音和色彩。大调通常明亮,小调通常较暗。"
+   },
+   {
+    "term": "转调",
+    "explanation": "音乐从一个调走到另一个调,听感会变亮或变暗。"
+   },
+   {
+    "term": "旋律加伴奏",
+    "explanation": "一个声部唱主旋律,其他声部在下面伴奏。"
+   },
+   {
+    "term": "齐奏/八度",
+    "explanation": "几个声部奏同一条旋律,可能相差八度。"
+   },
+   {
+    "term": "反复",
+    "explanation": "一个段落演奏两遍。"
+   }
+  ]
+ },
+ "facts_fingerprint": "2c3ba3a9bcc5",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 6,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

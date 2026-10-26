@@ -1,0 +1,15 @@
+{
+ "n_measures": 179,
+ "parts": [
+  "Violin 1",
+  "Violin 2",
+  "Viola",
+  "Cello"
+ ],
+ "measures_with_wrong_length": [],
+ "share_wrong_length": 0.0,
+ "notes_out_of_range": [],
+ "empty_parts": [],
+ "empty_measures": [],
+ "verdict": "good"
+}

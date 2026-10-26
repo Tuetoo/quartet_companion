@@ -1,0 +1,553 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 67,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 67,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 3714,
+   "cache_read": 0,
+   "cache_write": 11264
+  },
+  {
+   "input": 4172,
+   "output": 5715,
+   "cache_read": 11264,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Schubert: \"Death and the Maiden\" – III. Scherzo (Allegro molto)",
+  "overview": "This is a fast movement in 3/4 time. It has two big parts: a loud Part 1 that starts in D minor, and a much softer Trio that starts in D major. Keys and chords here are estimated by computer, so treat them as a guide. Listen for the jumps between loud and soft, and between minor (darker) and major (brighter).",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "68",
+    "value": "Trio"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "D minor"
+   },
+   {
+    "type": "key",
+    "measure": "68",
+    "value": "D major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "4",
+    "headline": "A loud opening in D minor",
+    "text": "The first violin leads from the very first bar [m. 0-4]. The music starts loud, in D minor. The opening bar is in unison or octaves, meaning the players share the same notes.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "unison/octaves"
+     }
+    ]
+   },
+   {
+    "start_measure": "6",
+    "end_measure": "9",
+    "headline": "Swell, then a sudden hush",
+    "text": "A crescendo (getting gradually louder) is marked in [m. 6]. Then the music drops suddenly to soft at [m. 8]. The key brightens to D major at [m. 9]. The second violin probably leads there.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "6",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "8",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "9",
+      "value": "D major"
+     },
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Violin 2"
+     }
+    ]
+   },
+   {
+    "start_measure": "14",
+    "end_measure": "18",
+    "headline": "Back to loud, in A minor",
+    "text": "The key moves to A minor at [m. 14]. The music is still soft. At [m. 17] it jumps to loud, with the players in unison or octaves.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "14",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "14",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "17",
+      "value": "unison/octaves"
+     }
+    ]
+   },
+   {
+    "start_measure": "22",
+    "end_measure": "28",
+    "headline": "The viola and second violin step forward",
+    "text": "Around [m. 22-23] the viola probably takes the lead. After that, the second violin probably leads in [m. 24-30]. The key shifts to G minor at [m. 26].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "22",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "24",
+      "value": "Violin 2"
+     },
+     {
+      "type": "key",
+      "measure": "26",
+      "value": "G minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "29",
+    "end_measure": "36",
+    "headline": "D minor, then A major, then a soft moment",
+    "text": "D minor comes back at [m. 29]. A major follows at [m. 31]. At [m. 32] the music suddenly turns soft. D minor returns at [m. 35].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "29",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "31",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "35",
+      "value": "D minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "37",
+    "end_measure": "45",
+    "headline": "Suddenly loud again in D minor",
+    "text": "At [m. 37] the music is suddenly loud again. The players are in unison or octaves. The key is D minor, and the first violin probably leads from [m. 41].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "37",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "37",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "41",
+      "value": "D minor"
+     },
+     {
+      "type": "lead",
+      "measure": "41",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "46",
+    "end_measure": "51",
+    "headline": "A brighter B-flat major patch",
+    "text": "The key turns to B-flat major at [m. 46]. It is loud at first. At [m. 49] it drops suddenly to soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "46",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "46",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "49",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "51",
+    "end_measure": "62",
+    "headline": "Soft, then a build-up",
+    "text": "D minor returns at [m. 51], and a crescendo is marked. The music is soft in [m. 52-60]. B-flat major comes back at [m. 57]. Another crescendo is marked at [m. 61]. D minor returns at [m. 62].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "51",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "57",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "61",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "62",
+      "value": "D minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "63",
+    "end_measure": "67",
+    "headline": "The estimated loudest point",
+    "text": "A computer estimate marks [m. 63] as the loudest and busiest point. It is very loud, in D minor. The section ends in D major in [m. 65-67], still very loud.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "climax",
+      "measure": "63",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "63",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "65",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "65",
+      "value": "ff"
+     }
+    ]
+   },
+   {
+    "start_measure": "68",
+    "end_measure": "77",
+    "headline": "The Trio begins, very soft",
+    "text": "The Trio starts with a single bar for the first violin alone [m. 68]. It is very soft. The key is A major from [m. 69], and the first violin leads over the others.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "68",
+      "value": "Trio"
+     },
+     {
+      "type": "texture",
+      "measure": "68",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "68",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "69",
+      "value": "A major"
+     },
+     {
+      "type": "lead",
+      "measure": "69",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "78",
+    "end_measure": "85",
+    "headline": "Short key shifts in the Trio",
+    "text": "The key moves to D major at [m. 78], then to G major at [m. 80]. The parts move together in chords there. D major returns at [m. 83]. At [m. 84] the music is suddenly a little louder, at soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "78",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "80",
+      "value": "G major"
+     },
+     {
+      "type": "texture",
+      "measure": "80",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "83",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "84",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "100",
+    "end_measure": "110",
+    "headline": "Back to very soft, with a lone violin",
+    "text": "At [m. 101] the music drops suddenly to very soft. A crescendo is marked at [m. 106]. A diminuendo (getting gradually softer) is marked in [m. 107]. The first violin plays alone at [m. 108].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "101",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "106",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "107",
+      "value": "dim"
+     },
+     {
+      "type": "texture",
+      "measure": "108",
+      "value": "solo"
+     }
+    ]
+   },
+   {
+    "start_measure": "111",
+    "end_measure": "121",
+    "headline": "A darker turn to D minor",
+    "text": "The key darkens to D minor at [m. 111]. A crescendo is marked at [m. 113] and a diminuendo at [m. 114]. A major returns at [m. 117].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "111",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "113",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "114",
+      "value": "dim"
+     },
+     {
+      "type": "key",
+      "measure": "117",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "122",
+    "end_measure": "142",
+    "headline": "Gentle swells in D major and A major",
+    "text": "The key is D major in [m. 122-129], then A major from [m. 130]. The music gets a little louder, to soft, at [m. 132]. A crescendo is marked at [m. 137]. It returns to very soft at [m. 140].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "122",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "130",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "132",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "137",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "140",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "143",
+    "end_measure": "164",
+    "headline": "A quiet ending in A major",
+    "text": "D minor appears in [m. 143-148]. D major follows at [m. 153]. A brief E major comes at [m. 159]. A diminuendo is marked at [m. 161]. The music ends very softly, in A major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "143",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "153",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "159",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "161",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "161",
+      "value": "dim"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Scherzo",
+    "explanation": "The name in this movement's title. Here the music is fast and has three beats to the bar (3/4)."
+   },
+   {
+    "term": "Trio",
+    "explanation": "The contrasting section after Part 1."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that the music centres on. Minor sounds darker. Major sounds brighter."
+   },
+   {
+    "term": "Crescendo",
+    "explanation": "Getting gradually louder."
+   },
+   {
+    "term": "Diminuendo",
+    "explanation": "Getting gradually softer."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "The players play the same notes, or the same notes at different heights."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "The parts move together in chords."
+   }
+  ]
+ },
+ "facts_fingerprint": "2177e81f7cce",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

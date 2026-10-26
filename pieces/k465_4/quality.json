@@ -1,0 +1,40 @@
+{
+ "n_measures": 423,
+ "parts": [
+  "Violin 1",
+  "Violin 2",
+  "Viola",
+  "Cello"
+ ],
+ "measures_with_wrong_length": [
+  {
+   "label": "135",
+   "found_beats": 3.0,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "136",
+   "found_beats": 1.0,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "370",
+   "found_beats": 3.0,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "371",
+   "found_beats": 1.0,
+   "expected_beats": 2.0
+  }
+ ],
+ "share_wrong_length": 0.01,
+ "notes_out_of_range": [],
+ "empty_parts": [],
+ "empty_measures": [
+  "135",
+  "370",
+  "420"
+ ],
+ "verdict": "good"
+}

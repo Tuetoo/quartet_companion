@@ -1,0 +1,26 @@
+{
+ "n_measures": 131,
+ "parts": [
+  "Violin 1",
+  "Violin 2",
+  "Viola",
+  "Cello"
+ ],
+ "measures_with_wrong_length": [
+  {
+   "label": "7",
+   "found_beats": 3.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "8",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  }
+ ],
+ "share_wrong_length": 0.016,
+ "notes_out_of_range": [],
+ "empty_parts": [],
+ "empty_measures": [],
+ "verdict": "good"
+}

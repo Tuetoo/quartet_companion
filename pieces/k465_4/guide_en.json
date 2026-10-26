@@ -1,0 +1,631 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 81,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 81,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4418,
+   "cache_read": 0,
+   "cache_write": 22797
+  },
+  {
+   "input": 5661,
+   "output": 5679,
+   "cache_read": 22797,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Mozart: String Quartet No.19 in C major, K.465 – IV. Allegro: A Listening Guide",
+  "overview": "This is a fast finale in 2/4 time. It has three parts: Part 1 (measures 0-135, repeated), Part 2 (136-370, repeated) and a short Part 3 (371-420). The main tune starts soft in the first violin and keeps coming back. Listen for loud and soft contrasts, and for the many key changes in Part 2. The keys and chords here are estimated by computer, so some details may be imprecise.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "136",
+    "value": "Part 2"
+   },
+   {
+    "type": "section",
+    "measure": "371",
+    "value": "Part 3"
+   },
+   {
+    "type": "theme",
+    "measure": "0",
+    "value": "Violin 1"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "4",
+    "headline": "The main tune begins softly",
+    "text": "The first violin plays the main tune at the start [m. 0-3]. The first measure is solo, then the others accompany. It is soft (p). The key is estimated as G major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "11",
+    "headline": "Home key and the tune again",
+    "text": "The key estimate moves to C major, the home key [m. 5]. The first violin plays the main tune again at the same pitch [m. 8-11]. The others accompany it.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "5",
+      "value": "C major"
+     },
+     {
+      "type": "theme",
+      "measure": "8",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "8",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "8",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "24",
+    "end_measure": "30",
+    "headline": "Tune in G, then a loud burst",
+    "text": "The main tune returns in G major in the first violin [m. 24-27]. A crescendo (getting gradually louder) is marked at [m. 27]. It reaches loud (f) at [m. 28]. Then it drops to soft at [m. 30].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "24",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "24",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "27",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "28",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "30",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "35",
+    "end_measure": "36",
+    "headline": "Everyone plays the same line",
+    "text": "The parts play in unison or octaves, meaning the same notes at the same or different heights [m. 35-36]. It is loud (f).",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "35",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "dynamic",
+      "measure": "35",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "40",
+    "end_measure": "52",
+    "headline": "Loud, darker stretch",
+    "text": "The key estimate turns to A minor [m. 40], then G minor [m. 44]. Both are minor keys, which often sound darker. The music stays loud. The cello probably leads around [m. 49-52], but this is uncertain.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "40",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "44",
+      "value": "G minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "40",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "49",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "53",
+    "end_measure": "83",
+    "headline": "Back to soft; settling into G major",
+    "text": "The music turns soft (p) at [m. 53]. A loud passage follows from [m. 62]. The key returns to G major at [m. 64]. Then a long soft passage follows, led by the first violin with accompaniment [m. 69-83].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "53",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "62",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "64",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "69",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "69",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "88",
+    "end_measure": "100",
+    "headline": "A mellow shift to B-flat major",
+    "text": "The key estimate moves to B-flat major [m. 88]. It begins with a solo measure. It stays soft. The parts then play more independent lines.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "88",
+      "value": "Bb major"
+     },
+     {
+      "type": "texture",
+      "measure": "88",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "88",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "89",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "136",
+    "end_measure": "149",
+    "headline": "Part 2 opens with the tune, then a minor-key version",
+    "text": "Part 2 begins with the first violin on the main tune, in a solo measure [m. 136]. It returns at [m. 144], starting at the same pitch but changed slightly to fit C minor, a darker key. A crescendo is marked at [m. 148]. Loud (f) arrives at [m. 149].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "136",
+      "value": "Part 2"
+     },
+     {
+      "type": "theme",
+      "measure": "136",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "136",
+      "value": "solo"
+     },
+     {
+      "type": "theme",
+      "measure": "144",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "144",
+      "value": "C minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "148",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "149",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "150",
+    "end_measure": "192",
+    "headline": "Wandering through many far-off keys",
+    "text": "Part 2 passes through many keys in a row. Examples are E-flat major [m. 150], B major [m. 163] and C-sharp minor [m. 171]. A loud stretch runs from [m. 162]. It turns soft at [m. 181]. The first violin leads most of it.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "150",
+      "value": "Eb major"
+     },
+     {
+      "type": "key",
+      "measure": "163",
+      "value": "B major"
+     },
+     {
+      "type": "key",
+      "measure": "171",
+      "value": "C# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "163",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "181",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "162",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "193",
+    "end_measure": "210",
+    "headline": "The tune returns in G, then C",
+    "text": "The key settles on G major [m. 193]. The main tune returns in the first violin at [m. 199-202]. It comes again in C major at [m. 207-210]. The passage is soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "193",
+      "value": "G major"
+     },
+     {
+      "type": "theme",
+      "measure": "199",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "207",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "207",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "199",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "223",
+    "end_measure": "242",
+    "headline": "Tune once more, then a loud rush",
+    "text": "The main tune is heard again in G major [m. 223-226]. A crescendo is marked at [m. 226]. Loud playing follows [m. 227]. Unison or octaves return at [m. 234-235].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "223",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "223",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "226",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "227",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "234",
+      "value": "unison/octaves"
+     }
+    ]
+   },
+   {
+    "start_measure": "291",
+    "end_measure": "323",
+    "headline": "A soft, shifting stretch in flat keys",
+    "text": "A soft passage begins in E-flat major with a solo measure [m. 291]. A crescendo is marked at [m. 306]. The key then moves to A-flat major [m. 307]. After that it moves to C minor [m. 320]. The first violin mostly leads. The lead is unclear only around [m. 306-314].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "291",
+      "value": "Eb major"
+     },
+     {
+      "type": "texture",
+      "measure": "291",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "306",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "307",
+      "value": "Ab major"
+     },
+     {
+      "type": "key",
+      "measure": "320",
+      "value": "C minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "323",
+    "end_measure": "370",
+    "headline": "C major returns, loud then soft",
+    "text": "The key is C major again from [m. 323]. It turns loud (f) at [m. 326]. Then it drops to soft at [m. 341]. It stays soft until Part 2 ends.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "323",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "326",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "341",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "371",
+    "end_measure": "377",
+    "headline": "Part 3: the opening tune returns",
+    "text": "Part 3 begins with the first violin on the main tune, in a solo measure in G major [m. 371]. A crescendo is marked at [m. 374]. Loud (f) follows at [m. 375]. It turns soft at [m. 377].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "371",
+      "value": "Part 3"
+     },
+     {
+      "type": "theme",
+      "measure": "371",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "371",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "374",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "375",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "377",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "381",
+    "end_measure": "406",
+    "headline": "Waves of louder and softer; the estimated peak",
+    "text": "Crescendo markings appear at [m. 383] and [m. 396]. The first leads to mf at [m. 384] and f at [m. 386]. The lead is probably shared. A computer estimate marks [m. 404] as the loudest and busiest point.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "383",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "384",
+      "value": "mf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "386",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "396",
+      "value": "cresc"
+     },
+     {
+      "type": "climax",
+      "measure": "404",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "407",
+    "end_measure": "419",
+    "headline": "Soft wind-down, then a loud finish",
+    "text": "The music turns soft with independent lines [m. 407-414]. The key estimate shifts to A minor [m. 413]. Loud playing returns at [m. 415]. The unison or octaves at [m. 416] lead to the close at [m. 419]. The computer labels the key here G major, but the last chord it finds is C major, the home key.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "407",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "407",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "413",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "415",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "416",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "419",
+      "value": "G major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that a passage seems to be built around. Here, keys are estimated by computer."
+   },
+   {
+    "term": "Minor key",
+    "explanation": "A key that often sounds darker or more serious than a major key."
+   },
+   {
+    "term": "Crescendo",
+    "explanation": "Getting gradually louder."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "Several instruments play the same notes, at the same or different heights."
+   },
+   {
+    "term": "Solo",
+    "explanation": "One instrument playing alone."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One part has the tune. The others support it."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "The parts each play their own line, with no single clear tune."
+   },
+   {
+    "term": "p / mf / f",
+    "explanation": "Soft, medium loud and loud."
+   }
+  ]
+ },
+ "facts_fingerprint": "5b1fe6dda8ee",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 7,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

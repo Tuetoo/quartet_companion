@@ -1,0 +1,527 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 65,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 65,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 3894,
+   "cache_read": 0,
+   "cache_write": 8264
+  },
+  {
+   "input": 4891,
+   "output": 4624,
+   "cache_read": 8264,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Haydn, 'Emperor' Quartet, II. Poco adagio cantabile: Theme and Four Variations",
+  "overview": "This slow movement is a theme followed by four variations. The same tune is heard five times. It starts in Violin 1, then moves to Violin 2, the cello and the viola, and finally comes back to Violin 1. Keys and chords in this guide are estimated by computer, so treat them as a guide. The music stays mostly soft throughout. Listen for who has the tune and how the surrounding parts change.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Theme"
+   },
+   {
+    "type": "section",
+    "measure": "20",
+    "value": "Var. I"
+   },
+   {
+    "type": "section",
+    "measure": "40",
+    "value": "Var. II"
+   },
+   {
+    "type": "section",
+    "measure": "60",
+    "value": "Var. III"
+   },
+   {
+    "type": "section",
+    "measure": "80",
+    "value": "Var. IV"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "G major"
+   },
+   {
+    "type": "dynamic",
+    "measure": "0",
+    "value": "p"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "5",
+    "headline": "The theme in Violin 1",
+    "text": "Violin 1 plays the tune on top [m. 0-5]. The other three parts accompany it softly. The tune is plain and steady, so it is easy to remember. Listen closely, because you will hear it again and again.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "6",
+    "end_measure": "10",
+    "headline": "A brief brightening toward D major",
+    "text": "The music is estimated to move to D major [m. 6-10]. The four parts move together like a hymn. Violin 1 still leads.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "6",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "6",
+      "value": "D major"
+     },
+     {
+      "type": "texture",
+      "measure": "7",
+      "value": "homophonic"
+     },
+     {
+      "type": "lead",
+      "measure": "6",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "11",
+    "end_measure": "19",
+    "headline": "Home key returns with sharp accents",
+    "text": "The music returns to G major [m. 11-19]. Short sharp accents, marked fz, appear in [m. 12-13] and again in [m. 16-17]. After each pair the music is marked soft again. The parts move together here, like a hymn.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "11",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "11",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "fz"
+     },
+     {
+      "type": "dynamic",
+      "measure": "16",
+      "value": "fz"
+     },
+     {
+      "type": "texture",
+      "measure": "15",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "20",
+    "end_measure": "31",
+    "headline": "Variation I: Violin 2 takes the tune",
+    "text": "Now Violin 2 has the tune [m. 20-31]. Violin 1 plays alongside it, so the two violins sound like a duet. The two violins sound like a duet. The computer is less sure which violin stands out more. Around [m. 26] the key shifts to D major again.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "20",
+      "value": "Var. I"
+     },
+     {
+      "type": "variation_tune",
+      "measure": "20",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "20",
+      "value": "Violin 2"
+     },
+     {
+      "type": "texture",
+      "measure": "20",
+      "value": "duet"
+     },
+     {
+      "type": "key",
+      "measure": "26",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "32",
+    "end_measure": "39",
+    "headline": "Variation I ends with accents and a clear duet",
+    "text": "The key is G major again [m. 32-39]. Violin 2 is now clearly the leader. The fz accents return at [m. 32] and [m. 36]. Each is followed by a soft p. The duet stays quiet and balanced.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "32",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "33",
+      "value": "Violin 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "fz"
+     },
+     {
+      "type": "dynamic",
+      "measure": "34",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "32",
+      "value": "duet"
+     }
+    ]
+   },
+   {
+    "start_measure": "40",
+    "end_measure": "52",
+    "headline": "Variation II: the cello carries the tune",
+    "text": "The tune drops to the cello [m. 40-46]. The upper parts now play their own separate lines. Each line goes its own way, so the texture is busier. The cello probably leads, but the confidence is low. Listen for the deep, warm tune underneath. The key shifts to D major from [m. 46].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "40",
+      "value": "Var. II"
+     },
+     {
+      "type": "variation_tune",
+      "measure": "40",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "40",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "41",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "46",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "53",
+    "end_measure": "59",
+    "headline": "Variation II returns home with sharp accents",
+    "text": "The music comes back to G major [m. 53-59]. Accents fall at [m. 54] and [m. 58]. The cello probably still has the tune, though the other lines compete for attention.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "53",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "54",
+      "value": "fz"
+     },
+     {
+      "type": "dynamic",
+      "measure": "58",
+      "value": "fz"
+     },
+     {
+      "type": "lead",
+      "measure": "55",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "60",
+    "end_measure": "72",
+    "headline": "Variation III: the viola sings the tune",
+    "text": "The viola, the middle voice, now plays the tune [m. 60-66]. It is likely the lead. The other parts weave around it in a few short lines. This is the inner voice stepping into the light. The music moves briefly to D major from [m. 66].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "60",
+      "value": "Var. III"
+     },
+     {
+      "type": "variation_tune",
+      "measure": "60",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "60",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "62",
+      "value": "trio"
+     },
+     {
+      "type": "key",
+      "measure": "66",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "73",
+    "end_measure": "79",
+    "headline": "The viola holds firm back in G major",
+    "text": "The key returns to G major [m. 73-79]. The viola keeps the lead. Accents fall at [m. 74] and [m. 78]. The viola line stands out clearly from the accompaniment.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "73",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "75",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "74",
+      "value": "fz"
+     },
+     {
+      "type": "dynamic",
+      "measure": "78",
+      "value": "fz"
+     },
+     {
+      "type": "texture",
+      "measure": "75",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "80",
+    "end_measure": "86",
+    "headline": "Variation IV: the tune returns to Violin 1",
+    "text": "Violin 1 has the tune again, as at the start [m. 80-86]. The other parts accompany it. It sounds like a homecoming.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "80",
+      "value": "Var. IV"
+     },
+     {
+      "type": "variation_tune",
+      "measure": "80",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "80",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "80",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "87",
+    "end_measure": "92",
+    "headline": "A final visit to D major",
+    "text": "The music moves into D major once more [m. 87-92]. Violin 1 mostly keeps the tune. Around [m. 90-91] the viola also comes forward with the tune turned upside down, so the lead is shared there.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "87",
+      "value": "D major"
+     },
+     {
+      "type": "lead",
+      "measure": "87",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "87",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "93",
+    "end_measure": "99",
+    "headline": "The estimated busiest moment of the movement",
+    "text": "G major returns for the final stretch [m. 93-99]. Accents at [m. 94] and [m. 98] add energy. The busiest, strongest point is estimated at [m. 98]. Even there, the music is still marked soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "93",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "94",
+      "value": "fz"
+     },
+     {
+      "type": "climax",
+      "measure": "98",
+      "value": "Var. IV"
+     },
+     {
+      "type": "lead",
+      "measure": "95",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "100",
+    "end_measure": "104",
+    "headline": "A hushed ending",
+    "text": "The music falls to a very quiet level, marked pp, at [m. 100]. A small swell is marked at [m. 103]. Then it fades away as it closes in G major [m. 104]. Listen for the calm, settled finish.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "100",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "103",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "104",
+      "value": "dim"
+     },
+     {
+      "type": "texture",
+      "measure": "103",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "104",
+      "value": "G major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Variation",
+    "explanation": "The same tune played again with changes, such as a new instrument carrying it or busier lines around it."
+   },
+   {
+    "term": "Theme",
+    "explanation": "The main tune that the variations are built on."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale of a passage. G major is the home key here."
+   },
+   {
+    "term": "D major",
+    "explanation": "A second key the music visits in the middle of the theme and of every variation, before returning to G major."
+   },
+   {
+    "term": "fz",
+    "explanation": "A short, sharp accent on a note or chord."
+   },
+   {
+    "term": "pp",
+    "explanation": "Very soft playing."
+   },
+   {
+    "term": "Duet",
+    "explanation": "Two parts that stand out and share the music between them."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All parts move together in the same rhythm, like a hymn."
+   }
+  ]
+ },
+ "facts_fingerprint": "e63e151e86d6",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 9,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 6,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

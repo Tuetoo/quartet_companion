@@ -1,0 +1,747 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 108,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 108,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 5165,
+   "cache_read": 0,
+   "cache_write": 13798
+  }
+ ],
+ "guide": {
+  "title": "Debussy: String Quartet, Op. 10 – II. Assez vif et bien rythmé",
+  "overview": "This movement is in 6/8 time, and its home key is G major. It is built around one short tune, the \"main theme\". It first appears in the viola and then moves between the instruments and through many keys. Listen for the tune passing from part to part, and for the mood changing as the music gets louder and softer. Keys and chords here are estimated by computer, so some labels may be off. Treat \"who leads\" as a best guess too.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "theme",
+    "measure": "3",
+    "value": "Viola"
+   },
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "G major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "6",
+    "headline": "Loud opening chords, then a soft drop",
+    "text": "The quartet opens loudly in G major, with the parts moving together in chords [m. 1-2]. The viola then plays the main theme alone [m. 3-4]. Then everything turns soft [m. 5-6].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "homophonic"
+     },
+     {
+      "type": "theme",
+      "measure": "3",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "3",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "7",
+    "end_measure": "18",
+    "headline": "The viola repeats its tune, softer and louder",
+    "text": "The viola plays the theme again and again at the same pitch [m. 7-8]. The other parts then weave around it as separate lines, and the sound drops to very soft [m. 9-11]. The volume swells to medium loud [m. 13-14] and then falls back to soft [m. 17-18].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "7",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "7",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "13",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "14",
+      "value": "mf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "19",
+    "end_measure": "30",
+    "headline": "Same tune, now in C major",
+    "text": "The key moves to C major, and the viola keeps playing the theme [m. 19-30]. The others accompany it softly.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "19",
+      "value": "C major"
+     },
+     {
+      "type": "modulation",
+      "measure": "19",
+      "value": "C major"
+     },
+     {
+      "type": "theme",
+      "measure": "19",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "19",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "19",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "31",
+    "end_measure": "36",
+    "headline": "Biggest surge: the estimated loudest point",
+    "text": "The music grows louder with a crescendo, which means a gradual increase in volume [m. 31]. The key moves to B minor, and the parts play chords together [m. 32-36]. A computer estimate marks the loudest point at [m. 33], at ff (very loud). The loudness then eases off [m. 36].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "31",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "32",
+      "value": "B minor"
+     },
+     {
+      "type": "texture",
+      "measure": "31",
+      "value": "homophonic"
+     },
+     {
+      "type": "climax",
+      "measure": "33",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "33",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "36",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "37",
+    "end_measure": "50",
+    "headline": "Violin 1 takes the tune; cello answers",
+    "text": "The section marked A tempo begins in D minor and drops to soft [m. 37]. Violin 1 plays the theme, and the other parts move on their own lines [m. 37-42]. The music then builds [m. 41]. Violin 1 keeps the tune over an accompaniment [m. 43-46]. Then the cello takes it, and the sound falls to very soft [m. 47-50].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "37",
+      "value": "Section 2 (A tempo)"
+     },
+     {
+      "type": "key",
+      "measure": "37",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "37",
+      "value": "p"
+     },
+     {
+      "type": "theme",
+      "measure": "37",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "37",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "41",
+      "value": "cresc"
+     },
+     {
+      "type": "texture",
+      "measure": "43",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "theme",
+      "measure": "47",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "47",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "49",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "51",
+    "end_measure": "55",
+    "headline": "Cello alone, then a new key",
+    "text": "The cello plays solo and very softly [m. 51-53]. The key changes to E-flat major [m. 52]. A new section begins, with sudden soft accents that fade [m. 54-55].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "51",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "51",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "pp"
+     },
+     {
+      "type": "modulation",
+      "measure": "52",
+      "value": "Eb major"
+     },
+     {
+      "type": "section",
+      "measure": "54",
+      "value": "Section 3 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "54",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "56",
+    "end_measure": "68",
+    "headline": "Whispered theme in violin 1, then a build",
+    "text": "Violin 1 carries the theme very softly in E-flat major [m. 56-61]. The others accompany it. The sound grows to medium loud [m. 63-64], and the lines become more independent [m. 64-68]. The key slips to C minor near the end [m. 67].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "56",
+      "value": "Eb major"
+     },
+     {
+      "type": "theme",
+      "measure": "56",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "56",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "63",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "64",
+      "value": "mf"
+     },
+     {
+      "type": "texture",
+      "measure": "64",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "67",
+      "value": "C minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "69",
+    "end_measure": "85",
+    "headline": "Theme again in C major, then a swell to loud",
+    "text": "Violin 1 plays the theme again, now in C major and very softly [m. 70-75]. The music swells [m. 77]. It then turns loud in F minor, and the key goes to E major [m. 78-80]. It returns to F minor and drops to soft chords [m. 81-85].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "69",
+      "value": "C major"
+     },
+     {
+      "type": "theme",
+      "measure": "70",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "70",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "77",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "78",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "79",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "81",
+      "value": "F minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "83",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "83",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "86",
+    "end_measure": "103",
+    "headline": "The tune passes viola, violin 2, violin 1",
+    "text": "In A-flat major, the viola brings the theme back softly [m. 86-89]. The key moves to E-flat major and the sound gets louder [m. 90]. Violin 2 then takes the theme in C minor and F minor [m. 94-99]. Violin 1 follows in D minor [m. 100-103].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "86",
+      "value": "Ab major"
+     },
+     {
+      "type": "theme",
+      "measure": "86",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "89",
+      "value": "Eb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "90",
+      "value": "mf"
+     },
+     {
+      "type": "theme",
+      "measure": "94",
+      "value": "Violin 2"
+     },
+     {
+      "type": "key",
+      "measure": "96",
+      "value": "F minor"
+     },
+     {
+      "type": "theme",
+      "measure": "100",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "100",
+      "value": "D minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "103",
+    "end_measure": "117",
+    "headline": "Hushed passage with cello solos",
+    "text": "The key moves to B-flat major and the sound is soft [m. 103]. The music drops to very soft [m. 106]. The cello plays alone, extremely soft (ppp) [m. 108-109]. The key moves to F-sharp major, and there is a sudden loud burst [m. 111]. It drops back to very soft [m. 112]. The cello is alone again [m. 116-117].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "103",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "106",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "108",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "108",
+      "value": "ppp"
+     },
+     {
+      "type": "key",
+      "measure": "109",
+      "value": "F# major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "111",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "112",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "116",
+      "value": "solo"
+     }
+    ]
+   },
+   {
+    "start_measure": "118",
+    "end_measure": "123",
+    "headline": "Loud close of the long middle section",
+    "text": "The key moves to D-flat major. After a soft start, the sound turns suddenly loud [m. 118-119]. A trio, meaning three players, is heard [m. 120-121]. The section ends with loud chords in all parts [m. 122-123]. Who leads here is uncertain.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "117",
+      "value": "Db major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "119",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "120",
+      "value": "trio"
+     },
+     {
+      "type": "texture",
+      "measure": "122",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "122",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "124",
+    "end_measure": "147",
+    "headline": "New section: wandering keys, then a loud climb",
+    "text": "A new section starts softly in F-sharp minor. The key then passes through B major and E major, and it grows louder at [m. 129]. The lines become separate in B minor [m. 136-139]. The music turns loud in D major [m. 140], with parts in octaves at [m. 142] and [m. 144]. The octaves are the same notes at different heights. It fades to a cello solo [m. 146-147].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "124",
+      "value": "Section 4 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "124",
+      "value": "F# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "124",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "127",
+      "value": "B major"
+     },
+     {
+      "type": "key",
+      "measure": "129",
+      "value": "E major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "129",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "137",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "140",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "140",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "142",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "texture",
+      "measure": "146",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "146",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "148",
+    "end_measure": "167",
+    "headline": "Back to G major, but unsettled",
+    "text": "G major returns, very softly [m. 148]. The leader here is probably violin 1, but this is uncertain. The music swells to loud at [m. 156]. The key then turns to F minor [m. 158], then F-sharp minor [m. 161], and finally D minor [m. 166]. The sound fades to very soft at the end [m. 164-167].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "148",
+      "value": "Section 5 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "148",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "148",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "156",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "158",
+      "value": "F minor"
+     },
+     {
+      "type": "key",
+      "measure": "161",
+      "value": "F# minor"
+     },
+     {
+      "type": "key",
+      "measure": "166",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "164",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "168",
+    "end_measure": "177",
+    "headline": "Quiet ending in G major",
+    "text": "A new time signature starts the last section, and the cello is mostly alone, very softly [m. 168-172]. The key settles on G major [m. 171]. The parts play chords together, extremely soft (ppp) and then very soft (pp) [m. 173-175]. The movement ends extremely softly (ppp), with the parts in octaves [m. 176-177].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "168",
+      "value": "Section 6 (new time signature)"
+     },
+     {
+      "type": "texture",
+      "measure": "168",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "168",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "171",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "173",
+      "value": "ppp"
+     },
+     {
+      "type": "texture",
+      "measure": "173",
+      "value": "homophonic"
+     },
+     {
+      "type": "texture",
+      "measure": "176",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "dynamic",
+      "measure": "176",
+      "value": "ppp"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Main theme",
+    "explanation": "The short tune that opens the movement and keeps coming back, in different instruments and keys."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that the music feels built around. Major keys sound brighter. Minor keys sound darker."
+   },
+   {
+    "term": "Crescendo",
+    "explanation": "A gradual increase in volume."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "The parts move together, like chords under a tune."
+   },
+   {
+    "term": "Octaves",
+    "explanation": "The same note played at different heights by different instruments."
+   },
+   {
+    "term": "Solo",
+    "explanation": "One instrument plays by itself."
+   },
+   {
+    "term": "Trio",
+    "explanation": "Three instruments play at the same time."
+   },
+   {
+    "term": "ff / ppp",
+    "explanation": "ff means very loud. ppp means extremely soft."
+   }
+  ]
+ },
+ "facts_fingerprint": "1b0447d8a08b",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 11,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

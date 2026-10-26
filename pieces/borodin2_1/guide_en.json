@@ -1,0 +1,637 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 83,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 83,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4421,
+   "cache_read": 0,
+   "cache_write": 20460
+  },
+  {
+   "input": 6005,
+   "output": 6060,
+   "cache_read": 20460,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Borodin: String Quartet No. 2, I. Allegro moderato – Listening Guide",
+  "overview": "This movement opens with a calm tune in the cello. That tune comes back many times, in different instruments and different keys. The key and chord labels in this guide are estimated by computer, so treat them as a guide and not as fact. Listen for the opening tune, for the changes between soft and loud, and for the return of the opening in the last big section.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "108",
+    "value": "Section 2 (Tempo I.)"
+   },
+   {
+    "type": "section",
+    "measure": "180",
+    "value": "Section 3 (a tempo)"
+   },
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "D major"
+   },
+   {
+    "type": "theme",
+    "measure": "1",
+    "value": "Cello"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "3",
+    "headline": "The cello sings the main tune",
+    "text": "The cello plays the main tune softly in D major [m. 1-3]. Keep this shape in your ear, because it returns often.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Cello"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "4",
+    "end_measure": "15",
+    "headline": "First violin takes the tune, in a darker key",
+    "text": "The mood darkens as the key moves to B minor [m. 4-13]. The first violin takes the tune [m. 5-7]. Crescendo marks appear in places, so the music swells [m. 8]. The key is back in D major at [m. 14].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "4",
+      "value": "B minor"
+     },
+     {
+      "type": "theme",
+      "measure": "5",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "8",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "14",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "16",
+    "end_measure": "34",
+    "headline": "Cello again, then a build-up to mezzo-forte",
+    "text": "The cello brings the tune back in D major [m. 16-18]. The first violin takes it up [m. 20-22]. A crescendo then leads to mezzo-forte (medium loud) at [m. 28].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "16",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "16",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "20",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "24",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "28",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "35",
+    "end_measure": "44",
+    "headline": "The cello tune swells and falls back",
+    "text": "The cello plays the tune twice more [m. 35-37] and [m. 39-41]. Crescendo marks appear in both. Soft playing returns at [m. 39].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "35",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "39",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "36",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "39",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "65",
+    "headline": "Wandering keys and a sudden loud burst",
+    "text": "The estimated keys shift quickly here, through E major, F# minor and Db major [m. 45-55]. The volume jumps suddenly to loud (forte) at [m. 52]. Nobody clearly leads there, so the lead is shared. It is soft again at [m. 56].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "45",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "47",
+      "value": "F# minor"
+     },
+     {
+      "type": "key",
+      "measure": "51",
+      "value": "Db major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "52",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "56",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "66",
+    "end_measure": "85",
+    "headline": "Restless middle of the first part",
+    "text": "The key moves between A major and F# minor [m. 66-85]. The lead is often unclear, and at times the lines are independent [m. 73-76]. A quieter spell (mezzo-piano) begins at [m. 73].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "66",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "70",
+      "value": "F# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "73",
+      "value": "mp"
+     },
+     {
+      "type": "texture",
+      "measure": "73",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "86",
+    "end_measure": "107",
+    "headline": "Loud A major close, then silence",
+    "text": "The music turns loud in A major [m. 86-106]. The lead passes among several parts, and the analysis is unsure who is on top. All parts are silent (tacet) at [m. 107].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "86",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "86",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "107",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "108",
+    "end_measure": "116",
+    "headline": "Section 2: the tune returns in A minor",
+    "text": "A new section begins, marked Tempo I. The cello plays the tune softly in A minor [m. 108-110]. The first violin then takes it in D minor [m. 112-114].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "108",
+      "value": "Section 2 (Tempo I.)"
+     },
+     {
+      "type": "key",
+      "measure": "108",
+      "value": "A minor"
+     },
+     {
+      "type": "theme",
+      "measure": "108",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "112",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "112",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "108",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "117",
+    "end_measure": "142",
+    "headline": "Moving through many keys",
+    "text": "The estimated keys change often here, including C major, F major and D major [m. 117-138]. The volume reaches loud at [m. 130]. Several parts play together in the same rhythm, which is called homophonic texture [m. 128-130].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "117",
+      "value": "C major"
+     },
+     {
+      "type": "key",
+      "measure": "126",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "130",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "128",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "134",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "143",
+    "end_measure": "158",
+    "headline": "A brighter glow, with the lead passed around",
+    "text": "The key brightens to B major [m. 143-151], then moves to Ab major [m. 152-157]. The lead passes between the viola, first violin and cello in short turns. It moves between soft and mezzo-forte (medium loud), with crescendo marks.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "143",
+      "value": "B major"
+     },
+     {
+      "type": "key",
+      "measure": "152",
+      "value": "Ab major"
+     },
+     {
+      "type": "lead",
+      "measure": "145",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "149",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "145",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "159",
+    "end_measure": "179",
+    "headline": "Lines tossed between the violins and viola",
+    "text": "All four lines move on their own for a long stretch [m. 159-173]. The lead passes quickly between the violins and viola. It stays soft. Then the key reaches A major [m. 175] and D major [m. 179].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "159",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "159",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "175",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "179",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "180",
+    "end_measure": "201",
+    "headline": "Section 3: the opening comes home",
+    "text": "The cello plays the main tune at the original pitch in D major [m. 180-182]. This is a clear return of the opening. The first violin takes it in B minor [m. 184-186], as before. The cello and first violin repeat the tune at [m. 195] and [m. 199].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "180",
+      "value": "Section 3 (a tempo)"
+     },
+     {
+      "type": "theme",
+      "measure": "180",
+      "value": "Cello"
+     },
+     {
+      "type": "key",
+      "measure": "180",
+      "value": "D major"
+     },
+     {
+      "type": "theme",
+      "measure": "184",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "183",
+      "value": "B minor"
+     },
+     {
+      "type": "theme",
+      "measure": "195",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "199",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "214",
+    "end_measure": "245",
+    "headline": "The tune drifts into C minor",
+    "text": "The cello plays the tune at [m. 214-216]. Then the viola and cello pass it back and forth in G minor and C minor [m. 216-222]. The volume rises to mezzo-forte at [m. 224]. The lead is uncertain in much of this stretch, so think of it as shared.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "216",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "215",
+      "value": "G minor"
+     },
+     {
+      "type": "key",
+      "measure": "217",
+      "value": "C minor"
+     },
+     {
+      "type": "theme",
+      "measure": "218",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "220",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "224",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "246",
+    "end_measure": "265",
+    "headline": "Build to the estimated loudest point",
+    "text": "The music moves through F major, D minor and E minor [m. 247-257]. Crescendo marks lead to loud at [m. 257]. A computer estimate marks measure 259 as the loudest point, in F# minor. The key then moves to B minor [m. 261].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "247",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "250",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "255",
+      "value": "E minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "256",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "257",
+      "value": "f"
+     },
+     {
+      "type": "climax",
+      "measure": "259",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "261",
+      "value": "B minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "266",
+    "end_measure": "304",
+    "headline": "Back in D major, fading to a quiet end",
+    "text": "D major returns loud at [m. 266]. Diminuendo marks then make the music softer [m. 272-285]. It is soft at [m. 286]. The cello plays solo at [m. 297-298]. The last bars are very soft, with the parts playing in unison or octaves [m. 303].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "266",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "266",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "272",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "286",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "297",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "297",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "303",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "dynamic",
+      "measure": "303",
+      "value": "pp"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Key",
+    "explanation": "The home note and scale the music centres on. A change of key can brighten or darken the mood."
+   },
+   {
+    "term": "Crescendo",
+    "explanation": "Getting gradually louder."
+   },
+   {
+    "term": "Diminuendo",
+    "explanation": "Getting gradually softer."
+   },
+   {
+    "term": "Forte / piano",
+    "explanation": "Loud (f) and soft (p). Mezzo-forte (mf) is medium loud. Pianissimo (pp) is very soft."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each instrument plays its own melody at the same time, instead of one tune with a backing."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "The instruments move together with the same rhythm, like a hymn."
+   },
+   {
+    "term": "Octaves",
+    "explanation": "The same note played at different heights by different instruments."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A measure where an instrument, or all of them, are silent."
+   }
+  ]
+ },
+ "facts_fingerprint": "a350ddc7cf2d",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 5,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

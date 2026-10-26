@@ -1,0 +1,11 @@
+[
+ {"piece":"haydn76_3_3","lang":"zh","where":2,"field":"text","old":"叫做“和声式”织体","new":"叫做“主调织体”"},
+ {"piece":"haydn76_3_3","lang":"zh","where":"glossary","field":"term","old":"和声式织体","new":"主调织体(homophonic)"},
+ {"piece":"haydn76_3_3","lang":"zh","where":"glossary","field":"explanation","old":"几件乐器节奏大致一致,像一起唱和弦。","new":"几件乐器节奏大致一致,一起奏出和弦。"},
+ {"piece":"haydn76_3_3","lang":"zh","where":"glossary","field":"explanation","old":"小步舞曲中间的对比部分,通常更安静、更轻巧。","new":"小步舞曲中与主体形成对比的中段,之后再回到小步舞曲。"},
+ {"piece":"haydn76_3_4","lang":"zh","where":1,"field":"text","old":"其他乐器与它同步和声。","new":"其他乐器与它节奏一致,一起奏出和弦。"},
+ {"piece":"op18no5_2","lang":"zh","where":"glossary","field":"term","old":"和声式","new":"主调织体(和弦式织体)"},
+ {"piece":"op18no5_3","lang":"zh","where":11,"field":"text","old":"第一小提琴接着唱 [m. 111-115]","new":"第一小提琴可能接着唱 [m. 111-115]"},
+ {"piece":"op18no5_3","lang":"zh","where":13,"field":"text","old":"第一小提琴领着旋律。","new":"第一小提琴可能领着旋律。"},
+ {"piece":"op18no5_3","lang":"en","where":14,"field":"text","old":"Violin 1 leads the soft ending in D major [m. 135-139].","new":"Violin 1 probably leads the soft ending in D major [m. 135-139]."}
+]

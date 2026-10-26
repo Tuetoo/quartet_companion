@@ -1,0 +1,716 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 98,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 98,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4807,
+   "cache_read": 0,
+   "cache_write": 11586
+  },
+  {
+   "input": 6114,
+   "output": 5613,
+   "cache_read": 11586,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Mendelssohn: String Quartet No.2, Op.13 – III. Intermezzo (Allegretto con moto)",
+  "overview": "This is a movement in A minor, in a light 2/4 beat. It opens with a soft main tune in the first violin. A very quiet, fast middle section follows, then a long wandering section. The opening tune comes back near the end. Keys and chords here are estimated by computer, so treat them as a guide. Lead-part labels are also a best guess.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "A minor"
+   },
+   {
+    "type": "theme",
+    "measure": "1",
+    "value": "Violin 1"
+   },
+   {
+    "type": "lead",
+    "measure": "1",
+    "value": "Violin 1"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "8",
+    "headline": "The main tune, soft in the first violin",
+    "text": "The movement starts softly with the main tune in Violin 1 [m. 1-3]. The other parts move with it in block-like harmony. The tune repeats at [m. 5-7]. This section is marked to be repeated.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Part 1"
+     },
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "5",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "A minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "9",
+    "end_measure": "18",
+    "headline": "A step to E minor",
+    "text": "The music moves to E minor [m. 10-18]. Violin 1 sings over an accompaniment. Near the end the lines become more independent [m. 16-17].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "9",
+      "value": "Part 2"
+     },
+     {
+      "type": "key",
+      "measure": "10",
+      "value": "E minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "10",
+      "value": "E minor"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "texture",
+      "measure": "16",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "19",
+    "end_measure": "26",
+    "headline": "The opening tune returns",
+    "text": "Back in A minor, the main tune returns in Violin 1 at the same pitch as at the start [m. 19-21]. It comes once more at [m. 23-25]. Listen for the familiar shape from the opening.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "19",
+      "value": "A minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "19",
+      "value": "A minor"
+     },
+     {
+      "type": "theme",
+      "measure": "19",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "23",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "19",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "19",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "27",
+    "end_measure": "30",
+    "headline": "Sudden hush: viola alone, very soft",
+    "text": "A new, faster section begins (Allegro di molto). The mood changes suddenly. The dynamic drops to very soft. The viola plays by itself [m. 27-30]. The key estimate brightens to E major from [m. 28].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "27",
+      "value": "Section 3 (Allegro di molto)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "27",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "27",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "27",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "28",
+      "value": "E major"
+     },
+     {
+      "type": "modulation",
+      "measure": "28",
+      "value": "E major"
+     }
+    ]
+   },
+   {
+    "start_measure": "31",
+    "end_measure": "45",
+    "headline": "Whispering block harmony in E major",
+    "text": "The parts now move together in block harmony [m. 31-45]. It stays very soft. The lead passes from Violin 2 to Violin 1, but the labels are uncertain, so the lead is probably shared. Keys shift quickly through C# minor and G# minor before E major returns.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "31",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "31",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "31",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "35",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "37",
+      "value": "C# minor"
+     },
+     {
+      "type": "key",
+      "measure": "39",
+      "value": "G# minor"
+     },
+     {
+      "type": "key",
+      "measure": "41",
+      "value": "E major"
+     }
+    ]
+   },
+   {
+    "start_measure": "46",
+    "end_measure": "50",
+    "headline": "A lift to B major",
+    "text": "The key moves up to B major [m. 46-49]. One part carries the melody while the others accompany. Then the lines become independent [m. 50] as the key returns to E major.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "46",
+      "value": "B major"
+     },
+     {
+      "type": "modulation",
+      "measure": "46",
+      "value": "B major"
+     },
+     {
+      "type": "texture",
+      "measure": "46",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "texture",
+      "measure": "50",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "50",
+      "value": "E major"
+     }
+    ]
+   },
+   {
+    "start_measure": "51",
+    "end_measure": "58",
+    "headline": "Part 4 begins; Violin 2 leads at first",
+    "text": "A longer section starts, back at soft volume [m. 51]. Violin 2 leads at first, with high confidence [m. 51-54]. Violin 1 takes over at [m. 56]. The key turns to B minor [m. 53]. The analysis marks [m. 55] as the loudest or busiest point. That is a computer estimate. The marking there is still soft.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "51",
+      "value": "Part 4"
+     },
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "51",
+      "value": "Violin 2"
+     },
+     {
+      "type": "key",
+      "measure": "53",
+      "value": "B minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "53",
+      "value": "B minor"
+     },
+     {
+      "type": "climax",
+      "measure": "55",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "55",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "59",
+    "end_measure": "74",
+    "headline": "Wandering through D major and F# minor",
+    "text": "The keys shift often: D major [m. 59], F# minor [m. 62], then B minor again [m. 66]. The lead moves between parts, and some labels are uncertain. Most of this is melody with accompaniment. The sound becomes very soft at [m. 72].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "59",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "62",
+      "value": "F# minor"
+     },
+     {
+      "type": "key",
+      "measure": "66",
+      "value": "B minor"
+     },
+     {
+      "type": "texture",
+      "measure": "59",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "72",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "75",
+    "end_measure": "86",
+    "headline": "Independent lines, then Db major and C# minor",
+    "text": "The parts play more separate lines [m. 75-80]. The key reaches Db major [m. 78]. Then it moves to C# minor [m. 83]. At [m. 84] the parts play in unison or octaves, meaning the same notes at the same or different heights.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "75",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "78",
+      "value": "Db major"
+     },
+     {
+      "type": "texture",
+      "measure": "78",
+      "value": "trio"
+     },
+     {
+      "type": "key",
+      "measure": "83",
+      "value": "C# minor"
+     },
+     {
+      "type": "texture",
+      "measure": "84",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "dynamic",
+      "measure": "81",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "87",
+    "end_measure": "103",
+    "headline": "A major, then E major with swelling and fading",
+    "text": "The key brightens to A major [m. 87], then E major [m. 95]. Over [m. 96-99] the markings alternate between getting louder and getting softer. Listen for these small waves. The block harmony continues, with Violin 1 probably leading.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "87",
+      "value": "A major"
+     },
+     {
+      "type": "modulation",
+      "measure": "87",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "95",
+      "value": "E major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "96",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "97",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "98",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "99",
+      "value": "dim"
+     },
+     {
+      "type": "texture",
+      "measure": "92",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "104",
+    "end_measure": "116",
+    "headline": "A quiet stretch, then a short link to A minor",
+    "text": "Melody with accompaniment takes over [m. 104-116]. The sound is very soft, then steps up to soft at [m. 107]. A short new section (allegro moderato) begins at [m. 112]. It leads the harmony back toward A minor [m. 115].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "104",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "104",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "107",
+      "value": "p"
+     },
+     {
+      "type": "section",
+      "measure": "112",
+      "value": "Section 5 (allegro moderato)"
+     },
+     {
+      "type": "key",
+      "measure": "115",
+      "value": "A minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "115",
+      "value": "A minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "117",
+    "end_measure": "123",
+    "headline": "The main tune comes home",
+    "text": "The last section opens in A minor with the main tune in Violin 1 [m. 117-119]. It repeats at [m. 121-123]. These are at the same pitch as the opening. The sound is soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "117",
+      "value": "Section 6 (new key signature)"
+     },
+     {
+      "type": "theme",
+      "measure": "117",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "121",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "117",
+      "value": "A minor"
+     },
+     {
+      "type": "lead",
+      "measure": "117",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "117",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "124",
+    "end_measure": "139",
+    "headline": "The E minor passage returns; the tune appears at its first pitch",
+    "text": "Material like the earlier E minor passage comes back [m. 124-136]. It includes independent lines near [m. 132-133]. The main tune shows up in Violin 1 at [m. 135-137] and again at [m. 139-141]. Those are the same pitch as the opening, though the local key labels say E minor and D minor.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "124",
+      "value": "E minor"
+     },
+     {
+      "type": "texture",
+      "measure": "132",
+      "value": "independent lines"
+     },
+     {
+      "type": "theme",
+      "measure": "135",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "137",
+      "value": "D minor"
+     },
+     {
+      "type": "theme",
+      "measure": "139",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "135",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "140",
+    "end_measure": "150",
+    "headline": "A brighter A major, with sudden drops to very soft",
+    "text": "The key turns to A major [m. 140]. The sound drops suddenly to very soft at [m. 141]. It changes again suddenly at [m. 143] and [m. 145]. Violin 1 plays alone at [m. 146] and [m. 150].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "140",
+      "value": "A major"
+     },
+     {
+      "type": "modulation",
+      "measure": "140",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "141",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "143",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "145",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "146",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "150",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "150",
+      "value": "D minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "151",
+    "end_measure": "164",
+    "headline": "A hushed ending in A minor",
+    "text": "The parts play the same line in unison or octaves [m. 152-155], with the viola leading. A fading marking appears at [m. 153]. The key settles in A minor from [m. 157]. The movement ends very softly with block harmony [m. 164].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "152",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "lead",
+      "measure": "152",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "153",
+      "value": "dim"
+     },
+     {
+      "type": "key",
+      "measure": "157",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "157",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "164",
+      "value": "homophonic"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Main theme",
+    "explanation": "The opening tune in Violin 1. It is the tune to listen for when it comes back."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale of a passage. Minor often sounds darker. Major often sounds brighter."
+   },
+   {
+    "term": "Modulation",
+    "explanation": "A move from one key to another."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "The parts move together in block-like harmony."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One part sings the tune while the others support it."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "Parts play the same notes, at the same or different heights."
+   },
+   {
+    "term": "Solo",
+    "explanation": "One part plays by itself."
+   },
+   {
+    "term": "pp / p",
+    "explanation": "Very soft / soft."
+   },
+   {
+    "term": "cresc / dim",
+    "explanation": "Gradually louder / gradually softer."
+   }
+  ]
+ },
+ "facts_fingerprint": "6f2c572852ed",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 7,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

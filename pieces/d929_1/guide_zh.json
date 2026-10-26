@@ -1,0 +1,601 @@
+{
+ "language": "zh",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 75,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 75,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 84,
+   "output": 4506,
+   "cache_read": 38444,
+   "cache_write": 0
+  },
+  {
+   "input": 8864,
+   "output": 5859,
+   "cache_read": 38444,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "舒伯特:降E大调第二钢琴三重奏 D. 929 – 第一乐章 Allegro 聆听指南",
+  "overview": "这是一首为小提琴、大提琴和钢琴而作的三重奏乐章,速度为 Allegro(快板),3/4 拍,主调是降E大调。乐谱来自光学识别,质量较差,所以本指南只讲大框架:段落、调性和声音大小。“谁在带领”是电脑推测的,只能作为参考。细节可能不准确。文中的调性与和弦都是电脑自动估计的。聆听时请留意开头小提琴的旋律,以及本乐章里频繁的调性转换,一会儿明亮,一会儿暗淡。",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "Eb major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "小提琴奏出响亮的开头旋律",
+    "text": "乐章一开始,小提琴以强音(f)唱出旋律 [m. 1-4]。三件乐器节奏一致,一起奏出和弦,托着小提琴的旋律。请记住这个开头,它是本乐章的起点。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "Eb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "8",
+    "headline": "突然转轻,变得柔和",
+    "text": "从 [m. 5] 起,声音突然变弱(p)。小提琴在 [m. 5] 仍然领唱。这种先响后轻的对比,是本乐章常见的手法。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin"
+     },
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "trio"
+     }
+    ]
+   },
+   {
+    "start_measure": "9",
+    "end_measure": "12b",
+    "headline": "钢琴可能接手,力度渐强",
+    "text": "钢琴在 [m. 9-12b] 可能是带领者,但把握不大。声音回到强音,并在 [m. 11a] 达到很强(ff)。随后又很快转弱。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Piano"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "11a",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "16b",
+    "end_measure": "21",
+    "headline": "大提琴独奏,调性转到F大调和降B大调",
+    "text": "大提琴在 [m. 16b-17b] 独自演奏。音乐转到F大调,随后在 [m. 21] 进入降B大调。大提琴的声音温暖而低沉,很容易听出来。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "16b",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "16b",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "17b",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "21",
+      "value": "Bb major"
+     }
+    ]
+   },
+   {
+    "start_measure": "26",
+    "end_measure": "30",
+    "headline": "转入降E小调,钢琴强烈敲击",
+    "text": "[m. 26-30] 音乐变成降E小调,色彩转暗。声音保持很强(ff),并有突然的重音(sf)。钢琴在这里很突出。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "26",
+      "value": "Eb minor"
+     },
+     {
+      "type": "lead",
+      "measure": "26",
+      "value": "Piano"
+     },
+     {
+      "type": "dynamic",
+      "measure": "26",
+      "value": "ff"
+     }
+    ]
+   },
+   {
+    "start_measure": "47",
+    "end_measure": "57",
+    "headline": "很弱的B小调与G大调",
+    "text": "[m. 47-57] 声音降到很弱(pp),像悄悄说话。调性先在B小调,再到G大调。钢琴大多在带领。此处气氛安静而神秘。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "47",
+      "value": "B minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "47",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "54",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "49",
+      "value": "Piano"
+     }
+    ]
+   },
+   {
+    "start_measure": "137",
+    "end_measure": "151",
+    "headline": "小提琴在寂静中独唱",
+    "text": "第一大部分到 [m. 136] 结束,之后进入新段落。[m. 139-149] 小提琴独自演奏轻柔的旋律,其他乐器停下。调性经过B小调、G大调到F大调。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "137",
+      "value": "Section 2 (new key signature)"
+     },
+     {
+      "type": "lead",
+      "measure": "139",
+      "value": "Violin"
+     },
+     {
+      "type": "texture",
+      "measure": "139",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "139",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "142",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "152",
+    "end_measure": "174",
+    "headline": "大提琴与钢琴交替,在降B大调中流动",
+    "text": "新段落中,大提琴和钢琴轮流带领 [m. 152-161]。声音很轻,并有渐强和渐弱的起伏。大约从 [m. 160] 起转到降B大调,之后主要由钢琴带领;到 [m. 173] 转入D小调。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "152",
+      "value": "Section 3 (new key signature)"
+     },
+     {
+      "type": "lead",
+      "measure": "152",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "154",
+      "value": "Piano"
+     },
+     {
+      "type": "key",
+      "measure": "160",
+      "value": "Bb major"
+     }
+    ]
+   },
+   {
+    "start_measure": "175",
+    "end_measure": "195",
+    "headline": "A大调中的一次强烈爆发",
+    "text": "[m. 175] 起声音突然变得很强(ff),随后在 [m. 176] 转到A大调。这是一个明显的转折。随后在 [m. 181] 突然降到很弱(pp),并在F大调中再次变响 [m. 187]。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "175",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "176",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "180",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "181",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "209",
+    "end_measure": "232",
+    "headline": "很弱的声音中不断转调",
+    "text": "[m. 209] 起音乐进入新段落,声音很弱(pp)。调性依次经过升F大调、B小调、D大调、D小调和C大调,色彩不断变化,听起来飘忽不定。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "209",
+      "value": "Section 5 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "209",
+      "value": "F# major"
+     },
+     {
+      "type": "key",
+      "measure": "217",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "221",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "230",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "209",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "249",
+    "end_measure": "254",
+    "headline": "转强,到达估计的最响时刻之一",
+    "text": "从 [m. 249] 起突然变强(f),调性在升F小调。到 [m. 254] 达到软件估计的本乐章最响、最忙的时刻之一(ff),调性为B小调。这里可能主要是钢琴在带领,但判断不太确定。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "249",
+      "value": "F# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "249",
+      "value": "f"
+     },
+     {
+      "type": "climax",
+      "measure": "254",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "254",
+      "value": "B minor"
+     },
+     {
+      "type": "lead",
+      "measure": "254",
+      "value": "Piano"
+     }
+    ]
+   },
+   {
+    "start_measure": "257",
+    "end_measure": "308",
+    "headline": "从降B小调慢慢走远,再次变得很响",
+    "text": "那个响亮的时刻之后,声音转弱。[m. 257] 起是降B小调,随后经过升F大调、A大调、C大调等调。钢琴多数时候在带领。到 [m. 305] 又变得很响,随后渐弱,在 [m. 308] 乐谱显示为空小节(可能是识别错误)。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "257",
+      "value": "Section 7 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "257",
+      "value": "Bb minor"
+     },
+     {
+      "type": "key",
+      "measure": "270",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "286",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "305",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "308",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "309",
+    "end_measure": "346",
+    "headline": "回到轻柔,调性不断变化",
+    "text": "[m. 309] 起声音又变得很弱(pp),调性为降D大调。随后经过B大调、G大调,最后到D小调。这一大段多数由钢琴带领。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "309",
+      "value": "Section 8 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "309",
+      "value": "Db major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "309",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "321",
+      "value": "B major"
+     },
+     {
+      "type": "key",
+      "measure": "330",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "341",
+      "value": "D minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "347",
+    "end_measure": "376",
+    "headline": "最长的新段落开始,声音转强",
+    "text": "[m. 347] 起进入全乐章最长的段落。声音变强(f),在 [m. 355] 起达到很强(ff),后来回落到弱音。调性经过降B大调和F小调。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "347",
+      "value": "Section 11 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "347",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "355",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "350",
+      "value": "F minor"
+     },
+     {
+      "type": "key",
+      "measure": "362",
+      "value": "Bb major"
+     }
+    ]
+   },
+   {
+    "start_measure": "393",
+    "end_measure": "411",
+    "headline": "回到降E大调,声音转强",
+    "text": "大约在 [m. 393] 起回到降E大调,这是乐章的主调。[m. 395] 起声音变强(f),小提琴可能在带领,但把握不大。这里三件乐器又一起奏和弦,节奏整齐,和开头很像。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "393",
+      "value": "Eb major"
+     },
+     {
+      "type": "lead",
+      "measure": "395",
+      "value": "Violin"
+     },
+     {
+      "type": "dynamic",
+      "measure": "395",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "395",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "612",
+    "end_measure": "644",
+    "headline": "最后一段:回到降E大调,轻声结束",
+    "text": "最后一段从 [m. 616] 开始(前面 [m. 612-615] 是很短的一段),先在G小调中轻声进行,到 [m. 623] 回到降E大调。随后声音变强,在 [m. 632] 起很强(ff)。最后在 [m. 642] 轻声结束。",
+    "focus_part": "Piano",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "612",
+      "value": "Section 12 (new key signature)"
+     },
+     {
+      "type": "section",
+      "measure": "616",
+      "value": "Section 13 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "616",
+      "value": "G minor"
+     },
+     {
+      "type": "key",
+      "measure": "623",
+      "value": "Eb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "632",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "642",
+      "value": "p"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "调性",
+    "explanation": "音乐的“中心音”和色彩。大调通常明亮,小调通常暗淡。"
+   },
+   {
+    "term": "转调",
+    "explanation": "音乐从一个调换到另一个调,听感像换了一种颜色。"
+   },
+   {
+    "term": "织体",
+    "explanation": "几件乐器如何搭配,例如齐声、一个唱旋律其他伴奏,或独奏。"
+   },
+   {
+    "term": "f / p / pp / ff",
+    "explanation": "力度记号:f 是强,p 是弱,pp 是很弱,ff 是很强。"
+   },
+   {
+    "term": "sf",
+    "explanation": "突然加重的重音,像突然敲一下。"
+   },
+   {
+    "term": "渐强 / 渐弱",
+    "explanation": "声音慢慢变大或变小。"
+   }
+  ]
+ },
+ "facts_fingerprint": "f2a0205387bf",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 18,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 7,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 54,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 54,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 3427,
+   "cache_read": 0,
+   "cache_write": 6994
+  },
+  {
+   "input": 3931,
+   "output": 4289,
+   "cache_read": 6994,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Haydn: String Quartet Op. 76 No. 3 – III. Menuetto (Allegro)",
+  "overview": "This is a dance movement in 3/4 time. It has a main section (Part 1) and a contrasting middle section called the Trio. Each section is repeated. Violin 1 leads almost all the way through. Listen for the loud opening tune, its return in the home key, and the hushed Trio. Keys and chords here are estimated by computer, so treat the key labels as good guides, not certainties.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "56",
+    "value": "Trio"
+   },
+   {
+    "type": "lead",
+    "measure": "0",
+    "value": "Violin 1"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "C major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "4",
+    "headline": "The main tune, loud and alone",
+    "text": "Violin 1 begins by itself with the main tune, played loudly [m. 0-1]. The other players then join with accompaniment [m. 2-4]. This is the tune to remember. It is in the home key of C major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "C major"
+     },
+     {
+      "type": "texture",
+      "measure": "2",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "7",
+    "end_measure": "12",
+    "headline": "The music moves away from home",
+    "text": "The key briefly turns to A minor, which sounds a bit darker [m. 7-8]. Then it settles in G major, which sounds brighter [m. 9-12]. The instruments often move together in the same rhythm, which is called homophonic texture [m. 8-12].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "7",
+      "value": "A minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "9",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "9",
+      "value": "G major"
+     },
+     {
+      "type": "texture",
+      "measure": "8",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "13",
+    "end_measure": "15",
+    "headline": "The estimated busiest point",
+    "text": "The computer estimates this as the busiest moment, still in G major [m. 13]. It is marked f, like the bars around it. Violin 1 clearly has the tune over the others.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "climax",
+      "measure": "13",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "13",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "13",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "22",
+    "end_measure": "24",
+    "headline": "A dark turn to C minor",
+    "text": "The key shifts to C minor [m. 22-24]. Minor keys sound more serious. The sound is still loud, but the mood is shadowed.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "22",
+      "value": "C minor"
+     },
+     {
+      "type": "key",
+      "measure": "22",
+      "value": "C minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "22",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "26",
+    "end_measure": "31",
+    "headline": "A sudden hush",
+    "text": "The music drops to soft, marked p [m. 26]. The key is G major again. Each part now plays more of its own line [m. 27-31].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "26",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "25",
+      "value": "G major"
+     },
+     {
+      "type": "texture",
+      "measure": "27",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "32",
+    "end_measure": "36",
+    "headline": "The opening tune comes back",
+    "text": "The main tune returns in Violin 1, loud and in C major [m. 32-36]. The notes of the tune match the opening exactly. This time the other parts join in at once [m. 32], although Violin 1 is briefly alone again at [m. 33]. This is the easiest moment to recognise in Part 1.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "32",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "32",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "32",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "40",
+    "end_measure": "44",
+    "headline": "A brief shadow in D minor",
+    "text": "After the tune, the key slips into D minor [m. 40-44]. The mood darkens for a moment. Then the music heads back toward C major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "40",
+      "value": "D minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "45",
+      "value": "C major"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "56",
+    "headline": "Settling home in C major",
+    "text": "The last stretch of Part 1 stays in C major [m. 45-56]. The loud sound holds steady until the Trio.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "45",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "50",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "56",
+    "end_measure": "60",
+    "headline": "The Trio begins, soft and lonely",
+    "text": "The Trio starts quietly, marked p [m. 56]. Violin 1 plays alone for several bars. The key turns to A minor, which is darker than before [m. 57-60].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "56",
+      "value": "Trio"
+     },
+     {
+      "type": "dynamic",
+      "measure": "56",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "56",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "57",
+      "value": "A minor"
+     },
+     {
+      "type": "lead",
+      "measure": "56",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "61",
+    "end_measure": "67",
+    "headline": "Brighter E major, then D minor",
+    "text": "The key brightens to E major [m. 61-65]. Violin 1 is mostly alone and exposed. Then it darkens to D minor [m. 66-70].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "61",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "61",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "66",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "67",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "68",
+    "end_measure": "75",
+    "headline": "A sudden loud burst in the Trio",
+    "text": "The music jumps to loud, marked f [m. 68]. The key returns to E major [m. 71]. At [m. 75] the instruments play the same notes together, in unison or octaves.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "68",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "71",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "75",
+      "value": "unison/octaves"
+     }
+    ]
+   },
+   {
+    "start_measure": "76",
+    "end_measure": "84",
+    "headline": "Very quiet, in glowing A major",
+    "text": "The sound falls to very soft, marked pp [m. 76]. The key moves to A major, which is bright [m. 79-84]. This is the most hushed part of the movement.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "76",
+      "value": "pp"
+     },
+     {
+      "type": "modulation",
+      "measure": "79",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "79",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "81",
+      "value": "trio"
+     }
+    ]
+   },
+   {
+    "start_measure": "85",
+    "end_measure": "91",
+    "headline": "Gentle swaying between E and A",
+    "text": "The key moves back to E major [m. 85-87] and again to A major [m. 88-93]. Everything stays very soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "85",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "88",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "88",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "92",
+    "end_measure": "100",
+    "headline": "Back to soft p and a minor-key close",
+    "text": "The sound rises slightly to p [m. 92]. Violin 1 plays alone again, and the key turns to A minor [m. 94-100]. The Trio ends with the instruments playing the same notes, in unison or octaves [m. 100].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "92",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "93",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "94",
+      "value": "A minor"
+     },
+     {
+      "type": "texture",
+      "measure": "100",
+      "value": "unison/octaves"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Menuetto",
+    "explanation": "A dance with three beats per bar. This one is marked Allegro, which means fast."
+   },
+   {
+    "term": "Trio",
+    "explanation": "The contrasting section of this movement; here it is much softer. The score marks D.C. at its end, so the minuet is played again afterwards."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that a passage seems to be based on. Major sounds brighter. Minor sounds darker."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All the instruments move together in the same rhythm, like singing a hymn."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each instrument plays its own separate tune at the same time."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "The instruments play the same notes, in the same pitch or at higher and lower octaves."
+   },
+   {
+    "term": "Dynamics (p, pp, f)",
+    "explanation": "Loudness marks. p is soft, pp is very soft, f is loud."
+   }
+  ]
+ },
+ "facts_fingerprint": "70f62226d9b3",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 5,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 6,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

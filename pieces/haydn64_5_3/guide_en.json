@@ -1,0 +1,500 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 61,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 61,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 3515,
+   "cache_read": 0,
+   "cache_write": 6072
+  },
+  {
+   "input": 4163,
+   "output": 4105,
+   "cache_read": 6072,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Haydn, String Quartet Op. 64 No. 5 – III. Menuetto (Allegretto)",
+  "overview": "This Menuetto is in three-beat time, and its home key is D major. It has a main part, a contrasting Trio, and then a return of the main part. Keys and chords in this guide are estimated by computer, so treat them as a good guess. Listen for the opening tune, the switches between loud and soft, and the darker colour of the Trio.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "42",
+    "value": "Trio"
+   },
+   {
+    "type": "section",
+    "measure": "66",
+    "value": "Menuetto D.C"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "D major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "4",
+    "headline": "Violin 1 opens with the main tune",
+    "text": "The first violin starts the main theme on its own in the first bar [m. 0]. The others then accompany it [m. 1-4]. The key is D major and the dynamic is loud.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "6",
+    "end_measure": "8",
+    "headline": "A move to A major with an accent",
+    "text": "The music moves to A major [m. 6]. An accent (a sudden stress, marked sf) lands at [m. 6]. The instruments move together in block-like harmony [m. 6-8].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "6",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "6",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "6",
+      "value": "sf"
+     },
+     {
+      "type": "texture",
+      "measure": "6",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "8",
+    "end_measure": "11",
+    "headline": "Sudden soft: Violin 2, then viola",
+    "text": "The volume drops suddenly to soft at [m. 8]. Violin 2 plays alone there. Then the viola probably carries the tune while the others accompany [m. 9-11].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "8",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "8",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "8",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "12",
+    "end_measure": "15",
+    "headline": "A darker turn into D minor",
+    "text": "The music briefly turns to D minor [m. 12-14]. This sounds darker. Lead is shared here, so no one part clearly has the tune. It stays soft. A major returns at [m. 15].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "12",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "12",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "15",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "16",
+    "end_measure": "19",
+    "headline": "Loud return of the opening tune",
+    "text": "The volume jumps to loud at [m. 16]. Violin 1 plays the main theme again [m. 16-19]. The local key reads A major here, but the tune is at the same pitch as the opening. D major follows at [m. 17].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "16",
+      "value": "f"
+     },
+     {
+      "type": "theme",
+      "measure": "16",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "16",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "17",
+      "value": "D major"
+     },
+     {
+      "type": "texture",
+      "measure": "16",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "22",
+    "end_measure": "26",
+    "headline": "The estimated busiest, loudest stretch",
+    "text": "A computer estimate marks [m. 23] as the loudest and busiest point. It is loud, with Violin 1 probably in front. The texture shifts between tune-with-accompaniment and block harmony [m. 22-26].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "climax",
+      "measure": "23",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "23",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "22",
+      "value": "homophonic"
+     },
+     {
+      "type": "texture",
+      "measure": "23",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "31",
+    "end_measure": "35",
+    "headline": "Soft passage with the viola in view",
+    "text": "The music drops suddenly to soft at [m. 31]. The viola probably takes the lead for a moment [m. 32-33]. Then the lines move more independently [m. 34-35].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "31",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "32",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "34",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "36",
+    "end_measure": "42",
+    "headline": "Loud again, closing Part 1",
+    "text": "The volume jumps back to loud at [m. 36]. Violin 1 probably leads with independent lines. Near the end viola and cello probably share the lead [m. 40-41]. Part 1 ends in D major [m. 42].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "36",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "36",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "36",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "42",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "42",
+    "end_measure": "45",
+    "headline": "The Trio begins, soft and minor",
+    "text": "The Trio starts at [m. 42] with a sudden soft dynamic. Violin 2 plays alone first and then has the tune over accompaniment [m. 43-45]. The key is F# minor, then A minor.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "42",
+      "value": "Trio"
+     },
+     {
+      "type": "key",
+      "measure": "42",
+      "value": "F# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "42",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "42",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "42",
+      "value": "Violin 2"
+     },
+     {
+      "type": "modulation",
+      "measure": "44",
+      "value": "A minor"
+     },
+     {
+      "type": "texture",
+      "measure": "43",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "47",
+    "end_measure": "51",
+    "headline": "Violin 1 sings over the others",
+    "text": "Violin 1 takes the tune in A minor with the others accompanying [m. 47-50]. It stays soft. The key then brightens to F major [m. 51].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "47",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "47",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "47",
+      "value": "p"
+     },
+     {
+      "type": "modulation",
+      "measure": "51",
+      "value": "F major"
+     }
+    ]
+   },
+   {
+    "start_measure": "52",
+    "end_measure": "56",
+    "headline": "Brighter F major, then a loud jolt",
+    "text": "F major lasts for a while [m. 52-56]. The lines move more independently [m. 52-53]. A sudden loud dynamic arrives at [m. 56].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "52",
+      "value": "F major"
+     },
+     {
+      "type": "texture",
+      "measure": "52",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "56",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "57",
+    "end_measure": "61",
+    "headline": "Back to D minor, soft with an accent",
+    "text": "The music turns to D minor [m. 57]. It drops suddenly to soft at [m. 58]. An accent (sf) falls at [m. 60]. Lead is shared among several parts.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "57",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "58",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "60",
+      "value": "sf"
+     },
+     {
+      "type": "texture",
+      "measure": "60",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "62",
+    "end_measure": "66",
+    "headline": "Quiet close, then back to the Menuetto",
+    "text": "The Trio ends softly in D minor [m. 62-65]. Violin 1 probably leads. The last bar [m. 66] marks D.C., a sign to go back to the start of the Menuetto and play it again.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "62",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "62",
+      "value": "D minor"
+     },
+     {
+      "type": "lead",
+      "measure": "65",
+      "value": "Violin 1"
+     },
+     {
+      "type": "section",
+      "measure": "66",
+      "value": "Menuetto D.C"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Trio",
+    "explanation": "The middle section of this movement. Here it runs from [m. 42] to [m. 65]."
+   },
+   {
+    "term": "Theme",
+    "explanation": "A main tune that you can recognise when it comes back."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale of the music. Major keys sound brighter, minor keys darker."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All parts move together in the same rhythm, like a hymn."
+   },
+   {
+    "term": "Accent (sf)",
+    "explanation": "A sudden strong stress on a single note or chord."
+   },
+   {
+    "term": "D.C.",
+    "explanation": "A direction meaning go back to the beginning and play again."
+   },
+   {
+    "term": "Texture",
+    "explanation": "How the parts fit together, for example a tune with accompaniment or several independent lines."
+   }
+  ]
+ },
+ "facts_fingerprint": "af7119ce8fac",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 5,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

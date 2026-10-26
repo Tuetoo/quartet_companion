@@ -1,0 +1,595 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 78,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 78,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4182,
+   "cache_read": 0,
+   "cache_write": 9450
+  }
+ ],
+ "guide": {
+  "title": "Handel–Halvorsen: Passacaglia for Violin and Viola – Listening Guide",
+  "overview": "This is a passacaglia: a short four-measure theme followed by 22 variations, each also four measures long. Early variations stay close to the theme; later ones move far from it. The mood moves from loud and bold to quiet and thoughtful, then to a big, loud finish. Keys and chords here are estimated by computer. The score came from optical recognition and may contain errors, so trust the big picture more than small details.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Theme"
+   },
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "G minor"
+   },
+   {
+    "type": "climax",
+    "measure": "90",
+    "value": "Variation 22"
+   },
+   {
+    "type": "section",
+    "measure": "89",
+    "value": "Variation 22"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "The theme: violin states the pattern boldly",
+    "text": "The violin plays the theme loudly on top, and the viola accompanies below [m. 1-4]. The tune begins by circling around one high note. Learn it. Every variation keeps its four-measure length, and the early ones stay closer to it than the later ones. The key is G minor, which is a darker, serious key.",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Theme"
+     },
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Violin"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "G minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "8",
+    "headline": "Variation 1: both instruments, still loud",
+    "text": "The two players now share the material as a duet [m. 5-8]. The violin still carries much of the tune. The volume stays loud, then eases off at the end [m. 8].",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "5",
+      "value": "Variation 1"
+     },
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "duet"
+     },
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "9",
+    "end_measure": "16",
+    "headline": "Variations 2–3: softer and more flowing",
+    "text": "The sound drops to a medium-soft level [m. 9-16]. The violin probably leads in Variation 2. In Variation 3 the lead is shared between both players. Listen for swelling and fading within phrases.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "9",
+      "value": "Variation 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "mp"
+     },
+     {
+      "type": "section",
+      "measure": "13",
+      "value": "Variation 3"
+     },
+     {
+      "type": "dynamic",
+      "measure": "13",
+      "value": "mp"
+     },
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "17",
+    "end_measure": "24",
+    "headline": "Variations 4–5: the lead passes to the viola",
+    "text": "Variation 4 starts soft, then gets loud at its end [m. 17-20]. The viola probably takes the lead around [m. 19-22]. Then the violin probably takes over again. Listen for the darker viola voice coming forward.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "17",
+      "value": "Variation 4"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "20",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "19",
+      "value": "Viola"
+     },
+     {
+      "type": "section",
+      "measure": "21",
+      "value": "Variation 5"
+     },
+     {
+      "type": "lead",
+      "measure": "23",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "25",
+    "end_measure": "36",
+    "headline": "Variations 6–8: busier, quiet playing",
+    "text": "Each bar holds more and more notes, but the volume mostly stays soft [m. 25-36]. The violin mostly seems to lead, though this is less certain in Variation 8. Small swells and sudden accents add drama. It feels like a restless, whispering stretch.",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "25",
+      "value": "Variation 6"
+     },
+     {
+      "type": "section",
+      "measure": "29",
+      "value": "Variation 7"
+     },
+     {
+      "type": "dynamic",
+      "measure": "29",
+      "value": "p"
+     },
+     {
+      "type": "section",
+      "measure": "33",
+      "value": "Variation 8"
+     },
+     {
+      "type": "dynamic",
+      "measure": "33",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "29",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "37",
+    "end_measure": "44",
+    "headline": "Variations 9–10: the players move together",
+    "text": "Here both players often move in the same rhythm, like a hymn [m. 37-43]. This is called homophonic texture. It sounds chordal and warm. The level is soft and then grows to medium loud at [m. 44].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "37",
+      "value": "Variation 9"
+     },
+     {
+      "type": "texture",
+      "measure": "37",
+      "value": "homophonic"
+     },
+     {
+      "type": "section",
+      "measure": "41",
+      "value": "Variation 10"
+     },
+     {
+      "type": "texture",
+      "measure": "41",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "44",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "52",
+    "headline": "Variations 11–12: a hush, with a clearer violin tune",
+    "text": "Variation 11 is a more tangled duet, and neither part clearly leads [m. 45-48]. Then Variation 12 settles into a soft violin melody [m. 49-52]. The violin is easier to follow here.",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "45",
+      "value": "Variation 11"
+     },
+     {
+      "type": "texture",
+      "measure": "45",
+      "value": "duet"
+     },
+     {
+      "type": "section",
+      "measure": "49",
+      "value": "Variation 12"
+     },
+     {
+      "type": "dynamic",
+      "measure": "49",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "49",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "53",
+    "end_measure": "56",
+    "headline": "Variation 13: a strong, loud burst",
+    "text": "The music jumps to loud [m. 53-55]. The players sometimes move together in chords and sometimes play separate lines. Then it eases to medium loud at [m. 56].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "53",
+      "value": "Variation 13"
+     },
+     {
+      "type": "dynamic",
+      "measure": "53",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "53",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "56",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "57",
+    "end_measure": "64",
+    "headline": "Variations 14–15: the viola probably leads, then a sudden hush",
+    "text": "The viola probably leads here, though this is uncertain [m. 57-62]. The sound drops suddenly from medium loud to very soft at [m. 60] and stays very soft until [m. 63]. Listen for the hush.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "57",
+      "value": "Variation 14"
+     },
+     {
+      "type": "lead",
+      "measure": "57",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "60",
+      "value": "pp"
+     },
+     {
+      "type": "section",
+      "measure": "61",
+      "value": "Variation 15"
+     },
+     {
+      "type": "dynamic",
+      "measure": "61",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "65",
+    "end_measure": "72",
+    "headline": "Variations 16–17: thinning out, soft",
+    "text": "The lead is shared, then the violin comes forward [m. 65-72]. The music gets sparser. By [m. 72] the violin is alone. Briefly the key moves to A minor, which sounds slightly unsettled [m. 71-72].",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "65",
+      "value": "Variation 16"
+     },
+     {
+      "type": "section",
+      "measure": "69",
+      "value": "Variation 17"
+     },
+     {
+      "type": "lead",
+      "measure": "68",
+      "value": "Violin"
+     },
+     {
+      "type": "key",
+      "measure": "71",
+      "value": "A minor"
+     },
+     {
+      "type": "texture",
+      "measure": "72",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "69",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "73",
+    "end_measure": "76",
+    "headline": "Variation 18: a quiet return, led by the viola",
+    "text": "The score shows two silent measures here [m. 73-74], though this may be a recognition error. The viola then enters alone [m. 75]. The violin joins and the key returns to G minor [m. 75-76].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "73",
+      "value": "Variation 18"
+     },
+     {
+      "type": "texture",
+      "measure": "73",
+      "value": "tacet"
+     },
+     {
+      "type": "texture",
+      "measure": "75",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "75",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "75",
+      "value": "G minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "77",
+    "end_measure": "80",
+    "headline": "Variation 19: bright major keys, then a loud jump",
+    "text": "The mood brightens in G major, a sunnier version of the home key [m. 77-78]. Then the key moves to F major, and the volume leaps to very loud [m. 79-80]. The violin leads.",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "77",
+      "value": "Variation 19"
+     },
+     {
+      "type": "key",
+      "measure": "77",
+      "value": "G major"
+     },
+     {
+      "type": "modulation",
+      "measure": "79",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "79",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "79",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "81",
+    "end_measure": "88",
+    "headline": "Variations 20–21: loud, with shifting keys",
+    "text": "The music stays very loud while the key moves around [m. 81-88]. It goes to D minor, which is darker [m. 83-84]. Then it goes to D major, which is brighter [m. 85-87]. The violin leads. The score shows [m. 88] as silent, which may be a recognition error.",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "81",
+      "value": "Variation 20"
+     },
+     {
+      "type": "key",
+      "measure": "83",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "85",
+      "value": "D major"
+     },
+     {
+      "type": "section",
+      "measure": "85",
+      "value": "Variation 21"
+     },
+     {
+      "type": "dynamic",
+      "measure": "81",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "88",
+      "value": "tacet"
+     },
+     {
+      "type": "lead",
+      "measure": "85",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "89",
+    "end_measure": "93",
+    "headline": "Variation 22: the loudest point and the ending",
+    "text": "The violin starts alone in G minor, back home [m. 89]. The two players then reach fff, extremely loud, which the computer estimates as the loudest point [m. 90]. The extremely loud playing continues through the last bars [m. 91-93]. The piece ends on a single violin line.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "89",
+      "value": "Variation 22"
+     },
+     {
+      "type": "key",
+      "measure": "89",
+      "value": "G minor"
+     },
+     {
+      "type": "climax",
+      "measure": "90",
+      "value": "Variation 22"
+     },
+     {
+      "type": "dynamic",
+      "measure": "90",
+      "value": "fff"
+     },
+     {
+      "type": "texture",
+      "measure": "93",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "93",
+      "value": "G minor"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Passacaglia",
+    "explanation": "A set of variations on a short theme; each variation keeps the theme's length but changes the music."
+   },
+   {
+    "term": "Variation",
+    "explanation": "A new version of the same material. Here each one lasts four measures."
+   },
+   {
+    "term": "Measure",
+    "explanation": "One small unit of musical time, marked off by bar lines. It is also called a bar."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and mood of the music. Minor keys sound darker. Major keys sound brighter."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "Both players move together in the same rhythm, like chords."
+   },
+   {
+    "term": "Duet",
+    "explanation": "Both instruments play active, interwoven lines."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A part or the whole ensemble is silent."
+   },
+   {
+    "term": "Dynamics (pp, p, mp, mf, f, ff, fff)",
+    "explanation": "Loudness levels, from very soft (pp) through very loud (ff) to extremely loud (fff)."
+   }
+  ]
+ },
+ "facts_fingerprint": "260cd6fa6d26",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 14,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 4,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

@@ -1,0 +1,603 @@
+{
+ "language": "zh",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 76,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 76,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 84,
+   "output": 4317,
+   "cache_read": 18166,
+   "cache_write": 0
+  },
+  {
+   "input": 7765,
+   "output": 6501,
+   "cache_read": 18166,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "门德尔松：第二弦乐四重奏，Op.13 – 第一乐章 Adagio 听赏指南",
+  "overview": "本乐章为四件弦乐器而作，拍号为 3/4，共 252 小节，主调为 A 小调。乐章分为三大段：开头的慢速部分、快速的 Allegro vivace，以及回到原速的 a tempo 段。请留意段落的转换、调性的变化，以及力度的强弱起伏。注意：调性与和弦为自动估计，可能有误。主奏声部也是估算，置信度低时只能视为大致判断。",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "19",
+    "value": "Section 2 (Allegro vivace)"
+   },
+   {
+    "type": "section",
+    "measure": "141",
+    "value": "Section 3 (a tempo)"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "4",
+    "headline": "第一小提琴唱出开头的旋律",
+    "text": "乐章以 A 大调开始，第一小提琴带来开头的旋律。[m. 0-2] 其他声部与它一起和声式地行进。[m. 2] 力度转为弱。[m. 3] 旋律在上方，其他声部伴奏。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "A major"
+     },
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "mf"
+     },
+     {
+      "type": "texture",
+      "measure": "3",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "2",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "10",
+    "headline": "转入升 F 小调，声音变得很弱",
+    "text": "[m. 5-10] 调性转为升 F 小调，色彩比开头更暗。[m. 6] 力度降到很弱。[m. 7] 有渐强标记，[m. 9] 又有渐弱标记。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "5",
+      "value": "F# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "6",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "7",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "11",
+    "end_measure": "13",
+    "headline": "回到 A 大调，力度升到强",
+    "text": "[m. 11-13] 音乐回到明亮的 A 大调。[m. 12] 力度达到强，并带有渐强标记。随后 [m. 13] 回落到中强。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "11",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "13",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "14",
+    "end_measure": "18",
+    "headline": "E 大调：各声部各唱各的",
+    "text": "[m. 14-18] 调性转到 E 大调。几个声部走各自独立的线条。[m. 17] 出现齐奏或八度重合，力度很弱。[m. 18] 带有渐强标记，引向下一段。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "14",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "14",
+      "value": "independent lines"
+     },
+     {
+      "type": "texture",
+      "measure": "17",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "18",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "19",
+    "end_measure": "22",
+    "headline": "进入 Allegro vivace，转入 A 小调",
+    "text": "[m. 19] 快速的 Allegro vivace 开始。[m. 20] 出现三重奏式的织体。[m. 22] 调性转为 A 小调，力度为强。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "19",
+      "value": "Section 2 (Allegro vivace)"
+     },
+     {
+      "type": "texture",
+      "measure": "20",
+      "value": "trio"
+     },
+     {
+      "type": "key",
+      "measure": "22",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "22",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "23",
+    "end_measure": "30",
+    "headline": "旋律在各声部间传递",
+    "text": "[m. 23] 第一小提琴带着旋律，其他声部伴奏。[m. 24-25] 旋律依次交给中提琴和第二小提琴。[m. 26] 大提琴大概接过旋律，但把握不大。[m. 27-30] 第一小提琴再度领奏，力度转弱。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "23",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "23",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "24",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "25",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "26",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "27",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "27",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "44",
+    "end_measure": "53",
+    "headline": "E 小调，力度升到很强",
+    "text": "[m. 44] 音乐转入 E 小调，并持续很久。[m. 45] 力度变强。[m. 52] 达到很强（ff）。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "44",
+      "value": "E minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "45",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "52",
+      "value": "ff"
+     }
+    ]
+   },
+   {
+    "start_measure": "77",
+    "end_measure": "80",
+    "headline": "大提琴领奏",
+    "text": "[m. 77-80] 大提琴很可能是主奏，置信度较高。[m. 78] 为三重奏式织体。随后 [m. 79] 力度转弱。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "77",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "78",
+      "value": "trio"
+     },
+     {
+      "type": "dynamic",
+      "measure": "79",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "89",
+    "end_measure": "92",
+    "headline": "E 大调的安静时刻",
+    "text": "[m. 89] 调性转为 E 大调，力度转弱。[m. 91] 第一小提琴独奏，力度很弱。[m. 92] 带有渐强标记。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "89",
+      "value": "E major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "89",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "91",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "91",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "92",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "98",
+    "end_measure": "107",
+    "headline": "频繁转调，力度很强",
+    "text": "[m. 98] 力度达到很强。[m. 99] 转入 B 小调，[m. 102] 转入升 F 小调，[m. 105] 转入 D 大调。[m. 103] 回到强（f），[m. 107] 又到很强（ff）。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "98",
+      "value": "ff"
+     },
+     {
+      "type": "modulation",
+      "measure": "99",
+      "value": "B minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "102",
+      "value": "F# minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "105",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "107",
+      "value": "ff"
+     }
+    ]
+   },
+   {
+    "start_measure": "108",
+    "end_measure": "118",
+    "headline": "突然变得很弱，再慢慢聚力",
+    "text": "[m. 108] 转入 G 小调，力度突然降到很弱。[m. 111] 转到 A 小调，力度为弱。[m. 114-115] 渐强标记出现。[m. 118] 力度达到强。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "108",
+      "value": "G minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "108",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "111",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "114",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "118",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "137",
+    "end_measure": "141",
+    "headline": "安静下来，回到原速",
+    "text": "[m. 137] 力度降到很弱。[m. 141] 进入 a tempo 段，即回到原来的速度，力度仍很弱。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "137",
+      "value": "pp"
+     },
+     {
+      "type": "section",
+      "measure": "141",
+      "value": "Section 3 (a tempo)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "141",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "164",
+    "end_measure": "173",
+    "headline": "第三段的强音与转入 E 大调",
+    "text": "[m. 164-167] 第一小提琴领奏，力度很强。[m. 171] 调性转为 E 大调，力度转弱。[m. 172] 第一小提琴再度领奏。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "164",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "164",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "171",
+      "value": "E major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "171",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "172",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "196",
+    "end_measure": "199",
+    "headline": "本乐章最响点（电脑估计）",
+    "text": "电脑分析估计 [m. 197] 是本乐章最响、最忙的地方。[m. 196-197] 声部各走各的线条，力度很强。随后 [m. 198] 突然转弱。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "climax",
+      "measure": "197",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "197",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "198",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "208",
+    "end_measure": "223",
+    "headline": "连续转调，最后降到很弱",
+    "text": "[m. 208] 转入 B 小调，[m. 212] 转入 D 小调，[m. 221] 转入 F 大调。[m. 210] 与 [m. 213] 为独奏。[m. 218] 力度降到很弱。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "208",
+      "value": "B minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "212",
+      "value": "D minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "221",
+      "value": "F major"
+     },
+     {
+      "type": "texture",
+      "measure": "210",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "213",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "218",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "224",
+    "end_measure": "251",
+    "headline": "回到 A 小调，强力收束",
+    "text": "[m. 224] 回到 A 小调，并保持到结尾。[m. 238] 力度很强。[m. 248-250] 第一小提琴领奏，力度很强。[m. 251] 以主调织体结束。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "224",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "238",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "248",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "248",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "251",
+      "value": "homophonic"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "转调",
+    "explanation": "音乐的“中心音”换了，听起来色彩变亮或变暗。"
+   },
+   {
+    "term": "主调织体",
+    "explanation": "各声部节奏相近，一起像和弦般前进。"
+   },
+   {
+    "term": "独立线条",
+    "explanation": "几个声部各唱各的旋律。"
+   },
+   {
+    "term": "渐强/渐弱",
+    "explanation": "声音逐渐变响或变轻。"
+   },
+   {
+    "term": "a tempo",
+    "explanation": "回到原来的速度。"
+   },
+   {
+    "term": "齐奏",
+    "explanation": "几个声部以相同的音或八度同时演奏。"
+   }
+  ]
+ },
+ "facts_fingerprint": "73000e039867",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 6,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 4,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

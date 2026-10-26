@@ -1,0 +1,653 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 87,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 87,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4602,
+   "cache_read": 0,
+   "cache_write": 9651
+  },
+  {
+   "input": 5159,
+   "output": 5988,
+   "cache_read": 9651,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Debussy: String Quartet, Op.10 – III. Andantino doucement expressif",
+  "overview": "This is a slow movement in five sections, with 123 measures in 6/8. Its home key is Db major. The keys and chords here are estimated by computer, so some labels may be off. The score is reliable, but small details may still be imprecise. Listen for the soft opening, the long viola passage in the second section, and the loud first-violin melody that starts around the end of the largo. Then listen for the very quiet ending.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "28",
+    "value": "Section 2 (new key signature)"
+   },
+   {
+    "type": "section",
+    "measure": "64",
+    "value": "Section 3 (largo)"
+   },
+   {
+    "type": "section",
+    "measure": "78",
+    "value": "Section 4 (adagio)"
+   },
+   {
+    "type": "section",
+    "measure": "107",
+    "value": "Section 5 (new key signature)"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "2",
+    "headline": "Second violin opens alone",
+    "text": "The second violin plays alone at the start [m. 1]. It is soft and then swells. In [m. 2] a second part joins in a duet, and the music gets very soft. The key is estimated as G# minor.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 2"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "cresc"
+     },
+     {
+      "type": "texture",
+      "measure": "2",
+      "value": "duet"
+     },
+     {
+      "type": "dynamic",
+      "measure": "2",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "G# minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "3",
+    "end_measure": "4",
+    "headline": "The viola takes over, then fades",
+    "text": "The viola plays alone in [m. 3-4]. The key is estimated to brighten to Db major. The sound fades gradually in [m. 4].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "3",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "3",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "3",
+      "value": "Db major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "4",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "11",
+    "headline": "First violin sings over a hushed accompaniment",
+    "text": "From [m. 5-11] the first violin probably has the tune, while the others accompany. It is very soft. Small swells appear in [m. 8] and [m. 11].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "6",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "8",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "11",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "14",
+    "end_measure": "20",
+    "headline": "Key shifts and shared lines",
+    "text": "The estimated key moves to Eb minor at [m. 14], then to B major at [m. 18]. The lead is unclear here, so the voices seem to share the music. The level rises from very soft to soft (p) at [m. 15]. The sound swells in [m. 20].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "14",
+      "value": "Eb minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "18",
+      "value": "B major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "15",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "20",
+      "value": "cresc"
+     },
+     {
+      "type": "texture",
+      "measure": "18",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "21",
+    "end_measure": "23",
+    "headline": "First peak of the movement",
+    "text": "The first violin leads with the others accompanying. The music swells to medium loud (mf) at [m. 21] and loud (f) at [m. 22]. A computer estimate marks [m. 23] as the loudest point. The key is estimated as Db major there.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "21",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "21",
+      "value": "mf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "22",
+      "value": "f"
+     },
+     {
+      "type": "climax",
+      "measure": "23",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "23",
+      "value": "Db major"
+     }
+    ]
+   },
+   {
+    "start_measure": "24",
+    "end_measure": "27",
+    "headline": "Calming down",
+    "text": "After a diminuendo marked at [m. 22], the sound is soft at [m. 24], then very soft at [m. 26]. The first violin has the tune in [m. 25-26]. The analysis labels measure 27 as silent (tacet), but this may be wrong.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "24",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "26",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "25",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "27",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "28",
+    "end_measure": "34",
+    "headline": "Viola solo opens the second section",
+    "text": "A new section begins with the viola playing alone for several bars [m. 28-31]. It is soft. The key moves to G major at [m. 30], then to F# major at [m. 33]. The sound gets extremely soft (ppp) at [m. 32].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "28",
+      "value": "Section 2 (new key signature)"
+     },
+     {
+      "type": "lead",
+      "measure": "28",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "28",
+      "value": "solo"
+     },
+     {
+      "type": "modulation",
+      "measure": "30",
+      "value": "G major"
+     },
+     {
+      "type": "modulation",
+      "measure": "33",
+      "value": "F# major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "ppp"
+     }
+    ]
+   },
+   {
+    "start_measure": "35",
+    "end_measure": "41",
+    "headline": "Octaves, then the viola returns",
+    "text": "At [m. 35] the parts play in unison or octaves, meaning the same notes at different heights. The viola then returns alone from [m. 36]. The key goes back to Db major at [m. 37]. The second violin probably leads in [m. 41].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "35",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "lead",
+      "measure": "36",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "36",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "37",
+      "value": "Db major"
+     },
+     {
+      "type": "lead",
+      "measure": "41",
+      "value": "Violin 2"
+     }
+    ]
+   },
+   {
+    "start_measure": "42",
+    "end_measure": "47",
+    "headline": "A soft duet",
+    "text": "Two parts play a duet in [m. 42-47]. It is soft. The key moves to B major at [m. 43]. It then moves to G# minor at [m. 47]. The lead is uncertain here.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "42",
+      "value": "duet"
+     },
+     {
+      "type": "modulation",
+      "measure": "43",
+      "value": "B major"
+     },
+     {
+      "type": "modulation",
+      "measure": "47",
+      "value": "G# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "42",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "48",
+    "end_measure": "62",
+    "headline": "A long, steady stretch in G# minor",
+    "text": "The key stays at G# minor for a long stretch. The texture is a tune with accompaniment, and the lead is shared. The cello may share the lead from about [m. 58]. The music stays soft (p), with swells at [m. 49] and [m. 56].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "48",
+      "value": "G# minor"
+     },
+     {
+      "type": "texture",
+      "measure": "48",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "58",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "49",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "56",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "64",
+    "end_measure": "75",
+    "headline": "Largo: slower, with swelling lines",
+    "text": "A new section marked largo begins at [m. 64]. The key goes through A minor at [m. 65], F major at [m. 70] and Db major at [m. 74]. Then it reaches G# minor at [m. 75]. The sound swells at several points, including [m. 64] and [m. 68]. The lead is shared.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "64",
+      "value": "Section 3 (largo)"
+     },
+     {
+      "type": "modulation",
+      "measure": "65",
+      "value": "A minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "70",
+      "value": "F major"
+     },
+     {
+      "type": "modulation",
+      "measure": "74",
+      "value": "Db major"
+     },
+     {
+      "type": "modulation",
+      "measure": "75",
+      "value": "G# minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "64",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "68",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "76",
+    "end_measure": "90",
+    "headline": "Loud first violin melody",
+    "text": "From [m. 76] the first violin sings loudly (f) over an accompaniment. The adagio section starts at [m. 78]. The level dips to medium loud (mf) at [m. 80], then returns to loud at [m. 83]. The key brightens to B major at [m. 86].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "76",
+      "value": "f"
+     },
+     {
+      "type": "section",
+      "measure": "78",
+      "value": "Section 4 (adagio)"
+     },
+     {
+      "type": "lead",
+      "measure": "76",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "80",
+      "value": "mf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "83",
+      "value": "f"
+     },
+     {
+      "type": "modulation",
+      "measure": "86",
+      "value": "B major"
+     }
+    ]
+   },
+   {
+    "start_measure": "91",
+    "end_measure": "94",
+    "headline": "A hush: cello alone",
+    "text": "After a diminuendo marked at [m. 89], the sound is soft at [m. 91]. The cello plays alone, and the key is estimated as Eb minor. The analysis labels measure 93 as silent (tacet), but this may be wrong. The cello returns very softly at [m. 94].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "91",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "91",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "91",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "91",
+      "value": "Eb minor"
+     },
+     {
+      "type": "texture",
+      "measure": "93",
+      "value": "tacet"
+     },
+     {
+      "type": "dynamic",
+      "measure": "93",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "95",
+    "end_measure": "106",
+    "headline": "Octaves, then cello solo again",
+    "text": "In [m. 96-98] the parts play in unison or octaves, with the first violin probably leading. The key is B major at [m. 96]. A homophonic bar, where the parts move together, follows at [m. 102]. Then the cello plays alone, very softly, in [m. 103-106].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "96",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "96",
+      "value": "B major"
+     },
+     {
+      "type": "texture",
+      "measure": "102",
+      "value": "homophonic"
+     },
+     {
+      "type": "lead",
+      "measure": "103",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "103",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "103",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "107",
+    "end_measure": "123",
+    "headline": "Quiet closing section ends in Db major",
+    "text": "The last section starts very softly in G# minor at [m. 107]. The key brightens to F# major at [m. 110]. It settles in Db major at [m. 116]. The sound swells in [m. 110]. The movement ends very softly, and the analysis labels the last bar [m. 123] as silent (tacet).",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "107",
+      "value": "Section 5 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "107",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "107",
+      "value": "G# minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "110",
+      "value": "F# major"
+     },
+     {
+      "type": "modulation",
+      "measure": "116",
+      "value": "Db major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "110",
+      "value": "cresc"
+     },
+     {
+      "type": "texture",
+      "measure": "123",
+      "value": "tacet"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Key",
+    "explanation": "The home note and scale the music seems to rest on. Major sounds brighter. Minor sounds darker."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "Several instruments play the same notes, at the same or different heights."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All parts move together in the same rhythm, like chords."
+   },
+   {
+    "term": "Solo",
+    "explanation": "One instrument plays alone."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A bar where an instrument, or all of them, are silent."
+   },
+   {
+    "term": "Swell (crescendo)",
+    "explanation": "A gradual rise in loudness. Its opposite is a gradual fade (diminuendo)."
+   },
+   {
+    "term": "ppp, pp, p, mf, f",
+    "explanation": "Loudness marks: extremely soft, very soft, soft, medium loud, loud."
+   }
+  ]
+ },
+ "facts_fingerprint": "e1c3abe94946",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 11,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

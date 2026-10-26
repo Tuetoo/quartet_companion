@@ -1,0 +1,16 @@
+{
+ "id": "borodin2_3",
+ "title": "Borodin: String Quartet No.2 – III. Notturno Andante",
+ "composer": "Alexander Borodin",
+ "score": {
+  "type": "file",
+  "path": "pieces/borodin2_3/score.musicxml",
+  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/10675759",
+  "openscore_id": "10675759"
+ },
+ "audio": {
+  "path": "incoming/IMSLP247089-PMLP19373-String_Quartet_No._2_in_D_Major_-_III._Nocturne_Andante.mp3",
+  "credit": "Musopen, 2012 (IMSLP, CC BY 3.0)",
+  "license": "CC BY 3.0"
+ }
+}

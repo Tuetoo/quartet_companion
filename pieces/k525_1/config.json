@@ -1,0 +1,24 @@
+{
+ "id": "k525_1",
+ "title": "Mozart: Eine kleine Nachtmusik, K. 525 – I. Allegro",
+ "composer": "W. A. Mozart",
+ "score": {
+  "type": "file",
+  "path": "pieces/k525_1/score.mxl",
+  "original": "incoming/omr/k525.mvt1.mxl (OMR of IMSLP #914586, Breitkopf & Härtel 1883)"
+ },
+ "audio": {
+  "path": "incoming/IMSLP324337-PMLP05176-mozart_kv525_afarcry.mp3",
+  "credit": "A Far Cry, IMSLP #324337 (CC BY-NC-ND 4.0)",
+  "start_sec": 0.0,
+  "end_sec": 346.3,
+  "open_sec": 30.0,
+  "license": "CC BY-NC-ND 4.0"
+ },
+ "parts": [
+  "Violin 1",
+  "Violin 2",
+  "Viola",
+  "Cello"
+ ]
+}

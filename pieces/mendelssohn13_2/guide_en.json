@@ -1,0 +1,564 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 70,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 70,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4051,
+   "cache_read": 0,
+   "cache_write": 9956
+  },
+  {
+   "input": 4595,
+   "output": 5250,
+   "cache_read": 9956,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Mendelssohn: String Quartet No.2, Op.13 – II. Adagio non lento",
+  "overview": "This is a slow movement for two violins, viola and cello. Its home key is F major. It starts there and spends much of its time in minor keys, which gives it a darker colour. Listen for the first violin's opening melody, the moments where the viola or second violin steps forward, and the big build-up around [m. 78-89]. Keys and chords here are estimated by computer, so some labels may be off. The \"lead\" part is also a guess, and it is often shared.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "F major"
+   },
+   {
+    "type": "climax",
+    "measure": "89",
+    "value": "ff"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "5",
+    "headline": "The opening melody in the first violin",
+    "text": "Violin 1 leads at the start, and the others accompany it [m. 1-2]. The level is mf. The key is F major. Small swells and fades are marked in [m. 1-4]. Then the music turns suddenly loud (f) at [m. 5].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "mf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "6",
+    "end_measure": "12",
+    "headline": "Suddenly soft, then moving through new keys",
+    "text": "At [m. 6] the music drops suddenly to pp. The key is estimated as C major. A crescendo (getting louder) is marked at [m. 10-11]. Then the key turns to G minor at [m. 11-12].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "6",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "6",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "10",
+      "value": "cresc"
+     },
+     {
+      "type": "modulation",
+      "measure": "11",
+      "value": "G minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "13",
+    "end_measure": "19",
+    "headline": "Back in F major, with a loud peak and a hush",
+    "text": "F major returns at [m. 13] and the music is soft. It reaches f at [m. 16]. Then it drops to pp at [m. 17], and the soft level continues to [m. 19].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "13",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "16",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "20",
+    "end_measure": "21",
+    "headline": "The viola plays alone",
+    "text": "The viola plays alone here. The level is p.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "20",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "20",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "20",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "22",
+    "end_measure": "24",
+    "headline": "A duet, then a trio, in D minor",
+    "text": "The key darkens to D minor at [m. 22]. Violin 2 probably leads a duet [m. 22-23]. A trio of three parts follows at [m. 24].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "22",
+      "value": "D minor"
+     },
+     {
+      "type": "texture",
+      "measure": "22",
+      "value": "duet"
+     },
+     {
+      "type": "lead",
+      "measure": "22",
+      "value": "Violin 2"
+     },
+     {
+      "type": "texture",
+      "measure": "24",
+      "value": "trio"
+     }
+    ]
+   },
+   {
+    "start_measure": "25",
+    "end_measure": "33",
+    "headline": "A brighter D major, with interwoven lines",
+    "text": "D major arrives at [m. 25] and brightens the mood. For several bars the parts move independently, so there is no single clear tune. The lead is shared and uncertain. F major returns at [m. 29].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "25",
+      "value": "D major"
+     },
+     {
+      "type": "texture",
+      "measure": "26",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "29",
+      "value": "F major"
+     }
+    ]
+   },
+   {
+    "start_measure": "34",
+    "end_measure": "45",
+    "headline": "Rising tension through E minor and A minor",
+    "text": "The key moves to D minor [m. 34], then E minor [m. 38], then A minor [m. 44]. A crescendo is marked in [m. 40-42]. The level reaches f at [m. 43] and stays there to the end of this part.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "34",
+      "value": "D minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "38",
+      "value": "E minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "40",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "43",
+      "value": "f"
+     },
+     {
+      "type": "modulation",
+      "measure": "44",
+      "value": "A minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "46",
+    "end_measure": "52",
+    "headline": "A new section, softer",
+    "text": "A new section begins at [m. 46] with a new time signature. The level is back to p. Violin 1 leads over the others. It briefly reaches f at [m. 50]. At [m. 51] the key moves to D minor and the level drops to pp.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "46",
+      "value": "Section 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "46",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "47",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "50",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "51",
+      "value": "D minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "53",
+    "end_measure": "60",
+    "headline": "Soft shifts through G major and G minor",
+    "text": "Another new section starts at [m. 53]. The key briefly brightens to G major [m. 55-58]. Then it turns to G minor at [m. 59]. Violin 2 probably leads for a short time here, but this is uncertain.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "53",
+      "value": "Section 3"
+     },
+     {
+      "type": "key",
+      "measure": "55",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "57",
+      "value": "Violin 2"
+     },
+     {
+      "type": "modulation",
+      "measure": "59",
+      "value": "G minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "61",
+    "end_measure": "69",
+    "headline": "Louder: f and a move to C minor",
+    "text": "The level jumps to f at [m. 61] and a crescendo is marked. The music stays loud. The key moves to C minor at [m. 64]. The parts mostly move independently, so the lead is shared and uncertain.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "61",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "61",
+      "value": "cresc"
+     },
+     {
+      "type": "modulation",
+      "measure": "64",
+      "value": "C minor"
+     },
+     {
+      "type": "texture",
+      "measure": "64",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "70",
+    "end_measure": "88",
+    "headline": "A long build in D minor towards ff",
+    "text": "D minor takes over at [m. 70] and lasts until [m. 91]. The level is f and then reaches ff at [m. 78]. It dips to f at [m. 84]. It returns to ff at [m. 86].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "70",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "70",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "78",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "84",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "86",
+      "value": "ff"
+     }
+    ]
+   },
+   {
+    "start_measure": "89",
+    "end_measure": "92",
+    "headline": "The estimated loudest point, then a quiet solo",
+    "text": "A new section begins at [m. 89]. A computer estimate marks this as the loudest and busiest point, at ff. A diminuendo (getting softer) is marked at [m. 91]. Violin 1 plays alone in [m. 91-92]. The key brightens to F major at [m. 92], and the level is p.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "89",
+      "value": "Section 4"
+     },
+     {
+      "type": "climax",
+      "measure": "89",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "91",
+      "value": "dim"
+     },
+     {
+      "type": "texture",
+      "measure": "91",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "92",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "92",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "93",
+    "end_measure": "101",
+    "headline": "A final section in F major",
+    "text": "A final section starts at [m. 93] in F major at p. Violin 1 probably leads, with the others accompanying. The level reaches f at [m. 97]. Then the music drops to pp in C major at [m. 98].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "93",
+      "value": "Section 5"
+     },
+     {
+      "type": "key",
+      "measure": "93",
+      "value": "F major"
+     },
+     {
+      "type": "lead",
+      "measure": "93",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "97",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "98",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "98",
+      "value": "C major"
+     }
+    ]
+   },
+   {
+    "start_measure": "102",
+    "end_measure": "113",
+    "headline": "Viola steps forward, then a loud D minor jolt",
+    "text": "The music passes through G minor [m. 102], F major [m. 105] and C major [m. 107]. At [m. 110-111] the viola probably takes the lead at pp. At [m. 113] the level jumps to f in D minor.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "102",
+      "value": "G minor"
+     },
+     {
+      "type": "key",
+      "measure": "107",
+      "value": "C major"
+     },
+     {
+      "type": "lead",
+      "measure": "110",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "110",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "112",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "113",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "114",
+    "end_measure": "125",
+    "headline": "Settling in F major and fading away",
+    "text": "F major returns at [m. 114] and stays to the end. The level eases to p at [m. 116]. The last bar [m. 125] is marked pp. The computer labels its texture tacet (silent), but chords are still detected there, so that label may be a reading error.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "114",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "116",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "125",
+      "value": "tacet"
+     },
+     {
+      "type": "dynamic",
+      "measure": "125",
+      "value": "pp"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Key",
+    "explanation": "The home note and scale a passage is built around. Major keys sound brighter. Minor keys sound darker."
+   },
+   {
+    "term": "Modulation",
+    "explanation": "A move from one key to another."
+   },
+   {
+    "term": "Crescendo",
+    "explanation": "Getting gradually louder."
+   },
+   {
+    "term": "Diminuendo",
+    "explanation": "Getting gradually softer."
+   },
+   {
+    "term": "Texture",
+    "explanation": "How the parts fit together, for example one tune with accompaniment, or several independent lines."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A part or measure where the players are silent."
+   }
+  ]
+ },
+ "facts_fingerprint": "ba83d17fb57a",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 4,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

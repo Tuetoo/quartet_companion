@@ -1,0 +1,572 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 72,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 72,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 3905,
+   "cache_read": 0,
+   "cache_write": 12369
+  },
+  {
+   "input": 4459,
+   "output": 4857,
+   "cache_read": 12369,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Haydn: String Quartet Op. 76 No. 3 – IV. Finale (Presto)",
+  "overview": "This fast finale starts in the dark key of C minor. It ends in bright C major. Listen for the opening tune, which comes back in the middle of the second part. Listen also for the shift to a new section near the end. Keys and chords here are estimated by computer, so small details may be off.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "C minor"
+   },
+   {
+    "type": "key",
+    "measure": "159",
+    "value": "C major"
+   },
+   {
+    "type": "section",
+    "measure": "151",
+    "value": "Section 3 (new key signature)"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "The opening tune in C minor",
+    "text": "The first violin plays the main tune [m. 1-4]. All the instruments move together in block chords. This is called homophonic texture. It starts loud, then drops to soft [m. 2].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "C minor"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "2",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "17",
+    "headline": "Loud and soft contrasts, with a brief visit to F minor",
+    "text": "The first violin mostly sings over an accompaniment, and the cello briefly takes the tune [m. 13]. The music flips between loud and soft. It touches F minor for a moment [m. 8-9]. It returns to C minor and turns loud at [m. 12].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "6",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "8",
+      "value": "F minor"
+     },
+     {
+      "type": "key",
+      "measure": "10",
+      "value": "C minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "18",
+    "end_measure": "27",
+    "headline": "Key changes brighten and darken the mood",
+    "text": "The music turns to G major, where the viola probably leads [m. 18-19]. Then it moves through G minor, E-flat major and F minor. The sound stays loud. A sharp accent marked fz lands in F minor [m. 26].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "18",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "18",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "21",
+      "value": "G minor"
+     },
+     {
+      "type": "key",
+      "measure": "23",
+      "value": "Eb major"
+     },
+     {
+      "type": "key",
+      "measure": "25",
+      "value": "F minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "26",
+      "value": "fz"
+     }
+    ]
+   },
+   {
+    "start_measure": "28",
+    "end_measure": "37",
+    "headline": "A quiet, lighter patch in B-flat major",
+    "text": "The volume drops to soft [m. 28]. The key is B-flat major, which sounds gentler. The first violin probably keeps the tune. Instruments weave separate lines in the later bars [m. 33-36].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "28",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "28",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "28",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "33",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "38",
+    "end_measure": "57",
+    "headline": "Settling in E-flat major, then turning loud",
+    "text": "The music rests in E-flat major for a long stretch. It is soft at first. It turns loud at [m. 46], with the first violin clearly in front. The computer estimates the busiest point of Part 1 at [m. 56]. It is marked f, like the bars around it.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "38",
+      "value": "Eb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "38",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "46",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "46",
+      "value": "Violin 1"
+     },
+     {
+      "type": "climax",
+      "measure": "56",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "58",
+    "end_measure": "72b",
+    "headline": "Tune passed around, then soft and loud endings to Part 1",
+    "text": "The second violin and first violin trade the lead in short bits [m. 58-61]. The cello takes over briefly [m. 62-63]. The music gets soft at [m. 68] and stays soft through [m. 71a]. The bar labelled [m. 72b] is loud. Part 1 is repeated.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Part 1"
+     },
+     {
+      "type": "lead",
+      "measure": "58",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "62",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "68",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "72b",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "73",
+    "end_measure": "86",
+    "headline": "Part 2 begins loud and moves through new keys",
+    "text": "Part 2 starts loud [m. 73]. It reaches a soft B-flat major passage [m. 79]. Then it jumps to loud again with a return to E-flat major [m. 83-84]. From [m. 84] the second violin probably leads, but the lead is unclear.",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "73",
+      "value": "Part 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "73",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "79",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "79",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "83",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "84",
+      "value": "Eb major"
+     },
+     {
+      "type": "lead",
+      "measure": "84",
+      "value": "Violin 2"
+     }
+    ]
+   },
+   {
+    "start_measure": "87",
+    "end_measure": "109",
+    "headline": "Wandering through A-flat major and back",
+    "text": "The music moves to A-flat major [m. 87]. It briefly dips into C minor [m. 92]. It returns to E-flat and A-flat [m. 94-97]. Lead passes quickly between the two violins [m. 98-103]. Accents (fz) mark B-flat major [m. 107-109].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "87",
+      "value": "Ab major"
+     },
+     {
+      "type": "key",
+      "measure": "92",
+      "value": "C minor"
+     },
+     {
+      "type": "key",
+      "measure": "97",
+      "value": "Ab major"
+     },
+     {
+      "type": "key",
+      "measure": "107",
+      "value": "Bb major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "107",
+      "value": "fz"
+     }
+    ]
+   },
+   {
+    "start_measure": "110",
+    "end_measure": "118",
+    "headline": "Back to C minor, still loud",
+    "text": "The key returns to C minor [m. 110]. It stays loud, with the first violin mostly in front, right up to the return of the opening tune.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "110",
+      "value": "C minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "110",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "111",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "119",
+    "end_measure": "122",
+    "headline": "The opening tune returns",
+    "text": "Here is the moment to catch. The first violin plays the main tune again, in C minor, exactly as at the start [m. 119-122]. It drops to soft at [m. 120].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "119",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "119",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "119",
+      "value": "C minor"
+     },
+     {
+      "type": "texture",
+      "measure": "119",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "120",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "123",
+    "end_measure": "139",
+    "headline": "The opening pattern again, then the quietest point",
+    "text": "The music follows the earlier pattern, then moves to F minor [m. 126]. Single lines appear alone [m. 130, 133]. At [m. 133] it reaches pp in D-flat major, the softest spot. A loud burst follows at [m. 137].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "126",
+      "value": "F minor"
+     },
+     {
+      "type": "texture",
+      "measure": "130",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "133",
+      "value": "Db major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "133",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "137",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "140",
+    "end_measure": "150",
+    "headline": "Dark keys, then G major",
+    "text": "The music slides through E-flat minor [m. 140], then C minor [m. 144]. Three instruments play together at [m. 146-147]. It then lands on G major [m. 148], which sets up the final section.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "140",
+      "value": "Eb minor"
+     },
+     {
+      "type": "key",
+      "measure": "144",
+      "value": "C minor"
+     },
+     {
+      "type": "texture",
+      "measure": "146",
+      "value": "trio"
+     },
+     {
+      "type": "key",
+      "measure": "148",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "151",
+    "end_measure": "158",
+    "headline": "A new final section begins quietly",
+    "text": "A new section begins with a new key signature [m. 151]. It starts soft. The first violin probably leads. The music passes through D minor [m. 154] and gets loud at [m. 157].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "151",
+      "value": "Section 3 (new key signature)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "151",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "154",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "157",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "159",
+    "end_measure": "188",
+    "headline": "Bright C major to the end",
+    "text": "The key turns to C major [m. 159]. The mood is now bright and happy. It stays loud. The lead seems to move between Violin 1, Violin 2 and the cello, and it is often unclear. The last bars are block chords [m. 186-188].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "159",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "159",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "182",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "186",
+      "value": "homophonic"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Homophonic",
+    "explanation": "All instruments move together in the same rhythm, like block chords."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One instrument has the tune. The others support it."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale of the music. Minor keys sound darker. Major keys sound brighter."
+   },
+   {
+    "term": "Key signature",
+    "explanation": "The sharps or flats written at the start of a line. It shows the key. A new one marks a change of key."
+   },
+   {
+    "term": "fz",
+    "explanation": "A sudden strong accent on one note or chord."
+   },
+   {
+    "term": "pp",
+    "explanation": "Very soft."
+   },
+   {
+    "term": "Theme",
+    "explanation": "The main tune that you can recognize when it comes back."
+   }
+  ]
+ },
+ "facts_fingerprint": "e86279a7f0a2",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 10,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

@@ -1,0 +1,567 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 70,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 70,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4022,
+   "cache_read": 0,
+   "cache_write": 8115
+  },
+  {
+   "input": 4502,
+   "output": 5216,
+   "cache_read": 8115,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Mozart: String Quartet No.19, K.465 – II. Andante cantabile",
+  "overview": "This is a slow, singing movement in 3/4 time. It is one long section of 114 measures that starts and ends in F major. Keys and chords here are estimated by computer, so treat them as a guide. Listen for the first violin's opening tune, for keys that brighten or darken the mood, and for the very soft passages led by the cello.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "F major"
+   },
+   {
+    "type": "key",
+    "measure": "75",
+    "value": "F major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "3",
+    "headline": "The first violin opens the movement",
+    "text": "The first violin leads from the very first measure [m. 1-3]. It begins softly [m. 1]. The score then marks a sudden loud level (f) at [m. 2]. The home key is F major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "2",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "4",
+    "end_measure": "13",
+    "headline": "Soft and loud flicker within F major",
+    "text": "The music mostly stays soft here. Crescendo markings (gradual getting louder) appear at [m. 4], [m. 8] and [m. 9]. These crescendos lead to a loud level at [m. 10]. It drops suddenly back to soft at [m. 11]. The first violin probably leads, though the lead is not very clear.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "4",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "10",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "11",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "14",
+    "end_measure": "20",
+    "headline": "A move to C major",
+    "text": "The key changes to C major at [m. 14]. The texture is a melody with accompaniment. The first violin probably leads, but the lead is shared for a time.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "14",
+      "value": "C major"
+     },
+     {
+      "type": "key",
+      "measure": "14",
+      "value": "C major"
+     },
+     {
+      "type": "texture",
+      "measure": "14",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "21",
+    "end_measure": "25",
+    "headline": "G major, then a loud moment",
+    "text": "The key moves to G major at [m. 21]. A crescendo marked in [m. 20-21] leads to a loud level at [m. 22]. The first violin then clearly takes the tune at [m. 23-25], softly. The others accompany it.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "21",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "22",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "23",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "23",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "26",
+    "end_measure": "30",
+    "headline": "Very soft cello, back in C major",
+    "text": "The cello plays alone in [m. 26] at a very soft level. The key returns to C major. The other parts then join with their own lines [m. 27-29]. A crescendo marking appears at [m. 30].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "26",
+      "value": "C major"
+     },
+     {
+      "type": "texture",
+      "measure": "26",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "26",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "26",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "27",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "30",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "31",
+    "end_measure": "34",
+    "headline": "F major with block-like chords",
+    "text": "The key goes back to F major at [m. 31]. A loud chord is followed by a soft one at [m. 32]. The parts move together in chords, which is a homophonic texture.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "31",
+      "value": "F major"
+     },
+     {
+      "type": "texture",
+      "measure": "31",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "31",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "35",
+    "end_measure": "41",
+    "headline": "Back to C major, lines weave together",
+    "text": "The key is C major again from [m. 35]. The texture is melody with accompaniment at first [m. 35-38]. Then the parts take more independent lines [m. 39-41], with a crescendo marking at [m. 40].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "35",
+      "value": "C major"
+     },
+     {
+      "type": "texture",
+      "measure": "35",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "texture",
+      "measure": "39",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "40",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "42",
+    "end_measure": "48",
+    "headline": "The home key returns with loud and soft contrasts",
+    "text": "F major returns at [m. 42]. Loud and soft alternate sharply at [m. 43-48]. A loud level appears at [m. 43] and soft at [m. 44]. Another loud level comes at [m. 46].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "42",
+      "value": "F major"
+     },
+     {
+      "type": "texture",
+      "measure": "45",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "43",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "44",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "46",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "49",
+    "end_measure": "59",
+    "headline": "The loudest point (a computer estimate)",
+    "text": "A computer estimate marks [m. 57] as the loudest and busiest point. It is loud and homophonic, meaning the parts move together. The music drops back to soft at [m. 58].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "climax",
+      "measure": "57",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "57",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "57",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "58",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "60",
+    "end_measure": "65",
+    "headline": "A darker turn to D minor",
+    "text": "The key shifts to D minor at [m. 60]. It starts with a loud chord, then goes soft at [m. 61]. A crescendo marking appears at [m. 64].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "60",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "60",
+      "value": "D minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "60",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "61",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "64",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "66",
+    "end_measure": "74",
+    "headline": "C major again, led by the first violin",
+    "text": "The key moves to C major at [m. 66]. A loud level appears at [m. 67]. The first violin clearly takes the tune at [m. 72-74], softly, with the others accompanying.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "66",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "67",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "72",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "72",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "75",
+    "end_measure": "78",
+    "headline": "The cello alone, very soft, in F major",
+    "text": "F major returns at [m. 75]. The cello plays alone at a very soft level. The other parts join with their own lines from [m. 76].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "75",
+      "value": "F major"
+     },
+     {
+      "type": "texture",
+      "measure": "75",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "75",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "75",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "76",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "79",
+    "end_measure": "93",
+    "headline": "Swells, a loud burst, and the cello in front",
+    "text": "A crescendo marking at [m. 79] leads to a loud level at [m. 80]. Then it is soft again. At [m. 83] there is an fp marking, a loud hit that quickly turns soft. The cello leads from [m. 85], very softly at first. From [m. 90] to [m. 93] it is loud.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "79",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "80",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "83",
+      "value": "fp"
+     },
+     {
+      "type": "lead",
+      "measure": "85",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "85",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "90",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "94",
+    "end_measure": "110",
+    "headline": "Soft first violin, then interwoven lines",
+    "text": "The first violin leads softly from [m. 94]. An sf accent (a sudden strong note) is marked at [m. 95]. A loud level appears at [m. 97]. From [m. 101] to [m. 110] the parts play independent lines. It stays mostly soft, with a crescendo marked at [m. 107].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "94",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "94",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "95",
+      "value": "sf"
+     },
+     {
+      "type": "dynamic",
+      "measure": "97",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "101",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "111",
+    "end_measure": "114",
+    "headline": "A hushed ending in F major",
+    "text": "The music settles into F major and a very soft level at [m. 113]. The cello leads there. The final measure is homophonic, with the parts moving together as chords [m. 114].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "113",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "113",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "113",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "114",
+      "value": "homophonic"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Crescendo (cresc)",
+    "explanation": "A marking to get gradually louder."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All parts move together in chords, with the tune on top."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each instrument plays its own line at the same time."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One part has the tune and the others support it."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that the music feels built around."
+   },
+   {
+    "term": "Modulation",
+    "explanation": "A change from one key to another."
+   },
+   {
+    "term": "fp",
+    "explanation": "Loud, then quickly soft."
+   },
+   {
+    "term": "sf",
+    "explanation": "A sudden, strongly accented note."
+   }
+  ]
+ },
+ "facts_fingerprint": "3d70312017e7",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 8,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

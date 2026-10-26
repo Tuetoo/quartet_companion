@@ -1,0 +1,502 @@
+{
+ "language": "zh",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 59,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 59,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 84,
+   "output": 3709,
+   "cache_read": 8264,
+   "cache_write": 0
+  },
+  {
+   "input": 8187,
+   "output": 5033,
+   "cache_read": 8264,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "海顿《皇帝》四重奏 第二乐章:主题与四个变奏",
+  "overview": "这是一个“主题与变奏”乐章:先听一段平静的主题,再听它连续换了四次“装扮”。主题和前三个变奏都约21小节,最后一个变奏稍长(25小节),所以很容易分辨。听的重点是:同一条旋律依次由第一小提琴、第二小提琴、大提琴、中提琴、再回到第一小提琴来演奏。本乐章基本都是弱(p),结尾更弱(pp)。注意:调性和和弦是程序自动估计的,可能有误。",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Theme"
+   },
+   {
+    "type": "section",
+    "measure": "20",
+    "value": "Var. I"
+   },
+   {
+    "type": "section",
+    "measure": "40",
+    "value": "Var. II"
+   },
+   {
+    "type": "section",
+    "measure": "60",
+    "value": "Var. III"
+   },
+   {
+    "type": "section",
+    "measure": "80",
+    "value": "Var. IV"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "G major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "5",
+    "headline": "第一小提琴唱出主题",
+    "text": "乐章以第一小提琴的主题开始 [m. 0-2]。其他三件乐器在下面托着和声。力度为弱(p)。这是之后要一直记住的旋律。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "6",
+    "end_measure": "19",
+    "headline": "主题中段:短暂转调,再回到G大调",
+    "text": "[m. 6-10] 音乐转到D大调(估计),色彩稍有变化。随后在 [m. 11] 回到G大调。后半段出现几处突然加重的音(fz)[m. 12-13, 16-17],每次之后马上回到弱(p)。许多小节里四件乐器同步行进,像合唱一样。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "6",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "6",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "11",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "12",
+      "value": "fz"
+     },
+     {
+      "type": "texture",
+      "measure": "12",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "20",
+    "end_measure": "31",
+    "headline": "变奏一:第二小提琴接过主题",
+    "text": "从 [m. 20] 起,主题交给第二小提琴,并在 [m. 24-26] 再次出现。第一小提琴与它配成两个声部的对话(二重奏)。这里“谁领奏”的判断把握不大,主题清楚地在第二小提琴里;只是软件不太确定两把小提琴哪一把听起来更突出。 [m. 26] 起转到D大调(估计)。",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "20",
+      "value": "Var. I"
+     },
+     {
+      "type": "theme",
+      "measure": "20",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "20",
+      "value": "Violin 2"
+     },
+     {
+      "type": "texture",
+      "measure": "20",
+      "value": "duet"
+     },
+     {
+      "type": "key",
+      "measure": "26",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "32",
+    "end_measure": "39",
+    "headline": "变奏一收尾:回到G大调",
+    "text": "[m. 32] 回到G大调(估计),并有突然加重的音(fz)。第二小提琴的主导地位在这里更清楚。整体依然轻柔,二重奏的织体不变。",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "32",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "32",
+      "value": "fz"
+     },
+     {
+      "type": "lead",
+      "measure": "32",
+      "value": "Violin 2"
+     },
+     {
+      "type": "texture",
+      "measure": "32",
+      "value": "duet"
+     }
+    ]
+   },
+   {
+    "start_measure": "40",
+    "end_measure": "52",
+    "headline": "变奏二:主题沉到大提琴",
+    "text": "主题来到最低的大提琴 [m. 40-42],比原来低一个八度。其他乐器各走各的线条,织体显得独立而交错。所以听这一段时,要有意识地去低音里找熟悉的旋律。领奏判断的把握较低,所以只是“大概”由大提琴带头。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "40",
+      "value": "Var. II"
+     },
+     {
+      "type": "theme",
+      "measure": "40",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "40",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "41",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "46",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "53",
+    "end_measure": "59",
+    "headline": "变奏二尾声:突强后归于平静",
+    "text": "[m. 53] 回到G大调(估计)。[m. 54] 和 [m. 58] 有突然加重的音(fz),带来一点小小的紧张。随后又回到平静,大提琴仍是最可能的带头者。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "53",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "54",
+      "value": "fz"
+     },
+     {
+      "type": "dynamic",
+      "measure": "58",
+      "value": "fz"
+     },
+     {
+      "type": "lead",
+      "measure": "55",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "60",
+    "end_measure": "66",
+    "headline": "变奏三:中提琴唱主题",
+    "text": "主题来到中提琴 [m. 60-62],并在 [m. 64-66] 再次出现。其他乐器围绕它织出几条线。这里的领奏判断较可信。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "60",
+      "value": "Var. III"
+     },
+     {
+      "type": "theme",
+      "measure": "60",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "60",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "60",
+      "value": "duet"
+     }
+    ]
+   },
+   {
+    "start_measure": "66",
+    "end_measure": "79",
+    "headline": "变奏三:D大调再回G大调",
+    "text": "[m. 66-72] 转到D大调(估计),[m. 73] 回到G大调。后面 [m. 74] 和 [m. 78] 有突然加重的音(fz)。[m. 73-79] 中提琴是最突出的声音;[m. 66-68] 一带领奏不太确定。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "66",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "73",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "74",
+      "value": "fz"
+     },
+     {
+      "type": "dynamic",
+      "measure": "78",
+      "value": "fz"
+     },
+     {
+      "type": "lead",
+      "measure": "75",
+      "value": "Viola"
+     }
+    ]
+   },
+   {
+    "start_measure": "80",
+    "end_measure": "86",
+    "headline": "变奏四:第一小提琴带着主题回归",
+    "text": "主题回到第一小提琴 [m. 80-82],这是乐章开头的音色。到 [m. 84-86],第一小提琴又升高一个八度重复主题。下面的三件乐器退为伴奏,像开头那样“旋律加伴奏”。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "80",
+      "value": "Var. IV"
+     },
+     {
+      "type": "theme",
+      "measure": "80",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "80",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "80",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "theme",
+      "measure": "84",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "87",
+    "end_measure": "92",
+    "headline": "D大调:中提琴里有一个倒影",
+    "text": "[m. 87-92] 又到D大调(估计)。在 [m. 90-91],中提琴奏出主题“倒过来”的样子:原来向上的地方变成向下。这里第一小提琴和中提琴可能共同领奏,判断把握不大。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "87",
+      "value": "D major"
+     },
+     {
+      "type": "theme",
+      "measure": "90",
+      "value": "Viola"
+     }
+    ]
+   },
+   {
+    "start_measure": "93",
+    "end_measure": "99",
+    "headline": "回到G大调,走向最高点",
+    "text": "[m. 93] 回到G大调(估计)。[m. 94] 和 [m. 98] 有突然加重的音(fz)。最响、最忙的位置估计在 [m. 98],但依然在轻柔的范围内(p)。第一小提琴仍然领唱。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "93",
+      "value": "G major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "94",
+      "value": "fz"
+     },
+     {
+      "type": "climax",
+      "measure": "98",
+      "value": "Var. IV"
+     },
+     {
+      "type": "lead",
+      "measure": "98",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "100",
+    "end_measure": "104",
+    "headline": "降到很弱,安静收束",
+    "text": "[m. 100] 起力度降到很弱(pp)。[m. 103] 有一处渐强的标记,[m. 104] 又渐弱。四件乐器在最后几小节一起行进,乐章安静地结束在G大调。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "100",
+      "value": "pp"
+     },
+     {
+      "type": "dynamic",
+      "measure": "103",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "104",
+      "value": "dim"
+     },
+     {
+      "type": "texture",
+      "measure": "103",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "104",
+      "value": "G major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "变奏",
+    "explanation": "同一条旋律反复出现,但每次换一种织体、声部或装饰。"
+   },
+   {
+    "term": "主题",
+    "explanation": "乐章开头那条最容易记住的旋律。"
+   },
+   {
+    "term": "织体",
+    "explanation": "几件乐器合在一起的组合方式,例如谁唱旋律、谁伴奏。"
+   },
+   {
+    "term": "fz",
+    "explanation": "某个音突然加重。"
+   },
+   {
+    "term": "p",
+    "explanation": "弱。"
+   },
+   {
+    "term": "pp",
+    "explanation": "很弱,比 p 更弱。"
+   },
+   {
+    "term": "转调",
+    "explanation": "音乐的“家”换到另一个调,听起来色彩稍有不同。"
+   },
+   {
+    "term": "二重奏",
+    "explanation": "两件乐器同时突出的写法。"
+   },
+   {
+    "term": "倒影(倒过来)",
+    "explanation": "旋律向上的地方变成向下,向下的地方变成向上。"
+   }
+  ]
+ },
+ "facts_fingerprint": "e63e151e86d6",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 9,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 4,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

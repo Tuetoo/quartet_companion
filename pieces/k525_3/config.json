@@ -1,0 +1,24 @@
+{
+ "id": "k525_3",
+ "title": "Mozart: Eine kleine Nachtmusik, K. 525 – III. Menuetto (Allegretto)",
+ "composer": "W. A. Mozart",
+ "score": {
+  "type": "file",
+  "path": "pieces/k525_3/score.mxl",
+  "original": "incoming/omr/k525.mvt3.mxl (OMR of IMSLP #914586, Breitkopf & Härtel 1883)"
+ },
+ "audio": {
+  "path": "incoming/IMSLP324337-PMLP05176-mozart_kv525_afarcry.mp3",
+  "credit": "A Far Cry, IMSLP #324337 (CC BY-NC-ND 4.0)",
+  "start_sec": 684.9,
+  "end_sec": 837.6,
+  "open_sec": 18.3,
+  "license": "CC BY-NC-ND 4.0"
+ },
+ "parts": [
+  "Violin 1",
+  "Violin 2",
+  "Viola",
+  "Cello"
+ ]
+}

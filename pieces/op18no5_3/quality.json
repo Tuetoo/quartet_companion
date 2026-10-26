@@ -1,0 +1,101 @@
+{
+ "n_measures": 152,
+ "parts": [
+  "Violin 1",
+  "Violin 2",
+  "Viola",
+  "Cello"
+ ],
+ "measures_with_wrong_length": [
+  {
+   "label": "8",
+   "found_beats": 1.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "8",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "16",
+   "found_beats": 1.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "16",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "24",
+   "found_beats": 1.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "24",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "32",
+   "found_beats": 1.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "32",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "40",
+   "found_beats": 1.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "40",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "48",
+   "found_beats": 1.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "48",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "64",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "72",
+   "found_beats": 1.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "72",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "80",
+   "found_beats": 1.5,
+   "expected_beats": 2.0
+  },
+  {
+   "label": "80",
+   "found_beats": 0.5,
+   "expected_beats": 2.0
+  }
+ ],
+ "share_wrong_length": 0.113,
+ "notes_out_of_range": [],
+ "empty_parts": [],
+ "empty_measures": [],
+ "verdict": "usable (alignment will work; check rhythm details)"
+}

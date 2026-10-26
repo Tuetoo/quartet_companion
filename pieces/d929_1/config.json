@@ -1,0 +1,27 @@
+{
+ "id": "d929_1",
+ "title": "Schubert: Piano Trio No. 2 in E-flat, D. 929 – I. Allegro",
+ "composer": "Franz Schubert",
+ "score": {
+  "type": "file",
+  "path": [
+   "pieces/d929_1/score_part1.mxl",
+   "pieces/d929_1/score_part2.mxl"
+  ],
+  "original": "incoming/IMSLP262065-PMLP10136-Schubert_Zwietes_Trio_Op100_D929.pdf (pages 1-23)"
+ },
+ "parts": [
+  "Violin",
+  "Cello",
+  "Piano"
+ ],
+ "omr": true,
+ "audio": {
+  "path": "incoming/IMSLP403512-PMLP10136-Schubert_Trio_in_E_flat_Major,_Op._100_Claremont_Trio.mp3",
+  "start_sec": 0,
+  "end_sec": 727,
+  "open_sec": 20,
+  "credit": "Claremont Trio, IMSLP #403512 (CC BY-NC-ND 4.0)",
+  "license": "CC BY-NC-ND 4.0"
+ }
+}

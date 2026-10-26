@@ -1,0 +1,20 @@
+{
+ "id": "k465_1",
+ "title": "Mozart: String Quartet No.19 in C major, K.465 (Op. 10, No. 6) – I. Adagio",
+ "composer": "Wolfgang Amadeus Mozart",
+ "score": {
+  "type": "file",
+  "path": "pieces/k465_1/score.musicxml",
+  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/7471661",
+  "openscore_id": "7471661"
+ },
+ "audio": {
+  "path": "incoming/IMSLP82722-PMLP05226-mozart_k465.mp3",
+  "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #82722, CC BY-NC-ND 3.0)",
+  "start_sec": 0.0,
+  "end_sec": 648.4,
+  "open_sec": 6.0,
+  "range_from": "split",
+  "license": "CC BY-NC-ND 3.0"
+ }
+}

@@ -1,0 +1,725 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 99,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 99,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 6403,
+   "cache_read": 0,
+   "cache_write": 13660
+  },
+  {
+   "input": 6432,
+   "output": 6970,
+   "cache_read": 13660,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Borodin, String Quartet No. 2, III. Notturno (Andante): A Listening Guide",
+  "overview": "This is a slow, night-time movement in 3/4, with A major as its home key. It has three parts. The first opens with the cello tune at a medium-loud level. The second is a middle section that wanders through many keys. The third brings back the opening mood. Listen for the cello's opening tune and for how it passes to the violins. Keys and chords here are estimated by computer, so small details may be off. The big picture of sections, keys, and loud and soft is more reliable.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "47",
+    "value": "Section 2 (a  tempo)"
+   },
+   {
+    "type": "section",
+    "measure": "111",
+    "value": "Section 3 (Tempo I.)"
+   },
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "A major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "3",
+    "headline": "The cello sings the main tune",
+    "text": "The cello opens with the main theme (the tune the movement is built on) in A major [m. 1-3]. It plays at a medium-loud level. The other three instruments accompany it.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Cello"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "mf"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Part 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "4",
+    "end_measure": "22",
+    "headline": "Cello keeps the tune, swaying between two keys",
+    "text": "The music leans into B minor, a darker key, at [m. 4-6]. It returns to A major, and the cello plays the theme again at [m. 9-11]. Markings for getting louder and softer appear often in this stretch, for example [m. 4-5]. The cello stays in front until about [m. 22].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "4",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "7",
+      "value": "A major"
+     },
+     {
+      "type": "theme",
+      "measure": "9",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "4",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "cresc"
+     },
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Cello"
+     },
+     {
+      "type": "key",
+      "measure": "12",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "18",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "23",
+    "end_measure": "37",
+    "headline": "Softer, and the violin takes the theme",
+    "text": "From [m. 23] the music is soft. From [m. 24] the lines are independent, meaning each player has a separate strand. The first violin probably leads, though the analysis is not sure. It plays the theme 24 semitones (two octaves) above the opening at [m. 24-26] and again at [m. 32-34].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "23",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "24",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "24",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "24",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "32",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "27",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "30",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "38",
+    "end_measure": "46",
+    "headline": "A turn to F# minor, then a quiet close",
+    "text": "The estimated key moves to F# minor for [m. 38-40], then back to A major at [m. 41]. The texture becomes melody with accompaniment again at [m. 43]. The viola probably leads here, but with low certainty. At [m. 46] the texture is a solo.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "38",
+      "value": "F# minor"
+     },
+     {
+      "type": "key",
+      "measure": "41",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "43",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "43",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "46",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "46",
+      "value": "Viola"
+     }
+    ]
+   },
+   {
+    "start_measure": "47",
+    "end_measure": "52",
+    "headline": "New section: a darker turn, then F major",
+    "text": "The second section begins at [m. 47] and is marked a tempo (back to the normal speed). The key moves to A minor, then to F major at [m. 49]. The first violin leads. The volume is medium-loud from [m. 48]. A trio, meaning three players together, is heard at [m. 48].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "47",
+      "value": "Section 2 (a  tempo)"
+     },
+     {
+      "type": "key",
+      "measure": "47",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "49",
+      "value": "F major"
+     },
+     {
+      "type": "lead",
+      "measure": "47",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "48",
+      "value": "mf"
+     },
+     {
+      "type": "texture",
+      "measure": "48",
+      "value": "trio"
+     }
+    ]
+   },
+   {
+    "start_measure": "53",
+    "end_measure": "62",
+    "headline": "Violins trade the lead",
+    "text": "The lines are independent from [m. 53]. The two violins share the lead, and it is uncertain which is in front. The key goes from F major to A minor at [m. 59]. Crescendo markings, meaning getting louder, appear at [m. 53] and [m. 57].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "53",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "54",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "58",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "53",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "59",
+      "value": "A minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "63",
+    "end_measure": "72",
+    "headline": "Brighter C major, loud, then soft",
+    "text": "The key brightens to C major at [m. 63]. Loud playing arrives at [m. 65]. By [m. 67] the music is soft. The cello probably leads from [m. 67], and the others accompany.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "63",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "65",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "67",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "67",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "68",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "73",
+    "end_measure": "80",
+    "headline": "The theme returns in F minor",
+    "text": "At [m. 73] the key turns to F minor. The first violin plays the main theme at [m. 75-77], 11 semitones above the opening pitch. It is soft, and the first violin clearly leads. Then the key shifts to C minor at [m. 78].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "73",
+      "value": "F minor"
+     },
+     {
+      "type": "theme",
+      "measure": "75",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "75",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "75",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "78",
+      "value": "C minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "81",
+    "end_measure": "95",
+    "headline": "Key brightens, then climbs toward a peak",
+    "text": "G major arrives at [m. 81]. Then comes F# major at [m. 89]. The lead moves among the instruments. Loud playing returns at [m. 90]. A crescendo at [m. 91] starts the push upward. By [m. 95] the key is B minor.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "81",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "89",
+      "value": "F# major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "90",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "91",
+      "value": "cresc"
+     },
+     {
+      "type": "key",
+      "measure": "95",
+      "value": "B minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "96",
+    "end_measure": "100",
+    "headline": "The estimated loudest moment",
+    "text": "A computer estimate marks [m. 96] as the loudest point. It is very loud. The four instruments mostly move together in chords, which is called homophonic texture. The key is B minor, then E minor at [m. 99].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "climax",
+      "measure": "96",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "96",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "96",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "96",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "99",
+      "value": "E minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "101",
+    "end_measure": "110",
+    "headline": "Calming down, with a build back",
+    "text": "At [m. 101] the volume is soft. The key becomes F major at [m. 102]. The viola probably leads around [m. 104-105]. A major returns at [m. 107], and a crescendo at [m. 107] prepares the return of the opening.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "101",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "102",
+      "value": "F major"
+     },
+     {
+      "type": "lead",
+      "measure": "104",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "107",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "107",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "111",
+    "end_measure": "116",
+    "headline": "The opening returns, very soft",
+    "text": "The third section begins at [m. 111], back at the first tempo. The cello plays the main theme at its original pitch. The first violin plays it 12 semitones (an octave) above. Everything is very soft. The lead is shared. The key leans to B minor at [m. 114].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "111",
+      "value": "Section 3 (Tempo I.)"
+     },
+     {
+      "type": "theme",
+      "measure": "111",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "111",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "111",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "111",
+      "value": "independent lines"
+     },
+     {
+      "type": "key",
+      "measure": "114",
+      "value": "B minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "117",
+    "end_measure": "131",
+    "headline": "The tune repeats, with a visit to F# minor",
+    "text": "The theme comes again in cello and first violin at [m. 119-121]. It is still very soft. A darker F# minor colours [m. 125-127]. A major returns at [m. 128]. The volume is medium-soft (mp) at [m. 131].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "119",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "119",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "119",
+      "value": "pp"
+     },
+     {
+      "type": "key",
+      "measure": "125",
+      "value": "F# minor"
+     },
+     {
+      "type": "key",
+      "measure": "128",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "131",
+      "value": "mp"
+     }
+    ]
+   },
+   {
+    "start_measure": "132",
+    "end_measure": "154",
+    "headline": "Warmer and fuller, with the tune high up",
+    "text": "From [m. 133] the music is medium-loud. Both violins play the theme at [m. 133-135] and again at [m. 141-143]. The first violin is 24 semitones above the opening. The second violin is 12 semitones above. The others accompany. B minor returns at [m. 136] and [m. 144].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "133",
+      "value": "mf"
+     },
+     {
+      "type": "theme",
+      "measure": "133",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "133",
+      "value": "Violin 2"
+     },
+     {
+      "type": "theme",
+      "measure": "141",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "141",
+      "value": "Violin 2"
+     },
+     {
+      "type": "key",
+      "measure": "136",
+      "value": "B minor"
+     },
+     {
+      "type": "key",
+      "measure": "144",
+      "value": "B minor"
+     },
+     {
+      "type": "texture",
+      "measure": "142",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "155",
+    "end_measure": "164",
+    "headline": "Soft, then loud, with the cello's low theme",
+    "text": "The music is soft at [m. 156] and loud at [m. 159]. The cello plays the theme 25 semitones below the opening at [m. 161-163]. This is a looser match, with the same general shape but not every note exact. The cello clearly leads. It is loud again at [m. 163].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "156",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "159",
+      "value": "f"
+     },
+     {
+      "type": "theme",
+      "measure": "161",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "161",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "163",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "165",
+    "end_measure": "180",
+    "headline": "The ending in A major",
+    "text": "The first violin leads at [m. 165-172]. It plays a looser match of the theme at [m. 165-167]. A trio is heard at [m. 166-172]. A minor shades the music at [m. 167-171], then A major returns at [m. 172]. The lead passes between instruments through the last bars. The viola probably ends the movement, with a solo at [m. 180].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "165",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "165",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "166",
+      "value": "trio"
+     },
+     {
+      "type": "key",
+      "measure": "167",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "172",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "180",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "180",
+      "value": "Viola"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Theme",
+    "explanation": "A tune that returns and gives the music its identity."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale the music centres on. Major keys sound brighter. Minor keys sound darker."
+   },
+   {
+    "term": "Texture",
+    "explanation": "How the instruments are combined: one tune with accompaniment, or several lines at once."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All instruments move together, like chords under a tune."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each instrument plays its own strand, so you hear several lines at once."
+   },
+   {
+    "term": "Trio",
+    "explanation": "Three of the four players sounding together."
+   },
+   {
+    "term": "Crescendo",
+    "explanation": "Getting gradually louder."
+   },
+   {
+    "term": "Semitone",
+    "explanation": "The smallest step between two neighbouring piano keys. Twelve semitones make an octave."
+   },
+   {
+    "term": "Octave",
+    "explanation": "The distance of twelve semitones. The same note sounds again, higher or lower."
+   }
+  ]
+ },
+ "facts_fingerprint": "d14f16af2e7e",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 5,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

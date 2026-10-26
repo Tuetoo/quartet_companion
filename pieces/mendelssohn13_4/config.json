@@ -1,0 +1,20 @@
+{
+ "id": "mendelssohn13_4",
+ "title": "Mendelssohn: String Quartet No.2, Op.13 – IV. Presto",
+ "composer": "Felix Mendelssohn",
+ "score": {
+  "type": "file",
+  "path": "pieces/mendelssohn13_4/score.musicxml",
+  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/8885571",
+  "openscore_id": "8885571"
+ },
+ "audio": {
+  "path": "incoming/IMSLP82721-PMLP27014-mendelssohn_op13.mp3",
+  "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #82721, CC BY-NC-ND 3.0)",
+  "start_sec": 1260.6,
+  "end_sec": 1873.37,
+  "range_from": "split",
+  "open_sec": 6.0,
+  "license": "CC BY-NC-ND 3.0"
+ }
+}

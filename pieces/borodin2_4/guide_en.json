@@ -1,0 +1,655 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 85,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 85,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 4493,
+   "cache_read": 0,
+   "cache_write": 40834
+  },
+  {
+   "input": 5189,
+   "output": 5964,
+   "cache_read": 40834,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Borodin: String Quartet No. 2 – IV. Finale (Andante / Vivace)",
+  "overview": "This finale is long: 672 measures, with many changes of speed and mood. It opens with a quiet, hushed tune. The tune comes back several times, each time in a new key. Keys and chords here are estimated by computer, so some details may be imprecise. Listen for the slow, soft Andante passages that interrupt the faster Vivace music. Also listen for the climax near the end, which a computer estimate places at measure 597.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "A major"
+   },
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Part 1"
+   },
+   {
+    "type": "climax",
+    "measure": "597",
+    "value": "ff"
+   },
+   {
+    "type": "key",
+    "measure": "643",
+    "value": "D major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "19",
+    "headline": "A hushed opening tune",
+    "text": "The movement opens softly, with the instruments playing the same line in unison or octaves (the same notes at the same or different heights). The main theme starts in the first violin [m. 0-10]. The second violin also plays it, an octave lower. Short gaps of silence separate the phrases, for example [m. 3].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "0",
+      "value": "Part 1"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "p"
+     },
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "3",
+      "value": "tacet"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "20",
+    "end_measure": "39",
+    "headline": "The cello steps out on its own",
+    "text": "The Vivace begins with the cello alone and still soft [m. 20-27]. Then the viola takes the tune over, with the others accompanying [m. 28-39].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "20",
+      "value": "Section 2 (Vivace)"
+     },
+     {
+      "type": "texture",
+      "measure": "20",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "20",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "20",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "28",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "28",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "32",
+    "end_measure": "46",
+    "headline": "The main theme drops into the viola",
+    "text": "The main theme returns in the viola, low down, in a darker minor key. It is estimated as F# minor [m. 32-34]. Later the second violin takes it too [m. 44-46].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "32",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "32",
+      "value": "F# minor"
+     },
+     {
+      "type": "theme",
+      "measure": "44",
+      "value": "Violin 2"
+     }
+    ]
+   },
+   {
+    "start_measure": "51",
+    "end_measure": "62",
+    "headline": "Louder, with the first violin on top",
+    "text": "The music turns loud at [m. 51]. From [m. 54] the first violin probably leads. A brief move to E major at [m. 56] brightens the colour. Then it settles back to A major at [m. 60].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "54",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "56",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "60",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "64",
+    "end_measure": "78",
+    "headline": "Loud and soft keep swapping",
+    "text": "The dynamics flip between loud and soft every measure or so. For example, [m. 64] is loud and [m. 65] is soft. The first violin keeps the tune while the rest accompany.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "64",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "65",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "66",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "64",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "64",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "89",
+    "end_measure": "132",
+    "headline": "Prestissimo: very fast and quiet",
+    "text": "A new, much faster section starts, marked prestissimo. It drops to soft at [m. 90]. The first violin leads, often with a partner. At [m. 109] the key estimate moves to D-flat major, a new colour.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "89",
+      "value": "Section 3 (prestissimo)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "90",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "97",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "109",
+      "value": "Db major"
+     }
+    ]
+   },
+   {
+    "start_measure": "164",
+    "end_measure": "176",
+    "headline": "A loud push in E major",
+    "text": "The prestissimo moves to E major. It becomes loud at [m. 169]. The lead passes between the players, so the tune feels shared. The music then returns to A major at [m. 176].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "164",
+      "value": "E major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "169",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "176",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "177",
+    "end_measure": "217",
+    "headline": "Tempo I returns, fading to a whisper",
+    "text": "The original slower pace comes back. The cello plays alone in [m. 178-179]. The tune is passed from instrument to instrument. The sound fades to very soft from [m. 213]. The cello plays alone again in [m. 214-216].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "177",
+      "value": "Section 4 (Tempo I.)"
+     },
+     {
+      "type": "texture",
+      "measure": "178",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "178",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "213",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "214",
+      "value": "solo"
+     }
+    ]
+   },
+   {
+    "start_measure": "221",
+    "end_measure": "240",
+    "headline": "Loud bursts alternate with soft Andante",
+    "text": "The main theme returns in the viola and cello, at lower pitches, in A minor. The lines are in unison or octaves. Loud Vivace bursts [m. 231-233] alternate with soft Andante phrases [m. 225-229, 235-239]. The key shifts to C major.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "221",
+      "value": "Viola"
+     },
+     {
+      "type": "theme",
+      "measure": "221",
+      "value": "Cello"
+     },
+     {
+      "type": "key",
+      "measure": "221",
+      "value": "A minor"
+     },
+     {
+      "type": "section",
+      "measure": "225",
+      "value": "Section 6 (Andante)"
+     },
+     {
+      "type": "section",
+      "measure": "231",
+      "value": "Section 7 (Vivace)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "231",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "232",
+      "value": "C major"
+     }
+    ]
+   },
+   {
+    "start_measure": "241",
+    "end_measure": "303",
+    "headline": "A long wander through distant keys",
+    "text": "This long Vivace moves through many keys, such as A-flat major and F minor. Listen for the harmonies shifting. Soft passages alternate with louder ones. The first violin probably leads much of the time. Loud playing comes at [m. 257] and in a long stretch from [m. 275] to [m. 295].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "241",
+      "value": "Section 9 (Vivace)"
+     },
+     {
+      "type": "key",
+      "measure": "250",
+      "value": "Ab major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "257",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "300",
+      "value": "F minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "275",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "354",
+    "end_measure": "390",
+    "headline": "Unison phrases like the opening",
+    "text": "The Vivace settles into D major. Then [m. 363-376] lands in A major, and soft unison or octave phrases, broken by silent bars as at the opening, return [m. 375-379]. Soft Andante phrases and loud Vivace bursts alternate, as before. The key estimate is F# minor at [m. 377].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "354",
+      "value": "D major"
+     },
+     {
+      "type": "section",
+      "measure": "375",
+      "value": "Section 11 (Andante)"
+     },
+     {
+      "type": "key",
+      "measure": "363",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "375",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "377",
+      "value": "F# minor"
+     },
+     {
+      "type": "section",
+      "measure": "381",
+      "value": "Section 12 (Vivace)"
+     },
+     {
+      "type": "section",
+      "measure": "385",
+      "value": "Section 13 (Andante)"
+     }
+    ]
+   },
+   {
+    "start_measure": "391",
+    "end_measure": "422",
+    "headline": "The cello solo and viola theme return",
+    "text": "The cello again plays alone, as at the start of the first Vivace. The viola then carries the main theme in F# minor [m. 403-405]. The second violin follows [m. 415-417].",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "391",
+      "value": "Section 14 (Vivace)"
+     },
+     {
+      "type": "texture",
+      "measure": "391",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "391",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "403",
+      "value": "Viola"
+     },
+     {
+      "type": "theme",
+      "measure": "415",
+      "value": "Violin 2"
+     },
+     {
+      "type": "key",
+      "measure": "403",
+      "value": "F# minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "478",
+    "end_measure": "503",
+    "headline": "A bright F# major stretch",
+    "text": "A long glowing stretch in F# major begins. The first violin leads, often with a partner. It is loud from [m. 480].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "478",
+      "value": "F# major"
+     },
+     {
+      "type": "lead",
+      "measure": "480",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "480",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "481",
+      "value": "duet"
+     }
+    ]
+   },
+   {
+    "start_measure": "546",
+    "end_measure": "587",
+    "headline": "Tempo I returns in D major",
+    "text": "The slow pace returns in D major. The cello is alone in [m. 547-548]. Later it has many one-measure solos [m. 573-587]. Between them, the others accompany.",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "546",
+      "value": "Section 15 (Tempo I.)"
+     },
+     {
+      "type": "key",
+      "measure": "546",
+      "value": "D major"
+     },
+     {
+      "type": "texture",
+      "measure": "547",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "547",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "573",
+      "value": "solo"
+     }
+    ]
+   },
+   {
+    "start_measure": "588",
+    "end_measure": "600",
+    "headline": "The estimated loudest moment",
+    "text": "The first violin leads loudly in C major from [m. 588]. A computer estimate marks [m. 597] as the loudest and busiest point, at ff. Then comes silence at [m. 599-600].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "588",
+      "value": "C major"
+     },
+     {
+      "type": "lead",
+      "measure": "588",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "588",
+      "value": "f"
+     },
+     {
+      "type": "climax",
+      "measure": "597",
+      "value": "ff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "596",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "599",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "653",
+    "end_measure": "671",
+    "headline": "A loud finish in D major",
+    "text": "The music jumps suddenly to ff at [m. 653], in D major. The second violin probably leads. Short bursts and silences close the movement at [m. 667-671].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "653",
+      "value": "ff"
+     },
+     {
+      "type": "key",
+      "measure": "653",
+      "value": "D major"
+     },
+     {
+      "type": "lead",
+      "measure": "654",
+      "value": "Violin 2"
+     },
+     {
+      "type": "section",
+      "measure": "667",
+      "value": "Section 16 (vivace)"
+     },
+     {
+      "type": "texture",
+      "measure": "670",
+      "value": "tacet"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Unison/octaves",
+    "explanation": "Everyone plays the same tune, at the same or different heights."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A measure where nobody plays."
+   },
+   {
+    "term": "Vivace",
+    "explanation": "A lively, fast speed."
+   },
+   {
+    "term": "Andante",
+    "explanation": "A calm, walking speed."
+   },
+   {
+    "term": "Prestissimo",
+    "explanation": "As fast as possible."
+   },
+   {
+    "term": "Tempo I",
+    "explanation": "A return to the opening speed."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One part has the tune while the others support it."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and mood of the music. Major sounds brighter, minor sounds darker."
+   },
+   {
+    "term": "Main theme",
+    "explanation": "The opening tune that returns in different instruments and keys."
+   }
+  ]
+ },
+ "facts_fingerprint": "a3d530a19847",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 8,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

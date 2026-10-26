@@ -1,0 +1,16 @@
+{
+ "id": "borodin2_2",
+ "title": "Borodin: String Quartet No.2 – II. Scherzo Allegro",
+ "composer": "Alexander Borodin",
+ "score": {
+  "type": "file",
+  "path": "pieces/borodin2_2/score.musicxml",
+  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/10675759",
+  "openscore_id": "10675759"
+ },
+ "audio": {
+  "path": "incoming/IMSLP247088-PMLP19373-String_Quartet_No._2_in_D_Major_-_II._Scherzo_Allegro.mp3",
+  "credit": "Musopen, 2012 (IMSLP, CC BY 3.0)",
+  "license": "CC BY 3.0"
+ }
+}

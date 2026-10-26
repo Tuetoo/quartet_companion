@@ -1,0 +1,96 @@
+[
+ {
+  "piece": "haydn76_3_4",
+  "lang": "zh",
+  "where": 3,
+  "field": "text",
+  "old": "[m. 18-20] 中提琴可能暂时领头,但这个判断把握不大,更像是多件乐器共同参与。随后又短暂转到 G 小调。[m. 21-22]",
+  "new": "[m. 18-19] 中提琴可能暂时领头,但这个判断把握不大,更像是多件乐器共同参与。随后 [m. 21-22] 又短暂转到 G 小调。"
+ },
+ {
+  "piece": "haydn76_3_4",
+  "lang": "zh",
+  "where": 7,
+  "field": "text",
+  "old": "第二部分从强奏开始。[m. 73] 随后在 [m. 79]",
+  "new": "第二部分从强奏开始 [m. 73]。随后在 [m. 79]"
+ },
+ {
+  "piece": "haydn76_3_4",
+  "lang": "zh",
+  "where": 10,
+  "field": "text",
+  "old": "这是全曲最容易辨认的回归点。[m. 120] 随后转弱。",
+  "new": "这是全乐章最容易辨认的回归点。随后在 [m. 120] 转弱。"
+ },
+ {
+  "piece": "haydn76_3_1",
+  "lang": "zh",
+  "where": 11,
+  "field": "text",
+  "old": "全曲",
+  "new": "本乐章",
+  "all": true
+ },
+ {
+  "piece": "haydn76_3_2",
+  "lang": "zh",
+  "where": "overview",
+  "field": "overview",
+  "old": "全曲",
+  "new": "本乐章",
+  "all": true
+ },
+ {
+  "piece": "k525_1",
+  "lang": "zh",
+  "where": 1,
+  "field": "text",
+  "old": "全曲",
+  "new": "本乐章",
+  "all": true
+ },
+ {
+  "piece": "k525_1",
+  "lang": "zh",
+  "where": 14,
+  "field": "text",
+  "old": "全曲",
+  "new": "本乐章",
+  "all": true
+ },
+ {
+  "piece": "k525_1",
+  "lang": "zh",
+  "where": "glossary",
+  "field": "explanation",
+  "old": "全曲最重要、最容易记住的旋律,会反复出现。",
+  "new": "本乐章最重要、最容易记住的旋律,会反复出现。"
+ },
+ {
+  "piece": "op18no5_3",
+  "lang": "zh",
+  "where": 13,
+  "field": "headline",
+  "old": "全曲",
+  "new": "本乐章",
+  "all": true
+ },
+ {
+  "piece": "op18no5_3",
+  "lang": "zh",
+  "where": "glossary",
+  "field": "explanation",
+  "old": "全曲最先出现、之后被反复改造的那支旋律。",
+  "new": "本乐章最先出现、之后被反复改造的那支旋律。"
+ },
+ {
+  "piece": "op18no5_4",
+  "lang": "zh",
+  "where": 15,
+  "field": "text",
+  "old": "全曲",
+  "new": "本乐章",
+  "all": true
+ }
+]

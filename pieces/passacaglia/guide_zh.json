@@ -1,0 +1,598 @@
+{
+ "language": "zh",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 79,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 79,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 84,
+   "output": 4303,
+   "cache_read": 9450,
+   "cache_write": 0
+  },
+  {
+   "input": 8365,
+   "output": 6011,
+   "cache_read": 9450,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "亨德尔–哈尔沃森:小提琴与中提琴帕萨卡利亚 听赏指南",
+  "overview": "这首作品是一首“帕萨卡利亚”:一段四小节的短主题被不断改写,共有22次变奏。请留意哪里响、哪里轻,哪一件乐器带着旋律,以及调性何时变亮或变暗。需要说明:和声与调性是自动估计的,乐谱来自光学识别,有些细节可能不够精确,所以本指南更注重整体轮廓。全曲从强奏开始,中段逐渐变轻,乐谱在第73至74小节显示两小节无声(这可能是识别错误),最后在最强的力度中结束。",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "G minor"
+   },
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Theme"
+   },
+   {
+    "type": "climax",
+    "measure": "90",
+    "value": "fff"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "小提琴奏出四小节主题",
+    "text": "全曲以强奏开始,小提琴清楚地奏出主题 [m. 1-4]。中提琴在下方伴奏。后面的变奏会用各种方式改写这段音乐,有时贴近它,有时离它很远。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Theme"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "G minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "8",
+    "headline": "第一变奏:两件乐器对话",
+    "text": "第一变奏仍然较响 [m. 5-8]。小提琴大体还带着主题的影子,中提琴开始更多参与。听起来像两人对话,而不是一个人伴奏。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "5",
+      "value": "Variation 1"
+     },
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "duet"
+     },
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "f"
+     },
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "9",
+    "end_measure": "16",
+    "headline": "突然变轻,旋律在两琴间流动",
+    "text": "第二变奏转为中弱(mp)[m. 9-12]。第三变奏中,旋律不再固定在一件乐器上,更像是共享 [m. 13-16]。到 [m. 16] 中提琴可能暂时接过主导。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "9",
+      "value": "Variation 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "9",
+      "value": "mp"
+     },
+     {
+      "type": "section",
+      "measure": "13",
+      "value": "Variation 3"
+     },
+     {
+      "type": "lead",
+      "measure": "16",
+      "value": "Viola"
+     }
+    ]
+   },
+   {
+    "start_measure": "17",
+    "end_measure": "24",
+    "headline": "轻与响交替,中提琴一度接过主导",
+    "text": "第四变奏先轻后响 [m. 17-20]。第五变奏则相反,先响后轻 [m. 21-24]。大约在 [m. 19-22] 中提琴可能接过主导,之后小提琴又回到前面。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "17",
+      "value": "Variation 4"
+     },
+     {
+      "type": "dynamic",
+      "measure": "17",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "20",
+      "value": "f"
+     },
+     {
+      "type": "section",
+      "measure": "21",
+      "value": "Variation 5"
+     },
+     {
+      "type": "lead",
+      "measure": "19",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "23",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "25",
+    "end_measure": "36",
+    "headline": "音符变密,轻声推进",
+    "text": "第六至第八变奏越来越忙碌,音符比主题密得多 [m. 25-36]。力度大多保持轻柔。小提琴多半在上方带着线条。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "25",
+      "value": "Variation 6"
+     },
+     {
+      "type": "section",
+      "measure": "29",
+      "value": "Variation 7"
+     },
+     {
+      "type": "section",
+      "measure": "33",
+      "value": "Variation 8"
+     },
+     {
+      "type": "dynamic",
+      "measure": "29",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "29",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "37",
+    "end_measure": "44",
+    "headline": "两琴同步,像和弦一样前进",
+    "text": "第九、第十变奏中,两件乐器常常节奏一致 [m. 37-43]。这种写法叫“主调织体”:两件乐器节奏一致,听起来更厚实、更像一起奏和弦。第十变奏末尾力度升到中强 [m. 44]。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "37",
+      "value": "homophonic"
+     },
+     {
+      "type": "section",
+      "measure": "37",
+      "value": "Variation 9"
+     },
+     {
+      "type": "texture",
+      "measure": "41",
+      "value": "homophonic"
+     },
+     {
+      "type": "section",
+      "measure": "41",
+      "value": "Variation 10"
+     },
+     {
+      "type": "dynamic",
+      "measure": "44",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "52",
+    "headline": "回到安静,小提琴旋律更清楚",
+    "text": "第十一变奏有渐强和渐弱 [m. 45-48],旋律不好分辨,两个声部交织在一起。第十二变奏安静而稀疏,小提琴的旋律更突出 [m. 49-52]。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "45",
+      "value": "Variation 11"
+     },
+     {
+      "type": "dynamic",
+      "measure": "45",
+      "value": "mf"
+     },
+     {
+      "type": "section",
+      "measure": "49",
+      "value": "Variation 12"
+     },
+     {
+      "type": "dynamic",
+      "measure": "49",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "49",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "53",
+    "end_measure": "56",
+    "headline": "再次转强",
+    "text": "第十三变奏回到较响的力度 [m. 53-56]。两琴时而同步,时而各唱各的。结尾处力度略减到中强。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "53",
+      "value": "Variation 13"
+     },
+     {
+      "type": "dynamic",
+      "measure": "53",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "56",
+      "value": "mf"
+     },
+     {
+      "type": "texture",
+      "measure": "53",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "57",
+    "end_measure": "64",
+    "headline": "中提琴可能领头,声音突然变得很弱",
+    "text": "第十四变奏中提琴可能带着旋律 [m. 57-60]。到 [m. 60] 力度从中强突然降到很弱(pp),并一直保持到 [m. 63]。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "57",
+      "value": "Variation 14"
+     },
+     {
+      "type": "lead",
+      "measure": "57",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "60",
+      "value": "pp"
+     },
+     {
+      "type": "section",
+      "measure": "61",
+      "value": "Variation 15"
+     },
+     {
+      "type": "dynamic",
+      "measure": "61",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "65",
+    "end_measure": "72",
+    "headline": "轻声中走向A小调,音符变稀",
+    "text": "第十六变奏仍然轻柔 [m. 65-68]。第十七变奏音符明显变少 [m. 69-72]。[m. 71] 起调性转到A小调,色彩略有变化。这一变奏的最后一小节 [m. 72] 只有小提琴独奏。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "65",
+      "value": "Variation 16"
+     },
+     {
+      "type": "dynamic",
+      "measure": "65",
+      "value": "p"
+     },
+     {
+      "type": "section",
+      "measure": "69",
+      "value": "Variation 17"
+     },
+     {
+      "type": "modulation",
+      "measure": "71",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "71",
+      "value": "A minor"
+     },
+     {
+      "type": "texture",
+      "measure": "72",
+      "value": "solo"
+     }
+    ]
+   },
+   {
+    "start_measure": "73",
+    "end_measure": "76",
+    "headline": "中提琴先重新进入",
+    "text": "乐谱显示第十八变奏开头两小节没有音符 [m. 73-74],这可能是识别错误。然后中提琴独自重新进入 [m. 75],调性回到G小调。小提琴随后加入 [m. 76]。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "73",
+      "value": "Variation 18"
+     },
+     {
+      "type": "texture",
+      "measure": "73",
+      "value": "tacet"
+     },
+     {
+      "type": "lead",
+      "measure": "75",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "75",
+      "value": "solo"
+     },
+     {
+      "type": "modulation",
+      "measure": "75",
+      "value": "G minor"
+     },
+     {
+      "type": "key",
+      "measure": "75",
+      "value": "G minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "77",
+    "end_measure": "80",
+    "headline": "转入明亮的G大调和F大调,然后骤响",
+    "text": "第十九变奏开始时转为G大调,色彩一下子明亮起来 [m. 77-78]。接着进入F大调,力度猛然升到很强(ff)[m. 79]。小提琴在上方带着旋律。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "77",
+      "value": "Variation 19"
+     },
+     {
+      "type": "modulation",
+      "measure": "77",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "77",
+      "value": "G major"
+     },
+     {
+      "type": "modulation",
+      "measure": "79",
+      "value": "F major"
+     },
+     {
+      "type": "key",
+      "measure": "79",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "79",
+      "value": "ff"
+     },
+     {
+      "type": "lead",
+      "measure": "79",
+      "value": "Violin"
+     }
+    ]
+   },
+   {
+    "start_measure": "81",
+    "end_measure": "88",
+    "headline": "强奏中的转调:D小调,再到D大调",
+    "text": "第二十变奏保持很强(ff),调性转向D小调,听起来更暗 [m. 83-84]。第二十一变奏转到D大调,又变亮 [m. 85-87]。乐谱显示 [m. 88] 为空小节(可能是识别错误),之后进入最后一个变奏。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "81",
+      "value": "Variation 20"
+     },
+     {
+      "type": "modulation",
+      "measure": "83",
+      "value": "D minor"
+     },
+     {
+      "type": "key",
+      "measure": "83",
+      "value": "D minor"
+     },
+     {
+      "type": "section",
+      "measure": "85",
+      "value": "Variation 21"
+     },
+     {
+      "type": "modulation",
+      "measure": "85",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "85",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "85",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "88",
+      "value": "tacet"
+     }
+    ]
+   },
+   {
+    "start_measure": "89",
+    "end_measure": "93",
+    "headline": "回到G小调,在最强处结束",
+    "text": "最后一次变奏从小提琴独奏开始,回到主调G小调 [m. 89]。力度升到最强(fff),软件估计最响处在 [m. 90]。结尾处小提琴独自收束 [m. 93]。",
+    "focus_part": "Violin",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "89",
+      "value": "Variation 22"
+     },
+     {
+      "type": "modulation",
+      "measure": "89",
+      "value": "G minor"
+     },
+     {
+      "type": "key",
+      "measure": "89",
+      "value": "G minor"
+     },
+     {
+      "type": "climax",
+      "measure": "90",
+      "value": "fff"
+     },
+     {
+      "type": "dynamic",
+      "measure": "90",
+      "value": "fff"
+     },
+     {
+      "type": "texture",
+      "measure": "93",
+      "value": "solo"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "帕萨卡利亚",
+    "explanation": "一种变奏曲:一段短主题之后跟着许多变奏,每段长度相同,但内容不断改写。"
+   },
+   {
+    "term": "变奏",
+    "explanation": "把同一段音乐换一种写法再奏一遍,比如更快、更轻或换声部。"
+   },
+   {
+    "term": "主调织体(homophonic)",
+    "explanation": "两个声部节奏大体一致,听起来像在一起唱和弦。"
+   },
+   {
+    "term": "转调",
+    "explanation": "音乐的“中心音”改变。从小调到大调常常听起来更明亮。"
+   },
+   {
+    "term": "渐强/渐弱",
+    "explanation": "声音逐渐变响或逐渐变轻。"
+   },
+   {
+    "term": "tacet(停奏)",
+    "explanation": "某个声部在一段时间内完全不演奏。"
+   }
+  ]
+ },
+ "facts_fingerprint": "260cd6fa6d26",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 13,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 4,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

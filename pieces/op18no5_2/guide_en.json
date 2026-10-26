@@ -1,0 +1,591 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 70,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 70,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 5904,
+   "cache_read": 0,
+   "cache_write": 7091
+  },
+  {
+   "input": 6542,
+   "output": 4574,
+   "cache_read": 7091,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Beethoven, String Quartet Op. 18 No. 5, II. Menuetto: A Listening Guide",
+  "overview": "This is a minuet in 3/4 time. It has two parts: the Menuetto and the Trio. Both are in A major. The Menuetto is mostly soft, with one very loud peak after a crescendo. Listen for the opening tune as it passes from the violin to the viola (an octave lower) and back. The Trio stays soft but has two runs of sharp accents, one bar after another.",
+  "overview_claims": [
+   {
+    "type": "section",
+    "measure": "0",
+    "value": "Menuetto"
+   },
+   {
+    "type": "section",
+    "measure": "81",
+    "value": "Trio"
+   },
+   {
+    "type": "key",
+    "measure": "0",
+    "value": "A major"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "0",
+    "end_measure": "11",
+    "headline": "The opening tune, alone and soft",
+    "text": "The first violin starts the main theme alone and quietly [m. 0]. From [m. 1] the others join as accompaniment. The theme is short and moves mostly by small steps, so it is easy to remember. You will hear it again.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "0",
+      "value": "Menuetto"
+     },
+     {
+      "type": "key",
+      "measure": "0",
+      "value": "A major"
+     },
+     {
+      "type": "theme",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "0",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "0",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "0",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "10",
+    "end_measure": "11",
+    "headline": "A first, small step to E major",
+    "text": "The music moves briefly to a new key, E major [m. 10-12]. Changing key like this is called modulation. It sounds like a small step sideways, not a big change of mood. The players move together in block chords at [m. 11].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "10",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "10",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "11",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "12",
+    "end_measure": "16",
+    "headline": "The viola takes the tune",
+    "text": "The viola plays the main theme [m. 12-15]. It is exactly the same tune, one octave lower. The sound is warmer and darker. As it enters, the music slips back from E major to A major [m. 13].",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "12",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "12",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "12",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "13",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "17",
+    "end_measure": "21",
+    "headline": "Voices weave and share the lead",
+    "text": "The texture gets more interwoven [m. 17-21]. Several instruments move on their own lines. The lead here is shared, probably between the first violin and viola. It is hard to pick out one tune. Listen to the voices answering each other.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "17",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "17",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "17",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "22",
+    "end_measure": "24",
+    "headline": "E major again, with chords together",
+    "text": "The music goes to E major a second time [m. 22-24]. The viola leads briefly [m. 22]. Then the instruments move together in block chords [m. 23-24]. This sounds like a clear, settled pause.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "22",
+      "value": "E major"
+     },
+     {
+      "type": "lead",
+      "measure": "22",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "23",
+      "value": "homophonic"
+     },
+     {
+      "type": "lead",
+      "measure": "23",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "25",
+    "end_measure": "35",
+    "headline": "Back in A major, violin singing",
+    "text": "A major returns and the first violin sings over the accompaniment [m. 25-35]. At [m. 28] and [m. 32] the violin is briefly alone. Listen for those little gaps in the accompaniment.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "25",
+      "value": "A major"
+     },
+     {
+      "type": "lead",
+      "measure": "25",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "28",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "32",
+      "value": "solo"
+     }
+    ]
+   },
+   {
+    "start_measure": "36",
+    "end_measure": "40",
+    "headline": "A darker turn to C# minor",
+    "text": "The key moves to C# minor from [m. 36] and stays there for a while. Minor keys sound more serious and shadowed than major ones. The first violin still leads. At [m. 39] the music starts to get gradually louder.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "36",
+      "value": "C# minor"
+     },
+     {
+      "type": "key",
+      "measure": "36",
+      "value": "C# minor"
+     },
+     {
+      "type": "lead",
+      "measure": "36",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "39",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "41",
+    "end_measure": "44",
+    "headline": "The loudest moment of the Menuetto",
+    "text": "The lines grow busier [m. 41-43]. Then the whole quartet plays very loudly in block chords [m. 44]. This is the only ff, and the analysis estimates it as the peak of the Menuetto. Everything before it was mostly soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "41",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "44",
+      "value": "ff"
+     },
+     {
+      "type": "texture",
+      "measure": "44",
+      "value": "homophonic"
+     },
+     {
+      "type": "climax",
+      "measure": "44",
+      "value": "ff"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "49",
+    "headline": "Silence, then the tune returns",
+    "text": "At [m. 45] nobody plays. This is a measure of silence after the loud peak. Then the first violin brings back the main theme, alone and soft at first [m. 46]. The others join from [m. 47]. Soon the music settles into A major again [m. 47].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "45",
+      "value": "tacet"
+     },
+     {
+      "type": "theme",
+      "measure": "46",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "46",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "46",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "46",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "47",
+      "value": "A major"
+     }
+    ]
+   },
+   {
+    "start_measure": "55",
+    "end_measure": "68",
+    "headline": "D major and a game of passing the lead",
+    "text": "The music moves to D major [m. 55-68]. The first violin leads at first [m. 55-57]. Then the viola takes over [m. 59-61]. The second violin follows [m. 62-63]. The first violin returns [m. 64-66]. Then the sound builds [m. 66-67]. The cello probably takes over [m. 67-70], but that is uncertain.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "55",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "55",
+      "value": "D major"
+     },
+     {
+      "type": "lead",
+      "measure": "59",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "62",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "64",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "65",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "66",
+      "value": "cresc"
+     },
+     {
+      "type": "lead",
+      "measure": "67",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "69",
+    "end_measure": "81b",
+    "headline": "Home to A major and a closing flourish",
+    "text": "A major returns [m. 69]. The first violin takes the lead again [m. 71-81b]. One loud bar [m. 72] drops straight back to soft [m. 73]. Near the end there is a sharp accent that dies away at once [m. 80]. Then the Menuetto closes and is repeated.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "69",
+      "value": "A major"
+     },
+     {
+      "type": "lead",
+      "measure": "71",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "72",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "72",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "80",
+      "value": "sfp"
+     },
+     {
+      "type": "section",
+      "measure": "81b",
+      "value": "Menuetto"
+     }
+    ]
+   },
+   {
+    "start_measure": "81",
+    "end_measure": "88",
+    "headline": "The Trio begins with accented chords",
+    "text": "The Trio starts with the instruments in unison or octaves, which means they play the same notes [m. 81]. Then each bar gets a sharp accent, while the overall level stays soft [m. 82-87]. No one part clearly leads here. The lead is probably shared by the second violin and the viola. The key briefly moves to E major [m. 86].",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "81",
+      "value": "Trio"
+     },
+     {
+      "type": "texture",
+      "measure": "81",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "lead",
+      "measure": "81",
+      "value": "Violin 2"
+     },
+     {
+      "type": "dynamic",
+      "measure": "82",
+      "value": "sf"
+     },
+     {
+      "type": "key",
+      "measure": "86",
+      "value": "E major"
+     }
+    ]
+   },
+   {
+    "start_measure": "89",
+    "end_measure": "93",
+    "headline": "A solo viola leads back to A major",
+    "text": "The viola is alone at [m. 89]. Then A major returns and the viola probably leads [m. 90-92]. The second violin briefly shares the lead [m. 93]. The mood is calm and gentle.",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "89",
+      "value": "solo"
+     },
+     {
+      "type": "lead",
+      "measure": "89",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "90",
+      "value": "A major"
+     },
+     {
+      "type": "lead",
+      "measure": "90",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "93",
+      "value": "Violin 2"
+     }
+    ]
+   },
+   {
+    "start_measure": "94",
+    "end_measure": "105",
+    "headline": "The first violin restates the phrase, then the Trio ends",
+    "text": "The first violin probably takes over the tune [m. 94-105]. It is a similar phrase, but now it gets louder at [m. 94]. Sharp accents follow [m. 98-103]. The Trio ends in block chords on A major [m. 105]. Then the Trio is repeated.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "lead",
+      "measure": "94",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "94",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "98",
+      "value": "sf"
+     },
+     {
+      "type": "texture",
+      "measure": "105",
+      "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "105",
+      "value": "A major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Menuetto",
+    "explanation": "A dance-style movement in three beats to the bar. It has a main part and a contrasting Trio."
+   },
+   {
+    "term": "Trio",
+    "explanation": "The contrasting second section of this movement."
+   },
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that a passage feels centred on. Major keys sound brighter. Minor keys sound darker."
+   },
+   {
+    "term": "Modulation",
+    "explanation": "A move from one key to another."
+   },
+   {
+    "term": "Theme",
+    "explanation": "A tune that returns and is easy to recognise."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All the instruments move together in block chords."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One instrument has the tune. The others play a supporting background."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "The instruments play different lines at the same time. It is hard to pick out a single tune."
+   },
+   {
+    "term": "Unison/octaves",
+    "explanation": "Instruments play the same notes, or the same notes at different heights."
+   },
+   {
+    "term": "Tacet",
+    "explanation": "A part is silent."
+   },
+   {
+    "term": "Cresc (crescendo)",
+    "explanation": "Gradually getting louder."
+   },
+   {
+    "term": "p, f, ff",
+    "explanation": "Soft, loud and very loud."
+   },
+   {
+    "term": "sf and sfp",
+    "explanation": "A sudden strong accent. In sfp, the sound drops back to soft right after the accent."
+   }
+  ]
+ },
+ "facts_fingerprint": "480ca798b560",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 13,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 5,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 1,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

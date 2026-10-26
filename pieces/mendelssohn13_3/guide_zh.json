@@ -1,0 +1,698 @@
+{
+ "language": "zh",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 97,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 97,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 84,
+   "output": 6250,
+   "cache_read": 11586,
+   "cache_write": 0
+  },
+  {
+   "input": 10427,
+   "output": 5866,
+   "cache_read": 11586,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "门德尔松第二弦乐四重奏，Op.13 第三乐章：间奏曲（小快板，有动力）听赏指南",
+  "overview": "这是一首2/4拍的间奏曲，主调为A小调。开头的主要旋律由第一小提琴奏出，后面会多次回来。中间有一段标为非常快的段落，声音很弱。最后回到A小调，在很弱的音量中结束。说明：调性与和弦都是软件自动估计的，可能有误。",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "A minor"
+   },
+   {
+    "type": "theme",
+    "measure": "1",
+    "value": "Violin 1"
+   },
+   {
+    "type": "lead",
+    "measure": "1",
+    "value": "Violin 1"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "8",
+    "headline": "第一小提琴唱出主旋律",
+    "text": "乐章从第1部分开始，在A小调上以弱的力度进入。第一小提琴带着主旋律，其他声部以主调织体（旋律在上、和声陪衬）跟随。[m. 1-3] 是主旋律第一次出现，[m. 5-7] 原样再出现一次。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Part 1"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "A minor"
+     },
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "5",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "9",
+    "end_measure": "18",
+    "headline": "转向E小调，旋律加伴奏",
+    "text": "第2部分从 [m. 9] 开始，音乐在 [m. 10] 转入E小调。第一小提琴仍带旋律，其他声部伴奏。[m. 16-17] 各声部线条变得更独立，不再整齐同步。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "9",
+      "value": "Part 2"
+     },
+     {
+      "type": "key",
+      "measure": "10",
+      "value": "E minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "10",
+      "value": "E minor"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "texture",
+      "measure": "16",
+      "value": "independent lines"
+     },
+     {
+      "type": "lead",
+      "measure": "9",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "19",
+    "end_measure": "26",
+    "headline": "主旋律回到A小调",
+    "text": "[m. 19-21] 主旋律在原来的音高回来，调回A小调。[m. 23-25] 又出现一次。听到熟悉的开头，就知道音乐回到了起点。第一小提琴明确地带着旋律。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "19",
+      "value": "A minor"
+     },
+     {
+      "type": "theme",
+      "measure": "19",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "23",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "19",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "19",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "27",
+    "end_measure": "30",
+    "headline": "突然变轻：中提琴独奏",
+    "text": "[m. 27] 进入标为 Allegro di molto（非常快）的新段落。力度从弱突然变成很弱，没有渐变。中提琴在 [m. 27-30] 独奏。[m. 28] 起转到E大调。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "27",
+      "value": "Section 3 (Allegro di molto)"
+     },
+     {
+      "type": "dynamic",
+      "measure": "27",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "27",
+      "value": "Viola"
+     },
+     {
+      "type": "texture",
+      "measure": "27",
+      "value": "solo"
+     },
+     {
+      "type": "key",
+      "measure": "28",
+      "value": "E major"
+     },
+     {
+      "type": "modulation",
+      "measure": "28",
+      "value": "E major"
+     }
+    ]
+   },
+   {
+    "start_measure": "31",
+    "end_measure": "45",
+    "headline": "很弱的和声，调性快速变化",
+    "text": "[m. 31-45] 四个声部以主调织体一起前进，始终很弱。谁带旋律不太明确，可能由第二小提琴和第一小提琴轮流担任。估计的调性经过升C小调 [m. 37] 和升G小调 [m. 39]，在 [m. 41] 回到E大调。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "31",
+      "value": "homophonic"
+     },
+     {
+      "type": "dynamic",
+      "measure": "31",
+      "value": "pp"
+     },
+     {
+      "type": "lead",
+      "measure": "31",
+      "value": "Violin 2"
+     },
+     {
+      "type": "lead",
+      "measure": "35",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "37",
+      "value": "C# minor"
+     },
+     {
+      "type": "key",
+      "measure": "39",
+      "value": "G# minor"
+     },
+     {
+      "type": "key",
+      "measure": "41",
+      "value": "E major"
+     }
+    ]
+   },
+   {
+    "start_measure": "46",
+    "end_measure": "50",
+    "headline": "短暂出现的B大调",
+    "text": "[m. 46-49] 音乐到了B大调。第一小提琴先带旋律，其他声部伴奏。之后线条的归属不太确定。[m. 50] 回到E大调，各声部线条相对独立。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "46",
+      "value": "B major"
+     },
+     {
+      "type": "modulation",
+      "measure": "46",
+      "value": "B major"
+     },
+     {
+      "type": "texture",
+      "measure": "46",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "46",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "50",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "50",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "51",
+    "end_measure": "58",
+    "headline": "第4部分：第二小提琴带旋律",
+    "text": "从 [m. 51] 起进入第4部分，力度回到弱。第二小提琴先带着旋律，其他声部伴奏；[m. 56] 起改由第一小提琴领奏。[m. 53] 起转入B小调。分析软件把 [m. 55] 估计为本乐章最响、最繁忙的一处，但那里的标记仍是弱。",
+    "focus_part": "Violin 2",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "51",
+      "value": "Part 4"
+     },
+     {
+      "type": "dynamic",
+      "measure": "51",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "51",
+      "value": "Violin 2"
+     },
+     {
+      "type": "texture",
+      "measure": "51",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "key",
+      "measure": "53",
+      "value": "B minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "53",
+      "value": "B minor"
+     },
+     {
+      "type": "climax",
+      "measure": "55",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "59",
+    "end_measure": "77",
+    "headline": "调性不停变换，力度变弱",
+    "text": "[m. 59] 起音乐经过D大调、升F小调，再回到B小调 [m. 66]。旋律在几件乐器之间换手，很难说只属于一个声部。[m. 72] 力度突然降为很弱。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "59",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "62",
+      "value": "F# minor"
+     },
+     {
+      "type": "key",
+      "measure": "66",
+      "value": "B minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "59",
+      "value": "D major"
+     },
+     {
+      "type": "texture",
+      "measure": "59",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "dynamic",
+      "measure": "72",
+      "value": "pp"
+     }
+    ]
+   },
+   {
+    "start_measure": "78",
+    "end_measure": "94",
+    "headline": "远方的降D大调，再到A大调",
+    "text": "[m. 78] 音乐来到降D大调。[m. 81] 起很弱。[m. 84] 各声部以齐奏（同音或八度）一起走。[m. 87] 起转为A大调，织体是主调织体。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "78",
+      "value": "Db major"
+     },
+     {
+      "type": "modulation",
+      "measure": "78",
+      "value": "Db major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "81",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "84",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "87",
+      "value": "A major"
+     },
+     {
+      "type": "modulation",
+      "measure": "87",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "85",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "95",
+    "end_measure": "111",
+    "headline": "渐强渐弱交替，然后回到弱",
+    "text": "[m. 95] 起是E大调。[m. 96] 渐强，[m. 97] 渐弱，[m. 98] 渐强，[m. 99] 渐弱，声音一起一伏。[m. 107] 起力度回到弱，第一小提琴大多带旋律。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "95",
+      "value": "E major"
+     },
+     {
+      "type": "modulation",
+      "measure": "95",
+      "value": "E major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "96",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "97",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "98",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "99",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "107",
+      "value": "p"
+     },
+     {
+      "type": "lead",
+      "measure": "108a",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "112",
+    "end_measure": "116",
+    "headline": "过渡：标记为 allegro moderato",
+    "text": "[m. 112-116] 是短小的段落，标为 allegro moderato（中等快板）。织体是旋律加伴奏。[m. 115] 起，调性回到A小调。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "112",
+      "value": "Section 5 (allegro moderato)"
+     },
+     {
+      "type": "texture",
+      "measure": "112",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "key",
+      "measure": "115",
+      "value": "A minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "115",
+      "value": "A minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "117",
+    "end_measure": "123",
+    "headline": "开头的主旋律再次回来",
+    "text": "第6部分从 [m. 117] 开始，主旋律回到A小调，音高与开头相同。[m. 121-123] 又重复一次。第一小提琴领奏，其他声部伴随。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "117",
+      "value": "Section 6 (new key signature)"
+     },
+     {
+      "type": "key",
+      "measure": "117",
+      "value": "A minor"
+     },
+     {
+      "type": "theme",
+      "measure": "117",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "121",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "117",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "117",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "124",
+    "end_measure": "139",
+    "headline": "E小调、D小调里的主旋律",
+    "text": "[m. 124] 起音乐转入E小调。[m. 135-137] 主旋律在第一小提琴中出现，音高与开头一样，虽然局部调性标为E小调。[m. 139] 它又出现，音高仍与开头相同，局部调性标为D小调。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "124",
+      "value": "E minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "124",
+      "value": "E minor"
+     },
+     {
+      "type": "theme",
+      "measure": "135",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "137",
+      "value": "D minor"
+     },
+     {
+      "type": "theme",
+      "measure": "139",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "135",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "140",
+    "end_measure": "156",
+    "headline": "A大调的轻声段落与齐奏",
+    "text": "[m. 140] 起转入A大调，[m. 141] 起很弱。[m. 146] 和 [m. 150] 是独奏。[m. 152-155] 声部齐奏（同音或八度），可能由中提琴带头。[m. 153] 有渐弱标记。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "140",
+      "value": "A major"
+     },
+     {
+      "type": "modulation",
+      "measure": "140",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "141",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "146",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "150",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "152",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "lead",
+      "measure": "152",
+      "value": "Viola"
+     },
+     {
+      "type": "dynamic",
+      "measure": "153",
+      "value": "dim"
+     }
+    ]
+   },
+   {
+    "start_measure": "157",
+    "end_measure": "164",
+    "headline": "回到A小调，很弱地收尾",
+    "text": "最后 [m. 157-164] 回到A小调，始终很弱。织体多为旋律加伴奏，结尾 [m. 164] 以主调织体收束。这里谁领奏不太确定，可以听作几个声部共享。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "157",
+      "value": "A minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "157",
+      "value": "A minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "157",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "156",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "texture",
+      "measure": "164",
+      "value": "homophonic"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "主调织体",
+    "explanation": "一个声部有主要旋律，其他声部用相近的节奏做和声陪衬，听起来像整齐的和弦。"
+   },
+   {
+    "term": "旋律加伴奏",
+    "explanation": "一个声部唱旋律，其他声部在后面伴奏。"
+   },
+   {
+    "term": "转调",
+    "explanation": "音乐的中心音换了，色彩随之改变。大调多明亮，小调多暗淡。"
+   },
+   {
+    "term": "独奏",
+    "explanation": "只有一件乐器在演奏。"
+   },
+   {
+    "term": "齐奏",
+    "explanation": "几件乐器奏相同的音，或相差八度的同一个音。"
+   },
+   {
+    "term": "渐强/渐弱",
+    "explanation": "声音逐渐变响或变轻。没有这类标记的力度变化是突然的。"
+   },
+   {
+    "term": "主旋律",
+    "explanation": "乐章开头由第一小提琴奏出的旋律，后面多次回来。"
+   }
+  ]
+ },
+ "facts_fingerprint": "6f2c572852ed",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 3,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}

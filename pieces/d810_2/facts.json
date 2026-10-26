@@ -1,0 +1,5943 @@
+{
+ "facts_version": 1,
+ "piece": {
+  "id": "d810_2",
+  "title": "Schubert: String Quartet in D minor, D.810, No.14 (“Death and the Maiden”) – II. Andante con moto",
+  "composer": "Franz Schubert",
+  "tempo_marking": "II.",
+  "parts": [
+   "Violin 1",
+   "Violin 2",
+   "Viola",
+   "Cello"
+  ],
+  "home_key": "G minor",
+  "time_signature": "2/2",
+  "n_measures": 172,
+  "first_label": "1",
+  "last_label": "172",
+  "harmony_source": "auto",
+  "score_source": "score.musicxml",
+  "audio": "incoming/IMSLP76160-PMLP09913-schubert_d810.mp3",
+  "score_quality": "good"
+ },
+ "sections": [
+  {
+   "section": 1,
+   "name": "Part 1",
+   "start_mc": 1,
+   "end_mc": 8,
+   "start_label": "1",
+   "end_label": "8",
+   "n_measures": 8,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 2,
+   "name": "Part 2",
+   "start_mc": 9,
+   "end_mc": 24,
+   "start_label": "9",
+   "end_label": "24",
+   "n_measures": 16,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 3,
+   "name": "Section 3 (lento)",
+   "start_mc": 25,
+   "end_mc": 33,
+   "start_label": "25",
+   "end_label": "32b",
+   "n_measures": 8,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 4,
+   "name": "Section 4 (lento)",
+   "start_mc": 34,
+   "end_mc": 50,
+   "start_label": "33",
+   "end_label": "48b",
+   "n_measures": 16,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 5,
+   "name": "Section 5 (largo)",
+   "start_mc": 51,
+   "end_mc": 58,
+   "start_label": "49",
+   "end_label": "56",
+   "n_measures": 8,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 6,
+   "name": "Part 6",
+   "start_mc": 59,
+   "end_mc": 75,
+   "start_label": "57",
+   "end_label": "72b",
+   "n_measures": 16,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 7,
+   "name": "Section 7 (lento)",
+   "start_mc": 76,
+   "end_mc": 84,
+   "start_label": "73",
+   "end_label": "80b",
+   "n_measures": 8,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 8,
+   "name": "Part 8",
+   "start_mc": 85,
+   "end_mc": 101,
+   "start_label": "81",
+   "end_label": "96b",
+   "n_measures": 16,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 9,
+   "name": "Section 9 (largo)",
+   "start_mc": 102,
+   "end_mc": 110,
+   "start_label": "97",
+   "end_label": "104b",
+   "n_measures": 8,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 10,
+   "name": "Part 10",
+   "start_mc": 111,
+   "end_mc": 127,
+   "start_label": "105",
+   "end_label": "120b",
+   "n_measures": 16,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 11,
+   "name": "Section 11 (lento)",
+   "start_mc": 128,
+   "end_mc": 136,
+   "start_label": "121",
+   "end_label": "128b",
+   "n_measures": 8,
+   "repeated": true,
+   "named_in_score": false
+  },
+  {
+   "section": 12,
+   "name": "Section 12 (lento)",
+   "start_mc": 137,
+   "end_mc": 152,
+   "start_label": "129",
+   "end_label": "144",
+   "n_measures": 16,
+   "repeated": false,
+   "named_in_score": false
+  },
+  {
+   "section": 13,
+   "name": "Section 13 (lento)",
+   "start_mc": 153,
+   "end_mc": 178,
+   "start_label": "145",
+   "end_label": "170",
+   "n_measures": 26,
+   "repeated": false,
+   "named_in_score": false
+  },
+  {
+   "section": 14,
+   "name": "Section 14 (largo)",
+   "start_mc": 179,
+   "end_mc": 180,
+   "start_label": "171",
+   "end_label": "172",
+   "n_measures": 2,
+   "repeated": false,
+   "named_in_score": false
+  }
+ ],
+ "key_plan": [
+  {
+   "key_name": "G minor",
+   "start_mc": 1,
+   "end_mc": 13,
+   "start_label": "1",
+   "end_label": "13",
+   "n_labels": 25
+  },
+  {
+   "key_name": "Bb major",
+   "start_mc": 14,
+   "end_mc": 19,
+   "start_label": "14",
+   "end_label": "19",
+   "n_labels": 12
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 20,
+   "end_mc": 21,
+   "start_label": "20",
+   "end_label": "21",
+   "n_labels": 4
+  },
+  {
+   "key_name": "G major",
+   "start_mc": 22,
+   "end_mc": 25,
+   "start_label": "22",
+   "end_label": "25",
+   "n_labels": 7
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 26,
+   "end_mc": 38,
+   "start_label": "26",
+   "end_label": "37",
+   "n_labels": 26
+  },
+  {
+   "key_name": "Bb major",
+   "start_mc": 39,
+   "end_mc": 43,
+   "start_label": "38",
+   "end_label": "42",
+   "n_labels": 10
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 44,
+   "end_mc": 46,
+   "start_label": "43",
+   "end_label": "45",
+   "n_labels": 6
+  },
+  {
+   "key_name": "G major",
+   "start_mc": 47,
+   "end_mc": 51,
+   "start_label": "46",
+   "end_label": "49",
+   "n_labels": 10
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 52,
+   "end_mc": 63,
+   "start_label": "50",
+   "end_label": "61",
+   "n_labels": 24
+  },
+  {
+   "key_name": "Bb major",
+   "start_mc": 64,
+   "end_mc": 68,
+   "start_label": "62",
+   "end_label": "66",
+   "n_labels": 10
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 69,
+   "end_mc": 71,
+   "start_label": "67",
+   "end_label": "69",
+   "n_labels": 6
+  },
+  {
+   "key_name": "G major",
+   "start_mc": 72,
+   "end_mc": 76,
+   "start_label": "70",
+   "end_label": "73",
+   "n_labels": 10
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 77,
+   "end_mc": 89,
+   "start_label": "74",
+   "end_label": "85",
+   "n_labels": 26
+  },
+  {
+   "key_name": "Bb major",
+   "start_mc": 90,
+   "end_mc": 94,
+   "start_label": "86",
+   "end_label": "90",
+   "n_labels": 10
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 95,
+   "end_mc": 101,
+   "start_label": "91",
+   "end_label": "96b",
+   "n_labels": 14
+  },
+  {
+   "key_name": "G major",
+   "start_mc": 102,
+   "end_mc": 110,
+   "start_label": "97",
+   "end_label": "104b",
+   "n_labels": 18
+  },
+  {
+   "key_name": "E minor",
+   "start_mc": 111,
+   "end_mc": 117,
+   "start_label": "105",
+   "end_label": "111",
+   "n_labels": 14
+  },
+  {
+   "key_name": "G major",
+   "start_mc": 118,
+   "end_mc": 128,
+   "start_label": "112",
+   "end_label": "121",
+   "n_labels": 22
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 129,
+   "end_mc": 141,
+   "start_label": "122",
+   "end_label": "133",
+   "n_labels": 26
+  },
+  {
+   "key_name": "Bb major",
+   "start_mc": 142,
+   "end_mc": 147,
+   "start_label": "134",
+   "end_label": "139",
+   "n_labels": 12
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 148,
+   "end_mc": 158,
+   "start_label": "140",
+   "end_label": "150",
+   "n_labels": 22
+  },
+  {
+   "key_name": "Bb major",
+   "start_mc": 159,
+   "end_mc": 162,
+   "start_label": "151",
+   "end_label": "154",
+   "n_labels": 8
+  },
+  {
+   "key_name": "G minor",
+   "start_mc": 163,
+   "end_mc": 165,
+   "start_label": "155",
+   "end_label": "157",
+   "n_labels": 6
+  },
+  {
+   "key_name": "G major",
+   "start_mc": 166,
+   "end_mc": 180,
+   "start_label": "158",
+   "end_label": "172",
+   "n_labels": 28
+  }
+ ],
+ "modulations": [
+  {
+   "label": "14",
+   "mc": 14,
+   "from_key": "G minor",
+   "to_key": "Bb major"
+  },
+  {
+   "label": "20",
+   "mc": 20,
+   "from_key": "Bb major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "22",
+   "mc": 22,
+   "from_key": "G minor",
+   "to_key": "G major"
+  },
+  {
+   "label": "26",
+   "mc": 26,
+   "from_key": "G major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "38",
+   "mc": 39,
+   "from_key": "G minor",
+   "to_key": "Bb major"
+  },
+  {
+   "label": "43",
+   "mc": 44,
+   "from_key": "Bb major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "46",
+   "mc": 47,
+   "from_key": "G minor",
+   "to_key": "G major"
+  },
+  {
+   "label": "50",
+   "mc": 52,
+   "from_key": "G major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "62",
+   "mc": 64,
+   "from_key": "G minor",
+   "to_key": "Bb major"
+  },
+  {
+   "label": "67",
+   "mc": 69,
+   "from_key": "Bb major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "70",
+   "mc": 72,
+   "from_key": "G minor",
+   "to_key": "G major"
+  },
+  {
+   "label": "74",
+   "mc": 77,
+   "from_key": "G major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "86",
+   "mc": 90,
+   "from_key": "G minor",
+   "to_key": "Bb major"
+  },
+  {
+   "label": "91",
+   "mc": 95,
+   "from_key": "Bb major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "97",
+   "mc": 102,
+   "from_key": "G minor",
+   "to_key": "G major"
+  },
+  {
+   "label": "105",
+   "mc": 111,
+   "from_key": "G major",
+   "to_key": "E minor"
+  },
+  {
+   "label": "112",
+   "mc": 118,
+   "from_key": "E minor",
+   "to_key": "G major"
+  },
+  {
+   "label": "122",
+   "mc": 129,
+   "from_key": "G major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "134",
+   "mc": 142,
+   "from_key": "G minor",
+   "to_key": "Bb major"
+  },
+  {
+   "label": "140",
+   "mc": 148,
+   "from_key": "Bb major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "151",
+   "mc": 159,
+   "from_key": "G minor",
+   "to_key": "Bb major"
+  },
+  {
+   "label": "155",
+   "mc": 163,
+   "from_key": "Bb major",
+   "to_key": "G minor"
+  },
+  {
+   "label": "158",
+   "mc": 166,
+   "from_key": "G minor",
+   "to_key": "G major"
+  }
+ ],
+ "cadences": [],
+ "themes": [
+  {
+   "name": "main theme",
+   "part": "Violin 1",
+   "start_label": "1",
+   "notes": [
+    "G4",
+    "G4",
+    "G4",
+    "G4",
+    "A4",
+    "A#4",
+    "A4",
+    "G4",
+    "F#4"
+   ],
+   "intervals": [
+    0,
+    0,
+    0,
+    2,
+    1,
+    -1,
+    -2,
+    -1
+   ]
+  }
+ ],
+ "theme_occurrences": [
+  {
+   "theme": "main theme",
+   "part": "Violin 1",
+   "start_label": "1",
+   "end_label": "3",
+   "start_mc": 1,
+   "end_mc": 3,
+   "kind": "original",
+   "transposition_semitones": 0,
+   "rhythm_similarity": 1.0,
+   "key_at_start": "G minor"
+  }
+ ],
+ "variations": [],
+ "lead_spans": [
+  {
+   "lead": "Violin 1",
+   "start_mc": 1,
+   "end_mc": 3,
+   "start_label": "1",
+   "end_label": "3",
+   "mean_confidence": 0.76
+  },
+  {
+   "lead": "Violin 2",
+   "start_mc": 4,
+   "end_mc": 5,
+   "start_label": "4",
+   "end_label": "5",
+   "mean_confidence": 0.0
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 6,
+   "end_mc": 12,
+   "start_label": "6",
+   "end_label": "12",
+   "mean_confidence": 0.87
+  },
+  {
+   "lead": "Cello",
+   "start_mc": 13,
+   "end_mc": 13,
+   "start_label": "13",
+   "end_label": "13",
+   "mean_confidence": 1.0
+  },
+  {
+   "lead": "Violin 2",
+   "start_mc": 14,
+   "end_mc": 15,
+   "start_label": "14",
+   "end_label": "15",
+   "mean_confidence": 0.71
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 16,
+   "end_mc": 19,
+   "start_label": "16",
+   "end_label": "19",
+   "mean_confidence": 0.6
+  },
+  {
+   "lead": "Cello",
+   "start_mc": 20,
+   "end_mc": 22,
+   "start_label": "20",
+   "end_label": "22",
+   "mean_confidence": 0.15
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 23,
+   "end_mc": 31,
+   "start_label": "23",
+   "end_label": "31",
+   "mean_confidence": 0.78
+  },
+  {
+   "lead": "Cello",
+   "start_mc": 32,
+   "end_mc": 33,
+   "start_label": "31a",
+   "end_label": "32b",
+   "mean_confidence": 0.64
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 34,
+   "end_mc": 48,
+   "start_label": "33",
+   "end_label": "47",
+   "mean_confidence": 0.77
+  },
+  {
+   "lead": "Cello",
+   "start_mc": 49,
+   "end_mc": 50,
+   "start_label": "47a",
+   "end_label": "48b",
+   "mean_confidence": 0.53
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 51,
+   "end_mc": 75,
+   "start_label": "49",
+   "end_label": "72b",
+   "mean_confidence": 0.44
+  },
+  {
+   "lead": "Viola",
+   "start_mc": 76,
+   "end_mc": 77,
+   "start_label": "73",
+   "end_label": "74",
+   "mean_confidence": 0.0
+  },
+  {
+   "lead": "Violin 2",
+   "start_mc": 78,
+   "end_mc": 95,
+   "start_label": "75",
+   "end_label": "91",
+   "mean_confidence": 0.18
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 96,
+   "end_mc": 99,
+   "start_label": "92",
+   "end_label": "95",
+   "mean_confidence": 0.18
+  },
+  {
+   "lead": "Violin 2",
+   "start_mc": 100,
+   "end_mc": 101,
+   "start_label": "95a",
+   "end_label": "96b",
+   "mean_confidence": 0.0
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 102,
+   "end_mc": 136,
+   "start_label": "97",
+   "end_label": "128b",
+   "mean_confidence": 0.46
+  },
+  {
+   "lead": "Cello",
+   "start_mc": 137,
+   "end_mc": 138,
+   "start_label": "129",
+   "end_label": "130",
+   "mean_confidence": 0.62
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 139,
+   "end_mc": 139,
+   "start_label": "131",
+   "end_label": "131",
+   "mean_confidence": 0.75
+  },
+  {
+   "lead": "Cello",
+   "start_mc": 140,
+   "end_mc": 150,
+   "start_label": "132",
+   "end_label": "142",
+   "mean_confidence": 0.3
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 151,
+   "end_mc": 163,
+   "start_label": "143",
+   "end_label": "155",
+   "mean_confidence": 0.54
+  },
+  {
+   "lead": "Cello",
+   "start_mc": 164,
+   "end_mc": 164,
+   "start_label": "156",
+   "end_label": "156",
+   "mean_confidence": 0.54
+  },
+  {
+   "lead": "Violin 2",
+   "start_mc": 165,
+   "end_mc": 166,
+   "start_label": "157",
+   "end_label": "158",
+   "mean_confidence": 0.21
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 167,
+   "end_mc": 168,
+   "start_label": "159",
+   "end_label": "160",
+   "mean_confidence": 0.89
+  },
+  {
+   "lead": "Violin 2",
+   "start_mc": 169,
+   "end_mc": 170,
+   "start_label": "161",
+   "end_label": "162",
+   "mean_confidence": 0.0
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 171,
+   "end_mc": 172,
+   "start_label": "163",
+   "end_label": "164",
+   "mean_confidence": 0.58
+  },
+  {
+   "lead": "Violin 2",
+   "start_mc": 173,
+   "end_mc": 174,
+   "start_label": "165",
+   "end_label": "166",
+   "mean_confidence": 0.0
+  },
+  {
+   "lead": "Violin 1",
+   "start_mc": 175,
+   "end_mc": 180,
+   "start_label": "167",
+   "end_label": "172",
+   "mean_confidence": 0.62
+  }
+ ],
+ "texture_spans": [
+  {
+   "texture": "homophonic",
+   "start_mc": 1,
+   "end_mc": 15,
+   "start_label": "1",
+   "end_label": "15",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 16,
+   "end_mc": 16,
+   "start_label": "16",
+   "end_label": "16",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "homophonic",
+   "start_mc": 17,
+   "end_mc": 24,
+   "start_label": "17",
+   "end_label": "24",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 25,
+   "end_mc": 38,
+   "start_label": "25",
+   "end_label": "37",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "homophonic",
+   "start_mc": 39,
+   "end_mc": 39,
+   "start_label": "38",
+   "end_label": "38",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 40,
+   "end_mc": 40,
+   "start_label": "39",
+   "end_label": "39",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 41,
+   "end_mc": 41,
+   "start_label": "40",
+   "end_label": "40",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 42,
+   "end_mc": 60,
+   "start_label": "41",
+   "end_label": "58",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 61,
+   "end_mc": 61,
+   "start_label": "59",
+   "end_label": "59",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 62,
+   "end_mc": 66,
+   "start_label": "60",
+   "end_label": "64",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 67,
+   "end_mc": 69,
+   "start_label": "65",
+   "end_label": "67",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 70,
+   "end_mc": 70,
+   "start_label": "68",
+   "end_label": "68",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 71,
+   "end_mc": 72,
+   "start_label": "69",
+   "end_label": "70",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 73,
+   "end_mc": 76,
+   "start_label": "71",
+   "end_label": "73",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "homophonic",
+   "start_mc": 77,
+   "end_mc": 79,
+   "start_label": "74",
+   "end_label": "76",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 80,
+   "end_mc": 80,
+   "start_label": "77",
+   "end_label": "77",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 81,
+   "end_mc": 81,
+   "start_label": "78",
+   "end_label": "78",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 82,
+   "end_mc": 82,
+   "start_label": "79",
+   "end_label": "79",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 83,
+   "end_mc": 92,
+   "start_label": "79a",
+   "end_label": "88",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 93,
+   "end_mc": 93,
+   "start_label": "89",
+   "end_label": "89",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 94,
+   "end_mc": 94,
+   "start_label": "90",
+   "end_label": "90",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 95,
+   "end_mc": 96,
+   "start_label": "91",
+   "end_label": "92",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "homophonic",
+   "start_mc": 97,
+   "end_mc": 101,
+   "start_label": "93",
+   "end_label": "96b",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 102,
+   "end_mc": 138,
+   "start_label": "97",
+   "end_label": "130",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 139,
+   "end_mc": 139,
+   "start_label": "131",
+   "end_label": "131",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 140,
+   "end_mc": 145,
+   "start_label": "132",
+   "end_label": "137",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 146,
+   "end_mc": 151,
+   "start_label": "138",
+   "end_label": "143",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 152,
+   "end_mc": 153,
+   "start_label": "144",
+   "end_label": "145",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "trio",
+   "start_mc": 154,
+   "end_mc": 154,
+   "start_label": "146",
+   "end_label": "146",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 155,
+   "end_mc": 157,
+   "start_label": "147",
+   "end_label": "149",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 158,
+   "end_mc": 158,
+   "start_label": "150",
+   "end_label": "150",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 159,
+   "end_mc": 159,
+   "start_label": "151",
+   "end_label": "151",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 160,
+   "end_mc": 160,
+   "start_label": "152",
+   "end_label": "152",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 161,
+   "end_mc": 163,
+   "start_label": "153",
+   "end_label": "155",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "independent lines",
+   "start_mc": 164,
+   "end_mc": 165,
+   "start_label": "156",
+   "end_label": "157",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 166,
+   "end_mc": 168,
+   "start_label": "158",
+   "end_label": "160",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "homophonic",
+   "start_mc": 169,
+   "end_mc": 171,
+   "start_label": "161",
+   "end_label": "163",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "melody + accompaniment",
+   "start_mc": 172,
+   "end_mc": 172,
+   "start_label": "164",
+   "end_label": "164",
+   "mean_confidence": 1.0
+  },
+  {
+   "texture": "homophonic",
+   "start_mc": 173,
+   "end_mc": 180,
+   "start_label": "165",
+   "end_label": "172",
+   "mean_confidence": 1.0
+  }
+ ],
+ "climax": {
+  "label": "73",
+  "mc": 76,
+  "dynamic": "ff",
+  "section": "Section 7 (lento)"
+ },
+ "measures": [
+  {
+   "mc": 1,
+   "label": "1",
+   "section": "Part 1",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.41,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 2,
+   "label": "2",
+   "section": "Part 1",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.94,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 3,
+   "label": "3",
+   "section": "Part 1",
+   "key": "G minor",
+   "chords": [
+    "D dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.94,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 4,
+   "label": "4",
+   "section": "Part 1",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 12
+  },
+  {
+   "mc": 5,
+   "label": "5",
+   "section": "Part 1",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 12
+  },
+  {
+   "mc": 6,
+   "label": "6",
+   "section": "Part 1",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.42,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 7,
+   "label": "7",
+   "section": "Part 1",
+   "key": "G minor",
+   "chords": [
+    "D dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 8
+  },
+  {
+   "mc": 8,
+   "label": "8",
+   "section": "Part 1",
+   "key": "G minor",
+   "chords": [
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 4
+  },
+  {
+   "mc": 9,
+   "label": "9",
+   "section": "Part 2",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 12
+  },
+  {
+   "mc": 10,
+   "label": "10",
+   "section": "Part 2",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 8
+  },
+  {
+   "mc": 11,
+   "label": "11",
+   "section": "Part 2",
+   "key": "G minor",
+   "chords": [
+    "C minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [
+    "f"
+   ],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 12,
+   "label": "12",
+   "section": "Part 2",
+   "key": "G minor",
+   "chords": [
+    "D major",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 8
+  },
+  {
+   "mc": 13,
+   "label": "13",
+   "section": "Part 2",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 12
+  },
+  {
+   "mc": 14,
+   "label": "14",
+   "section": "Part 2",
+   "key": "Bb major",
+   "chords": [
+    "G minor",
+    "Bb diminished"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.62,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 8
+  },
+  {
+   "mc": 15,
+   "label": "15",
+   "section": "Part 2",
+   "key": "Bb major",
+   "chords": [
+    "F major",
+    "D minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.79,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 16,
+   "label": "16",
+   "section": "Part 2",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Bb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 6
+  },
+  {
+   "mc": 17,
+   "label": "17",
+   "section": "Part 2",
+   "key": "Bb major",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.56,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp",
+    "other-dynamics"
+   ],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 18,
+   "label": "18",
+   "section": "Part 2",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.61,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 19,
+   "label": "19",
+   "section": "Part 2",
+   "key": "Bb major",
+   "chords": [
+    "Bb dominant seventh",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.56,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 20,
+   "label": "20",
+   "section": "Part 2",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.44,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 21,
+   "label": "21",
+   "section": "Part 2",
+   "key": "G minor",
+   "chords": [
+    "A dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 12
+  },
+  {
+   "mc": 22,
+   "label": "22",
+   "section": "Part 2",
+   "key": "G major",
+   "chords": [
+    "A dominant seventh",
+    "A dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 23,
+   "label": "23",
+   "section": "Part 2",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [
+    "cresc",
+    "dim"
+   ],
+   "onsets": 9
+  },
+  {
+   "mc": 24,
+   "label": "24",
+   "section": "Part 2",
+   "key": "G major",
+   "chords": [
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 4
+  },
+  {
+   "mc": 25,
+   "label": "25",
+   "section": "Section 3 (lento)",
+   "key": "G major",
+   "chords": [
+    "G minor",
+    "F dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 26
+  },
+  {
+   "mc": 26,
+   "label": "26",
+   "section": "Section 3 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.44,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 27,
+   "label": "27",
+   "section": "Section 3 (lento)",
+   "key": "G minor",
+   "chords": [
+    "D dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.66,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 28,
+   "label": "28",
+   "section": "Section 3 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.68,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 17
+  },
+  {
+   "mc": 29,
+   "label": "29",
+   "section": "Section 3 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "F dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.83,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 18
+  },
+  {
+   "mc": 30,
+   "label": "30",
+   "section": "Section 3 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.76,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 18
+  },
+  {
+   "mc": 31,
+   "label": "31",
+   "section": "Section 3 (lento)",
+   "key": "G minor",
+   "chords": [
+    "C minor",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 19
+  },
+  {
+   "mc": 32,
+   "label": "31a",
+   "section": "Section 3 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.66,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 33,
+   "label": "32b",
+   "section": "Section 3 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.61,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 34,
+   "label": "33",
+   "section": "Section 4 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 20
+  },
+  {
+   "mc": 35,
+   "label": "34",
+   "section": "Section 4 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 13
+  },
+  {
+   "mc": 36,
+   "label": "35",
+   "section": "Section 4 (lento)",
+   "key": "G minor",
+   "chords": [
+    "C minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [
+    "f"
+   ],
+   "hairpins": [],
+   "onsets": 18
+  },
+  {
+   "mc": 37,
+   "label": "36",
+   "section": "Section 4 (lento)",
+   "key": "G minor",
+   "chords": [
+    "D major",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 13
+  },
+  {
+   "mc": 38,
+   "label": "37",
+   "section": "Section 4 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.59,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 19
+  },
+  {
+   "mc": 39,
+   "label": "38",
+   "section": "Section 4 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "G minor",
+    "Db diminished seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.62,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 10
+  },
+  {
+   "mc": 40,
+   "label": "39",
+   "section": "Section 4 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "F major",
+    "D minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 20
+  },
+  {
+   "mc": 41,
+   "label": "40",
+   "section": "Section 4 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Bb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.62,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 9
+  },
+  {
+   "mc": 42,
+   "label": "41",
+   "section": "Section 4 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.58,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 43,
+   "label": "42",
+   "section": "Section 4 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 44,
+   "label": "43",
+   "section": "Section 4 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Bb dominant seventh",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.58,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 45,
+   "label": "44",
+   "section": "Section 4 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 46,
+   "label": "45",
+   "section": "Section 4 (lento)",
+   "key": "G minor",
+   "chords": [
+    "A dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.59,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 14
+  },
+  {
+   "mc": 47,
+   "label": "46",
+   "section": "Section 4 (lento)",
+   "key": "G major",
+   "chords": [
+    "A dominant seventh",
+    "A dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.34,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 15
+  },
+  {
+   "mc": 48,
+   "label": "47",
+   "section": "Section 4 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 17
+  },
+  {
+   "mc": 49,
+   "label": "47a",
+   "section": "Section 4 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.65,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 50,
+   "label": "48b",
+   "section": "Section 4 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.4,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 10
+  },
+  {
+   "mc": 51,
+   "label": "49",
+   "section": "Section 5 (largo)",
+   "key": "G major",
+   "chords": [
+    "G minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.62,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 30
+  },
+  {
+   "mc": 52,
+   "label": "50",
+   "section": "Section 5 (largo)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.31,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [
+    "cresc",
+    "dim"
+   ],
+   "onsets": 30
+  },
+  {
+   "mc": 53,
+   "label": "51",
+   "section": "Section 5 (largo)",
+   "key": "G minor",
+   "chords": [
+    "D dominant seventh",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.27,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 29
+  },
+  {
+   "mc": 54,
+   "label": "52",
+   "section": "Section 5 (largo)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.71,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 30
+  },
+  {
+   "mc": 55,
+   "label": "53",
+   "section": "Section 5 (largo)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.64,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 29
+  },
+  {
+   "mc": 56,
+   "label": "54",
+   "section": "Section 5 (largo)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [
+    "cresc",
+    "dim"
+   ],
+   "onsets": 31
+  },
+  {
+   "mc": 57,
+   "label": "55",
+   "section": "Section 5 (largo)",
+   "key": "G minor",
+   "chords": [
+    "C minor",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Cello",
+   "lead_confidence": 0.08,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 33
+  },
+  {
+   "mc": 58,
+   "label": "56",
+   "section": "Section 5 (largo)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Cello",
+   "lead_confidence": 0.08,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 28
+  },
+  {
+   "mc": 59,
+   "label": "57",
+   "section": "Part 6",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.96,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 30
+  },
+  {
+   "mc": 60,
+   "label": "58",
+   "section": "Part 6",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.33,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 29
+  },
+  {
+   "mc": 61,
+   "label": "59",
+   "section": "Part 6",
+   "key": "G minor",
+   "chords": [
+    "C minor",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.22,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [
+    "f"
+   ],
+   "hairpins": [],
+   "onsets": 32
+  },
+  {
+   "mc": 62,
+   "label": "60",
+   "section": "Part 6",
+   "key": "G minor",
+   "chords": [
+    "D major",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.47,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 31
+  },
+  {
+   "mc": 63,
+   "label": "61",
+   "section": "Part 6",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.79,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 30
+  },
+  {
+   "mc": 64,
+   "label": "62",
+   "section": "Part 6",
+   "key": "Bb major",
+   "chords": [
+    "G minor",
+    "Db diminished seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.31,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 29
+  },
+  {
+   "mc": 65,
+   "label": "63",
+   "section": "Part 6",
+   "key": "Bb major",
+   "chords": [
+    "F dominant seventh",
+    "F dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.27,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 33
+  },
+  {
+   "mc": 66,
+   "label": "64",
+   "section": "Part 6",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Bb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.77,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 31
+  },
+  {
+   "mc": 67,
+   "label": "65",
+   "section": "Part 6",
+   "key": "Bb major",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.21,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 31
+  },
+  {
+   "mc": 68,
+   "label": "66",
+   "section": "Part 6",
+   "key": "Bb major",
+   "chords": [
+    "Bb dominant seventh",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.56,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 31
+  },
+  {
+   "mc": 69,
+   "label": "67",
+   "section": "Part 6",
+   "key": "G minor",
+   "chords": [
+    "Bb dominant seventh",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Cello",
+   "lead_confidence": 0.09,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 33
+  },
+  {
+   "mc": 70,
+   "label": "68",
+   "section": "Part 6",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.68,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 29
+  },
+  {
+   "mc": 71,
+   "label": "69",
+   "section": "Part 6",
+   "key": "G minor",
+   "chords": [
+    "A dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.63,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 27
+  },
+  {
+   "mc": 72,
+   "label": "70",
+   "section": "Part 6",
+   "key": "G major",
+   "chords": [
+    "A dominant seventh",
+    "A dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.32,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 29
+  },
+  {
+   "mc": 73,
+   "label": "71",
+   "section": "Part 6",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Cello",
+   "lead_confidence": 0.15,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 36
+  },
+  {
+   "mc": 74,
+   "label": "71a",
+   "section": "Part 6",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.76,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 25
+  },
+  {
+   "mc": 75,
+   "label": "72b",
+   "section": "Part 6",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.86,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 22
+  },
+  {
+   "mc": 76,
+   "label": "73",
+   "section": "Section 7 (lento)",
+   "key": "G major",
+   "chords": [
+    "G minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Viola",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ff",
+   "dynamic_level": 6,
+   "markings": [
+    "ff",
+    "fz"
+   ],
+   "hairpins": [],
+   "onsets": 48
+  },
+  {
+   "mc": 77,
+   "label": "74",
+   "section": "Section 7 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Viola",
+   "co_lead": "Violin 1",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ff",
+   "dynamic_level": 6,
+   "markings": [
+    "fz"
+   ],
+   "hairpins": [],
+   "onsets": 48
+  },
+  {
+   "mc": 78,
+   "label": "75",
+   "section": "Section 7 (lento)",
+   "key": "G minor",
+   "chords": [
+    "D dominant seventh",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.06,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ff",
+   "dynamic_level": 6,
+   "markings": [
+    "fz"
+   ],
+   "hairpins": [],
+   "onsets": 48
+  },
+  {
+   "mc": 79,
+   "label": "76",
+   "section": "Section 7 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 38
+  },
+  {
+   "mc": 80,
+   "label": "77",
+   "section": "Section 7 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 26
+  },
+  {
+   "mc": 81,
+   "label": "78",
+   "section": "Section 7 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 30
+  },
+  {
+   "mc": 82,
+   "label": "79",
+   "section": "Section 7 (lento)",
+   "key": "G minor",
+   "chords": [
+    "D dominant seventh",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 31
+  },
+  {
+   "mc": 83,
+   "label": "79a",
+   "section": "Section 7 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 28
+  },
+  {
+   "mc": 84,
+   "label": "80b",
+   "section": "Section 7 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [
+    "f"
+   ],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 30
+  },
+  {
+   "mc": 85,
+   "label": "81",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.24,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [
+    "f"
+   ],
+   "hairpins": [],
+   "onsets": 24
+  },
+  {
+   "mc": 86,
+   "label": "82",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.24,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 23
+  },
+  {
+   "mc": 87,
+   "label": "83",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "C minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.41,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 28
+  },
+  {
+   "mc": 88,
+   "label": "84",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "D major",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.39,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 24
+  },
+  {
+   "mc": 89,
+   "label": "85",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.3,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 22
+  },
+  {
+   "mc": 90,
+   "label": "86",
+   "section": "Part 8",
+   "key": "Bb major",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.24,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 23
+  },
+  {
+   "mc": 91,
+   "label": "87",
+   "section": "Part 8",
+   "key": "Bb major",
+   "chords": [
+    "F major",
+    "F dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.41,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 28
+  },
+  {
+   "mc": 92,
+   "label": "88",
+   "section": "Part 8",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Bb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.39,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 23
+  },
+  {
+   "mc": 93,
+   "label": "89",
+   "section": "Part 8",
+   "key": "Bb major",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.36,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 36
+  },
+  {
+   "mc": 94,
+   "label": "90",
+   "section": "Part 8",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Bb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Violin 1",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 29
+  },
+  {
+   "mc": 95,
+   "label": "91",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "Bb dominant seventh",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.17,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 36
+  },
+  {
+   "mc": 96,
+   "label": "92",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.25,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 28
+  },
+  {
+   "mc": 97,
+   "label": "93",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "A dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Cello",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 41
+  },
+  {
+   "mc": 98,
+   "label": "94",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "A dominant seventh",
+    "A dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Cello",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 41
+  },
+  {
+   "mc": 99,
+   "label": "95",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.49,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ff",
+   "dynamic_level": 6,
+   "markings": [
+    "ff"
+   ],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 48
+  },
+  {
+   "mc": 100,
+   "label": "95a",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ff",
+   "dynamic_level": 6,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 40
+  },
+  {
+   "mc": 101,
+   "label": "96b",
+   "section": "Part 8",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ff",
+   "dynamic_level": 6,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 40
+  },
+  {
+   "mc": 102,
+   "label": "97",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "Db diminished seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.67,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 19
+  },
+  {
+   "mc": 103,
+   "label": "98",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.2,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 20
+  },
+  {
+   "mc": 104,
+   "label": "99",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "D dominant seventh",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Viola",
+   "lead_confidence": 0.08,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 23
+  },
+  {
+   "mc": 105,
+   "label": "100",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "C major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.53,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc",
+    "dim"
+   ],
+   "onsets": 19
+  },
+  {
+   "mc": 106,
+   "label": "101",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "Db diminished seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.67,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 19
+  },
+  {
+   "mc": 107,
+   "label": "102",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.2,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 20
+  },
+  {
+   "mc": 108,
+   "label": "103",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "D dominant seventh",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.24,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 24
+  },
+  {
+   "mc": 109,
+   "label": "103a",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "D dominant seventh",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.34,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 19
+  },
+  {
+   "mc": 110,
+   "label": "104b",
+   "section": "Section 9 (largo)",
+   "key": "G major",
+   "chords": [
+    "D dominant seventh",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.34,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 19
+  },
+  {
+   "mc": 111,
+   "label": "105",
+   "section": "Part 10",
+   "key": "E minor",
+   "chords": [
+    "C major",
+    "A minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 21
+  },
+  {
+   "mc": 112,
+   "label": "106",
+   "section": "Part 10",
+   "key": "E minor",
+   "chords": [
+    "E minor",
+    "E minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 113,
+   "label": "107",
+   "section": "Part 10",
+   "key": "E minor",
+   "chords": [
+    "A minor",
+    "A minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.36,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 114,
+   "label": "108",
+   "section": "Part 10",
+   "key": "E minor",
+   "chords": [
+    "B major",
+    "B major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 14
+  },
+  {
+   "mc": 115,
+   "label": "109",
+   "section": "Part 10",
+   "key": "E minor",
+   "chords": [
+    "C major",
+    "A dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.26,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 22
+  },
+  {
+   "mc": 116,
+   "label": "110",
+   "section": "Part 10",
+   "key": "E minor",
+   "chords": [
+    "E minor",
+    "D diminished seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.85,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc",
+    "dim"
+   ],
+   "onsets": 17
+  },
+  {
+   "mc": 117,
+   "label": "111",
+   "section": "Part 10",
+   "key": "E minor",
+   "chords": [
+    "A major",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.48,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 18
+  },
+  {
+   "mc": 118,
+   "label": "112",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "D major",
+    "G dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.82,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 15
+  },
+  {
+   "mc": 119,
+   "label": "113",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "C major",
+    "C major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.64,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 21
+  },
+  {
+   "mc": 120,
+   "label": "114",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "G dominant seventh",
+    "G dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.29,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 21
+  },
+  {
+   "mc": 121,
+   "label": "115",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "G dominant seventh",
+    "G dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.66,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 18
+  },
+  {
+   "mc": 122,
+   "label": "116",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "C major",
+    "C major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.42,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 22
+  },
+  {
+   "mc": 123,
+   "label": "117",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "A dominant seventh",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.43,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 15
+  },
+  {
+   "mc": 124,
+   "label": "118",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "A dominant seventh",
+    "A dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.47,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 125,
+   "label": "119",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "D diminished seventh",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.56,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 21
+  },
+  {
+   "mc": 126,
+   "label": "119a",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.34,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 21
+  },
+  {
+   "mc": 127,
+   "label": "120b",
+   "section": "Part 10",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.16,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 15
+  },
+  {
+   "mc": 128,
+   "label": "121",
+   "section": "Section 11 (lento)",
+   "key": "G major",
+   "chords": [
+    "G minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 19
+  },
+  {
+   "mc": 129,
+   "label": "122",
+   "section": "Section 11 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.66,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 23
+  },
+  {
+   "mc": 130,
+   "label": "123",
+   "section": "Section 11 (lento)",
+   "key": "G minor",
+   "chords": [
+    "D dominant seventh",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 34
+  },
+  {
+   "mc": 131,
+   "label": "124",
+   "section": "Section 11 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.59,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 38
+  },
+  {
+   "mc": 132,
+   "label": "125",
+   "section": "Section 11 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 34
+  },
+  {
+   "mc": 133,
+   "label": "126",
+   "section": "Section 11 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "C dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.04,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 35
+  },
+  {
+   "mc": 134,
+   "label": "127",
+   "section": "Section 11 (lento)",
+   "key": "G minor",
+   "chords": [
+    "D dominant seventh",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 34
+  },
+  {
+   "mc": 135,
+   "label": "127a",
+   "section": "Section 11 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.92,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ff",
+   "dynamic_level": 6,
+   "markings": [
+    "ff"
+   ],
+   "hairpins": [],
+   "onsets": 30
+  },
+  {
+   "mc": 136,
+   "label": "128b",
+   "section": "Section 11 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.94,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ff",
+   "dynamic_level": 6,
+   "markings": [
+    "ff"
+   ],
+   "hairpins": [],
+   "onsets": 30
+  },
+  {
+   "mc": 137,
+   "label": "129",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Violin 1",
+   "lead_confidence": 0.24,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [
+    "mf"
+   ],
+   "hairpins": [],
+   "onsets": 53
+  },
+  {
+   "mc": 138,
+   "label": "130",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 55
+  },
+  {
+   "mc": 139,
+   "label": "131",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "C minor",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.75,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 51
+  },
+  {
+   "mc": 140,
+   "label": "132",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "D major",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Violin 1",
+   "lead_confidence": 0.06,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 50
+  },
+  {
+   "mc": 141,
+   "label": "133",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.86,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 57
+  },
+  {
+   "mc": 142,
+   "label": "134",
+   "section": "Section 12 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "G minor",
+    "Db diminished seventh"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.94,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 54
+  },
+  {
+   "mc": 143,
+   "label": "135",
+   "section": "Section 12 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "F major",
+    "F dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.65,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 54
+  },
+  {
+   "mc": 144,
+   "label": "136",
+   "section": "Section 12 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Bb major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Violin 1",
+   "lead_confidence": 0.06,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 50
+  },
+  {
+   "mc": 145,
+   "label": "137",
+   "section": "Section 12 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Eb major",
+    "Bb dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.4,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [
+    "f"
+   ],
+   "hairpins": [],
+   "onsets": 40
+  },
+  {
+   "mc": 146,
+   "label": "138",
+   "section": "Section 12 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "C dominant seventh",
+    "Bb dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Violin 1",
+   "lead_confidence": 0.19,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 47
+  },
+  {
+   "mc": 147,
+   "label": "139",
+   "section": "Section 12 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Bb dominant seventh",
+    "Bb dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 40
+  },
+  {
+   "mc": 148,
+   "label": "140",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Violin 1",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "f",
+   "dynamic_level": 5,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 42
+  },
+  {
+   "mc": 149,
+   "label": "141",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "A dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Viola",
+   "lead_confidence": 0.13,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [
+    "mf"
+   ],
+   "hairpins": [],
+   "onsets": 32
+  },
+  {
+   "mc": 150,
+   "label": "142",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "A dominant seventh",
+    "A dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "mf",
+   "dynamic_level": 4,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 36
+  },
+  {
+   "mc": 151,
+   "label": "143",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G major",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Violin 2",
+   "lead_confidence": 0.04,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [
+    "p"
+   ],
+   "hairpins": [],
+   "onsets": 31
+  },
+  {
+   "mc": 152,
+   "label": "144",
+   "section": "Section 12 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.56,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "p",
+   "dynamic_level": 2,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 25
+  },
+  {
+   "mc": 153,
+   "label": "145",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 15
+  },
+  {
+   "mc": 154,
+   "label": "146",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "G minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "trio",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 14
+  },
+  {
+   "mc": 155,
+   "label": "147",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "C minor",
+    "A diminished"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.24,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 156,
+   "label": "148",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "D major",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 15
+  },
+  {
+   "mc": 157,
+   "label": "149",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "C minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.27,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 18
+  },
+  {
+   "mc": 158,
+   "label": "150",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "G minor",
+    "Db diminished seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 19
+  },
+  {
+   "mc": 159,
+   "label": "151",
+   "section": "Section 13 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Bb minor",
+    "D minor"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.98,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 15
+  },
+  {
+   "mc": 160,
+   "label": "152",
+   "section": "Section 13 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Bb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 11
+  },
+  {
+   "mc": 161,
+   "label": "153",
+   "section": "Section 13 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.56,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [
+    "ppp"
+   ],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 162,
+   "label": "154",
+   "section": "Section 13 (lento)",
+   "key": "Bb major",
+   "chords": [
+    "Bb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.45,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 14
+  },
+  {
+   "mc": 163,
+   "label": "155",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Bb dominant seventh",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.56,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 17
+  },
+  {
+   "mc": 164,
+   "label": "156",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "Eb major",
+    "Eb major"
+   ],
+   "cadence": "",
+   "lead": "Cello",
+   "co_lead": "",
+   "lead_confidence": 0.54,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 165,
+   "label": "157",
+   "section": "Section 13 (lento)",
+   "key": "G minor",
+   "chords": [
+    "A dominant seventh",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Cello",
+   "lead_confidence": 0.0,
+   "texture": "independent lines",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 10
+  },
+  {
+   "mc": 166,
+   "label": "158",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "A dominant seventh",
+    "A dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "",
+   "lead_confidence": 0.42,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 9
+  },
+  {
+   "mc": 167,
+   "label": "159",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.78,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 7
+  },
+  {
+   "mc": 168,
+   "label": "160",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "E dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 1.0,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 7
+  },
+  {
+   "mc": 169,
+   "label": "161",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "C major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [
+    "ppp"
+   ],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 170,
+   "label": "162",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "C major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 171,
+   "label": "163",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "D dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.47,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 8
+  },
+  {
+   "mc": 172,
+   "label": "164",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "melody + accompaniment",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 7
+  },
+  {
+   "mc": 173,
+   "label": "165",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "C major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 174,
+   "label": "166",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "C major"
+   ],
+   "cadence": "",
+   "lead": "Violin 2",
+   "co_lead": "Viola",
+   "lead_confidence": 0.0,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 12
+  },
+  {
+   "mc": 175,
+   "label": "167",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "D dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.47,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 8
+  },
+  {
+   "mc": 176,
+   "label": "168",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 4
+  },
+  {
+   "mc": 177,
+   "label": "169",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "D dominant seventh",
+    "D major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.47,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [
+    "dim"
+   ],
+   "onsets": 8
+  },
+  {
+   "mc": 178,
+   "label": "170",
+   "section": "Section 13 (lento)",
+   "key": "G major",
+   "chords": [
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [],
+   "onsets": 4
+  },
+  {
+   "mc": 179,
+   "label": "171",
+   "section": "Section 14 (largo)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "D dominant seventh"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.71,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "ppp",
+   "dynamic_level": 0,
+   "markings": [],
+   "hairpins": [
+    "cresc"
+   ],
+   "onsets": 9
+  },
+  {
+   "mc": 180,
+   "label": "172",
+   "section": "Section 14 (largo)",
+   "key": "G major",
+   "chords": [
+    "G major",
+    "G major"
+   ],
+   "cadence": "",
+   "lead": "Violin 1",
+   "co_lead": "",
+   "lead_confidence": 0.69,
+   "texture": "homophonic",
+   "active_parts": [
+    "Violin 1",
+    "Violin 2",
+    "Viola",
+    "Cello"
+   ],
+   "dynamic": "pp",
+   "dynamic_level": 1,
+   "markings": [
+    "pp"
+   ],
+   "hairpins": [],
+   "onsets": 4
+  }
+ ],
+ "method_notes": {
+  "lead": "Lead part is a heuristic (pitch variety, stepwise motion, rhythmic independence, register, theme presence). Treat low-confidence spans as uncertain.",
+  "harmony": "Estimated automatically (key profiles + chord templates); may contain errors.",
+  "score": "Score file: mv2.musicxml. 0% of measures have notes that do not fill the bar (often optical-recognition errors); 0 measure(s) have no notes. Rhythm and texture details may be wrong; sections, keys and the overall shape are more reliable."
+ }
+}

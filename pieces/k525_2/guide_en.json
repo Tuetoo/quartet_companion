@@ -1,0 +1,517 @@
+{
+ "language": "en",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 63,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 63,
+   "failed": 0,
+   "unchecked": 0
+  }
+ },
+ "usage": [
+  {
+   "input": 59,
+   "output": 3612,
+   "cache_read": 0,
+   "cache_write": 6225
+  },
+  {
+   "input": 4290,
+   "output": 4320,
+   "cache_read": 6225,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "Mozart: Eine kleine Nachtmusik, II. Romanze (Andante) – A Listening Guide",
+  "overview": "This is a gentle slow movement for string quartet. It starts in C major and keeps coming back to it. Violin 1 is probably the main tune-bearer, but the software's guess about who leads is rough here. Keys and chords are estimated by computer. The score came from optical recognition with errors, so small details may be imprecise. Trust the big picture: soft and loud, key changes, and the return of the opening tune.",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "C major"
+   },
+   {
+    "type": "lead",
+    "measure": "1",
+    "value": "Violin 1"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "The opening tune, soft and singing",
+    "text": "Violin 1 plays the main theme [m. 1-3]. It starts with three repeated notes and then rises and falls. The others accompany softly in C major. The dynamic is p, which means soft.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "1",
+      "value": "Part 1"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "C major"
+     },
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "9",
+    "headline": "A sudden louder answer",
+    "text": "The music jumps to f, which means loud, at [m. 5]. It stays loud to the end of this section [m. 5-9]. The lead is unclear here, so the tune feels shared. This section is repeated.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "5",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "trio"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "10",
+    "end_measure": "15",
+    "headline": "A brighter step to G major",
+    "text": "Part 2 begins with a soft single line [m. 10]. Then the key moves to G major [m. 11-15]. This sounds like a lift in the mood. The music stays mostly soft, with a short accent at [m. 14]. Violin 1 is clearly on top at first [m. 11-13].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "10",
+      "value": "Part 2"
+     },
+     {
+      "type": "texture",
+      "measure": "10",
+      "value": "solo"
+     },
+     {
+      "type": "modulation",
+      "measure": "11",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "11",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "11",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "11",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "16",
+    "end_measure": "18",
+    "headline": "Home to C major, louder",
+    "text": "The key returns to C major [m. 16]. The sound gets louder, at f. The lines move more independently, then come together in chords [m. 16-18].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "16",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "16",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "16",
+      "value": "independent lines"
+     },
+     {
+      "type": "texture",
+      "measure": "18",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "18",
+    "end_measure": "22",
+    "headline": "A short, quiet passage",
+    "text": "Part 3 is short and soft [m. 18-22]. It starts in C major and moves back towards G major at [m. 21]. Violin 1 leads in the middle of it [m. 19].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "18",
+      "value": "Part 3"
+     },
+     {
+      "type": "dynamic",
+      "measure": "18",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "21",
+      "value": "G major"
+     },
+     {
+      "type": "lead",
+      "measure": "19",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "23",
+    "end_measure": "27",
+    "headline": "A darker turn to A minor",
+    "text": "Part 4 begins [m. 23]. The key then moves to A minor [m. 24-27]. Minor keys sound sadder. The music stays soft. Violin 1 clearly has the tune in the middle [m. 24-26].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "23",
+      "value": "Part 4"
+     },
+     {
+      "type": "modulation",
+      "measure": "24",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "24",
+      "value": "A minor"
+     },
+     {
+      "type": "lead",
+      "measure": "24",
+      "value": "Violin 1"
+     },
+     {
+      "type": "dynamic",
+      "measure": "24",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "28",
+    "end_measure": "32",
+    "headline": "Wandering through E major and E minor",
+    "text": "The harmony drifts away from home. First comes a bright E major [m. 28-30]. Then it turns to E minor [m. 31-32]. The lines are more independent, so listen for the voices moving separately.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "28",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "28",
+      "value": "E major"
+     },
+     {
+      "type": "texture",
+      "measure": "28",
+      "value": "independent lines"
+     },
+     {
+      "type": "modulation",
+      "measure": "31",
+      "value": "E minor"
+     },
+     {
+      "type": "key",
+      "measure": "31",
+      "value": "E minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "33",
+    "end_measure": "41",
+    "headline": "Back in C major, then suddenly loud",
+    "text": "C major returns at [m. 33]. The music is soft at first. At [m. 37] it becomes f, which means loud. It stays loud until the end of Part 4 [m. 41].",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "33",
+      "value": "C major"
+     },
+     {
+      "type": "key",
+      "measure": "33",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "33",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "37",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "41",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "42",
+    "end_measure": "46",
+    "headline": "Sudden hush and a minor-key mood",
+    "text": "Part 5 drops to p [m. 42]. The key changes to C minor [m. 43-46]. The mood turns darker and more serious. The lead is unclear, so the voices seem to share the music.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "42",
+      "value": "Part 5"
+     },
+     {
+      "type": "dynamic",
+      "measure": "42",
+      "value": "p"
+     },
+     {
+      "type": "modulation",
+      "measure": "43",
+      "value": "C minor"
+     },
+     {
+      "type": "key",
+      "measure": "43",
+      "value": "C minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "45",
+      "value": "fp"
+     }
+    ]
+   },
+   {
+    "start_measure": "47",
+    "end_measure": "56",
+    "headline": "A long soft stretch in C minor",
+    "text": "Part 6 begins [m. 47]. It stays soft, and in C minor until [m. 56]. Violin 1 probably carries the tune. At first the lines move more independently [m. 48-50], then the others accompany [m. 51-56]. The lead is uncertain in many bars here.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "47",
+      "value": "Part 6"
+     },
+     {
+      "type": "key",
+      "measure": "47",
+      "value": "C minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "47",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "51",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "57",
+    "end_measure": "64",
+    "headline": "Light returns, then the estimated loudest moment",
+    "text": "C major comes back at [m. 57], and the mood brightens. At [m. 60] the music turns loud, at f. The software estimates the loudest, busiest point around [m. 63]. Then the lines settle into chords [m. 64].",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "57",
+      "value": "C major"
+     },
+     {
+      "type": "key",
+      "measure": "57",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "60",
+      "value": "f"
+     },
+     {
+      "type": "climax",
+      "measure": "63",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "64",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "65",
+    "end_measure": "71",
+    "headline": "The main tune returns",
+    "text": "A soft solo line opens [m. 65]. Then Violin 1 plays the main theme again, at the same pitch as the opening [m. 69-71]. The software labels the key here as G major, but that is only an estimate. Listen for the three repeated notes you heard at the start.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "65",
+      "value": "solo"
+     },
+     {
+      "type": "dynamic",
+      "measure": "65",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "67",
+      "value": "G major"
+     },
+     {
+      "type": "theme",
+      "measure": "69",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "69",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "71",
+    "end_measure": "80",
+    "headline": "A loud C major, then a soft close",
+    "text": "The key returns to C major with a loud burst [m. 71-74]. Then the music turns suddenly soft again [m. 75]. The software estimates the last bars as G major [m. 77-80], but the very last chord is estimated as C major, so the movement probably ends at home. The chords here are estimated, so treat them as a guide.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "71",
+      "value": "C major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "71",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "75",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "77",
+      "value": "G major"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "Key",
+    "explanation": "The home note and scale that a passage is built around. Changing key changes the mood."
+   },
+   {
+    "term": "Major / minor",
+    "explanation": "Major usually sounds bright. Minor usually sounds darker or sadder."
+   },
+   {
+    "term": "Theme",
+    "explanation": "A main tune that you can recognise when it comes back."
+   },
+   {
+    "term": "p / f / fp",
+    "explanation": "p means soft. f means loud. fp means loud and then at once soft."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "All parts move together in chords."
+   },
+   {
+    "term": "Melody + accompaniment",
+    "explanation": "One part sings the tune while the others support it."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Several parts move on their own paths at the same time."
+   },
+   {
+    "term": "Modulation",
+    "explanation": "A change from one key to another."
+   }
+  ]
+ },
+ "facts_fingerprint": "8b99367e740c",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 10,
+   "note": "prose corrected after a line-by-line review against the facts"
+  },
+  {
+   "date": "2026-10-24",
+   "edits": 2,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ]
+}

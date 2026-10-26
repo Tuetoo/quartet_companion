@@ -1,0 +1,666 @@
+{
+ "language": "zh",
+ "model": "claude-sonnet-5-5",
+ "verification": {
+  "verified": 87,
+  "failed": 0,
+  "unchecked": 0,
+  "failures": [],
+  "removed_points": 0,
+  "before_removal": {
+   "verified": 87,
+   "failed": 0,
+   "unchecked": 0
+  },
+  "prose_issues": []
+ },
+ "usage": [
+  {
+   "input": 84,
+   "output": 4773,
+   "cache_read": 20460,
+   "cache_write": 0
+  },
+  {
+   "input": 10352,
+   "output": 6512,
+   "cache_read": 20460,
+   "cache_write": 0
+  }
+ ],
+ "guide": {
+  "title": "鲍罗丁第二弦乐四重奏 第一乐章 听赏指南",
+  "overview": "这是一个以 D 大调为主调的乐章，共 304 小节，分为三大段。开头由大提琴奏出主要主题，之后它多次回来。请留意主题由谁演奏、音量强弱和调性变化。调性和和声是软件估算的，可能有误。本指南着重大局，小细节可能不够精确。",
+  "overview_claims": [
+   {
+    "type": "key",
+    "measure": "1",
+    "value": "D major"
+   },
+   {
+    "type": "section",
+    "measure": "1",
+    "value": "Part 1"
+   },
+   {
+    "type": "section",
+    "measure": "108",
+    "value": "Section 2 (Tempo I.)"
+   },
+   {
+    "type": "section",
+    "measure": "180",
+    "value": "Section 3 (a tempo)"
+   }
+  ],
+  "listening_points": [
+   {
+    "start_measure": "1",
+    "end_measure": "3",
+    "headline": "大提琴在弱音中奏出主要主题",
+    "text": "乐章开始，大提琴在弱（p）的力度上奏出主要主题 [m. 1-3]。这是大提琴领奏、另外两件乐器参与的三声部织体。调性估算为 D 大调。请先记住这条旋律。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "1",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "1",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "1",
+      "value": "p"
+     },
+     {
+      "type": "texture",
+      "measure": "1",
+      "value": "trio"
+     },
+     {
+      "type": "key",
+      "measure": "1",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "5",
+    "end_measure": "7",
+    "headline": "第一小提琴在 B 小调接过主题",
+    "text": "第一小提琴在 B 小调中奏出同一主题，比开头高 5 个半音 [m. 5-7]。此处各声部线条较为独立。调性比开头更暗一些。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "5",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "5",
+      "value": "B minor"
+     },
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "16",
+    "end_measure": "22",
+    "headline": "回到 D 大调，主题再度出现",
+    "text": "大提琴在 D 大调中再次奏出主题，比开头低一个八度 [m. 16-18]。[m. 17-18] 是主调织体，即几个声部节奏基本一致。随后第一小提琴也在 D 大调接过主题 [m. 20-22]。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "16",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "20",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "16",
+      "value": "D major"
+     },
+     {
+      "type": "lead",
+      "measure": "16",
+      "value": "Cello"
+     },
+     {
+      "type": "texture",
+      "measure": "17",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "23",
+    "end_measure": "34",
+    "headline": "渐强，力度升到中强",
+    "text": "第一小提琴带着旋律，其他乐器伴奏 [m. 23-27]。这里标有渐强，声音逐渐变响。到 [m. 28] 力度成为中强（mf）。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "23",
+      "value": "cresc"
+     },
+     {
+      "type": "dynamic",
+      "measure": "28",
+      "value": "mf"
+     },
+     {
+      "type": "lead",
+      "measure": "23",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "23",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "35",
+    "end_measure": "41",
+    "headline": "大提琴两次奏出低音主题",
+    "text": "大提琴在 [m. 35-37] 和 [m. 39-41] 又两次奏出主题。两次都在 D 大调，都从弱（p）开始，并带有渐强标记。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "35",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "39",
+      "value": "Cello"
+     },
+     {
+      "type": "lead",
+      "measure": "35",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "35",
+      "value": "p"
+     },
+     {
+      "type": "dynamic",
+      "measure": "36",
+      "value": "cresc"
+     }
+    ]
+   },
+   {
+    "start_measure": "45",
+    "end_measure": "55",
+    "headline": "调性游走，音量突然变强",
+    "text": "音乐转入 E 大调、F# 小调，再到 Db 大调 [m. 45-55]。到 [m. 52] 力度变为强（f）。此处领奏声部不明确，可以看作几个声部共同承担。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "45",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "47",
+      "value": "F# minor"
+     },
+     {
+      "type": "modulation",
+      "measure": "51",
+      "value": "Db major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "52",
+      "value": "f"
+     }
+    ]
+   },
+   {
+    "start_measure": "56",
+    "end_measure": "85",
+    "headline": "回到弱音，在 F# 小调中徘徊",
+    "text": "[m. 56] 力度回到弱（p），调性回到 F# 小调。[m. 59] 起力度又升到中强（mf）。之后经过 A 大调、E 大调等，又回到 F# 小调 [m. 81]。此处谁领奏不太清楚，声部线条相互交织。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "dynamic",
+      "measure": "56",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "56",
+      "value": "F# minor"
+     },
+     {
+      "type": "key",
+      "measure": "66",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "78",
+      "value": "E major"
+     },
+     {
+      "type": "key",
+      "measure": "81",
+      "value": "F# minor"
+     },
+     {
+      "type": "texture",
+      "measure": "73",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "86",
+    "end_measure": "107",
+    "headline": "A 大调的强奏，然后安静下来",
+    "text": "[m. 86] 起音乐在 A 大调，力度为强（f），持续到 [m. 106]。第一部分在 [m. 107] 结束，这一小节所有乐器都休止。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "86",
+      "value": "A major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "86",
+      "value": "f"
+     },
+     {
+      "type": "texture",
+      "measure": "107",
+      "value": "tacet"
+     },
+     {
+      "type": "dynamic",
+      "measure": "107",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "108",
+    "end_measure": "114",
+    "headline": "第二段：主题移到 A 小调与 D 小调",
+    "text": "第二段回到原速。大提琴在 A 小调奏出主题 [m. 108-110]。第一小提琴随后在 D 小调接过 [m. 112-114]。色彩比开头更暗。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "108",
+      "value": "Section 2 (Tempo I.)"
+     },
+     {
+      "type": "key",
+      "measure": "108",
+      "value": "A minor"
+     },
+     {
+      "type": "theme",
+      "measure": "108",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "112",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "112",
+      "value": "D minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "115",
+    "end_measure": "142",
+    "headline": "调性不断转换，力度起伏",
+    "text": "音乐经过 G 小调、C 大调、F 大调等 [m. 114-129]。起初力度为弱，到 [m. 120] 变为中强。[m. 130] 变强（f），到 [m. 132] 又回到中强。此处领奏声部常换，许多位置判断不太确定。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "114",
+      "value": "G minor"
+     },
+     {
+      "type": "key",
+      "measure": "117",
+      "value": "C major"
+     },
+     {
+      "type": "key",
+      "measure": "126",
+      "value": "F major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "130",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "132",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "143",
+    "end_measure": "158",
+    "headline": "明亮的 B 大调与 Ab 大调，旋律在声部间传递",
+    "text": "调性来到 B 大调 [m. 143]，再到 Ab 大调 [m. 152]。旋律在中提琴、第一小提琴和大提琴之间轮流出现。其中还有渐强和渐弱的标记。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "143",
+      "value": "B major"
+     },
+     {
+      "type": "key",
+      "measure": "152",
+      "value": "Ab major"
+     },
+     {
+      "type": "lead",
+      "measure": "144",
+      "value": "Viola"
+     },
+     {
+      "type": "lead",
+      "measure": "149",
+      "value": "Cello"
+     },
+     {
+      "type": "dynamic",
+      "measure": "145",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "159",
+    "end_measure": "179",
+    "headline": "各声部线条交错，走向 A 大调再回 D 大调",
+    "text": "[m. 159-173] 各声部线条较为独立，领奏轮流变换，力度为弱。之后经过 A 小调 [m. 166]、A 大调 [m. 175]，[m. 179] 回到 D 大调。这一段在为主题回归做准备。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "159",
+      "value": "independent lines"
+     },
+     {
+      "type": "dynamic",
+      "measure": "159",
+      "value": "p"
+     },
+     {
+      "type": "key",
+      "measure": "166",
+      "value": "A minor"
+     },
+     {
+      "type": "key",
+      "measure": "175",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "179",
+      "value": "D major"
+     }
+    ]
+   },
+   {
+    "start_measure": "180",
+    "end_measure": "201",
+    "headline": "第三段：开头主题回归",
+    "text": "[m. 180] 大提琴在 D 大调奏出主题，音高与 [m. 1] 完全相同。随后第一小提琴在 B 小调 [m. 184-186] 和 D 大调 [m. 199-201] 接过主题。这一段与乐章开头很像。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "180",
+      "value": "Section 3 (a tempo)"
+     },
+     {
+      "type": "theme",
+      "measure": "180",
+      "value": "Cello"
+     },
+     {
+      "type": "key",
+      "measure": "180",
+      "value": "D major"
+     },
+     {
+      "type": "theme",
+      "measure": "184",
+      "value": "Violin 1"
+     },
+     {
+      "type": "theme",
+      "measure": "199",
+      "value": "Violin 1"
+     },
+     {
+      "type": "lead",
+      "measure": "180",
+      "value": "Cello"
+     }
+    ]
+   },
+   {
+    "start_measure": "214",
+    "end_measure": "229",
+    "headline": "主题在声部间传递，转入 G 小调与 C 小调",
+    "text": "大提琴在 [m. 214] 奏出主题，之后中提琴、大提琴、中提琴依次接力 [m. 216-222]。调性转入 G 小调和 C 小调，色彩变暗。力度仍为弱，到 [m. 224] 变为中强。",
+    "focus_part": "Viola",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "214",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "216",
+      "value": "Viola"
+     },
+     {
+      "type": "theme",
+      "measure": "218",
+      "value": "Cello"
+     },
+     {
+      "type": "theme",
+      "measure": "220",
+      "value": "Viola"
+     },
+     {
+      "type": "key",
+      "measure": "217",
+      "value": "C minor"
+     },
+     {
+      "type": "dynamic",
+      "measure": "224",
+      "value": "mf"
+     }
+    ]
+   },
+   {
+    "start_measure": "255",
+    "end_measure": "265",
+    "headline": "分析标出的最响点在 F# 小调",
+    "text": "调性经 E 小调、F# 小调推向 B 小调。从 [m. 257] 起力度为强（f）。分析软件把 [m. 259] 标为最响、最忙的点，这是电脑估算的结果。",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "255",
+      "value": "E minor"
+     },
+     {
+      "type": "key",
+      "measure": "258",
+      "value": "F# minor"
+     },
+     {
+      "type": "climax",
+      "measure": "259",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "257",
+      "value": "f"
+     },
+     {
+      "type": "key",
+      "measure": "261",
+      "value": "B minor"
+     }
+    ]
+   },
+   {
+    "start_measure": "266",
+    "end_measure": "289",
+    "headline": "D 大调的强奏，然后变弱",
+    "text": "[m. 266] 回到 D 大调，力度为强（f）。之后标有渐弱 [m. 272-283]。到 [m. 286] 力度变为弱（p）。",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "266",
+      "value": "D major"
+     },
+     {
+      "type": "dynamic",
+      "measure": "266",
+      "value": "f"
+     },
+     {
+      "type": "dynamic",
+      "measure": "272",
+      "value": "dim"
+     },
+     {
+      "type": "dynamic",
+      "measure": "286",
+      "value": "p"
+     }
+    ]
+   },
+   {
+    "start_measure": "297",
+    "end_measure": "304",
+    "headline": "安静地结束，以很弱的齐奏收尾",
+    "text": "[m. 297-298] 是大提琴独奏。[m. 300-302] 是主调织体。[m. 303] 是齐奏或八度齐奏，力度很弱（pp）。最后一小节没有乐器演奏。",
+    "focus_part": "Cello",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "297",
+      "value": "solo"
+     },
+     {
+      "type": "texture",
+      "measure": "300",
+      "value": "homophonic"
+     },
+     {
+      "type": "texture",
+      "measure": "303",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "dynamic",
+      "measure": "303",
+      "value": "pp"
+     },
+     {
+      "type": "texture",
+      "measure": "304",
+      "value": "tacet"
+     }
+    ]
+   }
+  ],
+  "glossary": [
+   {
+    "term": "主题",
+    "explanation": "乐曲中反复出现、容易记住的旋律。"
+   },
+   {
+    "term": "调性",
+    "explanation": "乐曲的“中心音”和色彩。大调通常较明亮，小调通常较暗。"
+   },
+   {
+    "term": "主调织体",
+    "explanation": "几个声部节奏基本一致，像一起唱和弦。"
+   },
+   {
+    "term": "齐奏",
+    "explanation": "各声部奏同一条旋律，可以相隔八度。"
+   },
+   {
+    "term": "渐强",
+    "explanation": "声音逐渐变响。"
+   },
+   {
+    "term": "渐弱",
+    "explanation": "声音逐渐变轻。"
+   },
+   {
+    "term": "强、弱与中强",
+    "explanation": "f 表示强，p 表示弱，mf 表示中强；很弱是 pp。"
+   }
+  ]
+ },
+ "facts_fingerprint": "a350ddc7cf2d",
+ "review": [
+  {
+   "date": "2026-10-24",
+   "edits": 3,
+   "note": "prose corrected after a line-by-line review against the facts"
+  }
+ ],
+ "prose_issues": []
+}
