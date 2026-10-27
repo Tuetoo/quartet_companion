@@ -39,8 +39,9 @@ bash scripts/setup_mac.sh          # creates .venv, installs, downloads ABC, run
 source .venv/bin/activate          # every new terminal
 ```
 
-Also install **ffmpeg** (`brew install ffmpeg`): it cuts the recordings into movements for
-the player and converts variable-bitrate MP3 files for the public site.
+**ffmpeg** cuts the recordings into movements for the player and converts variable-bitrate
+MP3 files for the public site. Nothing to install: the `imageio-ffmpeg` package brings a copy
+into `.venv` (a system ffmpeg, e.g. `brew install ffmpeg`, is used first if there is one).
 
 Put your API key in `.env` (never commit it):
 ```

@@ -21,6 +21,19 @@ MEASURE_KEYS = ["mc", "label", "section", "key", "lead", "co_lead", "lead_confid
                 "dynamic", "active_parts", "cadence", "markings"]
 
 
+def ffmpeg_exe() -> str | None:
+    """ffmpeg on the PATH (brew install ffmpeg), else the copy that the Python package
+    imageio-ffmpeg brings along inside .venv (pip install imageio-ffmpeg)."""
+    exe = shutil.which("ffmpeg")
+    if exe:
+        return exe
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        return None
+
+
 def _audio_clip_for_site(src: Path, dst_dir: Path, start_sec: float, end_sec: float,
                          name: str = "audio.mp3") -> tuple[str, float]:
     """Write just this movement's part of the recording as MP3.
@@ -46,7 +59,7 @@ def _audio_clip_for_site(src: Path, dst_dir: Path, start_sec: float, end_sec: fl
             "start": clip_start, "end": clip_end, "encoding": "cbr192"}
     if dst.exists() and meta.exists() and json.loads(meta.read_text()) == want:
         return dst.name, clip_start
-    ffmpeg = shutil.which("ffmpeg")
+    ffmpeg = ffmpeg_exe()
     done = False
     if ffmpeg:          # fast: seeks straight to the start instead of decoding from the beginning
         r = subprocess.run([ffmpeg, "-v", "error", "-y", "-ss", f"{clip_start:.3f}", "-to", f"{clip_end:.3f}",
@@ -153,10 +166,11 @@ def _recording_bundle(al_path: Path, audio_cfg: dict, root: Path, out_dir: Path,
                 want = {"src_size": audio_src.stat().st_size, "src_mtime": audio_src.stat().st_mtime}
                 if not (dst.exists() and marker.exists() and json.loads(marker.read_text()) == want):
                     import subprocess
-                    if not shutil.which("ffmpeg"):
+                    ffmpeg = ffmpeg_exe()
+                    if not ffmpeg:
                         raise SystemExit("ffmpeg is needed to convert variable-bitrate MP3 files for the "
-                                         "public site: brew install ffmpeg")
-                    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(audio_src), "-vn", "-c:a", "libmp3lame",
+                                         "public site: pip install imageio-ffmpeg (or brew install ffmpeg)")
+                    subprocess.run([ffmpeg, "-v", "error", "-y", "-i", str(audio_src), "-vn", "-c:a", "libmp3lame",
                                     "-b:a", "256k", str(dst)], check=True)
                     marker.write_text(json.dumps(want))
             elif not dst.exists() or dst.stat().st_size != audio_src.stat().st_size:
