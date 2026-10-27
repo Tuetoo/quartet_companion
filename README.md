@@ -24,18 +24,23 @@ recording (mp3 / wav) ──► alignment ──► alignment.json ────�
 | `src/quartet_companion/facts.py` | Runs all analyses → one fact sheet (`facts.json`) |
 | `src/quartet_companion/align/` | Score-to-recording alignment (chroma + onset features, two-pass DTW) and its evaluation on MusicNet |
 | `src/quartet_companion/guide/` | Prompt, Claude call, claim verifier, Q&A |
-| `src/quartet_companion/site.py`, `web/` | Static web player |
+| `src/quartet_companion/site.py`, `src/quartet_companion/web/` | Static web player |
 | `src/quartet_companion/cli.py` | The `qc` command |
+| `src/quartet_companion/studio.py`, `publish.py` | Add pieces in the browser; publish the website |
+| `scripts/` | Setup, browser check of the player, `retime.py` (fix bar timings by hand) |
 | `tests/` | Unit and integration tests (`pytest`) |
 | `pieces/<id>/` | Results for each movement (config, facts, alignment, guides) |
 
 ## Setup (once)
 
 ```bash
-cd ~/Documents/jiemin_zhang/common_core/quartet_companion
+cd quartet_companion                # the project folder
 bash scripts/setup_mac.sh          # creates .venv, installs, downloads ABC, runs tests
 source .venv/bin/activate          # every new terminal
 ```
+
+Also install **ffmpeg** (`brew install ffmpeg`): it cuts the recordings into movements for
+the player and converts variable-bitrate MP3 files for the public site.
 
 Put your API key in `.env` (never commit it):
 ```
@@ -183,6 +188,25 @@ same repeat) and a **Compare recordings** chart: the tempo of every bar in each
 recording, the total lengths, which repeats each group took, and the sections where
 the two differ most beyond one simply being faster. `qc align <id>` re-aligns all recordings.
 
+### Fixing the timing of some bars
+
+If the highlight is clearly early or late somewhere, note the bar numbers and the times
+in the player, then (from the project folder):
+
+```bash
+python scripts/retime.py show k465_1 --last 6            # current bar times
+python scripts/retime.py set k465_1 245=648.2 246=650.4 END=651.6 --write
+python scripts/retime.py refine dvorak96_1 160 175 --write  # align again between two good bars
+python scripts/retime.py opening debussy10_4 --write     # music starts before bar 1
+python scripts/retime.py ending debussy10_3 111 1044.5 --write   # last bars, up to the end of the sound
+qc site --only k465_1
+```
+
+Without `--write` it only prints the new times. Each fix is noted in
+`alignment.json` → `warnings`. Running `qc align` again replaces hand fixes, so re-align
+only when the score or the recording changed. If the last chord is cut off in a whole-work
+recording, widen `"end_sec"` in the piece's `config.json` first.
+
 ### Practice mode
 
 Under the timeline: **Speed** slows the recording down (50–100%) without changing
@@ -210,14 +234,39 @@ If OMR misread the repeat signs, write the repeats the performers play by hand
 "audio": {..., "order": "all_repeats"}
 ```
 
-`"repeats": []` removes every repeat sign. (First/second endings: fix the file in MuseScore.)
+`"repeats": []` removes every repeat sign. (First/second endings: fix the file in MuseScore,
+or use `"structure"` below.)
+
+#### A score from MIDI (e.g. the Mutopia Project)
+
+MIDI has exact notes but no repeat signs. Give the upbeat and the structure by measure id
+(`mc`: 1 = the first measure in the file, the upbeat if there is one):
+
+```json
+"score": {"type": "file", "path": "pieces/<id>/score.mid", "credit": "Mutopia Project #2230 (public domain)"},
+"pickup_qb": 2.0,
+"structure": {"marks": {"2": "start", "57": "end"},
+              "volta": {"9": 1, "10": 2},
+              "texts": {"18": "Trio", "37": "Menuetto D.C."}}
+```
+
+To keep showing scanned printed pages with such a score, `"printed_map"` says which boxes of
+`printed/geometry.json` (0-based) belong to each measure, e.g. `{"9": [8, 9]}` for a printed
+bar split in two by a repeat sign.
+
+For a da capo, the program also tries playing the repeats again in the da capo, and for a
+repeated exposition with an inner repeat (a theme with first and second endings), playing the
+inner repeat again on the way back; the alignment keeps whichever fits the recording.
 
 ### Optical music recognition (Audiveris)
 
 * Download the `.dmg` for Apple Silicon ("macosx-arm64") from
   https://github.com/Audiveris/audiveris/releases and drag it to Applications.
 * The first time, macOS may block it: System Settings → Privacy & Security → "Open Anyway".
-* `qc` finds it at `/Applications/Audiveris.app`. Elsewhere? `export QC_AUDIVERIS=/path/to/Audiveris`.
+* `qc` finds it at `/Applications/Audiveris.app`, or inside the project at
+  `tools/Audiveris.app` (the `tools/` folder is not uploaded to GitHub).
+  Elsewhere? `export QC_AUDIVERIS=/path/to/Audiveris`.
+* Audiveris is a separate program (Java), not a Python package, so it cannot go into `.venv`.
 * Very large scans are re-rendered at 300 dpi automatically (Audiveris refuses pages above 20 MP).
 * Text (tempo marks, "Allegro", "pizz.") is read only with OCR language files: put
   `eng.traineddata`, `ita.traineddata`, `deu.traineddata` (from github.com/tesseract-ocr/tessdata)
@@ -265,6 +314,23 @@ Alignment on 28 Beethoven quartet movements from MusicNet (ground truth from
 MusicNet's note labels): see `docs/RESULTS.md`. Typical median error per
 measure ≈ 0.1 s; the repeat pattern is right in 26 of 28 movements.
 
+### Known limits
+
+* **Soft, slow openings, fermatas and long last chords** are where the automatic alignment
+  is weakest: the highlight can be a few seconds off there. The movements in this project
+  were checked and fixed by hand (see "Fixing the timing of some bars" and
+  `docs/RESULTS.md`); a new piece may need the same check.
+* **Score structure the program does not follow yet:** dal segno (𝄋), coda jumps ("To Coda",
+  "D.C. al Coda"), third endings or endings marked "1, 2", nested repeats, and repeat signs
+  in the middle of a bar. For such a piece, write the playing order with `"structure"` (see
+  "If the repeats are wrong") or check the highlight by ear.
+* **Splitting a whole-work recording** (`qc new-set`) looks for the pauses between movements;
+  a very soft ending can be taken for a pause. Listen to the end of each movement once, and
+  set `"start_sec"`/`"end_sec"` by hand if a movement stops early.
+* A recording may play the music differently from the score (cuts, extra repeats). The
+  player then follows only approximately in that passage; `alignment.json` → `warnings`
+  says where this is known (e.g. Haydn Op. 64 No. 5, IV, opening).
+
 ## Data and licences
 
 * ABC – DCML Annotated Beethoven Corpus, CC BY (Neuwirth et al., 2018).
@@ -286,7 +352,11 @@ qc publish                # builds public_site/ and pushes it to the gh-pages br
 
 The first time, turn it on in GitHub: *Settings → Pages → Source: Deploy from a branch →
 gh-pages / (root)*. The command prints the address (`https://<you>.github.io/<repo>/`).
-Publishing again uploads only what changed. `qc site --public` builds the folder without
+Publishing again uploads only what changed. The branch always holds a single commit
+(the site as it is now), so a recording you remove (made private, wrong licence) cannot be
+downloaded from an older version. A clean rebuild: `rm -rf public_site && qc publish`. The
+public build stops if a recording it should publish is missing from `incoming/`, so a fresh
+clone cannot wipe the audio that is online. `qc site --public` builds the folder without
 uploading; `qc publish --no-push` commits it locally only.
 
 Each recording's licence decides what happens (the `"license"` field in the piece's
@@ -295,7 +365,7 @@ Each recording's licence decides what happens (the `"license"` field in the piec
 | Licence | Public site |
 |---|---|
 | CC0, CC BY, CC BY-SA, EFF Open Audio License | cut into movements, as on your own computer |
-| CC BY-NC-ND, CC BY-ND (no changes allowed) | the original file, unchanged; each movement starts at its first bar |
+| CC BY-NC-ND, CC BY-ND (no changes allowed) | the original file, not cut or edited; each movement starts at its first bar (a variable-bitrate MP3 is only converted to constant bitrate, a format change, so that jumping to a bar is exact) |
 | "public domain outside the US", unknown | left out |
 
 Set `"public": false` in a piece's `config.json` to keep a whole piece private (it still

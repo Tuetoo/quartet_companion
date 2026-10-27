@@ -3,17 +3,18 @@
  "order": "repeats_at_106",
  "order_description": "only the repeats ending at measure(s) 106 taken",
  "segment_start_sec": 1.85,
- "segment_end_sec": 648.285,
- "cost": 0.256,
+ "segment_end_sec": 649.586,
+ "cost": 0.2557,
  "candidate_costs": {
-  "all_repeats": 0.139,
-  "no_repeats": 0.1479,
-  "repeats_at_106": 0.1297,
-  "repeats_at_226": 0.1395
+  "all_repeats": 0.1424,
+  "no_repeats": 0.1476,
+  "repeats_at_106": 0.1293,
+  "repeats_at_226": 0.14
  },
  "warnings": [
-  "Two repeat patterns fit almost equally well; check whether the performers took the repeats.",
-  "1 measure(s) matched poorly and should be checked by ear: 23"
+  "1 measure(s) matched poorly and should be checked by ear: 23",
+  "Opening: the first 10 bars aligned again from where the sound starts (0.8 s).",
+  "Last bars timed by hand from the attacks in the recording."
  ],
  "measures": [
   {
@@ -22,12 +23,12 @@
    "label": "1",
    "perf_start_qb": 0.0,
    "perf_end_qb": 3.0,
-   "start_sec": 4.35,
-   "end_sec": 7.226,
-   "match_cost": 0.26,
+   "start_sec": 0.85,
+   "end_sec": 6.2,
+   "match_cost": 0.259,
    "note_sim": 0.707,
    "flagged": false,
-   "tempo_qpm": 62.6
+   "tempo_qpm": 33.6
   },
   {
    "occurrence": 1,
@@ -35,12 +36,12 @@
    "label": "2",
    "perf_start_qb": 3.0,
    "perf_end_qb": 6.0,
-   "start_sec": 7.226,
-   "end_sec": 10.985,
+   "start_sec": 6.2,
+   "end_sec": 11.063,
    "match_cost": 0.123,
-   "note_sim": 0.896,
+   "note_sim": 0.897,
    "flagged": false,
-   "tempo_qpm": 47.9
+   "tempo_qpm": 37.0
   },
   {
    "occurrence": 2,
@@ -48,12 +49,12 @@
    "label": "3",
    "perf_start_qb": 6.0,
    "perf_end_qb": 9.0,
-   "start_sec": 10.985,
-   "end_sec": 15.487,
-   "match_cost": 0.138,
+   "start_sec": 11.063,
+   "end_sec": 15.521,
+   "match_cost": 0.137,
    "note_sim": 0.892,
    "flagged": false,
-   "tempo_qpm": 40.0
+   "tempo_qpm": 40.4
   },
   {
    "occurrence": 3,
@@ -61,12 +62,12 @@
    "label": "4",
    "perf_start_qb": 9.0,
    "perf_end_qb": 12.0,
-   "start_sec": 15.487,
-   "end_sec": 20.268,
-   "match_cost": 0.216,
-   "note_sim": 0.877,
+   "start_sec": 15.521,
+   "end_sec": 20.351,
+   "match_cost": 0.219,
+   "note_sim": 0.878,
    "flagged": false,
-   "tempo_qpm": 37.6
+   "tempo_qpm": 37.3
   },
   {
    "occurrence": 4,
@@ -74,12 +75,12 @@
    "label": "5",
    "perf_start_qb": 12.0,
    "perf_end_qb": 15.0,
-   "start_sec": 20.268,
-   "end_sec": 24.677,
+   "start_sec": 20.351,
+   "end_sec": 25.135,
    "match_cost": 0.268,
    "note_sim": 0.725,
    "flagged": false,
-   "tempo_qpm": 40.8
+   "tempo_qpm": 37.6
   },
   {
    "occurrence": 5,
@@ -87,12 +88,12 @@
    "label": "6",
    "perf_start_qb": 15.0,
    "perf_end_qb": 18.0,
-   "start_sec": 24.677,
-   "end_sec": 29.829,
+   "start_sec": 25.135,
+   "end_sec": 29.825,
    "match_cost": 0.164,
-   "note_sim": 0.894,
+   "note_sim": 0.895,
    "flagged": false,
-   "tempo_qpm": 34.9
+   "tempo_qpm": 38.4
   },
   {
    "occurrence": 6,
@@ -100,12 +101,12 @@
    "label": "7",
    "perf_start_qb": 18.0,
    "perf_end_qb": 21.0,
-   "start_sec": 29.829,
-   "end_sec": 34.657,
-   "match_cost": 0.124,
-   "note_sim": 0.884,
+   "start_sec": 29.825,
+   "end_sec": 34.562,
+   "match_cost": 0.125,
+   "note_sim": 0.883,
    "flagged": false,
-   "tempo_qpm": 37.3
+   "tempo_qpm": 38.0
   },
   {
    "occurrence": 7,
@@ -113,12 +114,12 @@
    "label": "8",
    "perf_start_qb": 21.0,
    "perf_end_qb": 24.0,
-   "start_sec": 34.657,
-   "end_sec": 39.112,
-   "match_cost": 0.208,
-   "note_sim": 0.88,
+   "start_sec": 34.562,
+   "end_sec": 39.299,
+   "match_cost": 0.205,
+   "note_sim": 0.881,
    "flagged": false,
-   "tempo_qpm": 40.4
+   "tempo_qpm": 38.0
   },
   {
    "occurrence": 8,
@@ -126,9 +127,9 @@
    "label": "9",
    "perf_start_qb": 24.0,
    "perf_end_qb": 27.0,
-   "start_sec": 39.112,
-   "end_sec": 43.893,
-   "match_cost": 0.17,
+   "start_sec": 39.299,
+   "end_sec": 44.082,
+   "match_cost": 0.171,
    "note_sim": 0.808,
    "flagged": false,
    "tempo_qpm": 37.6
@@ -139,12 +140,12 @@
    "label": "10",
    "perf_start_qb": 27.0,
    "perf_end_qb": 30.0,
-   "start_sec": 43.893,
-   "end_sec": 48.302,
+   "start_sec": 44.082,
+   "end_sec": 48.305,
    "match_cost": 0.19,
    "note_sim": 0.827,
    "flagged": false,
-   "tempo_qpm": 40.8
+   "tempo_qpm": 42.6
   },
   {
    "occurrence": 10,
@@ -152,12 +153,12 @@
    "label": "11",
    "perf_start_qb": 30.0,
    "perf_end_qb": 33.0,
-   "start_sec": 48.302,
-   "end_sec": 53.129,
+   "start_sec": 48.305,
+   "end_sec": 53.142,
    "match_cost": 0.158,
    "note_sim": 0.869,
    "flagged": false,
-   "tempo_qpm": 37.3
+   "tempo_qpm": 37.2
   },
   {
    "occurrence": 11,
@@ -165,12 +166,12 @@
    "label": "12",
    "perf_start_qb": 33.0,
    "perf_end_qb": 36.0,
-   "start_sec": 53.129,
-   "end_sec": 57.538,
-   "match_cost": 0.17,
+   "start_sec": 53.142,
+   "end_sec": 57.561,
+   "match_cost": 0.172,
    "note_sim": 0.82,
    "flagged": false,
-   "tempo_qpm": 40.8
+   "tempo_qpm": 40.7
   },
   {
    "occurrence": 12,
@@ -178,12 +179,12 @@
    "label": "13",
    "perf_start_qb": 36.0,
    "perf_end_qb": 39.0,
-   "start_sec": 57.538,
-   "end_sec": 61.622,
-   "match_cost": 0.144,
+   "start_sec": 57.561,
+   "end_sec": 61.655,
+   "match_cost": 0.146,
    "note_sim": 0.823,
    "flagged": false,
-   "tempo_qpm": 44.1
+   "tempo_qpm": 44.0
   },
   {
    "occurrence": 13,
@@ -191,12 +192,12 @@
    "label": "14",
    "perf_start_qb": 39.0,
    "perf_end_qb": 42.0,
-   "start_sec": 61.622,
-   "end_sec": 66.078,
-   "match_cost": 0.157,
+   "start_sec": 61.655,
+   "end_sec": 66.074,
+   "match_cost": 0.156,
    "note_sim": 0.904,
    "flagged": false,
-   "tempo_qpm": 40.4
+   "tempo_qpm": 40.7
   },
   {
    "occurrence": 14,
@@ -204,12 +205,12 @@
    "label": "15",
    "perf_start_qb": 42.0,
    "perf_end_qb": 45.0,
-   "start_sec": 66.078,
-   "end_sec": 70.627,
+   "start_sec": 66.074,
+   "end_sec": 70.632,
    "match_cost": 0.143,
    "note_sim": 0.858,
    "flagged": false,
-   "tempo_qpm": 39.6
+   "tempo_qpm": 39.5
   },
   {
    "occurrence": 15,
@@ -217,12 +218,12 @@
    "label": "16",
    "perf_start_qb": 45.0,
    "perf_end_qb": 48.0,
-   "start_sec": 70.627,
-   "end_sec": 75.407,
+   "start_sec": 70.632,
+   "end_sec": 75.422,
    "match_cost": 0.183,
    "note_sim": 0.869,
    "flagged": false,
-   "tempo_qpm": 37.7
+   "tempo_qpm": 37.6
   },
   {
    "occurrence": 16,
@@ -230,12 +231,12 @@
    "label": "17",
    "perf_start_qb": 48.0,
    "perf_end_qb": 51.0,
-   "start_sec": 75.407,
-   "end_sec": 80.281,
+   "start_sec": 75.422,
+   "end_sec": 80.259,
    "match_cost": 0.197,
    "note_sim": 0.861,
    "flagged": false,
-   "tempo_qpm": 36.9
+   "tempo_qpm": 37.2
   },
   {
    "occurrence": 17,
@@ -243,9 +244,9 @@
    "label": "18",
    "perf_start_qb": 51.0,
    "perf_end_qb": 54.0,
-   "start_sec": 80.281,
-   "end_sec": 85.433,
-   "match_cost": 0.177,
+   "start_sec": 80.259,
+   "end_sec": 85.421,
+   "match_cost": 0.185,
    "note_sim": 0.86,
    "flagged": false,
    "tempo_qpm": 34.9
@@ -256,12 +257,12 @@
    "label": "19",
    "perf_start_qb": 54.0,
    "perf_end_qb": 57.0,
-   "start_sec": 85.433,
-   "end_sec": 89.935,
+   "start_sec": 85.421,
+   "end_sec": 89.932,
    "match_cost": 0.154,
    "note_sim": 0.767,
    "flagged": false,
-   "tempo_qpm": 40.0
+   "tempo_qpm": 39.9
   },
   {
    "occurrence": 19,
@@ -269,12 +270,12 @@
    "label": "20",
    "perf_start_qb": 57.0,
    "perf_end_qb": 60.0,
-   "start_sec": 89.935,
-   "end_sec": 94.577,
+   "start_sec": 89.932,
+   "end_sec": 94.583,
    "match_cost": 0.105,
    "note_sim": 0.866,
    "flagged": false,
-   "tempo_qpm": 38.8
+   "tempo_qpm": 38.7
   },
   {
    "occurrence": 20,
@@ -282,12 +283,12 @@
    "label": "21",
    "perf_start_qb": 60.0,
    "perf_end_qb": 63.0,
-   "start_sec": 94.577,
-   "end_sec": 99.775,
-   "match_cost": 0.112,
-   "note_sim": 0.847,
+   "start_sec": 94.583,
+   "end_sec": 99.931,
+   "match_cost": 0.117,
+   "note_sim": 0.845,
    "flagged": false,
-   "tempo_qpm": 34.6
+   "tempo_qpm": 33.7
   },
   {
    "occurrence": 21,
@@ -295,12 +296,12 @@
    "label": "22",
    "perf_start_qb": 63.0,
    "perf_end_qb": 66.0,
-   "start_sec": 99.775,
-   "end_sec": 108.271,
-   "match_cost": 0.203,
-   "note_sim": 0.78,
+   "start_sec": 99.931,
+   "end_sec": 108.251,
+   "match_cost": 0.211,
+   "note_sim": 0.779,
    "flagged": false,
-   "tempo_qpm": 21.2
+   "tempo_qpm": 21.6
   },
   {
    "occurrence": 22,
@@ -308,12 +309,12 @@
    "label": "23",
    "perf_start_qb": 66.0,
    "perf_end_qb": 70.0,
-   "start_sec": 108.271,
-   "end_sec": 110.211,
+   "start_sec": 108.251,
+   "end_sec": 110.196,
    "match_cost": 0.36,
-   "note_sim": 0.581,
+   "note_sim": 0.58,
    "flagged": true,
-   "tempo_qpm": 123.7
+   "tempo_qpm": 123.4
   },
   {
    "occurrence": 23,
@@ -321,12 +322,12 @@
    "label": "24",
    "perf_start_qb": 70.0,
    "perf_end_qb": 74.0,
-   "start_sec": 110.211,
-   "end_sec": 112.152,
+   "start_sec": 110.196,
+   "end_sec": 112.141,
    "match_cost": 0.264,
-   "note_sim": 0.701,
+   "note_sim": 0.7,
    "flagged": false,
-   "tempo_qpm": 123.6
+   "tempo_qpm": 123.4
   },
   {
    "occurrence": 24,
@@ -334,12 +335,12 @@
    "label": "25",
    "perf_start_qb": 74.0,
    "perf_end_qb": 78.0,
-   "start_sec": 112.152,
-   "end_sec": 113.86,
-   "match_cost": 0.203,
-   "note_sim": 0.796,
+   "start_sec": 112.141,
+   "end_sec": 113.901,
+   "match_cost": 0.204,
+   "note_sim": 0.797,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 25,
@@ -347,12 +348,12 @@
    "label": "26",
    "perf_start_qb": 78.0,
    "perf_end_qb": 82.0,
-   "start_sec": 113.86,
+   "start_sec": 113.901,
    "end_sec": 115.428,
-   "match_cost": 0.249,
-   "note_sim": 0.754,
+   "match_cost": 0.25,
+   "note_sim": 0.755,
    "flagged": false,
-   "tempo_qpm": 153.1
+   "tempo_qpm": 157.2
   },
   {
    "occurrence": 26,
@@ -361,11 +362,11 @@
    "perf_start_qb": 82.0,
    "perf_end_qb": 86.0,
    "start_sec": 115.428,
-   "end_sec": 116.997,
+   "end_sec": 117.002,
    "match_cost": 0.248,
-   "note_sim": 0.765,
+   "note_sim": 0.764,
    "flagged": false,
-   "tempo_qpm": 153.0
+   "tempo_qpm": 152.5
   },
   {
    "occurrence": 27,
@@ -373,12 +374,12 @@
    "label": "28",
    "perf_start_qb": 86.0,
    "perf_end_qb": 90.0,
-   "start_sec": 116.997,
-   "end_sec": 118.612,
+   "start_sec": 117.002,
+   "end_sec": 118.622,
    "match_cost": 0.192,
-   "note_sim": 0.895,
+   "note_sim": 0.896,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 28,
@@ -386,12 +387,12 @@
    "label": "29",
    "perf_start_qb": 90.0,
    "perf_end_qb": 94.0,
-   "start_sec": 118.612,
-   "end_sec": 120.181,
+   "start_sec": 118.622,
+   "end_sec": 120.196,
    "match_cost": 0.204,
    "note_sim": 0.837,
    "flagged": false,
-   "tempo_qpm": 153.0
+   "tempo_qpm": 152.5
   },
   {
    "occurrence": 29,
@@ -399,12 +400,12 @@
    "label": "30",
    "perf_start_qb": 94.0,
    "perf_end_qb": 98.0,
-   "start_sec": 120.181,
-   "end_sec": 121.796,
+   "start_sec": 120.196,
+   "end_sec": 121.816,
    "match_cost": 0.235,
-   "note_sim": 0.802,
+   "note_sim": 0.801,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 30,
@@ -412,12 +413,12 @@
    "label": "31",
    "perf_start_qb": 98.0,
    "perf_end_qb": 102.0,
-   "start_sec": 121.796,
-   "end_sec": 123.551,
+   "start_sec": 121.816,
+   "end_sec": 123.529,
    "match_cost": 0.242,
-   "note_sim": 0.711,
+   "note_sim": 0.714,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 31,
@@ -425,12 +426,12 @@
    "label": "32",
    "perf_start_qb": 102.0,
    "perf_end_qb": 106.0,
-   "start_sec": 123.551,
-   "end_sec": 125.119,
+   "start_sec": 123.529,
+   "end_sec": 125.103,
    "match_cost": 0.209,
    "note_sim": 0.792,
    "flagged": false,
-   "tempo_qpm": 153.1
+   "tempo_qpm": 152.5
   },
   {
    "occurrence": 32,
@@ -438,12 +439,12 @@
    "label": "33",
    "perf_start_qb": 106.0,
    "perf_end_qb": 110.0,
-   "start_sec": 125.119,
-   "end_sec": 126.688,
+   "start_sec": 125.103,
+   "end_sec": 126.677,
    "match_cost": 0.22,
-   "note_sim": 0.774,
+   "note_sim": 0.775,
    "flagged": false,
-   "tempo_qpm": 153.0
+   "tempo_qpm": 152.5
   },
   {
    "occurrence": 33,
@@ -451,12 +452,12 @@
    "label": "34",
    "perf_start_qb": 110.0,
    "perf_end_qb": 114.0,
-   "start_sec": 126.688,
-   "end_sec": 128.303,
-   "match_cost": 0.229,
+   "start_sec": 126.677,
+   "end_sec": 128.343,
+   "match_cost": 0.228,
    "note_sim": 0.784,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 34,
@@ -464,12 +465,12 @@
    "label": "35",
    "perf_start_qb": 114.0,
    "perf_end_qb": 118.0,
-   "start_sec": 128.303,
-   "end_sec": 130.058,
-   "match_cost": 0.177,
+   "start_sec": 128.343,
+   "end_sec": 130.057,
+   "match_cost": 0.176,
    "note_sim": 0.825,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.0
   },
   {
    "occurrence": 35,
@@ -477,12 +478,12 @@
    "label": "36",
    "perf_start_qb": 118.0,
    "perf_end_qb": 122.0,
-   "start_sec": 130.058,
-   "end_sec": 131.719,
+   "start_sec": 130.057,
+   "end_sec": 131.723,
    "match_cost": 0.167,
    "note_sim": 0.831,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 36,
@@ -490,12 +491,12 @@
    "label": "37",
    "perf_start_qb": 122.0,
    "perf_end_qb": 126.0,
-   "start_sec": 131.719,
-   "end_sec": 133.335,
+   "start_sec": 131.723,
+   "end_sec": 133.343,
    "match_cost": 0.172,
    "note_sim": 0.824,
    "flagged": false,
-   "tempo_qpm": 148.5
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 37,
@@ -503,12 +504,12 @@
    "label": "38",
    "perf_start_qb": 126.0,
    "perf_end_qb": 130.0,
-   "start_sec": 133.335,
-   "end_sec": 134.95,
+   "start_sec": 133.343,
+   "end_sec": 134.964,
    "match_cost": 0.207,
    "note_sim": 0.848,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 38,
@@ -516,12 +517,12 @@
    "label": "39",
    "perf_start_qb": 130.0,
    "perf_end_qb": 134.0,
-   "start_sec": 134.95,
-   "end_sec": 136.611,
+   "start_sec": 134.964,
+   "end_sec": 136.63,
    "match_cost": 0.231,
-   "note_sim": 0.815,
+   "note_sim": 0.816,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 39,
@@ -529,12 +530,12 @@
    "label": "40",
    "perf_start_qb": 134.0,
    "perf_end_qb": 138.0,
-   "start_sec": 136.611,
-   "end_sec": 138.273,
-   "match_cost": 0.261,
-   "note_sim": 0.747,
+   "start_sec": 136.63,
+   "end_sec": 138.251,
+   "match_cost": 0.26,
+   "note_sim": 0.749,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 40,
@@ -542,12 +543,12 @@
    "label": "41",
    "perf_start_qb": 138.0,
    "perf_end_qb": 142.0,
-   "start_sec": 138.273,
-   "end_sec": 139.795,
+   "start_sec": 138.251,
+   "end_sec": 139.778,
    "match_cost": 0.263,
-   "note_sim": 0.749,
+   "note_sim": 0.748,
    "flagged": false,
-   "tempo_qpm": 157.7
+   "tempo_qpm": 157.2
   },
   {
    "occurrence": 41,
@@ -555,12 +556,12 @@
    "label": "42",
    "perf_start_qb": 142.0,
    "perf_end_qb": 146.0,
-   "start_sec": 139.795,
-   "end_sec": 141.411,
+   "start_sec": 139.778,
+   "end_sec": 141.398,
    "match_cost": 0.241,
-   "note_sim": 0.773,
+   "note_sim": 0.775,
    "flagged": false,
-   "tempo_qpm": 148.5
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 42,
@@ -568,12 +569,12 @@
    "label": "43",
    "perf_start_qb": 146.0,
    "perf_end_qb": 150.0,
-   "start_sec": 141.411,
-   "end_sec": 143.258,
+   "start_sec": 141.398,
+   "end_sec": 143.251,
    "match_cost": 0.167,
    "note_sim": 0.825,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 43,
@@ -581,12 +582,12 @@
    "label": "44",
    "perf_start_qb": 150.0,
    "perf_end_qb": 154.0,
-   "start_sec": 143.258,
-   "end_sec": 144.966,
-   "match_cost": 0.211,
-   "note_sim": 0.783,
+   "start_sec": 143.251,
+   "end_sec": 145.01,
+   "match_cost": 0.218,
+   "note_sim": 0.78,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 44,
@@ -594,12 +595,12 @@
    "label": "45",
    "perf_start_qb": 154.0,
    "perf_end_qb": 158.0,
-   "start_sec": 144.966,
-   "end_sec": 146.674,
-   "match_cost": 0.244,
-   "note_sim": 0.728,
+   "start_sec": 145.01,
+   "end_sec": 146.677,
+   "match_cost": 0.24,
+   "note_sim": 0.73,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 45,
@@ -607,12 +608,12 @@
    "label": "46",
    "perf_start_qb": 158.0,
    "perf_end_qb": 162.0,
-   "start_sec": 146.674,
-   "end_sec": 148.289,
+   "start_sec": 146.677,
+   "end_sec": 148.297,
    "match_cost": 0.205,
    "note_sim": 0.809,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 46,
@@ -620,12 +621,12 @@
    "label": "47",
    "perf_start_qb": 162.0,
    "perf_end_qb": 166.0,
-   "start_sec": 148.289,
+   "start_sec": 148.297,
    "end_sec": 149.892,
    "match_cost": 0.166,
    "note_sim": 0.781,
    "flagged": false,
-   "tempo_qpm": 149.7
+   "tempo_qpm": 150.5
   },
   {
    "occurrence": 47,
@@ -634,11 +635,11 @@
    "perf_start_qb": 166.0,
    "perf_end_qb": 170.0,
    "start_sec": 149.892,
-   "end_sec": 151.52,
+   "end_sec": 151.537,
    "match_cost": 0.158,
-   "note_sim": 0.826,
+   "note_sim": 0.825,
    "flagged": false,
-   "tempo_qpm": 147.4
+   "tempo_qpm": 145.9
   },
   {
    "occurrence": 48,
@@ -646,12 +647,12 @@
    "label": "49",
    "perf_start_qb": 170.0,
    "perf_end_qb": 174.0,
-   "start_sec": 151.52,
-   "end_sec": 153.181,
-   "match_cost": 0.193,
-   "note_sim": 0.779,
+   "start_sec": 151.537,
+   "end_sec": 153.158,
+   "match_cost": 0.195,
+   "note_sim": 0.78,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 49,
@@ -659,12 +660,12 @@
    "label": "50",
    "perf_start_qb": 174.0,
    "perf_end_qb": 178.0,
-   "start_sec": 153.181,
-   "end_sec": 154.796,
-   "match_cost": 0.189,
-   "note_sim": 0.784,
+   "start_sec": 153.158,
+   "end_sec": 154.778,
+   "match_cost": 0.184,
+   "note_sim": 0.783,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 50,
@@ -672,12 +673,12 @@
    "label": "51",
    "perf_start_qb": 178.0,
    "perf_end_qb": 182.0,
-   "start_sec": 154.796,
-   "end_sec": 156.412,
-   "match_cost": 0.248,
+   "start_sec": 154.778,
+   "end_sec": 156.398,
+   "match_cost": 0.24,
    "note_sim": 0.741,
    "flagged": false,
-   "tempo_qpm": 148.5
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 51,
@@ -685,12 +686,12 @@
    "label": "52",
    "perf_start_qb": 182.0,
    "perf_end_qb": 186.0,
-   "start_sec": 156.412,
-   "end_sec": 158.166,
-   "match_cost": 0.199,
-   "note_sim": 0.795,
+   "start_sec": 156.398,
+   "end_sec": 158.204,
+   "match_cost": 0.202,
+   "note_sim": 0.793,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 52,
@@ -698,12 +699,12 @@
    "label": "53",
    "perf_start_qb": 186.0,
    "perf_end_qb": 190.0,
-   "start_sec": 158.166,
-   "end_sec": 159.828,
-   "match_cost": 0.158,
-   "note_sim": 0.864,
+   "start_sec": 158.204,
+   "end_sec": 159.824,
+   "match_cost": 0.16,
+   "note_sim": 0.865,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 53,
@@ -711,12 +712,12 @@
    "label": "54",
    "perf_start_qb": 190.0,
    "perf_end_qb": 194.0,
-   "start_sec": 159.828,
-   "end_sec": 161.536,
+   "start_sec": 159.824,
+   "end_sec": 161.537,
    "match_cost": 0.18,
    "note_sim": 0.881,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 54,
@@ -724,12 +725,12 @@
    "label": "55",
    "perf_start_qb": 194.0,
    "perf_end_qb": 198.0,
-   "start_sec": 161.536,
-   "end_sec": 163.383,
+   "start_sec": 161.537,
+   "end_sec": 163.39,
    "match_cost": 0.179,
    "note_sim": 0.791,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 55,
@@ -737,12 +738,12 @@
    "label": "56",
    "perf_start_qb": 198.0,
    "perf_end_qb": 202.0,
-   "start_sec": 163.383,
-   "end_sec": 165.231,
-   "match_cost": 0.231,
+   "start_sec": 163.39,
+   "end_sec": 165.242,
+   "match_cost": 0.225,
    "note_sim": 0.746,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 56,
@@ -750,12 +751,12 @@
    "label": "57",
    "perf_start_qb": 202.0,
    "perf_end_qb": 206.0,
-   "start_sec": 165.231,
-   "end_sec": 166.846,
-   "match_cost": 0.157,
-   "note_sim": 0.828,
+   "start_sec": 165.242,
+   "end_sec": 166.862,
+   "match_cost": 0.156,
+   "note_sim": 0.826,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 57,
@@ -763,12 +764,12 @@
    "label": "58",
    "perf_start_qb": 206.0,
    "perf_end_qb": 210.0,
-   "start_sec": 166.846,
-   "end_sec": 168.693,
-   "match_cost": 0.124,
+   "start_sec": 166.862,
+   "end_sec": 168.668,
+   "match_cost": 0.122,
    "note_sim": 0.836,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 58,
@@ -776,12 +777,12 @@
    "label": "59",
    "perf_start_qb": 210.0,
    "perf_end_qb": 214.0,
-   "start_sec": 168.693,
-   "end_sec": 170.355,
-   "match_cost": 0.234,
+   "start_sec": 168.668,
+   "end_sec": 170.382,
+   "match_cost": 0.235,
    "note_sim": 0.785,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 140.0
   },
   {
    "occurrence": 59,
@@ -789,12 +790,12 @@
    "label": "60",
    "perf_start_qb": 214.0,
    "perf_end_qb": 218.0,
-   "start_sec": 170.355,
-   "end_sec": 172.063,
-   "match_cost": 0.246,
+   "start_sec": 170.382,
+   "end_sec": 172.048,
+   "match_cost": 0.252,
    "note_sim": 0.777,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 60,
@@ -802,12 +803,12 @@
    "label": "61",
    "perf_start_qb": 218.0,
    "perf_end_qb": 222.0,
-   "start_sec": 172.063,
-   "end_sec": 173.817,
+   "start_sec": 172.048,
+   "end_sec": 173.808,
    "match_cost": 0.146,
-   "note_sim": 0.798,
+   "note_sim": 0.797,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 61,
@@ -815,12 +816,12 @@
    "label": "62",
    "perf_start_qb": 222.0,
    "perf_end_qb": 226.0,
-   "start_sec": 173.817,
-   "end_sec": 175.618,
-   "match_cost": 0.184,
+   "start_sec": 173.808,
+   "end_sec": 175.614,
+   "match_cost": 0.19,
    "note_sim": 0.758,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 62,
@@ -828,12 +829,12 @@
    "label": "63",
    "perf_start_qb": 226.0,
    "perf_end_qb": 230.0,
-   "start_sec": 175.618,
+   "start_sec": 175.614,
    "end_sec": 177.373,
    "match_cost": 0.148,
    "note_sim": 0.784,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 63,
@@ -842,11 +843,11 @@
    "perf_start_qb": 230.0,
    "perf_end_qb": 234.0,
    "start_sec": 177.373,
-   "end_sec": 179.127,
+   "end_sec": 179.133,
    "match_cost": 0.254,
    "note_sim": 0.701,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 64,
@@ -854,12 +855,12 @@
    "label": "65",
    "perf_start_qb": 234.0,
    "perf_end_qb": 238.0,
-   "start_sec": 179.127,
-   "end_sec": 180.789,
-   "match_cost": 0.237,
+   "start_sec": 179.133,
+   "end_sec": 180.799,
+   "match_cost": 0.233,
    "note_sim": 0.791,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 65,
@@ -867,12 +868,12 @@
    "label": "66",
    "perf_start_qb": 238.0,
    "perf_end_qb": 242.0,
-   "start_sec": 180.789,
-   "end_sec": 182.497,
-   "match_cost": 0.252,
+   "start_sec": 180.799,
+   "end_sec": 182.513,
+   "match_cost": 0.25,
    "note_sim": 0.798,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.0
   },
   {
    "occurrence": 66,
@@ -880,12 +881,12 @@
    "label": "67",
    "perf_start_qb": 242.0,
    "perf_end_qb": 246.0,
-   "start_sec": 182.497,
-   "end_sec": 184.205,
-   "match_cost": 0.158,
-   "note_sim": 0.868,
+   "start_sec": 182.513,
+   "end_sec": 184.179,
+   "match_cost": 0.159,
+   "note_sim": 0.87,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 67,
@@ -893,12 +894,12 @@
    "label": "68",
    "perf_start_qb": 246.0,
    "perf_end_qb": 250.0,
-   "start_sec": 184.205,
-   "end_sec": 185.959,
-   "match_cost": 0.159,
-   "note_sim": 0.815,
+   "start_sec": 184.179,
+   "end_sec": 185.939,
+   "match_cost": 0.155,
+   "note_sim": 0.814,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 68,
@@ -906,12 +907,12 @@
    "label": "69",
    "perf_start_qb": 250.0,
    "perf_end_qb": 254.0,
-   "start_sec": 185.959,
-   "end_sec": 187.853,
-   "match_cost": 0.154,
+   "start_sec": 185.939,
+   "end_sec": 187.838,
+   "match_cost": 0.153,
    "note_sim": 0.825,
    "flagged": false,
-   "tempo_qpm": 126.7
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 69,
@@ -919,12 +920,12 @@
    "label": "70",
    "perf_start_qb": 254.0,
    "perf_end_qb": 258.0,
-   "start_sec": 187.853,
-   "end_sec": 189.608,
-   "match_cost": 0.18,
+   "start_sec": 187.838,
+   "end_sec": 189.644,
+   "match_cost": 0.181,
    "note_sim": 0.869,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 70,
@@ -932,12 +933,12 @@
    "label": "71",
    "perf_start_qb": 258.0,
    "perf_end_qb": 262.0,
-   "start_sec": 189.608,
-   "end_sec": 191.548,
-   "match_cost": 0.284,
-   "note_sim": 0.717,
+   "start_sec": 189.644,
+   "end_sec": 191.542,
+   "match_cost": 0.286,
+   "note_sim": 0.715,
    "flagged": false,
-   "tempo_qpm": 123.7
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 71,
@@ -945,12 +946,12 @@
    "label": "72",
    "perf_start_qb": 262.0,
    "perf_end_qb": 266.0,
-   "start_sec": 191.548,
+   "start_sec": 191.542,
    "end_sec": 193.488,
    "match_cost": 0.158,
    "note_sim": 0.803,
    "flagged": false,
-   "tempo_qpm": 123.7
+   "tempo_qpm": 123.3
   },
   {
    "occurrence": 72,
@@ -959,11 +960,11 @@
    "perf_start_qb": 266.0,
    "perf_end_qb": 270.0,
    "start_sec": 193.488,
-   "end_sec": 195.475,
+   "end_sec": 195.479,
    "match_cost": 0.249,
    "note_sim": 0.776,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 120.5
   },
   {
    "occurrence": 73,
@@ -971,12 +972,12 @@
    "label": "74",
    "perf_start_qb": 270.0,
    "perf_end_qb": 274.0,
-   "start_sec": 195.475,
-   "end_sec": 197.462,
+   "start_sec": 195.479,
+   "end_sec": 197.471,
    "match_cost": 0.161,
    "note_sim": 0.936,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 120.5
   },
   {
    "occurrence": 74,
@@ -984,12 +985,12 @@
    "label": "75",
    "perf_start_qb": 274.0,
    "perf_end_qb": 278.0,
-   "start_sec": 197.462,
-   "end_sec": 199.355,
+   "start_sec": 197.471,
+   "end_sec": 199.37,
    "match_cost": 0.21,
    "note_sim": 0.755,
    "flagged": false,
-   "tempo_qpm": 126.8
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 75,
@@ -997,12 +998,12 @@
    "label": "76",
    "perf_start_qb": 278.0,
    "perf_end_qb": 282.0,
-   "start_sec": 199.355,
-   "end_sec": 201.203,
-   "match_cost": 0.152,
+   "start_sec": 199.37,
+   "end_sec": 201.223,
+   "match_cost": 0.16,
    "note_sim": 0.835,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 76,
@@ -1010,12 +1011,12 @@
    "label": "77",
    "perf_start_qb": 282.0,
    "perf_end_qb": 286.0,
-   "start_sec": 201.203,
-   "end_sec": 203.05,
-   "match_cost": 0.201,
-   "note_sim": 0.796,
+   "start_sec": 201.223,
+   "end_sec": 203.028,
+   "match_cost": 0.202,
+   "note_sim": 0.797,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 133.0
   },
   {
    "occurrence": 77,
@@ -1023,12 +1024,12 @@
    "label": "78",
    "perf_start_qb": 286.0,
    "perf_end_qb": 290.0,
-   "start_sec": 203.05,
-   "end_sec": 204.898,
+   "start_sec": 203.028,
+   "end_sec": 204.881,
    "match_cost": 0.124,
    "note_sim": 0.863,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 78,
@@ -1036,12 +1037,12 @@
    "label": "79",
    "perf_start_qb": 290.0,
    "perf_end_qb": 294.0,
-   "start_sec": 204.898,
-   "end_sec": 206.745,
-   "match_cost": 0.177,
+   "start_sec": 204.881,
+   "end_sec": 206.733,
+   "match_cost": 0.175,
    "note_sim": 0.838,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 79,
@@ -1049,12 +1050,12 @@
    "label": "80",
    "perf_start_qb": 294.0,
    "perf_end_qb": 298.0,
-   "start_sec": 206.745,
-   "end_sec": 208.592,
-   "match_cost": 0.17,
+   "start_sec": 206.733,
+   "end_sec": 208.632,
+   "match_cost": 0.174,
    "note_sim": 0.825,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 80,
@@ -1062,12 +1063,12 @@
    "label": "81",
    "perf_start_qb": 298.0,
    "perf_end_qb": 302.0,
-   "start_sec": 208.592,
-   "end_sec": 210.44,
-   "match_cost": 0.204,
-   "note_sim": 0.796,
+   "start_sec": 208.632,
+   "end_sec": 210.438,
+   "match_cost": 0.205,
+   "note_sim": 0.795,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 81,
@@ -1075,12 +1076,12 @@
    "label": "82",
    "perf_start_qb": 302.0,
    "perf_end_qb": 306.0,
-   "start_sec": 210.44,
-   "end_sec": 212.194,
+   "start_sec": 210.438,
+   "end_sec": 212.198,
    "match_cost": 0.215,
    "note_sim": 0.791,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 82,
@@ -1088,12 +1089,12 @@
    "label": "83",
    "perf_start_qb": 306.0,
    "perf_end_qb": 310.0,
-   "start_sec": 212.194,
-   "end_sec": 213.995,
+   "start_sec": 212.198,
+   "end_sec": 214.004,
    "match_cost": 0.202,
    "note_sim": 0.825,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 83,
@@ -1101,12 +1102,12 @@
    "label": "84",
    "perf_start_qb": 310.0,
    "perf_end_qb": 314.0,
-   "start_sec": 213.995,
-   "end_sec": 215.703,
-   "match_cost": 0.168,
-   "note_sim": 0.821,
+   "start_sec": 214.004,
+   "end_sec": 215.717,
+   "match_cost": 0.17,
+   "note_sim": 0.82,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 84,
@@ -1114,12 +1115,12 @@
    "label": "85",
    "perf_start_qb": 314.0,
    "perf_end_qb": 318.0,
-   "start_sec": 215.703,
-   "end_sec": 217.458,
+   "start_sec": 215.717,
+   "end_sec": 217.43,
    "match_cost": 0.175,
-   "note_sim": 0.813,
+   "note_sim": 0.816,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 85,
@@ -1127,12 +1128,12 @@
    "label": "86",
    "perf_start_qb": 318.0,
    "perf_end_qb": 322.0,
-   "start_sec": 217.458,
-   "end_sec": 219.166,
-   "match_cost": 0.221,
+   "start_sec": 217.43,
+   "end_sec": 219.143,
+   "match_cost": 0.219,
    "note_sim": 0.778,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 86,
@@ -1140,12 +1141,12 @@
    "label": "87",
    "perf_start_qb": 322.0,
    "perf_end_qb": 326.0,
-   "start_sec": 219.166,
-   "end_sec": 220.827,
-   "match_cost": 0.23,
-   "note_sim": 0.798,
+   "start_sec": 219.143,
+   "end_sec": 220.81,
+   "match_cost": 0.224,
+   "note_sim": 0.8,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 87,
@@ -1153,12 +1154,12 @@
    "label": "88",
    "perf_start_qb": 326.0,
    "perf_end_qb": 330.0,
-   "start_sec": 220.827,
-   "end_sec": 222.582,
-   "match_cost": 0.119,
-   "note_sim": 0.832,
+   "start_sec": 220.81,
+   "end_sec": 222.616,
+   "match_cost": 0.118,
+   "note_sim": 0.83,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 88,
@@ -1166,12 +1167,12 @@
    "label": "89",
    "perf_start_qb": 330.0,
    "perf_end_qb": 334.0,
-   "start_sec": 222.582,
-   "end_sec": 224.336,
-   "match_cost": 0.163,
-   "note_sim": 0.806,
+   "start_sec": 222.616,
+   "end_sec": 224.375,
+   "match_cost": 0.16,
+   "note_sim": 0.804,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 89,
@@ -1179,12 +1180,12 @@
    "label": "90",
    "perf_start_qb": 334.0,
    "perf_end_qb": 338.0,
-   "start_sec": 224.336,
-   "end_sec": 226.184,
-   "match_cost": 0.155,
-   "note_sim": 0.788,
+   "start_sec": 224.375,
+   "end_sec": 226.228,
+   "match_cost": 0.157,
+   "note_sim": 0.79,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 90,
@@ -1192,12 +1193,12 @@
    "label": "91",
    "perf_start_qb": 338.0,
    "perf_end_qb": 342.0,
-   "start_sec": 226.184,
-   "end_sec": 228.031,
-   "match_cost": 0.215,
-   "note_sim": 0.693,
+   "start_sec": 226.228,
+   "end_sec": 228.034,
+   "match_cost": 0.214,
+   "note_sim": 0.695,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 91,
@@ -1205,12 +1206,12 @@
    "label": "92",
    "perf_start_qb": 342.0,
    "perf_end_qb": 346.0,
-   "start_sec": 228.031,
-   "end_sec": 229.786,
+   "start_sec": 228.034,
+   "end_sec": 229.793,
    "match_cost": 0.172,
    "note_sim": 0.806,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 92,
@@ -1218,12 +1219,12 @@
    "label": "93",
    "perf_start_qb": 346.0,
    "perf_end_qb": 350.0,
-   "start_sec": 229.786,
-   "end_sec": 231.494,
+   "start_sec": 229.793,
+   "end_sec": 231.506,
    "match_cost": 0.179,
    "note_sim": 0.783,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 93,
@@ -1231,12 +1232,12 @@
    "label": "94",
    "perf_start_qb": 350.0,
    "perf_end_qb": 354.0,
-   "start_sec": 231.494,
-   "end_sec": 233.295,
-   "match_cost": 0.128,
+   "start_sec": 231.506,
+   "end_sec": 233.266,
+   "match_cost": 0.129,
    "note_sim": 0.869,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 94,
@@ -1244,12 +1245,12 @@
    "label": "95",
    "perf_start_qb": 354.0,
    "perf_end_qb": 358.0,
-   "start_sec": 233.295,
-   "end_sec": 235.049,
+   "start_sec": 233.266,
+   "end_sec": 235.025,
    "match_cost": 0.226,
    "note_sim": 0.778,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 95,
@@ -1257,12 +1258,12 @@
    "label": "96",
    "perf_start_qb": 358.0,
    "perf_end_qb": 362.0,
-   "start_sec": 235.049,
-   "end_sec": 236.897,
+   "start_sec": 235.025,
+   "end_sec": 236.878,
    "match_cost": 0.247,
-   "note_sim": 0.782,
+   "note_sim": 0.781,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 96,
@@ -1270,12 +1271,12 @@
    "label": "97",
    "perf_start_qb": 362.0,
    "perf_end_qb": 366.0,
-   "start_sec": 236.897,
-   "end_sec": 238.651,
-   "match_cost": 0.213,
-   "note_sim": 0.806,
+   "start_sec": 236.878,
+   "end_sec": 238.684,
+   "match_cost": 0.211,
+   "note_sim": 0.804,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 97,
@@ -1283,12 +1284,12 @@
    "label": "98",
    "perf_start_qb": 366.0,
    "perf_end_qb": 370.0,
-   "start_sec": 238.651,
-   "end_sec": 240.498,
+   "start_sec": 238.684,
+   "end_sec": 240.536,
    "match_cost": 0.242,
-   "note_sim": 0.77,
+   "note_sim": 0.769,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 98,
@@ -1296,12 +1297,12 @@
    "label": "99",
    "perf_start_qb": 370.0,
    "perf_end_qb": 374.0,
-   "start_sec": 240.498,
-   "end_sec": 242.299,
-   "match_cost": 0.22,
-   "note_sim": 0.797,
+   "start_sec": 240.536,
+   "end_sec": 242.296,
+   "match_cost": 0.218,
+   "note_sim": 0.8,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 99,
@@ -1309,12 +1310,12 @@
    "label": "100",
    "perf_start_qb": 374.0,
    "perf_end_qb": 378.0,
-   "start_sec": 242.299,
-   "end_sec": 244.054,
+   "start_sec": 242.296,
+   "end_sec": 244.055,
    "match_cost": 0.219,
    "note_sim": 0.794,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 100,
@@ -1322,12 +1323,12 @@
    "label": "101",
    "perf_start_qb": 378.0,
    "perf_end_qb": 382.0,
-   "start_sec": 244.054,
-   "end_sec": 245.901,
+   "start_sec": 244.055,
+   "end_sec": 245.908,
    "match_cost": 0.191,
    "note_sim": 0.809,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 101,
@@ -1335,12 +1336,12 @@
    "label": "102",
    "perf_start_qb": 382.0,
    "perf_end_qb": 386.0,
-   "start_sec": 245.901,
-   "end_sec": 247.795,
+   "start_sec": 245.908,
+   "end_sec": 247.807,
    "match_cost": 0.272,
    "note_sim": 0.707,
    "flagged": false,
-   "tempo_qpm": 126.7
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 102,
@@ -1348,12 +1349,12 @@
    "label": "103",
    "perf_start_qb": 386.0,
    "perf_end_qb": 390.0,
-   "start_sec": 247.795,
-   "end_sec": 249.968,
-   "match_cost": 0.132,
-   "note_sim": 0.893,
+   "start_sec": 247.807,
+   "end_sec": 249.938,
+   "match_cost": 0.135,
+   "note_sim": 0.894,
    "flagged": false,
-   "tempo_qpm": 110.4
+   "tempo_qpm": 112.6
   },
   {
    "occurrence": 103,
@@ -1361,12 +1362,12 @@
    "label": "104",
    "perf_start_qb": 390.0,
    "perf_end_qb": 394.0,
-   "start_sec": 249.968,
-   "end_sec": 252.047,
+   "start_sec": 249.938,
+   "end_sec": 252.022,
    "match_cost": 0.194,
    "note_sim": 0.836,
    "flagged": false,
-   "tempo_qpm": 115.4
+   "tempo_qpm": 115.2
   },
   {
    "occurrence": 104,
@@ -1374,12 +1375,12 @@
    "label": "105",
    "perf_start_qb": 394.0,
    "perf_end_qb": 398.0,
-   "start_sec": 252.047,
-   "end_sec": 253.802,
+   "start_sec": 252.022,
+   "end_sec": 253.782,
    "match_cost": 0.315,
-   "note_sim": 0.811,
+   "note_sim": 0.809,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 105,
@@ -1387,12 +1388,12 @@
    "label": "106",
    "perf_start_qb": 398.0,
    "perf_end_qb": 402.0,
-   "start_sec": 253.802,
-   "end_sec": 255.463,
-   "match_cost": 0.273,
+   "start_sec": 253.782,
+   "end_sec": 255.495,
+   "match_cost": 0.275,
    "note_sim": 0.88,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 106,
@@ -1400,12 +1401,12 @@
    "label": "23",
    "perf_start_qb": 402.0,
    "perf_end_qb": 406.0,
-   "start_sec": 255.463,
-   "end_sec": 257.171,
+   "start_sec": 255.495,
+   "end_sec": 257.208,
    "match_cost": 0.263,
    "note_sim": 0.662,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 107,
@@ -1413,12 +1414,12 @@
    "label": "24",
    "perf_start_qb": 406.0,
    "perf_end_qb": 410.0,
-   "start_sec": 257.171,
-   "end_sec": 258.787,
+   "start_sec": 257.208,
+   "end_sec": 258.782,
    "match_cost": 0.239,
    "note_sim": 0.717,
    "flagged": false,
-   "tempo_qpm": 148.5
+   "tempo_qpm": 152.5
   },
   {
    "occurrence": 108,
@@ -1426,12 +1427,12 @@
    "label": "25",
    "perf_start_qb": 410.0,
    "perf_end_qb": 414.0,
-   "start_sec": 258.787,
+   "start_sec": 258.782,
    "end_sec": 260.402,
    "match_cost": 0.197,
    "note_sim": 0.796,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 109,
@@ -1440,11 +1441,11 @@
    "perf_start_qb": 414.0,
    "perf_end_qb": 418.0,
    "start_sec": 260.402,
-   "end_sec": 261.97,
+   "end_sec": 261.976,
    "match_cost": 0.259,
    "note_sim": 0.742,
    "flagged": false,
-   "tempo_qpm": 153.1
+   "tempo_qpm": 152.5
   },
   {
    "occurrence": 110,
@@ -1452,12 +1453,12 @@
    "label": "27",
    "perf_start_qb": 418.0,
    "perf_end_qb": 422.0,
-   "start_sec": 261.97,
-   "end_sec": 263.586,
+   "start_sec": 261.976,
+   "end_sec": 263.596,
    "match_cost": 0.233,
    "note_sim": 0.775,
    "flagged": false,
-   "tempo_qpm": 148.5
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 111,
@@ -1465,12 +1466,12 @@
    "label": "28",
    "perf_start_qb": 422.0,
    "perf_end_qb": 426.0,
-   "start_sec": 263.586,
-   "end_sec": 265.247,
+   "start_sec": 263.596,
+   "end_sec": 265.216,
    "match_cost": 0.181,
    "note_sim": 0.898,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 112,
@@ -1478,12 +1479,12 @@
    "label": "29",
    "perf_start_qb": 426.0,
    "perf_end_qb": 430.0,
-   "start_sec": 265.247,
-   "end_sec": 266.862,
+   "start_sec": 265.216,
+   "end_sec": 266.836,
    "match_cost": 0.199,
    "note_sim": 0.841,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 113,
@@ -1491,12 +1492,12 @@
    "label": "30",
    "perf_start_qb": 430.0,
    "perf_end_qb": 434.0,
-   "start_sec": 266.862,
-   "end_sec": 268.524,
+   "start_sec": 266.836,
+   "end_sec": 268.503,
    "match_cost": 0.233,
-   "note_sim": 0.808,
+   "note_sim": 0.807,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 114,
@@ -1504,12 +1505,12 @@
    "label": "31",
    "perf_start_qb": 434.0,
    "perf_end_qb": 438.0,
-   "start_sec": 268.524,
-   "end_sec": 270.232,
+   "start_sec": 268.503,
+   "end_sec": 270.263,
    "match_cost": 0.246,
-   "note_sim": 0.7,
+   "note_sim": 0.697,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 115,
@@ -1517,12 +1518,12 @@
    "label": "32",
    "perf_start_qb": 438.0,
    "perf_end_qb": 442.0,
-   "start_sec": 270.232,
-   "end_sec": 271.847,
+   "start_sec": 270.263,
+   "end_sec": 271.883,
    "match_cost": 0.23,
-   "note_sim": 0.761,
+   "note_sim": 0.763,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 116,
@@ -1530,12 +1531,12 @@
    "label": "33",
    "perf_start_qb": 442.0,
    "perf_end_qb": 446.0,
-   "start_sec": 271.847,
-   "end_sec": 273.602,
-   "match_cost": 0.204,
-   "note_sim": 0.775,
+   "start_sec": 271.883,
+   "end_sec": 273.596,
+   "match_cost": 0.205,
+   "note_sim": 0.774,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 117,
@@ -1543,12 +1544,12 @@
    "label": "34",
    "perf_start_qb": 446.0,
    "perf_end_qb": 450.0,
-   "start_sec": 273.602,
+   "start_sec": 273.596,
    "end_sec": 275.263,
    "match_cost": 0.234,
    "note_sim": 0.792,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 118,
@@ -1557,11 +1558,11 @@
    "perf_start_qb": 450.0,
    "perf_end_qb": 454.0,
    "start_sec": 275.263,
-   "end_sec": 276.925,
+   "end_sec": 276.929,
    "match_cost": 0.174,
    "note_sim": 0.803,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 119,
@@ -1569,12 +1570,12 @@
    "label": "36",
    "perf_start_qb": 454.0,
    "perf_end_qb": 458.0,
-   "start_sec": 276.925,
-   "end_sec": 278.587,
+   "start_sec": 276.929,
+   "end_sec": 278.596,
    "match_cost": 0.16,
    "note_sim": 0.828,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 120,
@@ -1582,12 +1583,12 @@
    "label": "37",
    "perf_start_qb": 458.0,
    "perf_end_qb": 462.0,
-   "start_sec": 278.587,
-   "end_sec": 280.295,
+   "start_sec": 278.596,
+   "end_sec": 280.263,
    "match_cost": 0.173,
    "note_sim": 0.814,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 121,
@@ -1595,12 +1596,12 @@
    "label": "38",
    "perf_start_qb": 462.0,
    "perf_end_qb": 466.0,
-   "start_sec": 280.295,
-   "end_sec": 282.003,
+   "start_sec": 280.263,
+   "end_sec": 281.976,
    "match_cost": 0.198,
-   "note_sim": 0.874,
+   "note_sim": 0.873,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 122,
@@ -1608,12 +1609,12 @@
    "label": "39",
    "perf_start_qb": 466.0,
    "perf_end_qb": 470.0,
-   "start_sec": 282.003,
-   "end_sec": 283.664,
+   "start_sec": 281.976,
+   "end_sec": 283.642,
    "match_cost": 0.231,
-   "note_sim": 0.825,
+   "note_sim": 0.824,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 123,
@@ -1621,12 +1622,12 @@
    "label": "40",
    "perf_start_qb": 470.0,
    "perf_end_qb": 474.0,
-   "start_sec": 283.664,
-   "end_sec": 285.28,
+   "start_sec": 283.642,
+   "end_sec": 285.309,
    "match_cost": 0.261,
-   "note_sim": 0.738,
+   "note_sim": 0.736,
    "flagged": false,
-   "tempo_qpm": 148.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 124,
@@ -1634,12 +1635,12 @@
    "label": "41",
    "perf_start_qb": 474.0,
    "perf_end_qb": 478.0,
-   "start_sec": 285.28,
-   "end_sec": 286.895,
+   "start_sec": 285.309,
+   "end_sec": 286.929,
    "match_cost": 0.277,
-   "note_sim": 0.698,
+   "note_sim": 0.697,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 125,
@@ -1647,12 +1648,12 @@
    "label": "42",
    "perf_start_qb": 478.0,
    "perf_end_qb": 482.0,
-   "start_sec": 286.895,
-   "end_sec": 288.649,
-   "match_cost": 0.24,
-   "note_sim": 0.757,
+   "start_sec": 286.929,
+   "end_sec": 288.642,
+   "match_cost": 0.244,
+   "note_sim": 0.758,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 126,
@@ -1660,12 +1661,12 @@
    "label": "43",
    "perf_start_qb": 482.0,
    "perf_end_qb": 486.0,
-   "start_sec": 288.649,
-   "end_sec": 290.264,
+   "start_sec": 288.642,
+   "end_sec": 290.263,
    "match_cost": 0.152,
    "note_sim": 0.84,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 127,
@@ -1673,12 +1674,12 @@
    "label": "44",
    "perf_start_qb": 486.0,
    "perf_end_qb": 490.0,
-   "start_sec": 290.264,
-   "end_sec": 292.112,
+   "start_sec": 290.263,
+   "end_sec": 292.115,
    "match_cost": 0.199,
    "note_sim": 0.803,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 128,
@@ -1686,12 +1687,12 @@
    "label": "45",
    "perf_start_qb": 490.0,
    "perf_end_qb": 494.0,
-   "start_sec": 292.112,
-   "end_sec": 293.866,
+   "start_sec": 292.115,
+   "end_sec": 293.875,
    "match_cost": 0.247,
    "note_sim": 0.719,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 129,
@@ -1699,12 +1700,12 @@
    "label": "46",
    "perf_start_qb": 494.0,
    "perf_end_qb": 498.0,
-   "start_sec": 293.866,
-   "end_sec": 295.528,
+   "start_sec": 293.875,
+   "end_sec": 295.541,
    "match_cost": 0.217,
    "note_sim": 0.787,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 130,
@@ -1712,12 +1713,12 @@
    "label": "47",
    "perf_start_qb": 498.0,
    "perf_end_qb": 502.0,
-   "start_sec": 295.528,
-   "end_sec": 297.19,
-   "match_cost": 0.179,
-   "note_sim": 0.754,
+   "start_sec": 295.541,
+   "end_sec": 297.161,
+   "match_cost": 0.18,
+   "note_sim": 0.757,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 131,
@@ -1725,12 +1726,12 @@
    "label": "48",
    "perf_start_qb": 502.0,
    "perf_end_qb": 506.0,
-   "start_sec": 297.19,
-   "end_sec": 298.851,
-   "match_cost": 0.174,
-   "note_sim": 0.811,
+   "start_sec": 297.161,
+   "end_sec": 298.828,
+   "match_cost": 0.175,
+   "note_sim": 0.809,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 132,
@@ -1738,12 +1739,12 @@
    "label": "49",
    "perf_start_qb": 506.0,
    "perf_end_qb": 510.0,
-   "start_sec": 298.851,
-   "end_sec": 300.466,
-   "match_cost": 0.2,
-   "note_sim": 0.774,
+   "start_sec": 298.828,
+   "end_sec": 300.495,
+   "match_cost": 0.198,
+   "note_sim": 0.773,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 133,
@@ -1751,12 +1752,12 @@
    "label": "50",
    "perf_start_qb": 510.0,
    "perf_end_qb": 514.0,
-   "start_sec": 300.466,
-   "end_sec": 302.082,
-   "match_cost": 0.207,
-   "note_sim": 0.752,
+   "start_sec": 300.495,
+   "end_sec": 302.115,
+   "match_cost": 0.211,
+   "note_sim": 0.751,
    "flagged": false,
-   "tempo_qpm": 148.5
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 134,
@@ -1764,12 +1765,12 @@
    "label": "51",
    "perf_start_qb": 514.0,
    "perf_end_qb": 518.0,
-   "start_sec": 302.082,
-   "end_sec": 303.882,
-   "match_cost": 0.245,
+   "start_sec": 302.115,
+   "end_sec": 303.874,
+   "match_cost": 0.257,
    "note_sim": 0.741,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 135,
@@ -1777,12 +1778,12 @@
    "label": "52",
    "perf_start_qb": 518.0,
    "perf_end_qb": 522.0,
-   "start_sec": 303.882,
-   "end_sec": 305.637,
+   "start_sec": 303.874,
+   "end_sec": 305.634,
    "match_cost": 0.207,
    "note_sim": 0.784,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 136,
@@ -1790,12 +1791,12 @@
    "label": "53",
    "perf_start_qb": 522.0,
    "perf_end_qb": 526.0,
-   "start_sec": 305.637,
-   "end_sec": 307.252,
+   "start_sec": 305.634,
+   "end_sec": 307.254,
    "match_cost": 0.162,
    "note_sim": 0.859,
    "flagged": false,
-   "tempo_qpm": 148.6
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 137,
@@ -1803,12 +1804,12 @@
    "label": "54",
    "perf_start_qb": 526.0,
    "perf_end_qb": 530.0,
-   "start_sec": 307.252,
-   "end_sec": 308.96,
+   "start_sec": 307.254,
+   "end_sec": 308.967,
    "match_cost": 0.167,
    "note_sim": 0.868,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 138,
@@ -1816,12 +1817,12 @@
    "label": "55",
    "perf_start_qb": 530.0,
    "perf_end_qb": 534.0,
-   "start_sec": 308.96,
-   "end_sec": 310.947,
+   "start_sec": 308.967,
+   "end_sec": 310.913,
    "match_cost": 0.184,
-   "note_sim": 0.773,
+   "note_sim": 0.774,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 123.3
   },
   {
    "occurrence": 139,
@@ -1829,12 +1830,12 @@
    "label": "56",
    "perf_start_qb": 534.0,
    "perf_end_qb": 538.0,
-   "start_sec": 310.947,
-   "end_sec": 312.841,
-   "match_cost": 0.199,
-   "note_sim": 0.775,
+   "start_sec": 310.913,
+   "end_sec": 312.812,
+   "match_cost": 0.201,
+   "note_sim": 0.777,
    "flagged": false,
-   "tempo_qpm": 126.7
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 140,
@@ -1842,12 +1843,12 @@
    "label": "57",
    "perf_start_qb": 538.0,
    "perf_end_qb": 542.0,
-   "start_sec": 312.841,
-   "end_sec": 314.595,
-   "match_cost": 0.16,
-   "note_sim": 0.805,
+   "start_sec": 312.812,
+   "end_sec": 314.571,
+   "match_cost": 0.155,
+   "note_sim": 0.803,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 141,
@@ -1855,12 +1856,12 @@
    "label": "58",
    "perf_start_qb": 542.0,
    "perf_end_qb": 546.0,
-   "start_sec": 314.595,
-   "end_sec": 316.35,
-   "match_cost": 0.12,
+   "start_sec": 314.571,
+   "end_sec": 316.331,
+   "match_cost": 0.118,
    "note_sim": 0.848,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 142,
@@ -1868,12 +1869,12 @@
    "label": "59",
    "perf_start_qb": 546.0,
    "perf_end_qb": 550.0,
-   "start_sec": 316.35,
-   "end_sec": 318.051,
+   "start_sec": 316.331,
+   "end_sec": 318.09,
    "match_cost": 0.224,
-   "note_sim": 0.796,
+   "note_sim": 0.795,
    "flagged": false,
-   "tempo_qpm": 141.1
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 143,
@@ -1881,12 +1882,12 @@
    "label": "60",
    "perf_start_qb": 550.0,
    "perf_end_qb": 554.0,
-   "start_sec": 318.051,
-   "end_sec": 319.766,
-   "match_cost": 0.249,
-   "note_sim": 0.764,
+   "start_sec": 318.09,
+   "end_sec": 319.757,
+   "match_cost": 0.247,
+   "note_sim": 0.765,
    "flagged": false,
-   "tempo_qpm": 139.9
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 144,
@@ -1894,12 +1895,12 @@
    "label": "61",
    "perf_start_qb": 554.0,
    "perf_end_qb": 558.0,
-   "start_sec": 319.766,
-   "end_sec": 321.567,
+   "start_sec": 319.757,
+   "end_sec": 321.563,
    "match_cost": 0.142,
    "note_sim": 0.797,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 145,
@@ -1907,12 +1908,12 @@
    "label": "62",
    "perf_start_qb": 558.0,
    "perf_end_qb": 562.0,
-   "start_sec": 321.567,
-   "end_sec": 323.368,
+   "start_sec": 321.563,
+   "end_sec": 323.369,
    "match_cost": 0.196,
-   "note_sim": 0.745,
+   "note_sim": 0.746,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 146,
@@ -1920,12 +1921,12 @@
    "label": "63",
    "perf_start_qb": 562.0,
    "perf_end_qb": 566.0,
-   "start_sec": 323.368,
-   "end_sec": 325.169,
+   "start_sec": 323.369,
+   "end_sec": 325.175,
    "match_cost": 0.164,
    "note_sim": 0.765,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 147,
@@ -1933,12 +1934,12 @@
    "label": "64",
    "perf_start_qb": 566.0,
    "perf_end_qb": 570.0,
-   "start_sec": 325.169,
+   "start_sec": 325.175,
    "end_sec": 326.921,
    "match_cost": 0.241,
    "note_sim": 0.721,
    "flagged": false,
-   "tempo_qpm": 137.0
+   "tempo_qpm": 137.5
   },
   {
    "occurrence": 148,
@@ -1947,11 +1948,11 @@
    "perf_start_qb": 570.0,
    "perf_end_qb": 574.0,
    "start_sec": 326.921,
-   "end_sec": 328.631,
-   "match_cost": 0.228,
-   "note_sim": 0.801,
+   "end_sec": 328.601,
+   "match_cost": 0.233,
+   "note_sim": 0.8,
    "flagged": false,
-   "tempo_qpm": 140.4
+   "tempo_qpm": 142.9
   },
   {
    "occurrence": 149,
@@ -1959,12 +1960,12 @@
    "label": "66",
    "perf_start_qb": 574.0,
    "perf_end_qb": 578.0,
-   "start_sec": 328.631,
-   "end_sec": 330.386,
+   "start_sec": 328.601,
+   "end_sec": 330.36,
    "match_cost": 0.255,
    "note_sim": 0.792,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 150,
@@ -1972,12 +1973,12 @@
    "label": "67",
    "perf_start_qb": 578.0,
    "perf_end_qb": 582.0,
-   "start_sec": 330.386,
-   "end_sec": 332.094,
-   "match_cost": 0.187,
-   "note_sim": 0.815,
+   "start_sec": 330.36,
+   "end_sec": 332.12,
+   "match_cost": 0.189,
+   "note_sim": 0.814,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 151,
@@ -1985,12 +1986,12 @@
    "label": "68",
    "perf_start_qb": 582.0,
    "perf_end_qb": 586.0,
-   "start_sec": 332.094,
-   "end_sec": 333.895,
-   "match_cost": 0.169,
-   "note_sim": 0.811,
+   "start_sec": 332.12,
+   "end_sec": 333.926,
+   "match_cost": 0.172,
+   "note_sim": 0.81,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 152,
@@ -1998,12 +1999,12 @@
    "label": "69",
    "perf_start_qb": 586.0,
    "perf_end_qb": 590.0,
-   "start_sec": 333.895,
-   "end_sec": 335.696,
+   "start_sec": 333.926,
+   "end_sec": 335.686,
    "match_cost": 0.162,
-   "note_sim": 0.808,
+   "note_sim": 0.809,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 153,
@@ -2011,12 +2012,12 @@
    "label": "70",
    "perf_start_qb": 590.0,
    "perf_end_qb": 594.0,
-   "start_sec": 335.696,
-   "end_sec": 337.497,
-   "match_cost": 0.173,
+   "start_sec": 335.686,
+   "end_sec": 337.492,
+   "match_cost": 0.172,
    "note_sim": 0.862,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 154,
@@ -2024,12 +2025,12 @@
    "label": "71",
    "perf_start_qb": 594.0,
    "perf_end_qb": 598.0,
-   "start_sec": 337.497,
+   "start_sec": 337.492,
    "end_sec": 339.483,
    "match_cost": 0.277,
-   "note_sim": 0.714,
+   "note_sim": 0.713,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 120.5
   },
   {
    "occurrence": 155,
@@ -2038,11 +2039,11 @@
    "perf_start_qb": 598.0,
    "perf_end_qb": 602.0,
    "start_sec": 339.483,
-   "end_sec": 341.47,
-   "match_cost": 0.151,
+   "end_sec": 341.475,
+   "match_cost": 0.15,
    "note_sim": 0.815,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 120.5
   },
   {
    "occurrence": 156,
@@ -2050,12 +2051,12 @@
    "label": "73",
    "perf_start_qb": 602.0,
    "perf_end_qb": 606.0,
-   "start_sec": 341.47,
-   "end_sec": 343.41,
+   "start_sec": 341.475,
+   "end_sec": 343.42,
    "match_cost": 0.238,
    "note_sim": 0.812,
    "flagged": false,
-   "tempo_qpm": 123.7
+   "tempo_qpm": 123.4
   },
   {
    "occurrence": 157,
@@ -2063,12 +2064,12 @@
    "label": "74",
    "perf_start_qb": 606.0,
    "perf_end_qb": 610.0,
-   "start_sec": 343.41,
-   "end_sec": 345.397,
-   "match_cost": 0.179,
+   "start_sec": 343.42,
+   "end_sec": 345.366,
+   "match_cost": 0.181,
    "note_sim": 0.934,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 123.3
   },
   {
    "occurrence": 158,
@@ -2076,12 +2077,12 @@
    "label": "75",
    "perf_start_qb": 610.0,
    "perf_end_qb": 614.0,
-   "start_sec": 345.397,
-   "end_sec": 347.384,
+   "start_sec": 345.366,
+   "end_sec": 347.357,
    "match_cost": 0.216,
    "note_sim": 0.76,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 120.5
   },
   {
    "occurrence": 159,
@@ -2089,12 +2090,12 @@
    "label": "76",
    "perf_start_qb": 614.0,
    "perf_end_qb": 618.0,
-   "start_sec": 347.384,
-   "end_sec": 349.231,
-   "match_cost": 0.17,
-   "note_sim": 0.827,
+   "start_sec": 347.357,
+   "end_sec": 349.256,
+   "match_cost": 0.159,
+   "note_sim": 0.826,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 160,
@@ -2102,12 +2103,12 @@
    "label": "77",
    "perf_start_qb": 618.0,
    "perf_end_qb": 622.0,
-   "start_sec": 349.231,
-   "end_sec": 351.078,
-   "match_cost": 0.226,
+   "start_sec": 349.256,
+   "end_sec": 351.109,
+   "match_cost": 0.221,
    "note_sim": 0.771,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 161,
@@ -2115,12 +2116,12 @@
    "label": "78",
    "perf_start_qb": 622.0,
    "perf_end_qb": 626.0,
-   "start_sec": 351.078,
-   "end_sec": 352.972,
-   "match_cost": 0.127,
+   "start_sec": 351.109,
+   "end_sec": 352.961,
+   "match_cost": 0.126,
    "note_sim": 0.861,
    "flagged": false,
-   "tempo_qpm": 126.7
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 162,
@@ -2128,12 +2129,12 @@
    "label": "79",
    "perf_start_qb": 626.0,
    "perf_end_qb": 630.0,
-   "start_sec": 352.972,
-   "end_sec": 354.82,
-   "match_cost": 0.229,
+   "start_sec": 352.961,
+   "end_sec": 354.813,
+   "match_cost": 0.231,
    "note_sim": 0.773,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 163,
@@ -2141,12 +2142,12 @@
    "label": "80",
    "perf_start_qb": 630.0,
    "perf_end_qb": 634.0,
-   "start_sec": 354.82,
-   "end_sec": 356.667,
+   "start_sec": 354.813,
+   "end_sec": 356.666,
    "match_cost": 0.201,
    "note_sim": 0.808,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 164,
@@ -2154,12 +2155,12 @@
    "label": "81",
    "perf_start_qb": 634.0,
    "perf_end_qb": 638.0,
-   "start_sec": 356.667,
-   "end_sec": 358.468,
-   "match_cost": 0.205,
+   "start_sec": 356.666,
+   "end_sec": 358.472,
+   "match_cost": 0.206,
    "note_sim": 0.794,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 165,
@@ -2167,12 +2168,12 @@
    "label": "82",
    "perf_start_qb": 638.0,
    "perf_end_qb": 642.0,
-   "start_sec": 358.468,
-   "end_sec": 360.269,
-   "match_cost": 0.207,
-   "note_sim": 0.806,
+   "start_sec": 358.472,
+   "end_sec": 360.278,
+   "match_cost": 0.208,
+   "note_sim": 0.808,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 166,
@@ -2180,12 +2181,12 @@
    "label": "83",
    "perf_start_qb": 642.0,
    "perf_end_qb": 646.0,
-   "start_sec": 360.269,
-   "end_sec": 362.163,
-   "match_cost": 0.219,
-   "note_sim": 0.823,
+   "start_sec": 360.278,
+   "end_sec": 362.13,
+   "match_cost": 0.223,
+   "note_sim": 0.821,
    "flagged": false,
-   "tempo_qpm": 126.7
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 167,
@@ -2193,12 +2194,12 @@
    "label": "84",
    "perf_start_qb": 646.0,
    "perf_end_qb": 650.0,
-   "start_sec": 362.163,
-   "end_sec": 363.871,
-   "match_cost": 0.196,
-   "note_sim": 0.797,
+   "start_sec": 362.13,
+   "end_sec": 363.843,
+   "match_cost": 0.194,
+   "note_sim": 0.798,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 168,
@@ -2206,12 +2207,12 @@
    "label": "85",
    "perf_start_qb": 650.0,
    "perf_end_qb": 654.0,
-   "start_sec": 363.871,
-   "end_sec": 365.532,
-   "match_cost": 0.196,
-   "note_sim": 0.763,
+   "start_sec": 363.843,
+   "end_sec": 365.603,
+   "match_cost": 0.204,
+   "note_sim": 0.759,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 169,
@@ -2219,12 +2220,12 @@
    "label": "86",
    "perf_start_qb": 654.0,
    "perf_end_qb": 658.0,
-   "start_sec": 365.532,
-   "end_sec": 367.24,
-   "match_cost": 0.218,
-   "note_sim": 0.8,
+   "start_sec": 365.603,
+   "end_sec": 367.316,
+   "match_cost": 0.211,
+   "note_sim": 0.799,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 170,
@@ -2232,12 +2233,12 @@
    "label": "87",
    "perf_start_qb": 658.0,
    "perf_end_qb": 662.0,
-   "start_sec": 367.24,
-   "end_sec": 368.902,
-   "match_cost": 0.253,
-   "note_sim": 0.764,
+   "start_sec": 367.316,
+   "end_sec": 368.89,
+   "match_cost": 0.252,
+   "note_sim": 0.763,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 152.5
   },
   {
    "occurrence": 171,
@@ -2245,12 +2246,12 @@
    "label": "88",
    "perf_start_qb": 662.0,
    "perf_end_qb": 666.0,
-   "start_sec": 368.902,
-   "end_sec": 370.657,
+   "start_sec": 368.89,
+   "end_sec": 370.649,
    "match_cost": 0.105,
-   "note_sim": 0.839,
+   "note_sim": 0.84,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 172,
@@ -2258,12 +2259,12 @@
    "label": "89",
    "perf_start_qb": 666.0,
    "perf_end_qb": 670.0,
-   "start_sec": 370.657,
-   "end_sec": 372.457,
+   "start_sec": 370.649,
+   "end_sec": 372.455,
    "match_cost": 0.175,
    "note_sim": 0.798,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 173,
@@ -2271,12 +2272,12 @@
    "label": "90",
    "perf_start_qb": 670.0,
    "perf_end_qb": 674.0,
-   "start_sec": 372.457,
-   "end_sec": 374.212,
-   "match_cost": 0.18,
+   "start_sec": 372.455,
+   "end_sec": 374.215,
+   "match_cost": 0.181,
    "note_sim": 0.776,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 174,
@@ -2284,12 +2285,12 @@
    "label": "91",
    "perf_start_qb": 674.0,
    "perf_end_qb": 678.0,
-   "start_sec": 374.212,
-   "end_sec": 376.013,
+   "start_sec": 374.215,
+   "end_sec": 376.021,
    "match_cost": 0.213,
    "note_sim": 0.698,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 175,
@@ -2297,12 +2298,12 @@
    "label": "92",
    "perf_start_qb": 678.0,
    "perf_end_qb": 682.0,
-   "start_sec": 376.013,
-   "end_sec": 377.814,
+   "start_sec": 376.021,
+   "end_sec": 377.78,
    "match_cost": 0.193,
-   "note_sim": 0.782,
+   "note_sim": 0.783,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 176,
@@ -2310,12 +2311,12 @@
    "label": "93",
    "perf_start_qb": 682.0,
    "perf_end_qb": 686.0,
-   "start_sec": 377.814,
-   "end_sec": 379.522,
+   "start_sec": 377.78,
+   "end_sec": 379.494,
    "match_cost": 0.198,
-   "note_sim": 0.775,
+   "note_sim": 0.776,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.0
   },
   {
    "occurrence": 177,
@@ -2323,12 +2324,12 @@
    "label": "94",
    "perf_start_qb": 686.0,
    "perf_end_qb": 690.0,
-   "start_sec": 379.522,
-   "end_sec": 381.276,
+   "start_sec": 379.494,
+   "end_sec": 381.299,
    "match_cost": 0.142,
    "note_sim": 0.85,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 133.0
   },
   {
    "occurrence": 178,
@@ -2336,12 +2337,12 @@
    "label": "95",
    "perf_start_qb": 690.0,
    "perf_end_qb": 694.0,
-   "start_sec": 381.276,
-   "end_sec": 383.031,
+   "start_sec": 381.299,
+   "end_sec": 383.059,
    "match_cost": 0.239,
    "note_sim": 0.765,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 179,
@@ -2349,12 +2350,12 @@
    "label": "96",
    "perf_start_qb": 694.0,
    "perf_end_qb": 698.0,
-   "start_sec": 383.031,
-   "end_sec": 384.832,
-   "match_cost": 0.233,
+   "start_sec": 383.059,
+   "end_sec": 384.819,
+   "match_cost": 0.23,
    "note_sim": 0.767,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 180,
@@ -2362,12 +2363,12 @@
    "label": "97",
    "perf_start_qb": 698.0,
    "perf_end_qb": 702.0,
-   "start_sec": 384.832,
-   "end_sec": 386.586,
-   "match_cost": 0.233,
+   "start_sec": 384.819,
+   "end_sec": 386.578,
+   "match_cost": 0.232,
    "note_sim": 0.801,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 181,
@@ -2375,12 +2376,12 @@
    "label": "98",
    "perf_start_qb": 702.0,
    "perf_end_qb": 706.0,
-   "start_sec": 386.586,
-   "end_sec": 388.387,
+   "start_sec": 386.578,
+   "end_sec": 388.384,
    "match_cost": 0.239,
    "note_sim": 0.769,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 182,
@@ -2388,12 +2389,12 @@
    "label": "99",
    "perf_start_qb": 706.0,
    "perf_end_qb": 710.0,
-   "start_sec": 388.387,
-   "end_sec": 390.142,
+   "start_sec": 388.384,
+   "end_sec": 390.144,
    "match_cost": 0.234,
    "note_sim": 0.762,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 183,
@@ -2401,12 +2402,12 @@
    "label": "100",
    "perf_start_qb": 710.0,
    "perf_end_qb": 714.0,
-   "start_sec": 390.142,
-   "end_sec": 391.896,
+   "start_sec": 390.144,
+   "end_sec": 391.903,
    "match_cost": 0.214,
-   "note_sim": 0.802,
+   "note_sim": 0.801,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 184,
@@ -2414,12 +2415,12 @@
    "label": "101",
    "perf_start_qb": 714.0,
    "perf_end_qb": 718.0,
-   "start_sec": 391.896,
-   "end_sec": 393.697,
-   "match_cost": 0.184,
-   "note_sim": 0.813,
+   "start_sec": 391.903,
+   "end_sec": 393.663,
+   "match_cost": 0.181,
+   "note_sim": 0.814,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 185,
@@ -2427,12 +2428,12 @@
    "label": "102",
    "perf_start_qb": 718.0,
    "perf_end_qb": 722.0,
-   "start_sec": 393.697,
-   "end_sec": 395.637,
-   "match_cost": 0.269,
-   "note_sim": 0.689,
+   "start_sec": 393.663,
+   "end_sec": 395.654,
+   "match_cost": 0.275,
+   "note_sim": 0.688,
    "flagged": false,
-   "tempo_qpm": 123.7
+   "tempo_qpm": 120.5
   },
   {
    "occurrence": 186,
@@ -2440,12 +2441,12 @@
    "label": "103",
    "perf_start_qb": 722.0,
    "perf_end_qb": 726.0,
-   "start_sec": 395.637,
-   "end_sec": 397.717,
-   "match_cost": 0.128,
+   "start_sec": 395.654,
+   "end_sec": 397.739,
+   "match_cost": 0.127,
    "note_sim": 0.891,
    "flagged": false,
-   "tempo_qpm": 115.4
+   "tempo_qpm": 115.1
   },
   {
    "occurrence": 187,
@@ -2453,12 +2454,12 @@
    "label": "104",
    "perf_start_qb": 726.0,
    "perf_end_qb": 730.0,
-   "start_sec": 397.717,
-   "end_sec": 399.89,
+   "start_sec": 397.739,
+   "end_sec": 399.917,
    "match_cost": 0.186,
-   "note_sim": 0.827,
+   "note_sim": 0.826,
    "flagged": false,
-   "tempo_qpm": 110.4
+   "tempo_qpm": 110.2
   },
   {
    "occurrence": 188,
@@ -2466,12 +2467,12 @@
    "label": "105",
    "perf_start_qb": 730.0,
    "perf_end_qb": 734.0,
-   "start_sec": 399.89,
-   "end_sec": 401.598,
+   "start_sec": 399.917,
+   "end_sec": 401.63,
    "match_cost": 0.316,
    "note_sim": 0.809,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 189,
@@ -2479,12 +2480,12 @@
    "label": "106",
    "perf_start_qb": 734.0,
    "perf_end_qb": 738.0,
-   "start_sec": 401.598,
-   "end_sec": 403.352,
-   "match_cost": 0.275,
-   "note_sim": 0.86,
+   "start_sec": 401.63,
+   "end_sec": 403.343,
+   "match_cost": 0.279,
+   "note_sim": 0.859,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 190,
@@ -2492,12 +2493,12 @@
    "label": "107",
    "perf_start_qb": 738.0,
    "perf_end_qb": 742.0,
-   "start_sec": 403.352,
-   "end_sec": 405.153,
+   "start_sec": 403.343,
+   "end_sec": 405.149,
    "match_cost": 0.181,
-   "note_sim": 0.775,
+   "note_sim": 0.773,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 191,
@@ -2505,12 +2506,12 @@
    "label": "108",
    "perf_start_qb": 742.0,
    "perf_end_qb": 746.0,
-   "start_sec": 405.153,
-   "end_sec": 406.861,
+   "start_sec": 405.149,
+   "end_sec": 406.862,
    "match_cost": 0.138,
    "note_sim": 0.854,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 192,
@@ -2518,12 +2519,12 @@
    "label": "109",
    "perf_start_qb": 746.0,
    "perf_end_qb": 750.0,
-   "start_sec": 406.861,
-   "end_sec": 408.569,
+   "start_sec": 406.862,
+   "end_sec": 408.575,
    "match_cost": 0.13,
    "note_sim": 0.868,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 193,
@@ -2531,12 +2532,12 @@
    "label": "110",
    "perf_start_qb": 750.0,
    "perf_end_qb": 754.0,
-   "start_sec": 408.569,
-   "end_sec": 410.324,
+   "start_sec": 408.575,
+   "end_sec": 410.288,
    "match_cost": 0.148,
    "note_sim": 0.841,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 194,
@@ -2544,12 +2545,12 @@
    "label": "111",
    "perf_start_qb": 754.0,
    "perf_end_qb": 758.0,
-   "start_sec": 410.324,
-   "end_sec": 412.032,
+   "start_sec": 410.288,
+   "end_sec": 412.001,
    "match_cost": 0.216,
-   "note_sim": 0.784,
+   "note_sim": 0.78,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 195,
@@ -2557,12 +2558,12 @@
    "label": "112",
    "perf_start_qb": 758.0,
    "perf_end_qb": 762.0,
-   "start_sec": 412.032,
-   "end_sec": 413.74,
+   "start_sec": 412.001,
+   "end_sec": 413.761,
    "match_cost": 0.239,
    "note_sim": 0.748,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 196,
@@ -2570,12 +2571,12 @@
    "label": "113",
    "perf_start_qb": 762.0,
    "perf_end_qb": 766.0,
-   "start_sec": 413.74,
-   "end_sec": 415.401,
+   "start_sec": 413.761,
+   "end_sec": 415.427,
    "match_cost": 0.156,
    "note_sim": 0.859,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 197,
@@ -2583,12 +2584,12 @@
    "label": "114",
    "perf_start_qb": 766.0,
    "perf_end_qb": 770.0,
-   "start_sec": 415.401,
-   "end_sec": 417.063,
+   "start_sec": 415.427,
+   "end_sec": 417.094,
    "match_cost": 0.169,
-   "note_sim": 0.849,
+   "note_sim": 0.847,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 198,
@@ -2596,12 +2597,12 @@
    "label": "115",
    "perf_start_qb": 770.0,
    "perf_end_qb": 774.0,
-   "start_sec": 417.063,
-   "end_sec": 418.818,
+   "start_sec": 417.094,
+   "end_sec": 418.807,
    "match_cost": 0.191,
-   "note_sim": 0.797,
+   "note_sim": 0.799,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 199,
@@ -2609,12 +2610,12 @@
    "label": "116",
    "perf_start_qb": 774.0,
    "perf_end_qb": 778.0,
-   "start_sec": 418.818,
-   "end_sec": 420.479,
+   "start_sec": 418.807,
+   "end_sec": 420.474,
    "match_cost": 0.191,
    "note_sim": 0.807,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 200,
@@ -2622,12 +2623,12 @@
    "label": "117",
    "perf_start_qb": 778.0,
    "perf_end_qb": 782.0,
-   "start_sec": 420.479,
+   "start_sec": 420.474,
    "end_sec": 422.216,
    "match_cost": 0.196,
    "note_sim": 0.769,
    "flagged": false,
-   "tempo_qpm": 138.2
+   "tempo_qpm": 137.8
   },
   {
    "occurrence": 201,
@@ -2636,11 +2637,11 @@
    "perf_start_qb": 782.0,
    "perf_end_qb": 786.0,
    "start_sec": 422.216,
-   "end_sec": 423.802,
+   "end_sec": 423.807,
    "match_cost": 0.326,
-   "note_sim": 0.755,
+   "note_sim": 0.754,
    "flagged": false,
-   "tempo_qpm": 151.3
+   "tempo_qpm": 150.8
   },
   {
    "occurrence": 202,
@@ -2648,12 +2649,12 @@
    "label": "119",
    "perf_start_qb": 786.0,
    "perf_end_qb": 790.0,
-   "start_sec": 423.802,
-   "end_sec": 425.464,
-   "match_cost": 0.205,
-   "note_sim": 0.807,
+   "start_sec": 423.807,
+   "end_sec": 425.427,
+   "match_cost": 0.207,
+   "note_sim": 0.808,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 203,
@@ -2661,12 +2662,12 @@
    "label": "120",
    "perf_start_qb": 790.0,
    "perf_end_qb": 794.0,
-   "start_sec": 425.464,
-   "end_sec": 427.172,
+   "start_sec": 425.427,
+   "end_sec": 427.14,
    "match_cost": 0.21,
-   "note_sim": 0.813,
+   "note_sim": 0.811,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 204,
@@ -2674,12 +2675,12 @@
    "label": "121",
    "perf_start_qb": 794.0,
    "perf_end_qb": 798.0,
-   "start_sec": 427.172,
-   "end_sec": 429.019,
-   "match_cost": 0.305,
-   "note_sim": 0.687,
+   "start_sec": 427.14,
+   "end_sec": 429.039,
+   "match_cost": 0.304,
+   "note_sim": 0.684,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 205,
@@ -2687,12 +2688,12 @@
    "label": "122",
    "perf_start_qb": 798.0,
    "perf_end_qb": 802.0,
-   "start_sec": 429.019,
-   "end_sec": 430.82,
+   "start_sec": 429.039,
+   "end_sec": 430.845,
    "match_cost": 0.192,
-   "note_sim": 0.882,
+   "note_sim": 0.883,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 206,
@@ -2700,12 +2701,12 @@
    "label": "123",
    "perf_start_qb": 802.0,
    "perf_end_qb": 806.0,
-   "start_sec": 430.82,
-   "end_sec": 432.621,
+   "start_sec": 430.845,
+   "end_sec": 432.651,
    "match_cost": 0.239,
-   "note_sim": 0.764,
+   "note_sim": 0.763,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 207,
@@ -2713,12 +2714,12 @@
    "label": "124",
    "perf_start_qb": 806.0,
    "perf_end_qb": 810.0,
-   "start_sec": 432.621,
-   "end_sec": 434.422,
+   "start_sec": 432.651,
+   "end_sec": 434.411,
    "match_cost": 0.209,
-   "note_sim": 0.879,
+   "note_sim": 0.88,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 208,
@@ -2726,12 +2727,12 @@
    "label": "125",
    "perf_start_qb": 810.0,
    "perf_end_qb": 814.0,
-   "start_sec": 434.422,
-   "end_sec": 436.13,
+   "start_sec": 434.411,
+   "end_sec": 436.124,
    "match_cost": 0.325,
-   "note_sim": 0.692,
+   "note_sim": 0.69,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 209,
@@ -2739,12 +2740,12 @@
    "label": "126",
    "perf_start_qb": 814.0,
    "perf_end_qb": 818.0,
-   "start_sec": 436.13,
-   "end_sec": 437.792,
+   "start_sec": 436.124,
+   "end_sec": 437.791,
    "match_cost": 0.239,
    "note_sim": 0.702,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 210,
@@ -2752,12 +2753,12 @@
    "label": "127",
    "perf_start_qb": 818.0,
    "perf_end_qb": 822.0,
-   "start_sec": 437.792,
-   "end_sec": 439.454,
+   "start_sec": 437.791,
+   "end_sec": 439.457,
    "match_cost": 0.206,
    "note_sim": 0.737,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 211,
@@ -2765,12 +2766,12 @@
    "label": "128",
    "perf_start_qb": 822.0,
    "perf_end_qb": 826.0,
-   "start_sec": 439.454,
-   "end_sec": 441.208,
-   "match_cost": 0.166,
-   "note_sim": 0.798,
+   "start_sec": 439.457,
+   "end_sec": 441.17,
+   "match_cost": 0.169,
+   "note_sim": 0.799,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 212,
@@ -2778,12 +2779,12 @@
    "label": "129",
    "perf_start_qb": 826.0,
    "perf_end_qb": 830.0,
-   "start_sec": 441.208,
-   "end_sec": 442.963,
+   "start_sec": 441.17,
+   "end_sec": 442.93,
    "match_cost": 0.199,
-   "note_sim": 0.816,
+   "note_sim": 0.817,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 213,
@@ -2791,12 +2792,12 @@
    "label": "130",
    "perf_start_qb": 830.0,
    "perf_end_qb": 834.0,
-   "start_sec": 442.963,
+   "start_sec": 442.93,
    "end_sec": 444.6,
-   "match_cost": 0.191,
-   "note_sim": 0.873,
+   "match_cost": 0.189,
+   "note_sim": 0.872,
    "flagged": false,
-   "tempo_qpm": 146.6
+   "tempo_qpm": 143.7
   },
   {
    "occurrence": 214,
@@ -2805,11 +2806,11 @@
    "perf_start_qb": 834.0,
    "perf_end_qb": 838.0,
    "start_sec": 444.6,
-   "end_sec": 446.239,
-   "match_cost": 0.173,
-   "note_sim": 0.892,
+   "end_sec": 446.31,
+   "match_cost": 0.172,
+   "note_sim": 0.891,
    "flagged": false,
-   "tempo_qpm": 146.4
+   "tempo_qpm": 140.4
   },
   {
    "occurrence": 215,
@@ -2817,12 +2818,12 @@
    "label": "132",
    "perf_start_qb": 838.0,
    "perf_end_qb": 842.0,
-   "start_sec": 446.239,
-   "end_sec": 447.901,
-   "match_cost": 0.214,
-   "note_sim": 0.736,
+   "start_sec": 446.31,
+   "end_sec": 447.93,
+   "match_cost": 0.215,
+   "note_sim": 0.738,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 216,
@@ -2830,12 +2831,12 @@
    "label": "133",
    "perf_start_qb": 842.0,
    "perf_end_qb": 846.0,
-   "start_sec": 447.901,
-   "end_sec": 449.655,
-   "match_cost": 0.237,
+   "start_sec": 447.93,
+   "end_sec": 449.643,
+   "match_cost": 0.239,
    "note_sim": 0.719,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 217,
@@ -2843,12 +2844,12 @@
    "label": "134",
    "perf_start_qb": 846.0,
    "perf_end_qb": 850.0,
-   "start_sec": 449.655,
-   "end_sec": 451.317,
+   "start_sec": 449.643,
+   "end_sec": 451.31,
    "match_cost": 0.158,
-   "note_sim": 0.817,
+   "note_sim": 0.816,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 218,
@@ -2856,12 +2857,12 @@
    "label": "135",
    "perf_start_qb": 850.0,
    "perf_end_qb": 854.0,
-   "start_sec": 451.317,
-   "end_sec": 453.072,
+   "start_sec": 451.31,
+   "end_sec": 453.069,
    "match_cost": 0.193,
    "note_sim": 0.792,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 219,
@@ -2869,12 +2870,12 @@
    "label": "136",
    "perf_start_qb": 854.0,
    "perf_end_qb": 858.0,
-   "start_sec": 453.072,
-   "end_sec": 454.826,
+   "start_sec": 453.069,
+   "end_sec": 454.829,
    "match_cost": 0.201,
    "note_sim": 0.851,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 220,
@@ -2882,12 +2883,12 @@
    "label": "137",
    "perf_start_qb": 858.0,
    "perf_end_qb": 862.0,
-   "start_sec": 454.826,
-   "end_sec": 456.581,
-   "match_cost": 0.187,
+   "start_sec": 454.829,
+   "end_sec": 456.542,
+   "match_cost": 0.19,
    "note_sim": 0.876,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 221,
@@ -2895,12 +2896,12 @@
    "label": "138",
    "perf_start_qb": 862.0,
    "perf_end_qb": 866.0,
-   "start_sec": 456.581,
-   "end_sec": 458.289,
-   "match_cost": 0.194,
+   "start_sec": 456.542,
+   "end_sec": 458.255,
+   "match_cost": 0.196,
    "note_sim": 0.876,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 222,
@@ -2908,12 +2909,12 @@
    "label": "139",
    "perf_start_qb": 866.0,
    "perf_end_qb": 870.0,
-   "start_sec": 458.289,
-   "end_sec": 460.09,
-   "match_cost": 0.194,
-   "note_sim": 0.868,
+   "start_sec": 458.255,
+   "end_sec": 460.107,
+   "match_cost": 0.192,
+   "note_sim": 0.87,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 223,
@@ -2921,12 +2922,12 @@
    "label": "140",
    "perf_start_qb": 870.0,
    "perf_end_qb": 874.0,
-   "start_sec": 460.09,
-   "end_sec": 461.844,
+   "start_sec": 460.107,
+   "end_sec": 461.867,
    "match_cost": 0.166,
-   "note_sim": 0.854,
+   "note_sim": 0.855,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 224,
@@ -2934,12 +2935,12 @@
    "label": "141",
    "perf_start_qb": 874.0,
    "perf_end_qb": 878.0,
-   "start_sec": 461.844,
-   "end_sec": 463.552,
+   "start_sec": 461.867,
+   "end_sec": 463.58,
    "match_cost": 0.148,
    "note_sim": 0.899,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 225,
@@ -2947,12 +2948,12 @@
    "label": "142",
    "perf_start_qb": 878.0,
    "perf_end_qb": 882.0,
-   "start_sec": 463.552,
-   "end_sec": 465.4,
+   "start_sec": 463.58,
+   "end_sec": 465.386,
    "match_cost": 0.184,
-   "note_sim": 0.855,
+   "note_sim": 0.856,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 226,
@@ -2960,12 +2961,12 @@
    "label": "143",
    "perf_start_qb": 882.0,
    "perf_end_qb": 886.0,
-   "start_sec": 465.4,
-   "end_sec": 467.293,
+   "start_sec": 465.386,
+   "end_sec": 467.285,
    "match_cost": 0.218,
-   "note_sim": 0.759,
+   "note_sim": 0.757,
    "flagged": false,
-   "tempo_qpm": 126.8
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 227,
@@ -2973,12 +2974,12 @@
    "label": "144",
    "perf_start_qb": 886.0,
    "perf_end_qb": 890.0,
-   "start_sec": 467.293,
-   "end_sec": 468.955,
+   "start_sec": 467.285,
+   "end_sec": 468.952,
    "match_cost": 0.265,
    "note_sim": 0.784,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 228,
@@ -2986,12 +2987,12 @@
    "label": "145",
    "perf_start_qb": 890.0,
    "perf_end_qb": 894.0,
-   "start_sec": 468.955,
-   "end_sec": 470.617,
+   "start_sec": 468.952,
+   "end_sec": 470.618,
    "match_cost": 0.181,
    "note_sim": 0.811,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 229,
@@ -2999,12 +3000,12 @@
    "label": "146",
    "perf_start_qb": 894.0,
    "perf_end_qb": 898.0,
-   "start_sec": 470.617,
-   "end_sec": 472.325,
+   "start_sec": 470.618,
+   "end_sec": 472.331,
    "match_cost": 0.204,
    "note_sim": 0.842,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 230,
@@ -3012,12 +3013,12 @@
    "label": "147",
    "perf_start_qb": 898.0,
    "perf_end_qb": 902.0,
-   "start_sec": 472.325,
-   "end_sec": 474.311,
-   "match_cost": 0.272,
-   "note_sim": 0.693,
+   "start_sec": 472.331,
+   "end_sec": 474.277,
+   "match_cost": 0.274,
+   "note_sim": 0.696,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 123.3
   },
   {
    "occurrence": 231,
@@ -3025,12 +3026,12 @@
    "label": "148",
    "perf_start_qb": 902.0,
    "perf_end_qb": 906.0,
-   "start_sec": 474.311,
-   "end_sec": 476.112,
-   "match_cost": 0.195,
+   "start_sec": 474.277,
+   "end_sec": 476.129,
+   "match_cost": 0.196,
    "note_sim": 0.886,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 232,
@@ -3038,12 +3039,12 @@
    "label": "149",
    "perf_start_qb": 906.0,
    "perf_end_qb": 910.0,
-   "start_sec": 476.112,
-   "end_sec": 477.96,
+   "start_sec": 476.129,
+   "end_sec": 477.981,
    "match_cost": 0.194,
-   "note_sim": 0.801,
+   "note_sim": 0.8,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 233,
@@ -3051,12 +3052,12 @@
    "label": "150",
    "perf_start_qb": 910.0,
    "perf_end_qb": 914.0,
-   "start_sec": 477.96,
-   "end_sec": 479.807,
+   "start_sec": 477.981,
+   "end_sec": 479.834,
    "match_cost": 0.198,
    "note_sim": 0.895,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 234,
@@ -3064,12 +3065,12 @@
    "label": "151",
    "perf_start_qb": 914.0,
    "perf_end_qb": 918.0,
-   "start_sec": 479.807,
-   "end_sec": 481.654,
-   "match_cost": 0.236,
-   "note_sim": 0.792,
+   "start_sec": 479.834,
+   "end_sec": 481.686,
+   "match_cost": 0.233,
+   "note_sim": 0.793,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 235,
@@ -3077,12 +3078,12 @@
    "label": "152",
    "perf_start_qb": 918.0,
    "perf_end_qb": 922.0,
-   "start_sec": 481.654,
-   "end_sec": 483.502,
-   "match_cost": 0.203,
-   "note_sim": 0.727,
+   "start_sec": 481.686,
+   "end_sec": 483.492,
+   "match_cost": 0.201,
+   "note_sim": 0.726,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 236,
@@ -3090,12 +3091,12 @@
    "label": "153",
    "perf_start_qb": 922.0,
    "perf_end_qb": 926.0,
-   "start_sec": 483.502,
-   "end_sec": 485.256,
+   "start_sec": 483.492,
+   "end_sec": 485.252,
    "match_cost": 0.256,
-   "note_sim": 0.744,
+   "note_sim": 0.745,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 237,
@@ -3103,12 +3104,12 @@
    "label": "154",
    "perf_start_qb": 926.0,
    "perf_end_qb": 930.0,
-   "start_sec": 485.256,
-   "end_sec": 487.8,
+   "start_sec": 485.252,
+   "end_sec": 487.801,
    "match_cost": 0.26,
    "note_sim": 0.712,
    "flagged": false,
-   "tempo_qpm": 94.3
+   "tempo_qpm": 94.2
   },
   {
    "occurrence": 238,
@@ -3116,12 +3117,12 @@
    "label": "155",
    "perf_start_qb": 930.0,
    "perf_end_qb": 934.0,
-   "start_sec": 487.8,
-   "end_sec": 489.555,
+   "start_sec": 487.801,
+   "end_sec": 489.56,
    "match_cost": 0.243,
    "note_sim": 0.687,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 239,
@@ -3129,12 +3130,12 @@
    "label": "156",
    "perf_start_qb": 934.0,
    "perf_end_qb": 938.0,
-   "start_sec": 489.555,
-   "end_sec": 491.263,
-   "match_cost": 0.198,
-   "note_sim": 0.849,
+   "start_sec": 489.56,
+   "end_sec": 491.227,
+   "match_cost": 0.197,
+   "note_sim": 0.85,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 240,
@@ -3142,12 +3143,12 @@
    "label": "157",
    "perf_start_qb": 938.0,
    "perf_end_qb": 942.0,
-   "start_sec": 491.263,
-   "end_sec": 493.11,
-   "match_cost": 0.189,
-   "note_sim": 0.767,
+   "start_sec": 491.227,
+   "end_sec": 493.033,
+   "match_cost": 0.185,
+   "note_sim": 0.766,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 241,
@@ -3155,12 +3156,12 @@
    "label": "158",
    "perf_start_qb": 942.0,
    "perf_end_qb": 946.0,
-   "start_sec": 493.11,
-   "end_sec": 494.911,
-   "match_cost": 0.218,
-   "note_sim": 0.791,
+   "start_sec": 493.033,
+   "end_sec": 494.932,
+   "match_cost": 0.219,
+   "note_sim": 0.79,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 242,
@@ -3168,12 +3169,12 @@
    "label": "159",
    "perf_start_qb": 946.0,
    "perf_end_qb": 950.0,
-   "start_sec": 494.911,
-   "end_sec": 496.433,
+   "start_sec": 494.932,
+   "end_sec": 496.459,
    "match_cost": 0.205,
-   "note_sim": 0.826,
+   "note_sim": 0.824,
    "flagged": false,
-   "tempo_qpm": 157.7
+   "tempo_qpm": 157.2
   },
   {
    "occurrence": 243,
@@ -3181,12 +3182,12 @@
    "label": "160",
    "perf_start_qb": 950.0,
    "perf_end_qb": 954.0,
-   "start_sec": 496.433,
-   "end_sec": 498.234,
-   "match_cost": 0.193,
-   "note_sim": 0.853,
+   "start_sec": 496.459,
+   "end_sec": 498.219,
+   "match_cost": 0.195,
+   "note_sim": 0.854,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 244,
@@ -3194,12 +3195,12 @@
    "label": "161",
    "perf_start_qb": 954.0,
    "perf_end_qb": 958.0,
-   "start_sec": 498.234,
-   "end_sec": 499.85,
+   "start_sec": 498.219,
+   "end_sec": 499.839,
    "match_cost": 0.143,
-   "note_sim": 0.875,
+   "note_sim": 0.876,
    "flagged": false,
-   "tempo_qpm": 148.5
+   "tempo_qpm": 148.1
   },
   {
    "occurrence": 245,
@@ -3207,12 +3208,12 @@
    "label": "162",
    "perf_start_qb": 958.0,
    "perf_end_qb": 962.0,
-   "start_sec": 499.85,
-   "end_sec": 501.651,
+   "start_sec": 499.839,
+   "end_sec": 501.645,
    "match_cost": 0.186,
-   "note_sim": 0.792,
+   "note_sim": 0.794,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 246,
@@ -3220,12 +3221,12 @@
    "label": "163",
    "perf_start_qb": 962.0,
    "perf_end_qb": 966.0,
-   "start_sec": 501.651,
-   "end_sec": 503.359,
+   "start_sec": 501.645,
+   "end_sec": 503.358,
    "match_cost": 0.269,
    "note_sim": 0.624,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 247,
@@ -3233,12 +3234,12 @@
    "label": "164",
    "perf_start_qb": 966.0,
    "perf_end_qb": 970.0,
-   "start_sec": 503.359,
-   "end_sec": 505.067,
+   "start_sec": 503.358,
+   "end_sec": 505.071,
    "match_cost": 0.162,
    "note_sim": 0.83,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 248,
@@ -3246,12 +3247,12 @@
    "label": "165",
    "perf_start_qb": 970.0,
    "perf_end_qb": 974.0,
-   "start_sec": 505.067,
-   "end_sec": 506.821,
-   "match_cost": 0.175,
-   "note_sim": 0.808,
+   "start_sec": 505.071,
+   "end_sec": 506.784,
+   "match_cost": 0.174,
+   "note_sim": 0.809,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 249,
@@ -3259,12 +3260,12 @@
    "label": "166",
    "perf_start_qb": 974.0,
    "perf_end_qb": 978.0,
-   "start_sec": 506.821,
-   "end_sec": 508.576,
-   "match_cost": 0.203,
-   "note_sim": 0.773,
+   "start_sec": 506.784,
+   "end_sec": 508.59,
+   "match_cost": 0.202,
+   "note_sim": 0.771,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 250,
@@ -3272,12 +3273,12 @@
    "label": "167",
    "perf_start_qb": 978.0,
    "perf_end_qb": 982.0,
-   "start_sec": 508.576,
-   "end_sec": 510.377,
+   "start_sec": 508.59,
+   "end_sec": 510.396,
    "match_cost": 0.16,
-   "note_sim": 0.848,
+   "note_sim": 0.847,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 251,
@@ -3285,12 +3286,12 @@
    "label": "168",
    "perf_start_qb": 982.0,
    "perf_end_qb": 986.0,
-   "start_sec": 510.377,
-   "end_sec": 512.085,
+   "start_sec": 510.396,
+   "end_sec": 512.109,
    "match_cost": 0.143,
    "note_sim": 0.88,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 252,
@@ -3298,12 +3299,12 @@
    "label": "169",
    "perf_start_qb": 986.0,
    "perf_end_qb": 990.0,
-   "start_sec": 512.085,
-   "end_sec": 513.839,
-   "match_cost": 0.187,
+   "start_sec": 512.109,
+   "end_sec": 513.822,
+   "match_cost": 0.186,
    "note_sim": 0.808,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 253,
@@ -3311,12 +3312,12 @@
    "label": "170",
    "perf_start_qb": 990.0,
    "perf_end_qb": 994.0,
-   "start_sec": 513.839,
-   "end_sec": 515.501,
+   "start_sec": 513.822,
+   "end_sec": 515.489,
    "match_cost": 0.195,
-   "note_sim": 0.851,
+   "note_sim": 0.85,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 254,
@@ -3324,12 +3325,12 @@
    "label": "171",
    "perf_start_qb": 994.0,
    "perf_end_qb": 998.0,
-   "start_sec": 515.501,
-   "end_sec": 517.162,
+   "start_sec": 515.489,
+   "end_sec": 517.156,
    "match_cost": 0.241,
-   "note_sim": 0.816,
+   "note_sim": 0.815,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 255,
@@ -3337,12 +3338,12 @@
    "label": "172",
    "perf_start_qb": 998.0,
    "perf_end_qb": 1002.0,
-   "start_sec": 517.162,
-   "end_sec": 518.963,
-   "match_cost": 0.181,
+   "start_sec": 517.156,
+   "end_sec": 518.962,
+   "match_cost": 0.182,
    "note_sim": 0.828,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 256,
@@ -3350,12 +3351,12 @@
    "label": "173",
    "perf_start_qb": 1002.0,
    "perf_end_qb": 1006.0,
-   "start_sec": 518.963,
-   "end_sec": 520.532,
-   "match_cost": 0.18,
+   "start_sec": 518.962,
+   "end_sec": 520.535,
+   "match_cost": 0.181,
    "note_sim": 0.831,
    "flagged": false,
-   "tempo_qpm": 153.0
+   "tempo_qpm": 152.6
   },
   {
    "occurrence": 257,
@@ -3363,12 +3364,12 @@
    "label": "174",
    "perf_start_qb": 1006.0,
    "perf_end_qb": 1010.0,
-   "start_sec": 520.532,
-   "end_sec": 522.287,
-   "match_cost": 0.19,
-   "note_sim": 0.835,
+   "start_sec": 520.535,
+   "end_sec": 522.249,
+   "match_cost": 0.194,
+   "note_sim": 0.836,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.0
   },
   {
    "occurrence": 258,
@@ -3376,12 +3377,12 @@
    "label": "175",
    "perf_start_qb": 1010.0,
    "perf_end_qb": 1014.0,
-   "start_sec": 522.287,
-   "end_sec": 524.32,
-   "match_cost": 0.213,
-   "note_sim": 0.697,
+   "start_sec": 522.249,
+   "end_sec": 524.333,
+   "match_cost": 0.211,
+   "note_sim": 0.696,
    "flagged": false,
-   "tempo_qpm": 118.1
+   "tempo_qpm": 115.2
   },
   {
    "occurrence": 259,
@@ -3389,12 +3390,12 @@
    "label": "176",
    "perf_start_qb": 1014.0,
    "perf_end_qb": 1018.0,
-   "start_sec": 524.32,
-   "end_sec": 526.074,
-   "match_cost": 0.16,
-   "note_sim": 0.809,
+   "start_sec": 524.333,
+   "end_sec": 526.139,
+   "match_cost": 0.152,
+   "note_sim": 0.805,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 260,
@@ -3402,12 +3403,12 @@
    "label": "177",
    "perf_start_qb": 1018.0,
    "perf_end_qb": 1022.0,
-   "start_sec": 526.074,
-   "end_sec": 527.829,
-   "match_cost": 0.179,
-   "note_sim": 0.812,
+   "start_sec": 526.139,
+   "end_sec": 527.852,
+   "match_cost": 0.177,
+   "note_sim": 0.813,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 261,
@@ -3415,12 +3416,12 @@
    "label": "178",
    "perf_start_qb": 1022.0,
    "perf_end_qb": 1026.0,
-   "start_sec": 527.829,
-   "end_sec": 529.63,
-   "match_cost": 0.208,
+   "start_sec": 527.852,
+   "end_sec": 529.631,
+   "match_cost": 0.217,
    "note_sim": 0.759,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 134.9
   },
   {
    "occurrence": 262,
@@ -3428,12 +3429,12 @@
    "label": "179",
    "perf_start_qb": 1026.0,
    "perf_end_qb": 1030.0,
-   "start_sec": 529.63,
-   "end_sec": 531.384,
-   "match_cost": 0.201,
-   "note_sim": 0.818,
+   "start_sec": 529.631,
+   "end_sec": 531.371,
+   "match_cost": 0.2,
+   "note_sim": 0.819,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 137.9
   },
   {
    "occurrence": 263,
@@ -3441,12 +3442,12 @@
    "label": "180",
    "perf_start_qb": 1030.0,
    "perf_end_qb": 1034.0,
-   "start_sec": 531.384,
-   "end_sec": 533.046,
-   "match_cost": 0.246,
-   "note_sim": 0.739,
+   "start_sec": 531.371,
+   "end_sec": 533.038,
+   "match_cost": 0.233,
+   "note_sim": 0.738,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 264,
@@ -3454,12 +3455,12 @@
    "label": "181",
    "perf_start_qb": 1034.0,
    "perf_end_qb": 1038.0,
-   "start_sec": 533.046,
-   "end_sec": 534.893,
-   "match_cost": 0.159,
+   "start_sec": 533.038,
+   "end_sec": 534.89,
+   "match_cost": 0.161,
    "note_sim": 0.76,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 265,
@@ -3467,12 +3468,12 @@
    "label": "182",
    "perf_start_qb": 1038.0,
    "perf_end_qb": 1042.0,
-   "start_sec": 534.893,
-   "end_sec": 536.741,
+   "start_sec": 534.89,
+   "end_sec": 536.743,
    "match_cost": 0.192,
    "note_sim": 0.761,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 266,
@@ -3480,12 +3481,12 @@
    "label": "183",
    "perf_start_qb": 1042.0,
    "perf_end_qb": 1046.0,
-   "start_sec": 536.741,
-   "end_sec": 538.541,
+   "start_sec": 536.743,
+   "end_sec": 538.502,
    "match_cost": 0.238,
    "note_sim": 0.659,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 267,
@@ -3493,12 +3494,12 @@
    "label": "184",
    "perf_start_qb": 1046.0,
    "perf_end_qb": 1050.0,
-   "start_sec": 538.541,
-   "end_sec": 540.342,
-   "match_cost": 0.215,
-   "note_sim": 0.734,
+   "start_sec": 538.502,
+   "end_sec": 540.355,
+   "match_cost": 0.22,
+   "note_sim": 0.733,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 268,
@@ -3506,12 +3507,12 @@
    "label": "185",
    "perf_start_qb": 1050.0,
    "perf_end_qb": 1054.0,
-   "start_sec": 540.342,
-   "end_sec": 542.05,
-   "match_cost": 0.214,
+   "start_sec": 540.355,
+   "end_sec": 542.068,
+   "match_cost": 0.216,
    "note_sim": 0.791,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 269,
@@ -3519,12 +3520,12 @@
    "label": "186",
    "perf_start_qb": 1054.0,
    "perf_end_qb": 1058.0,
-   "start_sec": 542.05,
-   "end_sec": 543.712,
-   "match_cost": 0.201,
+   "start_sec": 542.068,
+   "end_sec": 543.735,
+   "match_cost": 0.199,
    "note_sim": 0.776,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 270,
@@ -3532,12 +3533,12 @@
    "label": "187",
    "perf_start_qb": 1058.0,
    "perf_end_qb": 1062.0,
-   "start_sec": 543.712,
-   "end_sec": 545.467,
-   "match_cost": 0.17,
-   "note_sim": 0.825,
+   "start_sec": 543.735,
+   "end_sec": 545.448,
+   "match_cost": 0.175,
+   "note_sim": 0.827,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 271,
@@ -3545,12 +3546,12 @@
    "label": "188",
    "perf_start_qb": 1062.0,
    "perf_end_qb": 1066.0,
-   "start_sec": 545.467,
-   "end_sec": 547.175,
-   "match_cost": 0.183,
-   "note_sim": 0.858,
+   "start_sec": 545.448,
+   "end_sec": 547.161,
+   "match_cost": 0.182,
+   "note_sim": 0.859,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 272,
@@ -3558,12 +3559,12 @@
    "label": "189",
    "perf_start_qb": 1066.0,
    "perf_end_qb": 1070.0,
-   "start_sec": 547.175,
-   "end_sec": 548.883,
-   "match_cost": 0.183,
-   "note_sim": 0.756,
+   "start_sec": 547.161,
+   "end_sec": 548.874,
+   "match_cost": 0.171,
+   "note_sim": 0.755,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 273,
@@ -3571,12 +3572,12 @@
    "label": "190",
    "perf_start_qb": 1070.0,
    "perf_end_qb": 1074.0,
-   "start_sec": 548.883,
-   "end_sec": 550.637,
-   "match_cost": 0.154,
+   "start_sec": 548.874,
+   "end_sec": 550.633,
+   "match_cost": 0.155,
    "note_sim": 0.819,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 274,
@@ -3584,12 +3585,12 @@
    "label": "191",
    "perf_start_qb": 1074.0,
    "perf_end_qb": 1078.0,
-   "start_sec": 550.637,
-   "end_sec": 552.675,
+   "start_sec": 550.633,
+   "end_sec": 552.678,
    "match_cost": 0.245,
    "note_sim": 0.749,
    "flagged": false,
-   "tempo_qpm": 117.8
+   "tempo_qpm": 117.4
   },
   {
    "occurrence": 275,
@@ -3597,12 +3598,12 @@
    "label": "192",
    "perf_start_qb": 1078.0,
    "perf_end_qb": 1082.0,
-   "start_sec": 552.675,
-   "end_sec": 554.611,
-   "match_cost": 0.137,
+   "start_sec": 552.678,
+   "end_sec": 554.617,
+   "match_cost": 0.143,
    "note_sim": 0.841,
    "flagged": false,
-   "tempo_qpm": 124.0
+   "tempo_qpm": 123.8
   },
   {
    "occurrence": 276,
@@ -3610,12 +3611,12 @@
    "label": "193",
    "perf_start_qb": 1082.0,
    "perf_end_qb": 1086.0,
-   "start_sec": 554.611,
-   "end_sec": 556.551,
-   "match_cost": 0.257,
+   "start_sec": 554.617,
+   "end_sec": 556.562,
+   "match_cost": 0.258,
    "note_sim": 0.805,
    "flagged": false,
-   "tempo_qpm": 123.7
+   "tempo_qpm": 123.4
   },
   {
    "occurrence": 277,
@@ -3623,12 +3624,12 @@
    "label": "194",
    "perf_start_qb": 1086.0,
    "perf_end_qb": 1090.0,
-   "start_sec": 556.551,
-   "end_sec": 558.491,
+   "start_sec": 556.562,
+   "end_sec": 558.508,
    "match_cost": 0.168,
    "note_sim": 0.951,
    "flagged": false,
-   "tempo_qpm": 123.7
+   "tempo_qpm": 123.3
   },
   {
    "occurrence": 278,
@@ -3636,12 +3637,12 @@
    "label": "195",
    "perf_start_qb": 1090.0,
    "perf_end_qb": 1094.0,
-   "start_sec": 558.491,
-   "end_sec": 560.338,
+   "start_sec": 558.508,
+   "end_sec": 560.36,
    "match_cost": 0.224,
-   "note_sim": 0.738,
+   "note_sim": 0.739,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 279,
@@ -3649,12 +3650,12 @@
    "label": "196",
    "perf_start_qb": 1094.0,
    "perf_end_qb": 1098.0,
-   "start_sec": 560.338,
-   "end_sec": 562.232,
-   "match_cost": 0.16,
-   "note_sim": 0.827,
+   "start_sec": 560.36,
+   "end_sec": 562.259,
+   "match_cost": 0.159,
+   "note_sim": 0.826,
    "flagged": false,
-   "tempo_qpm": 126.7
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 280,
@@ -3662,12 +3663,12 @@
    "label": "197",
    "perf_start_qb": 1098.0,
    "perf_end_qb": 1102.0,
-   "start_sec": 562.232,
-   "end_sec": 564.033,
-   "match_cost": 0.207,
-   "note_sim": 0.796,
+   "start_sec": 562.259,
+   "end_sec": 564.065,
+   "match_cost": 0.212,
+   "note_sim": 0.794,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 281,
@@ -3675,12 +3676,12 @@
    "label": "198",
    "perf_start_qb": 1102.0,
    "perf_end_qb": 1106.0,
-   "start_sec": 564.033,
-   "end_sec": 565.881,
+   "start_sec": 564.065,
+   "end_sec": 565.871,
    "match_cost": 0.155,
    "note_sim": 0.828,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 282,
@@ -3688,12 +3689,12 @@
    "label": "199",
    "perf_start_qb": 1106.0,
    "perf_end_qb": 1110.0,
-   "start_sec": 565.881,
-   "end_sec": 567.774,
-   "match_cost": 0.194,
+   "start_sec": 565.871,
+   "end_sec": 567.77,
+   "match_cost": 0.191,
    "note_sim": 0.79,
    "flagged": false,
-   "tempo_qpm": 126.8
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 283,
@@ -3701,12 +3702,12 @@
    "label": "200",
    "perf_start_qb": 1110.0,
    "perf_end_qb": 1114.0,
-   "start_sec": 567.774,
+   "start_sec": 567.77,
    "end_sec": 569.622,
    "match_cost": 0.184,
    "note_sim": 0.815,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 284,
@@ -3715,11 +3716,11 @@
    "perf_start_qb": 1114.0,
    "perf_end_qb": 1118.0,
    "start_sec": 569.622,
-   "end_sec": 571.469,
-   "match_cost": 0.172,
+   "end_sec": 571.475,
+   "match_cost": 0.173,
    "note_sim": 0.809,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 285,
@@ -3727,12 +3728,12 @@
    "label": "202",
    "perf_start_qb": 1118.0,
    "perf_end_qb": 1122.0,
-   "start_sec": 571.469,
-   "end_sec": 573.317,
+   "start_sec": 571.475,
+   "end_sec": 573.327,
    "match_cost": 0.187,
    "note_sim": 0.814,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 286,
@@ -3740,12 +3741,12 @@
    "label": "203",
    "perf_start_qb": 1122.0,
    "perf_end_qb": 1126.0,
-   "start_sec": 573.317,
-   "end_sec": 575.164,
-   "match_cost": 0.242,
-   "note_sim": 0.755,
+   "start_sec": 573.327,
+   "end_sec": 575.179,
+   "match_cost": 0.24,
+   "note_sim": 0.754,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.6
   },
   {
    "occurrence": 287,
@@ -3753,12 +3754,12 @@
    "label": "204",
    "perf_start_qb": 1126.0,
    "perf_end_qb": 1130.0,
-   "start_sec": 575.164,
-   "end_sec": 576.918,
-   "match_cost": 0.225,
-   "note_sim": 0.768,
+   "start_sec": 575.179,
+   "end_sec": 576.939,
+   "match_cost": 0.229,
+   "note_sim": 0.769,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 288,
@@ -3766,12 +3767,12 @@
    "label": "205",
    "perf_start_qb": 1130.0,
    "perf_end_qb": 1134.0,
-   "start_sec": 576.918,
-   "end_sec": 578.627,
-   "match_cost": 0.191,
-   "note_sim": 0.826,
+   "start_sec": 576.939,
+   "end_sec": 578.652,
+   "match_cost": 0.187,
+   "note_sim": 0.825,
    "flagged": false,
-   "tempo_qpm": 140.4
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 289,
@@ -3779,12 +3780,12 @@
    "label": "206",
    "perf_start_qb": 1134.0,
    "perf_end_qb": 1138.0,
-   "start_sec": 578.627,
-   "end_sec": 580.381,
-   "match_cost": 0.198,
-   "note_sim": 0.812,
+   "start_sec": 578.652,
+   "end_sec": 580.365,
+   "match_cost": 0.192,
+   "note_sim": 0.813,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 290,
@@ -3792,12 +3793,12 @@
    "label": "207",
    "perf_start_qb": 1138.0,
    "perf_end_qb": 1142.0,
-   "start_sec": 580.381,
-   "end_sec": 582.043,
-   "match_cost": 0.188,
-   "note_sim": 0.867,
+   "start_sec": 580.365,
+   "end_sec": 582.032,
+   "match_cost": 0.208,
+   "note_sim": 0.868,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 291,
@@ -3805,12 +3806,12 @@
    "label": "208",
    "perf_start_qb": 1142.0,
    "perf_end_qb": 1146.0,
-   "start_sec": 582.043,
-   "end_sec": 583.797,
+   "start_sec": 582.032,
+   "end_sec": 583.791,
    "match_cost": 0.103,
    "note_sim": 0.848,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 292,
@@ -3818,12 +3819,12 @@
    "label": "209",
    "perf_start_qb": 1146.0,
    "perf_end_qb": 1150.0,
-   "start_sec": 583.797,
-   "end_sec": 585.598,
+   "start_sec": 583.791,
+   "end_sec": 585.597,
    "match_cost": 0.139,
    "note_sim": 0.882,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 293,
@@ -3831,12 +3832,12 @@
    "label": "210",
    "perf_start_qb": 1150.0,
    "perf_end_qb": 1154.0,
-   "start_sec": 585.598,
-   "end_sec": 587.492,
-   "match_cost": 0.158,
-   "note_sim": 0.806,
+   "start_sec": 585.597,
+   "end_sec": 587.45,
+   "match_cost": 0.163,
+   "note_sim": 0.807,
    "flagged": false,
-   "tempo_qpm": 126.7
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 294,
@@ -3844,12 +3845,12 @@
    "label": "211",
    "perf_start_qb": 1154.0,
    "perf_end_qb": 1158.0,
-   "start_sec": 587.492,
-   "end_sec": 589.339,
-   "match_cost": 0.176,
-   "note_sim": 0.758,
+   "start_sec": 587.45,
+   "end_sec": 589.349,
+   "match_cost": 0.175,
+   "note_sim": 0.756,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 126.4
   },
   {
    "occurrence": 295,
@@ -3857,12 +3858,12 @@
    "label": "212",
    "perf_start_qb": 1158.0,
    "perf_end_qb": 1162.0,
-   "start_sec": 589.339,
-   "end_sec": 591.14,
+   "start_sec": 589.349,
+   "end_sec": 591.155,
    "match_cost": 0.118,
    "note_sim": 0.855,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 296,
@@ -3870,12 +3871,12 @@
    "label": "213",
    "perf_start_qb": 1162.0,
    "perf_end_qb": 1166.0,
-   "start_sec": 591.14,
-   "end_sec": 592.848,
+   "start_sec": 591.155,
+   "end_sec": 592.868,
    "match_cost": 0.139,
-   "note_sim": 0.82,
+   "note_sim": 0.821,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 297,
@@ -3883,12 +3884,12 @@
    "label": "214",
    "perf_start_qb": 1166.0,
    "perf_end_qb": 1170.0,
-   "start_sec": 592.848,
-   "end_sec": 594.649,
+   "start_sec": 592.868,
+   "end_sec": 594.674,
    "match_cost": 0.125,
    "note_sim": 0.865,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 298,
@@ -3896,12 +3897,12 @@
    "label": "215",
    "perf_start_qb": 1170.0,
    "perf_end_qb": 1174.0,
-   "start_sec": 594.649,
-   "end_sec": 596.45,
+   "start_sec": 594.674,
+   "end_sec": 596.433,
    "match_cost": 0.258,
    "note_sim": 0.756,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 299,
@@ -3909,12 +3910,12 @@
    "label": "216",
    "perf_start_qb": 1174.0,
    "perf_end_qb": 1178.0,
-   "start_sec": 596.45,
-   "end_sec": 598.205,
+   "start_sec": 596.433,
+   "end_sec": 598.193,
    "match_cost": 0.238,
    "note_sim": 0.756,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 300,
@@ -3922,12 +3923,12 @@
    "label": "217",
    "perf_start_qb": 1178.0,
    "perf_end_qb": 1182.0,
-   "start_sec": 598.205,
-   "end_sec": 600.006,
+   "start_sec": 598.193,
+   "end_sec": 599.999,
    "match_cost": 0.224,
    "note_sim": 0.766,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 301,
@@ -3935,12 +3936,12 @@
    "label": "218",
    "perf_start_qb": 1182.0,
    "perf_end_qb": 1186.0,
-   "start_sec": 600.006,
-   "end_sec": 601.807,
+   "start_sec": 599.999,
+   "end_sec": 601.805,
    "match_cost": 0.23,
    "note_sim": 0.77,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 302,
@@ -3948,12 +3949,12 @@
    "label": "219",
    "perf_start_qb": 1186.0,
    "perf_end_qb": 1190.0,
-   "start_sec": 601.807,
-   "end_sec": 603.607,
-   "match_cost": 0.19,
-   "note_sim": 0.851,
+   "start_sec": 601.805,
+   "end_sec": 603.564,
+   "match_cost": 0.189,
+   "note_sim": 0.852,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 303,
@@ -3961,12 +3962,12 @@
    "label": "220",
    "perf_start_qb": 1190.0,
    "perf_end_qb": 1194.0,
-   "start_sec": 603.607,
-   "end_sec": 605.408,
-   "match_cost": 0.23,
+   "start_sec": 603.564,
+   "end_sec": 605.417,
+   "match_cost": 0.225,
    "note_sim": 0.763,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 304,
@@ -3974,12 +3975,12 @@
    "label": "221",
    "perf_start_qb": 1194.0,
    "perf_end_qb": 1198.0,
-   "start_sec": 605.408,
-   "end_sec": 607.116,
+   "start_sec": 605.417,
+   "end_sec": 607.13,
    "match_cost": 0.198,
-   "note_sim": 0.782,
+   "note_sim": 0.781,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 305,
@@ -3987,12 +3988,12 @@
    "label": "222",
    "perf_start_qb": 1198.0,
    "perf_end_qb": 1202.0,
-   "start_sec": 607.116,
-   "end_sec": 609.103,
+   "start_sec": 607.13,
+   "end_sec": 609.121,
    "match_cost": 0.275,
-   "note_sim": 0.688,
+   "note_sim": 0.689,
    "flagged": false,
-   "tempo_qpm": 120.8
+   "tempo_qpm": 120.5
   },
   {
    "occurrence": 306,
@@ -4000,12 +4001,12 @@
    "label": "223",
    "perf_start_qb": 1202.0,
    "perf_end_qb": 1206.0,
-   "start_sec": 609.103,
-   "end_sec": 611.229,
+   "start_sec": 609.121,
+   "end_sec": 611.253,
    "match_cost": 0.149,
-   "note_sim": 0.865,
+   "note_sim": 0.864,
    "flagged": false,
-   "tempo_qpm": 112.9
+   "tempo_qpm": 112.6
   },
   {
    "occurrence": 307,
@@ -4013,12 +4014,12 @@
    "label": "224",
    "perf_start_qb": 1206.0,
    "perf_end_qb": 1210.0,
-   "start_sec": 611.229,
-   "end_sec": 613.541,
-   "match_cost": 0.18,
+   "start_sec": 611.253,
+   "end_sec": 613.569,
+   "match_cost": 0.177,
    "note_sim": 0.812,
    "flagged": false,
-   "tempo_qpm": 103.8
+   "tempo_qpm": 103.6
   },
   {
    "occurrence": 308,
@@ -4026,12 +4027,12 @@
    "label": "225",
    "perf_start_qb": 1210.0,
    "perf_end_qb": 1214.0,
-   "start_sec": 613.541,
-   "end_sec": 615.295,
+   "start_sec": 613.569,
+   "end_sec": 615.282,
    "match_cost": 0.319,
-   "note_sim": 0.804,
+   "note_sim": 0.803,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 309,
@@ -4039,12 +4040,12 @@
    "label": "226",
    "perf_start_qb": 1214.0,
    "perf_end_qb": 1218.0,
-   "start_sec": 615.295,
-   "end_sec": 617.004,
+   "start_sec": 615.282,
+   "end_sec": 616.996,
    "match_cost": 0.256,
    "note_sim": 0.897,
    "flagged": false,
-   "tempo_qpm": 140.4
+   "tempo_qpm": 140.0
   },
   {
    "occurrence": 310,
@@ -4052,12 +4053,12 @@
    "label": "227",
    "perf_start_qb": 1218.0,
    "perf_end_qb": 1222.0,
-   "start_sec": 617.004,
-   "end_sec": 618.944,
+   "start_sec": 616.996,
+   "end_sec": 618.941,
    "match_cost": 0.167,
-   "note_sim": 0.787,
+   "note_sim": 0.788,
    "flagged": false,
-   "tempo_qpm": 123.7
+   "tempo_qpm": 123.4
   },
   {
    "occurrence": 311,
@@ -4065,12 +4066,12 @@
    "label": "228",
    "perf_start_qb": 1222.0,
    "perf_end_qb": 1226.0,
-   "start_sec": 618.944,
-   "end_sec": 620.698,
-   "match_cost": 0.17,
-   "note_sim": 0.862,
+   "start_sec": 618.941,
+   "end_sec": 620.654,
+   "match_cost": 0.171,
+   "note_sim": 0.861,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 312,
@@ -4078,12 +4079,12 @@
    "label": "229",
    "perf_start_qb": 1226.0,
    "perf_end_qb": 1230.0,
-   "start_sec": 620.698,
-   "end_sec": 622.406,
-   "match_cost": 0.202,
+   "start_sec": 620.654,
+   "end_sec": 622.414,
+   "match_cost": 0.2,
    "note_sim": 0.796,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 313,
@@ -4091,12 +4092,12 @@
    "label": "230",
    "perf_start_qb": 1230.0,
    "perf_end_qb": 1234.0,
-   "start_sec": 622.406,
+   "start_sec": 622.414,
    "end_sec": 624.137,
    "match_cost": 0.177,
    "note_sim": 0.857,
    "flagged": false,
-   "tempo_qpm": 138.6
+   "tempo_qpm": 139.3
   },
   {
    "occurrence": 314,
@@ -4105,11 +4106,11 @@
    "perf_start_qb": 1234.0,
    "perf_end_qb": 1238.0,
    "start_sec": 624.137,
-   "end_sec": 625.869,
+   "end_sec": 625.886,
    "match_cost": 0.177,
    "note_sim": 0.859,
    "flagged": false,
-   "tempo_qpm": 138.6
+   "tempo_qpm": 137.2
   },
   {
    "occurrence": 315,
@@ -4117,12 +4118,12 @@
    "label": "232",
    "perf_start_qb": 1238.0,
    "perf_end_qb": 1242.0,
-   "start_sec": 625.869,
-   "end_sec": 627.531,
+   "start_sec": 625.886,
+   "end_sec": 627.553,
    "match_cost": 0.193,
    "note_sim": 0.819,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 316,
@@ -4130,12 +4131,12 @@
    "label": "233",
    "perf_start_qb": 1242.0,
    "perf_end_qb": 1246.0,
-   "start_sec": 627.531,
-   "end_sec": 629.285,
-   "match_cost": 0.184,
-   "note_sim": 0.905,
+   "start_sec": 627.553,
+   "end_sec": 629.266,
+   "match_cost": 0.186,
+   "note_sim": 0.907,
    "flagged": false,
-   "tempo_qpm": 136.8
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 317,
@@ -4143,12 +4144,12 @@
    "label": "234",
    "perf_start_qb": 1246.0,
    "perf_end_qb": 1250.0,
-   "start_sec": 629.285,
-   "end_sec": 630.993,
+   "start_sec": 629.266,
+   "end_sec": 630.979,
    "match_cost": 0.228,
    "note_sim": 0.755,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 318,
@@ -4156,12 +4157,12 @@
    "label": "235",
    "perf_start_qb": 1250.0,
    "perf_end_qb": 1254.0,
-   "start_sec": 630.993,
-   "end_sec": 632.655,
+   "start_sec": 630.979,
+   "end_sec": 632.646,
    "match_cost": 0.241,
    "note_sim": 0.79,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.0
   },
   {
    "occurrence": 319,
@@ -4169,12 +4170,12 @@
    "label": "236",
    "perf_start_qb": 1254.0,
    "perf_end_qb": 1258.0,
-   "start_sec": 632.655,
-   "end_sec": 634.363,
+   "start_sec": 632.646,
+   "end_sec": 634.359,
    "match_cost": 0.225,
    "note_sim": 0.774,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 140.1
   },
   {
    "occurrence": 320,
@@ -4182,12 +4183,12 @@
    "label": "237",
    "perf_start_qb": 1258.0,
    "perf_end_qb": 1262.0,
-   "start_sec": 634.363,
-   "end_sec": 636.071,
-   "match_cost": 0.189,
-   "note_sim": 0.845,
+   "start_sec": 634.359,
+   "end_sec": 636.025,
+   "match_cost": 0.188,
+   "note_sim": 0.846,
    "flagged": false,
-   "tempo_qpm": 140.5
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 321,
@@ -4195,12 +4196,12 @@
    "label": "238",
    "perf_start_qb": 1262.0,
    "perf_end_qb": 1266.0,
-   "start_sec": 636.071,
-   "end_sec": 637.732,
-   "match_cost": 0.236,
+   "start_sec": 636.025,
+   "end_sec": 637.739,
+   "match_cost": 0.235,
    "note_sim": 0.792,
    "flagged": false,
-   "tempo_qpm": 144.5
+   "tempo_qpm": 140.0
   },
   {
    "occurrence": 322,
@@ -4208,12 +4209,12 @@
    "label": "239",
    "perf_start_qb": 1266.0,
    "perf_end_qb": 1270.0,
-   "start_sec": 637.732,
-   "end_sec": 639.394,
+   "start_sec": 637.739,
+   "end_sec": 639.405,
    "match_cost": 0.236,
    "note_sim": 0.775,
    "flagged": false,
-   "tempo_qpm": 144.4
+   "tempo_qpm": 144.1
   },
   {
    "occurrence": 323,
@@ -4221,12 +4222,12 @@
    "label": "240",
    "perf_start_qb": 1270.0,
    "perf_end_qb": 1274.0,
-   "start_sec": 639.394,
-   "end_sec": 641.195,
+   "start_sec": 639.405,
+   "end_sec": 641.211,
    "match_cost": 0.186,
    "note_sim": 0.837,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 324,
@@ -4234,12 +4235,12 @@
    "label": "241",
    "perf_start_qb": 1274.0,
    "perf_end_qb": 1278.0,
-   "start_sec": 641.195,
-   "end_sec": 643.042,
+   "start_sec": 641.211,
+   "end_sec": 643.064,
    "match_cost": 0.181,
    "note_sim": 0.771,
    "flagged": false,
-   "tempo_qpm": 129.9
+   "tempo_qpm": 129.5
   },
   {
    "occurrence": 325,
@@ -4247,12 +4248,12 @@
    "label": "242",
    "perf_start_qb": 1278.0,
    "perf_end_qb": 1282.0,
-   "start_sec": 643.042,
-   "end_sec": 644.843,
-   "match_cost": 0.151,
+   "start_sec": 643.064,
+   "end_sec": 644.823,
+   "match_cost": 0.152,
    "note_sim": 0.864,
    "flagged": false,
-   "tempo_qpm": 133.3
+   "tempo_qpm": 136.4
   },
   {
    "occurrence": 326,
@@ -4260,12 +4261,12 @@
    "label": "243",
    "perf_start_qb": 1282.0,
    "perf_end_qb": 1286.0,
-   "start_sec": 644.843,
-   "end_sec": 645.731,
-   "match_cost": 0.188,
-   "note_sim": 0.789,
+   "start_sec": 644.823,
+   "end_sec": 646.629,
+   "match_cost": 0.175,
+   "note_sim": 0.8,
    "flagged": false,
-   "tempo_qpm": 270.3
+   "tempo_qpm": 132.9
   },
   {
    "occurrence": 327,
@@ -4273,12 +4274,12 @@
    "label": "244",
    "perf_start_qb": 1286.0,
    "perf_end_qb": 1290.0,
-   "start_sec": 645.731,
-   "end_sec": 646.567,
-   "match_cost": 0.177,
-   "note_sim": 0.834,
+   "start_sec": 646.629,
+   "end_sec": 648.2,
+   "match_cost": 0.158,
+   "note_sim": 0.838,
    "flagged": false,
-   "tempo_qpm": 287.1
+   "tempo_qpm": 152.8
   },
   {
    "occurrence": 328,
@@ -4286,12 +4287,12 @@
    "label": "245",
    "perf_start_qb": 1290.0,
    "perf_end_qb": 1294.0,
-   "start_sec": 646.567,
-   "end_sec": 648.156,
-   "match_cost": 0.235,
-   "note_sim": 0.72,
+   "start_sec": 648.2,
+   "end_sec": 650.4,
+   "match_cost": 0.208,
+   "note_sim": 0.777,
    "flagged": false,
-   "tempo_qpm": 151.0
+   "tempo_qpm": 109.1
   },
   {
    "occurrence": 329,
@@ -4299,12 +4300,12 @@
    "label": "246",
    "perf_start_qb": 1294.0,
    "perf_end_qb": 1298.0,
-   "start_sec": 648.156,
-   "end_sec": 648.285,
-   "match_cost": 0.092,
-   "note_sim": 0.687,
+   "start_sec": 650.4,
+   "end_sec": 651.6,
+   "match_cost": 0.096,
+   "note_sim": 0.655,
    "flagged": false,
-   "tempo_qpm": 1860.5
+   "tempo_qpm": 200.0
   }
  ]
 }

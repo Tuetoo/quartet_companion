@@ -1,20 +1,20 @@
 {
- "id": "d810_2",
- "title": "Schubert: String Quartet in D minor, D.810, No.14 (“Death and the Maiden”) – II. Andante con moto",
- "composer": "Franz Schubert",
- "score": {
-  "type": "file",
-  "path": "pieces/d810_2/score.musicxml",
-  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/7397765",
-  "openscore_id": "7397765"
- },
- "audio": {
-  "path": "incoming/IMSLP76160-PMLP09913-schubert_d810.mp3",
-  "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #76160, CC BY-NC-ND 3.0)",
-  "start_sec": 688.6,
-  "end_sec": 1474.5,
-  "open_sec": 6.0,
-  "range_from": "split",
-  "license": "CC BY-NC-ND 3.0"
- }
+  "id": "d810_2",
+  "title": "Schubert: String Quartet in D minor, D.810, No.14 (“Death and the Maiden”) – II. Andante con moto",
+  "composer": "Franz Schubert",
+  "score": {
+    "type": "file",
+    "path": "pieces/d810_2/score.musicxml",
+    "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/7397765",
+    "openscore_id": "7397765"
+  },
+  "audio": {
+    "path": "incoming/IMSLP76160-PMLP09913-schubert_d810.mp3",
+    "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #76160, CC BY-NC-ND 3.0)",
+    "start_sec": 688.6,
+    "end_sec": 1489.0,
+    "open_sec": 2.0,
+    "range_from": "split",
+    "license": "CC BY-NC-ND 3.0"
+  }
 }

@@ -25,6 +25,8 @@ import pandas as pd
 from ..score import Score
 
 CANDIDATES = [
+    # inside the project folder (tools/ is not uploaded to GitHub)
+    str(Path(__file__).resolve().parents[3] / "tools/Audiveris.app/Contents/MacOS/Audiveris"),
     "/Applications/Audiveris.app/Contents/MacOS/Audiveris",
     str(Path.home() / "Applications/Audiveris.app/Contents/MacOS/Audiveris"),
     "/opt/audiveris/bin/Audiveris",
@@ -94,7 +96,9 @@ def run_omr(pdf: str | Path, out_dir: str | Path, timeout_sec: int = 3600) -> li
            "-output", str(out_dir), str(pdf)]
     proc = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout_sec)
     (out_dir / f"{pdf.stem}.audiveris.log").write_text(proc.stdout + "\n" + proc.stderr)
-    files = sorted(out_dir.glob(f"{pdf.stem}*.mxl"))
+    # Audiveris names its output after the book, which it may shorten (it cuts long file
+    # names at the first "-"): accept any .mxl whose base name starts the PDF's name.
+    files = sorted(f for f in out_dir.glob("*.mxl") if pdf.stem.startswith(f.stem.split(".mvt")[0]))
     if not files:
         raise RuntimeError(f"Audiveris produced no MusicXML; see {out_dir / (pdf.stem + '.audiveris.log')}")
     return files

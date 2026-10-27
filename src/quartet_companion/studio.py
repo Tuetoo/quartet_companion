@@ -17,7 +17,6 @@ Guides are not written here (they use the API): the page shows the command to ru
 """
 from __future__ import annotations
 
-import http.server
 import json
 import re
 import subprocess
@@ -27,10 +26,10 @@ import urllib.parse
 from pathlib import Path
 
 from . import pieces as P
-from .httpserve import RangeHandler
+from .httpserve import QuietServer, RangeHandler
 
 STUDIO_DIR = Path(__file__).resolve().parent / "studio_web"
-AUDIO_EXT = {".mp3", ".wav", ".flac", ".ogg", ".m4a", ".aiff", ".aif"}
+AUDIO_EXT = {".mp3", ".wav", ".flac", ".ogg", ".aiff", ".aif"}   # what the audio reader can open
 
 _jobs: dict[int, dict] = {}
 _lock = threading.Lock()
@@ -61,8 +60,13 @@ def _run_job(job_id: int, root: Path, cmds: list[list[str]]) -> None:
     job = _jobs[job_id]
     for cmd in cmds:
         job["log"].append("$ qc " + " ".join(cmd[3:]))
-        proc = subprocess.Popen(cmd, cwd=root, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
-                                bufsize=1, env={**__import__("os").environ, "PYTHONUNBUFFERED": "1"})
+        try:
+            proc = subprocess.Popen(cmd, cwd=root, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True,
+                                    bufsize=1, env={**__import__("os").environ, "PYTHONUNBUFFERED": "1"})
+        except OSError as exc:
+            job["log"].append(f"(could not start: {exc})")
+            job["status"] = "failed"
+            return
         for line in proc.stdout:
             line = line.rstrip()
             if line and not re.search(r"Warning|warnings.warn|getNumberList", line):
@@ -93,8 +97,18 @@ class _Handler(RangeHandler):
             return str(STUDIO_DIR / "studio.html")
         return str(Path(super().translate_path(path)))
 
+    def _local_request(self) -> bool:
+        """Only this computer's own pages may use the API (not another web site open in the
+        browser, and not a DNS-rebinding trick that points a strange name at 127.0.0.1)."""
+        host = (self.headers.get("Host") or "").rsplit(":", 1)[0]
+        origin = self.headers.get("Origin")
+        local = re.compile(r"https?://(127\.0\.0\.1|localhost)(:\d+)?")
+        return host in ("127.0.0.1", "localhost") and (origin is None or bool(local.fullmatch(origin)))
+
     def do_GET(self):  # noqa: N802
         u = urllib.parse.urlparse(self.path)
+        if u.path.startswith("/api/") and not self._local_request():
+            return self._json({"error": "forbidden"}, 403)
         q = urllib.parse.parse_qs(u.query)
         if u.path == "/api/search":
             from .io import library as L
@@ -109,7 +123,8 @@ class _Handler(RangeHandler):
                                 "prefix": suggest_prefix(r, existing)} for r in hits[:40]])
         if u.path == "/api/incoming":
             inc = self.root / "incoming"
-            files = sorted(f for f in inc.rglob("*") if f.is_file() and f.suffix.lower() in AUDIO_EXT) if inc.exists() else []
+            files = sorted(f for f in inc.rglob("*") if f.is_file() and f.suffix.lower() in AUDIO_EXT
+                           and "clean_test" not in f.relative_to(inc).parts) if inc.exists() else []   # skip before/after samples
             used = set()
             for pid in _piece_ids(self.root):
                 cfg = P.read_json(P.piece_dir(pid, self.root) / "config.json")
@@ -125,7 +140,10 @@ class _Handler(RangeHandler):
             job = _jobs.get(int(m.group(1)))
             if not job:
                 return self._json({"error": "no such job"}, 404)
-            since = int(q.get("since", ["0"])[0])
+            try:
+                since = max(0, int(q.get("since", ["0"])[0]))
+            except ValueError:
+                return self._json({"error": "since must be a number"}, 400)
             with _lock:
                 return self._json({"status": job["status"], "log": job["log"][since:], "next": len(job["log"]),
                                    "prefix": job["prefix"]})
@@ -134,6 +152,8 @@ class _Handler(RangeHandler):
     def do_POST(self):  # noqa: N802
         if urllib.parse.urlparse(self.path).path != "/api/add":
             return self._json({"error": "unknown"}, 404)
+        if not self._local_request():
+            return self._json({"error": "forbidden"}, 403)
         try:
             body = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))) or b"{}")
             work, prefix = str(body["id"]), str(body["prefix"])
@@ -141,6 +161,8 @@ class _Handler(RangeHandler):
             credit = str(body.get("credit", "")).strip()
         except (KeyError, ValueError, TypeError):
             return self._json({"error": "need id, prefix and audio", "code": "bad_request"}, 400)
+        if not re.fullmatch(r"[A-Za-z0-9]{1,20}", work):
+            return self._json({"error": "unknown work", "code": "bad_request"}, 400)
         if not re.fullmatch(r"[a-z0-9][a-z0-9_]{1,40}", prefix):
             return self._json({"error": "the short name may use only a-z, 0-9 and _", "code": "bad_name"}, 400)
         if any(pid == prefix or pid.startswith(prefix + "_") for pid in _piece_ids(self.root)):
@@ -175,7 +197,11 @@ def serve(root: Path, port: int = 8765) -> None:
 
     def make(*a, **k):
         return Handler(*a, directory=str(site), **k)
-    srv = http.server.ThreadingHTTPServer(("127.0.0.1", port), make)
+    try:
+        srv = QuietServer(("127.0.0.1", port), make)
+    except OSError:
+        raise SystemExit(f"Port {port} is already in use (is `qc serve` or `qc studio` running in another "
+                         f"terminal window?). Use another port: qc studio --port {port + 1}")
     print(f"Open http://127.0.0.1:{port}/studio.html to add pieces, http://127.0.0.1:{port}/ for the player "
           "(Ctrl+C to stop)")
     try:

@@ -64,6 +64,48 @@ def test_midi_loader_with_pickup(tmp_path):
     assert s.validate() == []
 
 
+def test_structure_for_midi_endings_and_da_capo(tmp_path):
+    mido = pytest.importorskip("mido")
+    from quartet_companion.io.midi import load_midi
+    from quartet_companion.pieces import set_structure
+    from quartet_companion.unfold import playing_orders
+    mf = mido.MidiFile(ticks_per_beat=480)
+    tr = mido.MidiTrack()
+    for p in [60 + i for i in range(6)]:          # six 4/4 bars of whole notes
+        tr.append(mido.Message("note_on", note=p, velocity=64, time=0))
+        tr.append(mido.Message("note_off", note=p, velocity=0, time=4 * 480))
+    mf.tracks.append(tr)
+    mf.save(tmp_path / "x.mid")
+    s = load_midi(tmp_path / "x.mid")
+    # |: 1 2 [3 :| [4 5 ; with "Trio" at 5 and D.C. at 6
+    set_structure(s, {"volta": {"3": 1, "4": 2}, "texts": {"5": "Trio", "6": "D.C."}})
+    assert s.measures["label"].tolist()[2:4] == ["3a", "4b"]
+    orders = {o.name: o.mcs for o in playing_orders(s)}
+    assert orders["all_repeats+dc"] == [1, 2, 3, 1, 2, 4, 5, 6, 1, 2, 4]
+    assert orders["all_repeats+dc_repeats"] == [1, 2, 3, 1, 2, 4, 5, 6, 1, 2, 3, 1, 2, 4]
+    assert "no_repeats+dc_repeats" not in orders      # only after a first section played in full
+
+
+def test_inner_repeat_played_again_in_repeated_exposition(tmp_path):
+    mido = pytest.importorskip("mido")
+    from quartet_companion.io.midi import load_midi
+    from quartet_companion.pieces import set_structure
+    from quartet_companion.unfold import playing_orders
+    mf = mido.MidiFile(ticks_per_beat=480)
+    tr = mido.MidiTrack()
+    for p in [60 + i for i in range(7)]:
+        tr.append(mido.Message("note_on", note=p, velocity=64, time=0))
+        tr.append(mido.Message("note_off", note=p, velocity=0, time=4 * 480))
+    mf.tracks.append(tr)
+    mf.save(tmp_path / "x.mid")
+    s = load_midi(tmp_path / "x.mid")
+    # |: 1 [2 :| [3 4 [5 :| [6 7   (a theme with endings inside a repeated exposition)
+    set_structure(s, {"volta": {"2": 1, "3": 2, "5": 1, "6": 2}})
+    orders = {o.name: o.mcs for o in playing_orders(s)}
+    assert orders["all_repeats"] == [1, 2, 1, 3, 4, 5, 1, 3, 4, 6, 7]
+    assert orders["all_repeats+inner_again"] == [1, 2, 1, 3, 4, 5, 1, 2, 1, 3, 4, 6, 7]
+
+
 def test_score_drawing_maps_every_measure(tmp_path, melody_in_viola_score):
     pytest.importorskip("verovio")
     from quartet_companion.score_render import measure_map, render_pages, score_to_musicxml
@@ -121,7 +163,6 @@ def test_score_doubts_marks_outliers_but_not_repeat_jumps():
 
 
 def test_guide_command_selects_missing_and_outdated(tmp_path, monkeypatch, capsys):
-    import json
     from quartet_companion import cli
     from quartet_companion.guide.generate import facts_fingerprint
     facts = {"measures": [{"label": "1"}], "sections": [], "key_plan": []}
@@ -166,14 +207,64 @@ def test_publish_to_gh_pages(tmp_path):
     git = lambda *a, cwd=proj: subprocess.run(["git", *a], cwd=cwd, check=True, capture_output=True)  # noqa: E731
     git("init", "-q"); git("config", "user.name", "T"); git("config", "user.email", "t@x")
     (proj / ".gitignore").write_text("public_site/\n"); git("add", "-A"); git("commit", "-q", "-m", "code")
+    # first a local-only publish, before the GitHub remote exists: a later push must still work
+    (proj / "public_site" / "secret.mp3").write_text("audio that will become private")
+    assert publish(proj, build=False, push=False).startswith("Publish listening site")
     git("remote", "add", "origin", str(remote))
-    assert publish(proj, build=False).startswith("Publish listening site")
     assert publish(proj, build=False) == "nothing changed since the last publish"
     (proj / "public_site" / "index.html").write_text("<html>v2</html>")
+    (proj / "public_site" / "secret.mp3").unlink()
     publish(proj, build=False)
     log = subprocess.run(["git", "log", "--oneline", "gh-pages"], cwd=remote, capture_output=True, text=True).stdout
-    assert len(log.strip().splitlines()) == 2
+    assert len(log.strip().splitlines()) == 1          # no history: a removed file cannot be fetched again
     files = subprocess.run(["git", "ls-tree", "--name-only", "gh-pages"], cwd=remote, capture_output=True, text=True).stdout.split()
     assert sorted(files) == [".nojekyll", "index.html"]
+    page = subprocess.run(["git", "show", "gh-pages:index.html"], cwd=remote, capture_output=True, text=True).stdout
+    assert "v2" in page
     # the main branch never gets the site
     assert "public_site" not in subprocess.run(["git", "ls-files"], cwd=proj, capture_output=True, text=True).stdout
+
+
+def test_da_capo_written_in_the_middle_and_fine_rules(tmp_path):
+    mido = pytest.importorskip("mido")
+    from quartet_companion.io.midi import load_midi
+    from quartet_companion.pieces import set_structure
+    from quartet_companion.unfold import playing_orders
+    mf = mido.MidiFile(ticks_per_beat=480)
+    tr = mido.MidiTrack()
+    for p in [60 + i for i in range(6)]:
+        tr.append(mido.Message("note_on", note=p, velocity=64, time=0))
+        tr.append(mido.Message("note_off", note=p, velocity=0, time=4 * 480))
+    mf.tracks.append(tr)
+    mf.save(tmp_path / "x.mid")
+    s = load_midi(tmp_path / "x.mid")
+    # Fine at 2, "D.C. al Fine" at 4, then two more bars: the da capo comes right after bar 4,
+    # and the words "al Fine" inside the D.C. text are not taken as the Fine itself
+    set_structure(s, {"texts": {"2": "Fine", "4": "D.C. al Fine"}})
+    orders = {o.name: o.mcs for o in playing_orders(s)}
+    assert orders["all_repeats+dc"] == [1, 2, 3, 4, 1, 2, 5, 6]
+
+
+def test_repeat_after_second_ending_without_start_sign():
+    from quartet_companion.io.musicxml import _next_pointers
+    # A [1 :| [2 | B B :|   (no forward-repeat sign at B)
+    m = pd.DataFrame({"mc": [1, 2, 3, 4, 5, 6], "repeats": ["", "end", "", "", "end", ""],
+                      "volta": [0, 1, 2, 0, 0, 0]})
+    nxt = _next_pointers(m)
+    assert nxt[4] == [4, 6]        # B's repeat goes back to bar 4, not to bar 1
+
+
+def test_quiet_hiss_is_not_cut_as_applause():
+    import numpy as np
+    from quartet_companion.align.features import SR
+    from quartet_companion.align.pipeline import _trim_applause
+    rng = np.random.default_rng(0)
+    t = np.arange(SR * 30) / SR
+    y = 0.3 * np.sin(2 * np.pi * 440 * t)
+    y[-SR * 6:] = 0.01 * np.sin(2 * np.pi * 440 * t[-SR * 6:]) + 0.004 * rng.standard_normal(SR * 6)  # soft end + hiss
+    a, b = _trim_applause(y.astype(np.float32), 0, len(y))
+    assert b == len(y)
+    y2 = y.copy()
+    y2[-SR * 6:] = 0.25 * rng.standard_normal(SR * 6)          # loud noise: applause
+    a, b = _trim_applause(y2.astype(np.float32), 0, len(y2))
+    assert b <= len(y2) - SR * 5

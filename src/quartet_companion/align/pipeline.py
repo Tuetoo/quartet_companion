@@ -26,7 +26,7 @@ import pandas as pd
 from ..score import Score
 from ..unfold import PlayingOrder, measure_timeline, playing_orders, unfolded_notes
 from . import dtw as dtw_mod
-from .tempo import metronome_marks, tempo_by_measure, tempo_marking_kind, warp_function, warp_notes
+from .tempo import metronome_marks, tempo_marking_kind, warp_function, warp_notes
 from .features import FRAME_SEC, audio_chroma, audio_onset_curve, load_audio, score_chroma
 
 FINE_POOL = 2          # 2 x 23 ms  = 46 ms
@@ -35,6 +35,7 @@ FINE_RADIUS_SEC = 2.5
 # Measured on synthesized audio with exactly known timing: the chroma/onset
 # features place note starts about 55 ms late. We subtract that constant.
 LATENCY_CORRECTION_SEC = 0.055
+TRIM_BELOW_MAX_DB = 30.0   # quieter than this (below the loudest moment) counts as silence at the ends
 OPEN_SEC = 4.0          # music may start/end up to 4 s inside the (trimmed) audio
 MAX_TEMPO_CHECKS = 12   # tied repeat patterns checked against the tempo marks
 NEAR_TIE = 0.01         # coarse costs this close count as a tie between repeat patterns
@@ -102,7 +103,7 @@ def _trim(y: np.ndarray) -> tuple[np.ndarray, float, float]:
     hop = 512
     rms = librosa.feature.rms(y=y, frame_length=2048, hop_length=hop)[0]
     db = 20 * np.log10(np.maximum(rms, 1e-10))
-    thr = min(max(np.percentile(db, 0.5) + 10, db.max() - 60), db.max() - 30)
+    thr = min(max(np.percentile(db, 0.5) + 10, db.max() - 60), db.max() - TRIM_BELOW_MAX_DB)
     loud = db > thr
     # require ~0.3 s of sound so a click does not count as the start
     k = max(1, int(0.3 * SR / hop))
@@ -118,7 +119,8 @@ def _trim(y: np.ndarray) -> tuple[np.ndarray, float, float]:
     return y[a:b], a / SR, b / SR
 
 
-APPLAUSE_FLATNESS = 0.03   # applause measured ~0.09; string playing 0.0003-0.01 (tuning, room noise below 0.03)
+APPLAUSE_FLATNESS = 0.05   # applause measured ~0.09; string playing 0.0003-0.01, loud final chords up to ~0.04
+APPLAUSE_MIN_LEVEL_DB = 15.0   # applause is within this many dB of the music's loud level
 
 
 def _trim_applause(y: np.ndarray, a: int, b: int) -> tuple[int, int]:
@@ -127,9 +129,17 @@ def _trim_applause(y: np.ndarray, a: int, b: int) -> tuple[int, int]:
     import librosa
     from .features import SR
     sec = SR
+    # Applause is noise-like AND loud. Soft playing in a recording with hiss can also look
+    # noise-like, so quiet seconds are never treated as applause (they would be cut away).
+    rms = librosa.feature.rms(y=y[a:b], frame_length=sec, hop_length=sec)[0]
+    loud_db = 20 * np.log10(np.percentile(rms, 95) + 1e-10)
+
     def noisy(i0: int) -> bool:
         seg = y[i0:i0 + sec]
         if len(seg) < sec // 2:
+            return False
+        level = 20 * np.log10(float(np.sqrt(np.mean(seg ** 2))) + 1e-10)
+        if level < loud_db - APPLAUSE_MIN_LEVEL_DB:
             return False
         return float(np.median(librosa.feature.spectral_flatness(y=seg, n_fft=2048, hop_length=512)[0])) > APPLAUSE_FLATNESS
     while b - a > 20 * sec and noisy(b - sec):

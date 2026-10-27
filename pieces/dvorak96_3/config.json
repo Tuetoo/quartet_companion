@@ -1,16 +1,18 @@
 {
- "id": "dvorak96_3",
- "title": "Dvořák: String Quartet No.12, Op.96 (“American”) – III. Molto vivace",
- "composer": "Antonín Dvořák",
- "score": {
-  "type": "file",
-  "path": "pieces/dvorak96_3/score.musicxml",
-  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/8885439",
-  "openscore_id": "8885439"
- },
- "audio": {
-  "path": "incoming/IMSLP247093-PMLP28526-String_Quartet_No._12_in_F_Major,_Op._96,_American_-_III._Molto_Vivace.mp3",
-  "credit": "Musopen String Quartet, 2012 (IMSLP, CC BY 3.0)",
-  "license": "CC BY 3.0"
- }
+  "id": "dvorak96_3",
+  "title": "Dvořák: String Quartet No.12, Op.96 (“American”) – III. Molto vivace",
+  "composer": "Antonín Dvořák",
+  "score": {
+    "type": "file",
+    "path": "pieces/dvorak96_3/score.musicxml",
+    "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/8885439",
+    "openscore_id": "8885439"
+  },
+  "audio": {
+    "path": "incoming/IMSLP247093-PMLP28526-String_Quartet_No._12_in_F_Major,_Op._96,_American_-_III._Molto_Vivace.mp3",
+    "credit": "Musopen String Quartet, 2012 (IMSLP, CC BY 3.0)",
+    "license": "CC BY 3.0",
+    "open_sec": 1.0,
+    "range_from": "split"
+  }
 }

@@ -11,10 +11,10 @@
  "audio": {
   "path": "incoming/IMSLP82721-PMLP27014-mendelssohn_op13.mp3",
   "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #82721, CC BY-NC-ND 3.0)",
-  "start_sec": 964.5,
-  "end_sec": 1255.9,
+  "start_sec": 963.3,
+  "end_sec": 1257.2,
   "range_from": "split",
-  "open_sec": 6.0,
+  "open_sec": 2.0,
   "license": "CC BY-NC-ND 3.0"
  }
 }

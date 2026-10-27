@@ -222,3 +222,11 @@ details summary { cursor: pointer; margin-top: 14px; color: var(--muted); }
 .doubt-chip { font-size: 13px; padding: 3px 9px; border-radius: 999px; border: 1px dotted var(--flag); background: var(--paper);
   cursor: pointer; }
 .doubt-chip:hover { background: var(--accent-soft); }
+
+/* bars no listening point covers */
+.point.gap { border-style: dashed; border-left-width: 4px; background: transparent; color: var(--muted); }
+.point.gap .head { font-weight: 500; }
+.point.gap.current { color: var(--ink); }
+
+/* the hidden attribute always wins over display rules */
+[hidden] { display: none !important; }

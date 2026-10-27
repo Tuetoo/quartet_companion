@@ -1,48 +1,23 @@
 {
- "n_measures": 93,
+ "n_measures": 98,
  "parts": [
   "Violin",
   "Viola"
  ],
  "measures_with_wrong_length": [
   {
-   "label": "3",
-   "found_beats": 3.75,
+   "label": "4",
+   "found_beats": 4.5,
    "expected_beats": 4.0
   },
   {
-   "label": "5",
-   "found_beats": 3.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "6",
-   "found_beats": 3.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "7",
-   "found_beats": 3.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "13",
-   "found_beats": 3.0,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "14",
-   "found_beats": 2.75,
+   "label": "8",
+   "found_beats": 4.5,
    "expected_beats": 4.0
   },
   {
    "label": "15",
-   "found_beats": 2.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "16",
-   "found_beats": 2.5,
+   "found_beats": 3.5,
    "expected_beats": 4.0
   },
   {
@@ -51,28 +26,13 @@
    "expected_beats": 4.0
   },
   {
-   "label": "19",
-   "found_beats": 2.0,
+   "label": "24",
+   "found_beats": 5.0,
    "expected_beats": 4.0
   },
   {
-   "label": "20",
-   "found_beats": 2.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "29",
-   "found_beats": 4.25,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "30",
-   "found_beats": 4.25,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "31",
-   "found_beats": 4.25,
+   "label": "27",
+   "found_beats": 4.875,
    "expected_beats": 4.0
   },
   {
@@ -81,53 +41,103 @@
    "expected_beats": 4.0
   },
   {
-   "label": "33",
-   "found_beats": 3.75,
-   "expected_beats": 4.0
-  },
-  {
    "label": "34",
-   "found_beats": 3.75,
+   "found_beats": 4.25,
    "expected_beats": 4.0
   },
   {
    "label": "35",
-   "found_beats": 3.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "36",
-   "found_beats": 4.5,
+   "found_beats": 4.25,
    "expected_beats": 4.0
   },
   {
    "label": "37",
-   "found_beats": 3.75,
+   "found_beats": 11.75,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "39",
+   "found_beats": 3.0,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "46",
+   "found_beats": 5.0,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "60",
+   "found_beats": 5.0,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "62",
+   "found_beats": 3.0,
    "expected_beats": 4.0
   },
   {
    "label": "63",
-   "found_beats": 2.0,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "64",
-   "found_beats": 3.5,
+   "found_beats": 5.375,
    "expected_beats": 4.0
   },
   {
    "label": "65",
-   "found_beats": 4.625,
+   "found_beats": 4.188,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "66",
+   "found_beats": 3.0,
    "expected_beats": 4.0
   },
   {
    "label": "67",
-   "found_beats": 3.5,
+   "found_beats": 5.25,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "68",
+   "found_beats": 5.0,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "69",
+   "found_beats": 4.5,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "70",
+   "found_beats": 4.5,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "71",
+   "found_beats": 4.5,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "72",
+   "found_beats": 3.0,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "73",
+   "found_beats": 3.0,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "74",
+   "found_beats": 4.5,
    "expected_beats": 4.0
   },
   {
    "label": "75",
-   "found_beats": 0.5,
+   "found_beats": 5.0,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "77",
+   "found_beats": 4.75,
    "expected_beats": 4.0
   },
   {
@@ -136,43 +146,88 @@
    "expected_beats": 4.0
   },
   {
-   "label": "81",
-   "found_beats": 2.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "83",
-   "found_beats": 2.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "84",
-   "found_beats": 3.5,
-   "expected_beats": 4.0
-  },
-  {
-   "label": "85",
+   "label": "79",
    "found_beats": 4.5,
    "expected_beats": 4.0
   },
   {
-   "label": "87",
-   "found_beats": 2.25,
+   "label": "82",
+   "found_beats": 4.5,
    "expected_beats": 4.0
   },
   {
-   "label": "91",
-   "found_beats": 1.5,
+   "label": "83",
+   "found_beats": 3.5,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "84",
+   "found_beats": 4.875,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "85",
+   "found_beats": 2.5,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "86",
+   "found_beats": 4.125,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "88",
+   "found_beats": 4.5,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "94",
+   "found_beats": 4.031,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "95",
+   "found_beats": 5.031,
+   "expected_beats": 4.0
+  },
+  {
+   "label": "97",
+   "found_beats": 2.0,
    "expected_beats": 4.0
   }
  ],
- "share_wrong_length": 0.352,
- "notes_out_of_range": [],
- "empty_parts": [],
- "empty_measures": [
-  "73",
-  "74",
-  "88"
+ "share_wrong_length": 0.396,
+ "notes_out_of_range": [
+  {
+   "part": "Violin",
+   "n_notes": 28,
+   "measures": [
+    "77",
+    "78",
+    "79",
+    "90",
+    "92",
+    "94",
+    "95",
+    "96",
+    "97"
+   ]
+  },
+  {
+   "part": "Viola",
+   "n_notes": 32,
+   "measures": [
+    "71",
+    "72",
+    "77",
+    "78",
+    "79",
+    "89",
+    "90"
+   ]
+  }
  ],
+ "empty_parts": [],
+ "empty_measures": [],
  "verdict": "usable (alignment will work; check rhythm details)"
 }

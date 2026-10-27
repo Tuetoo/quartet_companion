@@ -23,6 +23,8 @@
   .files { display: grid; gap: 2px; margin: 8px 0; max-height: 300px; overflow: auto; }
   .file { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 6px 8px; border-radius: 8px; }
   .file:hover { background: var(--accent-soft); }
+  .file input { width: 18px; height: 18px; margin: 0; accent-color: var(--accent); cursor: pointer; }
+  .file { cursor: pointer; }
   .file.used { color: var(--muted); }
   .order { min-width: 22px; text-align: center; font-weight: 700; color: var(--accent); }
   label.f { display: block; font-size: 14px; color: var(--muted); margin: 12px 0 4px; }
@@ -128,7 +130,7 @@
     const hits = await (await fetch("api/search?q=" + encodeURIComponent(q))).json();
     $("results").innerHTML = hits.length ? hits.map((h, i) =>
       `<button class="row" data-i="${i}"><span>${esc(h.name)}<br><small>${esc(h.composer)}</small></span>` +
-      `${h.in_lib ? `<span class="badge">${esc(t("in_lib"))}</span>` : "<span></span>"}</button>`).join("")
+      `${h.in_library ? `<span class="badge">${esc(t("in_lib"))}</span>` : "<span></span>"}</button>`).join("")
       : `<p class="muted">${esc(t("none"))}</p>`;
     $("results").querySelectorAll(".row").forEach((b) => b.addEventListener("click", () => choose(hits[+b.dataset.i], b)));
   }

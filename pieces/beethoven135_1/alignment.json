@@ -9,7 +9,9 @@
   "all_repeats": 0.107
  },
  "warnings": [
-  "1 measure(s) matched poorly and should be checked by ear: 192"
+  "1 measure(s) matched poorly and should be checked by ear: 192",
+  "Opening: the first 10 bars aligned again from where the sound starts (1.3 s).",
+  "Last bars timed by hand from the attacks in the recording (fermata in bar 191)."
  ],
  "measures": [
   {
@@ -18,12 +20,12 @@
    "label": "1",
    "perf_start_qb": 0.0,
    "perf_end_qb": 2.0,
-   "start_sec": 3.049,
-   "end_sec": 4.662,
+   "start_sec": 1.35,
+   "end_sec": 4.737,
    "match_cost": 0.127,
    "note_sim": 0.83,
    "flagged": false,
-   "tempo_qpm": 74.4
+   "tempo_qpm": 35.4
   },
   {
    "occurrence": 1,
@@ -31,12 +33,12 @@
    "label": "2",
    "perf_start_qb": 2.0,
    "perf_end_qb": 4.0,
-   "start_sec": 4.662,
-   "end_sec": 7.019,
+   "start_sec": 4.737,
+   "end_sec": 7.012,
    "match_cost": 0.253,
    "note_sim": 0.654,
    "flagged": false,
-   "tempo_qpm": 50.9
+   "tempo_qpm": 52.7
   },
   {
    "occurrence": 2,
@@ -44,12 +46,12 @@
    "label": "3",
    "perf_start_qb": 4.0,
    "perf_end_qb": 6.0,
-   "start_sec": 7.019,
-   "end_sec": 9.143,
+   "start_sec": 7.012,
+   "end_sec": 9.195,
    "match_cost": 0.163,
    "note_sim": 0.803,
    "flagged": false,
-   "tempo_qpm": 56.5
+   "tempo_qpm": 55.0
   },
   {
    "occurrence": 3,
@@ -57,12 +59,12 @@
    "label": "4",
    "perf_start_qb": 6.0,
    "perf_end_qb": 8.0,
-   "start_sec": 9.143,
-   "end_sec": 11.403,
+   "start_sec": 9.195,
+   "end_sec": 11.424,
    "match_cost": 0.213,
    "note_sim": 0.78,
    "flagged": false,
-   "tempo_qpm": 53.1
+   "tempo_qpm": 53.8
   },
   {
    "occurrence": 4,
@@ -70,12 +72,12 @@
    "label": "5",
    "perf_start_qb": 8.0,
    "perf_end_qb": 10.0,
-   "start_sec": 11.403,
-   "end_sec": 13.437,
+   "start_sec": 11.424,
+   "end_sec": 13.56,
    "match_cost": 0.235,
    "note_sim": 0.811,
    "flagged": false,
-   "tempo_qpm": 59.0
+   "tempo_qpm": 56.2
   },
   {
    "occurrence": 5,
@@ -83,12 +85,12 @@
    "label": "6",
    "perf_start_qb": 10.0,
    "perf_end_qb": 12.0,
-   "start_sec": 13.437,
-   "end_sec": 15.561,
+   "start_sec": 13.56,
+   "end_sec": 15.65,
    "match_cost": 0.214,
    "note_sim": 0.801,
    "flagged": false,
-   "tempo_qpm": 56.5
+   "tempo_qpm": 57.4
   },
   {
    "occurrence": 6,
@@ -96,12 +98,12 @@
    "label": "7",
    "perf_start_qb": 12.0,
    "perf_end_qb": 14.0,
-   "start_sec": 15.561,
-   "end_sec": 17.553,
+   "start_sec": 15.65,
+   "end_sec": 17.693,
    "match_cost": 0.217,
    "note_sim": 0.765,
    "flagged": false,
-   "tempo_qpm": 60.2
+   "tempo_qpm": 58.7
   },
   {
    "occurrence": 7,
@@ -109,12 +111,12 @@
    "label": "8",
    "perf_start_qb": 14.0,
    "perf_end_qb": 16.0,
-   "start_sec": 17.553,
-   "end_sec": 19.855,
+   "start_sec": 17.693,
+   "end_sec": 19.876,
    "match_cost": 0.167,
    "note_sim": 0.879,
    "flagged": false,
-   "tempo_qpm": 52.1
+   "tempo_qpm": 55.0
   },
   {
    "occurrence": 8,
@@ -122,12 +124,12 @@
    "label": "9",
    "perf_start_qb": 16.0,
    "perf_end_qb": 18.0,
-   "start_sec": 19.855,
-   "end_sec": 22.072,
+   "start_sec": 19.876,
+   "end_sec": 22.152,
    "match_cost": 0.247,
    "note_sim": 0.806,
    "flagged": false,
-   "tempo_qpm": 54.1
+   "tempo_qpm": 52.7
   },
   {
    "occurrence": 9,
@@ -135,12 +137,12 @@
    "label": "10",
    "perf_start_qb": 18.0,
    "perf_end_qb": 20.0,
-   "start_sec": 22.072,
+   "start_sec": 22.152,
    "end_sec": 24.986,
    "match_cost": 0.23,
    "note_sim": 0.673,
    "flagged": false,
-   "tempo_qpm": 41.2
+   "tempo_qpm": 42.3
   },
   {
    "occurrence": 10,
@@ -2476,11 +2478,11 @@
    "perf_start_qb": 378.0,
    "perf_end_qb": 380.0,
    "start_sec": 375.036,
-   "end_sec": 377.206,
+   "end_sec": 377.4,
    "match_cost": 0.148,
    "note_sim": 0.863,
    "flagged": false,
-   "tempo_qpm": 55.3
+   "tempo_qpm": 50.8
   },
   {
    "occurrence": 190,
@@ -2488,12 +2490,12 @@
    "label": "191",
    "perf_start_qb": 380.0,
    "perf_end_qb": 382.0,
-   "start_sec": 377.206,
-   "end_sec": 378.866,
+   "start_sec": 377.4,
+   "end_sec": 381.6,
    "match_cost": 0.176,
    "note_sim": 0.891,
    "flagged": false,
-   "tempo_qpm": 72.3
+   "tempo_qpm": 28.6
   },
   {
    "occurrence": 191,
@@ -2501,12 +2503,12 @@
    "label": "192",
    "perf_start_qb": 382.0,
    "perf_end_qb": 384.0,
-   "start_sec": 378.866,
-   "end_sec": 380.757,
+   "start_sec": 381.6,
+   "end_sec": 384.6,
    "match_cost": 0.412,
    "note_sim": 0.781,
    "flagged": true,
-   "tempo_qpm": 63.5
+   "tempo_qpm": 40.0
   },
   {
    "occurrence": 192,
@@ -2514,12 +2516,12 @@
    "label": "193",
    "perf_start_qb": 384.0,
    "perf_end_qb": 386.0,
-   "start_sec": 380.757,
-   "end_sec": 381.395,
+   "start_sec": 384.6,
+   "end_sec": 385.6,
    "match_cost": 0.064,
    "note_sim": 0.642,
    "flagged": false,
-   "tempo_qpm": 188.1
+   "tempo_qpm": 120.0
   }
  ]
 }

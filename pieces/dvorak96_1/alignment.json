@@ -9,7 +9,9 @@
   "all_repeats": 0.1385,
   "no_repeats": 0.1008
  },
- "warnings": [],
+ "warnings": [
+  "Last bars timed by hand from the attacks in the recording."
+ ],
  "measures": [
   {
    "occurrence": 0,
@@ -2267,11 +2269,11 @@
    "perf_start_qb": 692.0,
    "perf_end_qb": 696.0,
    "start_sec": 461.251,
-   "end_sec": 463.582,
+   "end_sec": 463.45,
    "match_cost": 0.222,
    "note_sim": 0.712,
    "flagged": false,
-   "tempo_qpm": 103.0
+   "tempo_qpm": 109.1
   },
   {
    "occurrence": 174,
@@ -2279,12 +2281,12 @@
    "label": "175",
    "perf_start_qb": 696.0,
    "perf_end_qb": 700.0,
-   "start_sec": 463.582,
-   "end_sec": 465.773,
+   "start_sec": 463.45,
+   "end_sec": 465.6,
    "match_cost": 0.174,
    "note_sim": 0.803,
    "flagged": false,
-   "tempo_qpm": 109.5
+   "tempo_qpm": 111.6
   },
   {
    "occurrence": 175,
@@ -2292,12 +2294,12 @@
    "label": "176",
    "perf_start_qb": 700.0,
    "perf_end_qb": 704.0,
-   "start_sec": 465.773,
-   "end_sec": 467.872,
+   "start_sec": 465.6,
+   "end_sec": 467.85,
    "match_cost": 0.176,
    "note_sim": 0.789,
    "flagged": false,
-   "tempo_qpm": 114.3
+   "tempo_qpm": 106.7
   },
   {
    "occurrence": 176,
@@ -2305,12 +2307,12 @@
    "label": "177",
    "perf_start_qb": 704.0,
    "perf_end_qb": 708.0,
-   "start_sec": 467.872,
-   "end_sec": 470.212,
+   "start_sec": 467.85,
+   "end_sec": 470.45,
    "match_cost": 0.21,
    "note_sim": 0.786,
    "flagged": false,
-   "tempo_qpm": 102.6
+   "tempo_qpm": 92.3
   },
   {
    "occurrence": 177,
@@ -2318,12 +2320,12 @@
    "label": "178",
    "perf_start_qb": 708.0,
    "perf_end_qb": 712.0,
-   "start_sec": 470.212,
-   "end_sec": 470.537,
+   "start_sec": 470.45,
+   "end_sec": 472.7,
    "match_cost": 0.103,
    "note_sim": 0.782,
    "flagged": false,
-   "tempo_qpm": 738.5
+   "tempo_qpm": 106.7
   }
  ]
 }

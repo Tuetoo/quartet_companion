@@ -55,10 +55,25 @@ def _group_of_branch(nxt: dict, start: int, groups: set[int], limit: int = 200) 
     return None
 
 
-def _follow(measures: pd.DataFrame, take_repeats: bool | dict, max_steps: int = 20000) -> list[int]:
-    """Walk the score. take_repeats: True/False for all repeats, or {repeat_end_mc: bool}."""
+def _follow(measures: pd.DataFrame, take_repeats: bool | dict, max_steps: int = 20000,
+            retake_inner: bool = False) -> list[int]:
+    """Walk the score. take_repeats: True/False for all repeats, or {repeat_end_mc: bool}.
+
+    retake_inner: when a long repeat goes back over a shorter one (a theme with first and
+    second endings inside a repeated exposition), play the shorter repeat again too."""
     nxt = {int(k): [int(x) for x in v] for k, v in zip(measures["mc"].astype(int), measures["next"])}
     groups = set(repeat_groups(measures))
+
+    def group_at(m: int) -> int | None:
+        return m if m in groups else _group_of_branch(nxt, nxt[m][0], groups)
+
+    def step(cur: int, target: int) -> int:
+        if retake_inner and 0 < target <= cur:
+            g = group_at(cur) if len(nxt[cur]) > 1 else cur
+            for m in list(visits):
+                if target <= m < cur and group_at(m) != g:
+                    visits[m] = 0
+        return target
 
     def wants(group: int | None) -> bool:
         if isinstance(take_repeats, dict):
@@ -72,7 +87,7 @@ def _follow(measures: pd.DataFrame, take_repeats: bool | dict, max_steps: int = 
         order.append(mc)
         options = nxt[mc] or [-1]
         if len(options) == 1:
-            mc = options[0]
+            mc = step(mc, options[0])
             continue
         k = visits.get(mc, 0)
         visits[mc] = k + 1
@@ -81,7 +96,7 @@ def _follow(measures: pd.DataFrame, take_repeats: bool | dict, max_steps: int = 
         else:
             group = _group_of_branch(nxt, options[0], groups)
         if wants(group):
-            mc = options[min(k, len(options) - 1)]
+            mc = step(mc, options[min(k, len(options) - 1)])
         else:
             mc = options[-1]          # skip the repeat (and its first ending)
     return order
@@ -92,12 +107,15 @@ def _find_dc(score: Score) -> tuple[int | None, int | None]:
     ev = score.events
     if ev is None or ev.empty:
         return None, None
-    texts = ev[ev["kind"].isin(["text", "tempo"])]
+    texts = ev[ev["kind"].isin(["text", "tempo"])].copy()
+    texts["value"] = texts["value"].fillna("").astype(str)
     dc_rows = texts[texts["value"].str.contains(_DC_RE)]
     if dc_rows.empty:
         return None, None
     dc_mc = int(dc_rows["mc"].iloc[0])
-    fine_rows = texts[texts["value"].str.contains(_FINE_RE)]
+    # "Fine" on its own (not the "al Fine" inside "D.C. al Fine"), before the D.C.
+    fine_rows = texts[texts["value"].str.contains(_FINE_RE) & ~texts["value"].str.contains(_DC_RE)
+                      & (texts["mc"].astype(int) < dc_mc)]
     if not fine_rows.empty:
         return dc_mc, int(fine_rows["mc"].iloc[0])
     trio_rows = texts[texts["value"].str.contains(_TRIO_RE) & ~texts["value"].str.contains(_DC_RE)]
@@ -126,14 +144,19 @@ def playing_orders(score: Score, max_groups_for_combinations: int = 7) -> list[P
     orders: list[PlayingOrder] = []
     seen: set[tuple] = set()
 
-    def add(name: str, mcs: list[int], desc: str) -> None:
-        key = tuple(mcs)
-        if key not in seen:
-            seen.add(key)
-            orders.append(PlayingOrder(name, mcs, desc))
+    def add(name: str, policy, desc: str) -> None:
+        for retake, suffix, extra in ((False, "", ""),
+                                      (True, "+inner_again", ", inner repeats played again on the way back")):
+            mcs = _follow(measures, policy, retake_inner=retake)
+            key = tuple(mcs)
+            if len(mcs) > 6 * len(measures):     # a walk that ran away (odd repeat data): not a real order
+                continue
+            if key not in seen:
+                seen.add(key)
+                orders.append(PlayingOrder(name + suffix, mcs, desc + extra))
 
-    add("all_repeats", _follow(measures, True), "every repeat taken")
-    add("no_repeats", _follow(measures, False), "no repeats taken")
+    add("all_repeats", True, "every repeat taken")
+    add("no_repeats", False, "no repeats taken")
     groups = repeat_groups(measures)
     labels = {int(mc): str(lb) for mc, lb in zip(measures["mc"], measures["label"])}
     if 1 < len(groups) <= max_groups_for_combinations:
@@ -143,7 +166,7 @@ def playing_orders(score: Score, max_groups_for_combinations: int = 7) -> list[P
             policy = dict(zip(groups, combo))
             taken = [labels[g] for g, c in policy.items() if c]
             name = "repeats_at_" + "_".join(taken)
-            add(name, _follow(measures, policy),
+            add(name, policy,
                 "only the repeats ending at measure(s) " + ", ".join(taken) + " taken")
     elif len(groups) > max_groups_for_combinations:
         # Too many repeat signs to try every mix: try leaving out (or taking) one at a time.
@@ -152,17 +175,46 @@ def playing_orders(score: Score, max_groups_for_combinations: int = 7) -> list[P
                 policy = {x: (base if x != g else not base) for x in groups}
                 taken = [labels[x] for x, c in policy.items() if c]
                 name = "repeats_at_" + "_".join(taken) if taken else "no_repeats"
-                add(name, _follow(measures, policy),
+                add(name, policy,
                     "only the repeats ending at measure(s) " + ", ".join(taken) + " taken")
 
+    if not orders:      # every walk ran away: the repeat data is broken; play straight through
+        orders.append(PlayingOrder("no_repeats", [int(m) for m in measures["mc"]], "straight through (repeat data unusable)"))
     dc_mc, fine_mc = _find_dc(score)
     if dc_mc is not None and fine_mc is not None:
         # The return after D.C. is traditionally played without repeats.
         mcs = list(measures["mc"].astype(int))
         da_capo = mcs[: mcs.index(fine_mc) + 1]
         da_capo = [m for m in da_capo if _not_first_ending(measures, m)]
-        orders = [PlayingOrder(o.name + "+dc", o.mcs + da_capo, o.description + ", then Da Capo without repeats")
-                  for o in orders] + orders
+        # some players keep the repeats in the Da Capo: the first section exactly as first played
+        after_fine = mcs[mcs.index(fine_mc) + 1] if mcs.index(fine_mc) + 1 < len(mcs) else None
+        dc_variants = []                 # (suffix, measures, description): some or all repeats kept
+        first_groups = [g for g in groups if g <= fine_mc]
+        if after_fine is not None and 0 < len(first_groups) <= 4:
+            for combo in itertools.product([True, False], repeat=len(first_groups)):
+                if not any(combo):
+                    continue
+                walk = _follow(measures, {**{g: True for g in groups}, **dict(zip(first_groups, combo))})
+                part = walk[: walk.index(after_fine)] if after_fine in walk else []
+                if not part or part == da_capo:
+                    continue
+                kept = [labels[g] for g, c in zip(first_groups, combo) if c]
+                suffix = "+dc_repeats" if all(combo) else "+dc_repeat_at_" + "_".join(kept)
+                dc_variants.append((suffix, part, ", then Da Capo with the repeat(s) at " + ", ".join(kept)))
+        # only after a first section played with all its repeats (keeps the number of candidates small)
+        full_first = _follow(measures, True)
+        full_first = full_first[: full_first.index(after_fine)] if after_fine in full_first else None
+        def at_dc(o: PlayingOrder, part: list[int]) -> list[int]:
+            # the da capo starts where the D.C. is written (usually the last bar)
+            if dc_mc in o.mcs:
+                k = len(o.mcs) - 1 - o.mcs[::-1].index(dc_mc)
+                return o.mcs[: k + 1] + part + o.mcs[k + 1:]
+            return o.mcs + part
+        with_reps = [PlayingOrder(o.name + s, at_dc(o, part), o.description + d)
+                     for o in orders if full_first and o.mcs[: len(full_first)] == full_first
+                     for s, part, d in dc_variants]
+        orders = [PlayingOrder(o.name + "+dc", at_dc(o, da_capo), o.description + ", then Da Capo without repeats")
+                  for o in orders] + with_reps + orders
     return orders
 
 

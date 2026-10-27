@@ -1,7 +1,7 @@
 # Review A: prose audit of listening guides
 
 Pieces: `d929_1` (Schubert, Piano Trio D. 929, mvt 1) and `passacaglia` (Handel–Halvorsen duo).
-Sources checked: `*_facts.txt`, `*_guide_en.txt`, `*_guide_zh.txt` in `/tmp/claude-0/review/digest/`.
+Sources checked: `*_facts.txt`, `*_guide_en.txt`, `*_guide_zh.txt` (a temporary digest folder).
 Severity: ERROR = factually wrong or invented; MISLEADING = defensible but a listener would be misled; STYLE = wording/translation.
 
 ---

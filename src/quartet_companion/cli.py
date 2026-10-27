@@ -363,14 +363,21 @@ def cmd_studio(args) -> None:
 
 def cmd_serve(args) -> None:
     import functools
-    import http.server
-    import socketserver
     site = (_root(args) / "site")
-    from .httpserve import RangeHandler        # range requests: lets the player jump around in the audio
+    from .httpserve import QuietServer, RangeHandler   # range requests: lets the player jump around in the audio
     handler = functools.partial(RangeHandler, directory=str(site))
-    with socketserver.TCPServer(("127.0.0.1", args.port), handler) as httpd:
-        print(f"Open http://127.0.0.1:{args.port}/  (Ctrl+C to stop)")
+    try:
+        # several requests at once: a long recording can stream while the page loads its data
+        httpd = QuietServer(("127.0.0.1", args.port), handler)
+    except OSError:
+        raise SystemExit(f"Port {args.port} is already in use: the player may already be running in another "
+                         f"terminal window (then just open http://127.0.0.1:{args.port}/), or use another "
+                         f"port: qc serve --port {args.port + 1}")
+    print(f"Open http://127.0.0.1:{args.port}/  (Ctrl+C to stop)")
+    try:
         httpd.serve_forever()
+    except KeyboardInterrupt:
+        pass
 
 
 def cmd_list(args) -> None:
@@ -530,7 +537,7 @@ def build_parser() -> argparse.ArgumentParser:
     s = sub.add_parser("publish", help="build the public site and push it to the gh-pages branch")
     s.add_argument("--no-build", action="store_true", help="publish public_site/ as it is")
     s.add_argument("--no-push", action="store_true", help="commit locally, do not upload")
-    s.add_argument("--force", action="store_true", help="replace gh-pages on GitHub with this build")
+    s.add_argument("--force", action="store_true", help="(no longer needed: every publish replaces gh-pages)")
     s.set_defaults(func=cmd_publish)
 
     s = sub.add_parser("studio", help="add pieces from the browser (search the library, pick recordings)")

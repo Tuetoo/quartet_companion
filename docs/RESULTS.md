@@ -55,10 +55,6 @@ Note: MusicNet's own labels were also made by alignment, with an estimated
 | 2562 | Op. 18 No. 2, mvt 4 | yes | 0.07 | 0.14 | 0.98 |
 | 2621 | Op. 59 No. 1, mvt 1 | yes | 0.09 | 0.19 | 0.96 |
 | 2622 | Op. 59 No. 1, mvt 2 | yes | 0.14 | 0.30 | 0.83 |
-| 2480 | I. Allegro | yes | 0.07 | 0.16 | 0.99 |
-| 2481 | II. Menuetto | yes | 0.08 | 0.20 | 0.95 |
-| 2482 | III. Andante cantabile | yes | 0.10 | 0.37 | 0.79 |
-| 2483 | IV. Allegro | yes | 0.07 | 0.17 | 0.94 |
 
 ## Changes on 24 Oct 2026 (and how each was tested)
 
@@ -88,9 +84,30 @@ Note: MusicNet's own labels were also made by alignment, with an estimated
   were found; bars at repeat jumps are left out because they stand out even in a
   clean score. Shown as hints (at most 12 per movement), not as errors.
 
-Known limit: in a few live recordings with a very quiet, slow opening
-(Op. 135/IV, Debussy III–IV, Mendelssohn Op. 13 I and III) the first bars are
-squeezed and the highlight starts 4–9 s late; it is right again after a few bars.
+## Listening check of every published movement (25–27 Oct 2026)
+
+The numbers above measure the aligner on MusicNet. For the movements on the website
+there is no ground truth. Every movement was checked by measurement (sound before bar 1,
+sound after the last bar, bars that fit the sound poorly), the openings, endings and
+flagged passages were checked by ear, and the problems found were fixed by hand (`scripts/retime.py`; each fix is
+listed in that movement's `alignment.json` → `warnings`).
+
+* **Openings.** In seven live recordings the first bar was placed after the music had
+  already started (soft or slow openings: Op. 135 I, D. 810 I, Debussy IV, K. 465 I,
+  Mendelssohn Op. 13 I, III and IV). The first ten bars were aligned again from where
+  the sound starts. Every other movement was checked by measuring the gap between the
+  first sound and bar 1 (none above 1 s).
+* **Endings.** Where a long final chord, a fermata or a pause before the last chord
+  came at the end, the last bars were squeezed and, in whole-work recordings, the
+  movement's audio range sometimes stopped before the last chord (Op. 135 I, K. 465 I,
+  Debussy III). The ranges were widened and the last bars timed from the attacks in the
+  recording. The player now also keeps playing until the last chord has died away.
+* **Op. 18 No. 5 (MusicNet recordings).** The website alignment was compared with
+  MusicNet's own note labels for these recordings: within 0.1 s for every bar except
+  the last four bars of the finale, which were then fixed.
+* **Still approximate** (marked in the player): Haydn Op. 64 No. 5 (Lark) IV opening,
+  Schubert D. 929 bars 114–153, Mendelssohn Op. 13 III bars 27–40, and the free-tempo
+  middle of the Passacaglia.
 
 ## What is hard, and why
 

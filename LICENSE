@@ -25,7 +25,9 @@ This licence covers the code. Other material in this repository:
 
 * Listening guides and score analyses (pieces/*/guide_*.json, facts.json):
   Creative Commons Attribution 4.0 (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
-* Scores: OpenScore String Quartets (CC0) and public-domain editions from IMSLP.
+* Scores: OpenScore String Quartets (CC0) and public-domain editions from IMSLP,
+  except pieces/passacaglia (score read from IMSLP #23970, typeset by Matthieu,
+  Creative Commons Attribution-NonCommercial 3.0): non-commercial use, with credit.
   Analyses of Beethoven quartets use the DCML Annotated Beethoven Corpus (CC BY).
 * Recordings are not part of the main branch. The gh-pages branch (the public
   listening website) contains recordings under their OWN licences (CC BY, CC BY-NC-ND,

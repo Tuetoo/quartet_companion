@@ -1,7 +1,7 @@
 # Second independent review – batch 1
 
 Pieces: op18no5_1–4 (Beethoven Op. 18 No. 5, expert harmony) and k525_1–4 (Mozart K. 525, OMR score, auto keys).
-Source: /tmp/claude-0/review/digest2/. Every sentence of both languages was checked against `P_facts.txt`.
+Source: a temporary digest folder. Every sentence of both languages was checked against `P_facts.txt`.
 
 Severity:
 - **ERROR**: a factual statement the facts contradict, or broken text that readers will see.

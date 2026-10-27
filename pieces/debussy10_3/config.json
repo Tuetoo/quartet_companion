@@ -11,9 +11,9 @@
  "audio": {
   "path": "incoming/IMSLP73533-PMLP06153-debussy_op10.mp3",
   "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #73533, CC BY-NC-ND 3.0)",
-  "start_sec": 611.8,
-  "end_sec": 1036.1,
-  "open_sec": 6.0,
+  "start_sec": 610.7,
+  "end_sec": 1047.0,
+  "open_sec": 2.0,
   "range_from": "split",
   "license": "CC BY-NC-ND 3.0"
  }

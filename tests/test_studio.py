@@ -20,6 +20,8 @@ def test_add_rejects_bad_requests(tmp_path):
     (tmp_path / "site" / "index.html").write_text("<html></html>")
     (tmp_path / "incoming").mkdir()
     (tmp_path / "incoming" / "a.mp3").write_bytes(b"x")
+    (tmp_path / "incoming" / "clean_test").mkdir()
+    (tmp_path / "incoming" / "clean_test" / "1_light.mp3").write_bytes(b"x")    # before/after samples: hidden
     (tmp_path / "pieces" / "used_1").mkdir(parents=True)
     (tmp_path / "pieces" / "used_1" / "config.json").write_text(json.dumps({"audio": {"path": "incoming/a.mp3"}}))
     t = threading.Thread(target=studio.serve, args=(tmp_path, 8791), daemon=True)
@@ -39,3 +41,11 @@ def test_add_rejects_bad_requests(tmp_path):
     assert post({"id": "1", "prefix": "new", "audio": ["../secret.mp3"]})[1]["code"] == "bad_file"
     inc = json.load(urllib.request.urlopen("http://127.0.0.1:8791/api/incoming"))
     assert inc == [{"path": "incoming/a.mp3", "name": "a.mp3", "mb": 0.0, "used": True}]
+    # another web site open in the browser may not start jobs
+    req = urllib.request.Request("http://127.0.0.1:8791/api/add", data=b"{}",
+                                 headers={"Content-Type": "text/plain", "Origin": "https://evil.example"})
+    try:
+        urllib.request.urlopen(req)
+        assert False, "should be refused"
+    except urllib.error.HTTPError as e:
+        assert e.code == 403

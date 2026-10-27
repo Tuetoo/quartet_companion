@@ -65,6 +65,8 @@ def load_piece_score(cfg: dict, root: Path | None = None) -> Score:
         from .io.midi import load_midi
         score = load_midi(_resolve(src["path"], root), piece_id=cfg["id"], title=cfg.get("title"),
                           composer=cfg.get("composer", ""), pickup_qb=cfg.get("pickup_qb"))
+        if cfg.get("parts") and len(cfg["parts"]) == len(score.parts):   # MIDI tracks are often unnamed
+            score.parts = list(cfg["parts"])
     else:
         from .io.musicxml import load_music_file
         from .io.omr import concat_scores, consolidate_parts, rename_parts
@@ -82,6 +84,8 @@ def load_piece_score(cfg: dict, root: Path | None = None) -> Score:
         score = concat_scores(pieces) if len(pieces) > 1 else pieces[0]
     if cfg.get("repeats") is not None:
         set_repeats(score, cfg["repeats"])
+    if cfg.get("structure"):
+        set_structure(score, cfg["structure"])
     if cfg.get("title"):
         score.title = cfg["title"]
     if cfg.get("composer"):
@@ -99,6 +103,38 @@ def copy_into_piece(src: Path, piece_id: str, name: str, root: Path | None = Non
     return str(dst.relative_to(root or PROJECT_ROOT))
 
 
+def set_structure(score: Score, structure: dict) -> None:
+    """Repeat signs, first/second endings and D.C. texts for scores that have none (MIDI).
+
+    structure = {"marks": {"2": "start", "9": "end"},     # by measure id (mc)
+                 "volta": {"9": 1, "10": 2},
+                 "texts": {"18": "Trio", "37": "Menuetto D.C."}}
+    """
+    from .io.musicxml import _next_pointers
+    from .score import make_labels
+    m = score.measures
+    marks = {int(k): v for k, v in (structure.get("marks") or {}).items()}
+    volta = {int(k): int(v) for k, v in (structure.get("volta") or {}).items()}
+    m["repeats"] = [marks.get(int(mc), "") for mc in m["mc"]]
+    m["volta"] = [volta.get(int(mc), 0) for mc in m["mc"]]
+    m["label"] = make_labels(m)
+    m["next"] = _next_pointers(m)
+    texts = structure.get("texts") or {}
+    if texts:
+        import pandas as pd
+        from .score import EVENT_COLUMNS
+        rows = []
+        for k, v in texts.items():
+            row = m[m["mc"] == int(k)].iloc[0]
+            rows.append({"mc": int(k), "mn": int(row["mn"]), "onset_qb": float(row["start_qb"]), "part": 0,
+                         "kind": "text", "value": str(v)})
+        new = pd.DataFrame(rows, columns=EVENT_COLUMNS)
+        ev = score.events
+        score.events = new if ev is None or ev.empty else pd.concat([ev, new], ignore_index=True)
+    # notes carry no labels, but keep mn consistent with the measures
+    score.measures = m
+
+
 def set_repeats(score: Score, spans: list) -> None:
     """Replace the score's repeat signs (OMR often misreads them).
 
@@ -108,6 +144,9 @@ def set_repeats(score: Score, spans: list) -> None:
     """
     from .score import default_next
     m = score.measures
+    if "volta" in m.columns and (m["volta"].astype(int) > 0).any():
+        raise ValueError('"repeats" cannot describe first/second endings; use "structure" '
+                         '(marks and volta) instead, or fix the file in MuseScore')
     mcs = list(m["mc"].astype(int))
     label_to_mc = {str(lb): int(mc) for lb, mc in zip(m["label"], m["mc"])}
     nxt = default_next(m)

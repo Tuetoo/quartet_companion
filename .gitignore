@@ -17,3 +17,5 @@ pieces/*/*.before_*.json
 data/openscore/
 pieces/*/score_for_display.musicxml
 docs/LEARNING_PLAN.md
+tools/
+*.egg-info/

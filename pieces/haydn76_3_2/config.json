@@ -1,29 +1,30 @@
 {
- "id": "haydn76_3_2",
- "title": "Haydn: String Quartet Op. 76 No. 3 'Emperor' – II. Poco adagio cantabile (Variations on the Emperor's Hymn)",
- "composer": "Joseph Haydn",
- "score": {
-  "type": "file",
-  "path": "pieces/haydn76_3_2/score_openscore.musicxml",
-  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/20428156",
-  "openscore_id": "20428156"
- },
- "audio": {
-  "path": "incoming/IMSLP502448-PMLP739337-DG_18326_(1)_Joseph_Haydn_-_Streichquartett_Nr._77_C-dur_op._76_Nr._3_-Kaiserquartett-,_Hob._III_77.mp3",
-  "credit": "Koeckert Quartet, Deutsche Grammophon (IMSLP #502448, public domain outside the US)",
-  "start_sec": 394.2,
-  "end_sec": 896.8,
-  "open_sec": 30.0,
-  "name": "Koeckert Quartet",
-  "license": "Public domain outside the US (not in the US)"
- },
- "recordings": {
-  "budapest_quartet": {
-   "name": "Budapest Quartet",
-   "path": "incoming/IMSLP722029-PMLP739337-01.02._Quartet_In_C_Major,_Op._76,_No._3_(\"Emperor\")-_Second_Movement-_Poco_Adagio_Cantabile.mp3",
-   "credit": "Budapest String Quartet, LP (IMSLP #722029, via archive.org)",
-   "license": "Public domain outside the US (not in the US)"
-  }
- },
- "public": false
+  "id": "haydn76_3_2",
+  "title": "Haydn: String Quartet Op. 76 No. 3 'Emperor' – II. Poco adagio cantabile (Variations on the Emperor's Hymn)",
+  "composer": "Joseph Haydn",
+  "score": {
+    "type": "file",
+    "path": "pieces/haydn76_3_2/score_openscore.musicxml",
+    "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/20428156",
+    "openscore_id": "20428156"
+  },
+  "audio": {
+    "path": "incoming/IMSLP502448-PMLP739337-DG_18326_(1)_Joseph_Haydn_-_Streichquartett_Nr._77_C-dur_op._76_Nr._3_-Kaiserquartett-,_Hob._III_77.mp3",
+    "credit": "Koeckert Quartet, Deutsche Grammophon (IMSLP #502448, public domain outside the US)",
+    "start_sec": 394.2,
+    "end_sec": 908.5,
+    "open_sec": 2.0,
+    "name": "Koeckert Quartet",
+    "license": "Public domain outside the US (not in the US)",
+    "range_from": "split"
+  },
+  "recordings": {
+    "budapest_quartet": {
+      "name": "Budapest Quartet",
+      "path": "incoming/IMSLP722029-PMLP739337-01.02._Quartet_In_C_Major,_Op._76,_No._3_(\"Emperor\")-_Second_Movement-_Poco_Adagio_Cantabile.mp3",
+      "credit": "Budapest String Quartet, LP (IMSLP #722029, via archive.org)",
+      "license": "Public domain outside the US (not in the US)"
+    }
+  },
+  "public": false
 }

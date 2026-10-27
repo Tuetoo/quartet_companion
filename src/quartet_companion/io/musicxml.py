@@ -92,7 +92,9 @@ def load_music_file(path: str | Path, piece_id: str | None = None, title: str | 
             rep.append("end")
         measures.loc[idx, "repeats"] = ",".join(rep)
     for rb in sc.recurse().getElementsByClass(spanner.RepeatBracket):
-        if hasattr(rb, "getNumberList"):
+        if hasattr(rb, "numberRange"):          # music21 9+ (getNumberList is deprecated)
+            nums = [n for n in rb.numberRange if n > 0] or [1]
+        elif hasattr(rb, "getNumberList"):
             nums = rb.getNumberList() or [1]
         else:
             nums = [int(x) for x in re.findall(r"\d+", str(getattr(rb, "number", "1") or "1"))] or [1]
@@ -145,6 +147,15 @@ def load_music_file(path: str | Path, piece_id: str | None = None, title: str | 
                     val = ("cresc" if txt.lower().startswith("cresc") else "dim") if kind == "hairpin" else txt
                     events.append({"mc": mc, "mn": int(measures.loc[mi, "mn"]),
                                    "onset_qb": m_off + float(t.getOffsetInHierarchy(m)), "part": pi, "kind": kind, "value": val})
+            # "Da Capo al Fine", "Fine", "D.S."...: music21 reads these as repeat expressions,
+            # not as text, but the playing order needs them (unfold._find_dc)
+            from music21 import repeat as m21repeat
+            for t in m.recurse().getElementsByClass(m21repeat.RepeatExpression):
+                txt = (t.getText() or "").strip() if hasattr(t, "getText") else ""
+                if txt:
+                    events.append({"mc": mc, "mn": int(measures.loc[mi, "mn"]),
+                                   "onset_qb": m_off + float(t.getOffsetInHierarchy(m)), "part": pi,
+                                   "kind": "text", "value": txt})
             for t in m.recurse().getElementsByClass(tempo.TempoIndication):
                 txt = ""
                 if isinstance(t, tempo.MetronomeMark):
@@ -221,6 +232,8 @@ def _next_pointers(measures: pd.DataFrame) -> list[list[int]]:
                 return j
             if j < i_end and "end" in reps[j - 1] and volta[j] == 0 and "start" not in reps[j]:
                 return j
+            if j < i_end and volta[j - 1] >= 2 and volta[j] == 0:
+                return j          # first bar after a second ending: a new section starts here
             j -= 1
         return 0
 

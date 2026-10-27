@@ -4,21 +4,39 @@
  "composer": "W. A. Mozart",
  "score": {
   "type": "file",
-  "path": "pieces/k525_4/score.mxl",
-  "original": "incoming/omr/k525.mvt4.mxl (OMR of IMSLP #914586, Breitkopf & Härtel 1883)"
+  "path": "pieces/k525_4/score.mid",
+  "original": "incoming/mutopia_k525/MozartWA-KV525-mov-04.mid (Mutopia Project #2230, public domain) with the first-ending bar 57a added from the Breitkopf print",
+  "credit": "Mutopia Project #2230 (public domain); printed pages: Breitkopf & Härtel 1883, IMSLP #914586"
  },
  "audio": {
   "path": "incoming/IMSLP324337-PMLP05176-mozart_kv525_afarcry.mp3",
   "credit": "A Far Cry, IMSLP #324337 (CC BY-NC-ND 4.0)",
-  "start_sec": 843.5,
+  "start_sec": 842.0,
   "end_sec": 1102.97,
-  "open_sec": 30.0,
-  "license": "CC BY-NC-ND 4.0"
+  "open_sec": 2.0,
+  "license": "CC BY-NC-ND 4.0",
+  "range_from": "split"
  },
  "parts": [
   "Violin 1",
   "Violin 2",
   "Viola",
   "Cello"
- ]
+ ],
+ "pickup_qb": 2.0,
+ "structure": {
+  "marks": {
+   "2": "start",
+   "9": "end",
+   "57": "end",
+   "59": "start",
+   "131": "end"
+  },
+  "volta": {
+   "9": 1,
+   "10": 2,
+   "57": 1,
+   "58": 2
+  }
+ }
 }

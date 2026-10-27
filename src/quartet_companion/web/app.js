@@ -15,7 +15,7 @@
       len_short: "Under 5 min", len_mid: "5–10 min", len_long: "Over 10 min", lib_any_ens: "All ensembles",
       ens_quartet: "String quartet", ens_trio: "Trio", ens_quintet: "Quintet", ens_other: "Other",
       lib_guide: "Has a guide in this language", lib_count: "{m} movements in {w} works",
-      lib_none: "Nothing matches. Try fewer words or clear a filter.", lib_no_audio: "no recording",
+      lib_none: "Nothing matches. Try fewer words or clear a filter.", lib_clear: "Clear filters", lib_no_audio: "no recording",
       lib_mvts: "movements",
       tagline: "Listen with the score's eyes", measure: "Measure", section: "Section", key: "Key",
       dynamic: "Dynamic", texture: "Texture", sections: "Sections", keys: "Keys",
@@ -38,7 +38,7 @@
       no_audio: "No recording is aligned with this piece yet.", guide: "Listening guide", glossary: "Words used",
       no_guide: "No guide yet in this language. Run: qc guide <piece> --lang en zh",
       at_a_glance: "At a glance", variations: "Variations", method: "How this was made",
-      credits_link: "Credits and licences",
+      credits_link: "Credits and licences", score_word: "Score", gap_head: "Nothing new to point out here",
       footer: "Facts come from the score analysis. The guide is written by Claude and every claim is checked against those facts.",
       verified: (v, u) => `${v} claims checked ✓` + (u ? ` · ${u} unchecked` : ""),
       home_key: "Home key", meter: "Time signature", length: "Length", measures: "measures",
@@ -59,7 +59,7 @@
       len_short: "5 分钟以内", len_mid: "5–10 分钟", len_long: "10 分钟以上", lib_any_ens: "全部编制",
       ens_quartet: "弦乐四重奏", ens_trio: "三重奏", ens_quintet: "五重奏", ens_other: "其他",
       lib_guide: "有当前语言的导读", lib_count: "共 {w} 部作品，{m} 个乐章",
-      lib_none: "没有符合的曲目。试试少输几个字，或取消一个筛选。", lib_no_audio: "无录音",
+      lib_none: "没有符合的曲目。试试少输几个字，或取消一个筛选。", lib_clear: "清除筛选", lib_no_audio: "无录音",
       lib_mvts: "个乐章",
       tagline: "用乐谱的眼睛去听", measure: "小节", section: "段落", key: "调性", dynamic: "力度", texture: "织体",
       sections: "段落", keys: "调性", leg_lead: "主旋律", leg_active: "在演奏", leg_theme: "开头主题再现",
@@ -81,7 +81,7 @@
       no_audio: "这首曲子还没有对齐的录音。", guide: "听赏指南", glossary: "术语解释",
       no_guide: "这个语言还没有指南。运行：qc guide <piece> --lang en zh",
       at_a_glance: "概览", variations: "变奏", method: "这些信息怎么来的",
-      credits_link: "来源与授权",
+      credits_link: "来源与授权", score_word: "乐谱", gap_head: "这几小节没有特别的提示",
       footer: "事实来自乐谱分析。指南由 Claude 撰写，每一条说法都已对照这些事实检查过。",
       verified: (v, u) => `${v} 条说法已核对 ✓` + (u ? ` · ${u} 条未核对` : ""),
       home_key: "主调", meter: "拍号", length: "长度", measures: "小节", tempo: "速度标记", harmony: "和声",
@@ -111,10 +111,14 @@
   async function init() {
     document.querySelectorAll(".lang button").forEach((b) => b.addEventListener("click", () => setLang(b.dataset.lang)));
     $("play").addEventListener("click", () => {
-      if (!audio.paused || counting) { stopCount(); audio.pause(); return; }
+      if ((!audio.paused && !audio.ended) || counting) { stopCount(); audio.pause(); return; }
       if (loop && (audio.currentTime < loop.s - 0.05 || audio.currentTime >= loop.e - 0.05)) { startLoop(); return; }
       if (loop && $("countin").checked) { startLoop(audio.currentTime); return; }
-      audio.play();
+      // the movement has ended (the player stopped it there): play again from the start
+      if (played.length && audio.currentTime >= playEnd() - 0.05) {
+        audio.currentTime = Math.max(0, played[0].start_sec - START_LEAD_SEC);
+      }
+      audio.play().catch(() => {});
     });
     initPractice();
     $("rec-select").addEventListener("change", (e) => switchRecording(+e.target.value));
@@ -141,7 +145,7 @@
     audio.addEventListener("play", () => $("play-icon").setAttribute("d", "M7 5h4v14H7zM13 5h4v14h-4z"));
     audio.addEventListener("pause", () => $("play-icon").setAttribute("d", "M8 5v14l11-7z"));
     audio.addEventListener("timeupdate", onTime);
-    audio.addEventListener("loadedmetadata", () => { $("dur").textContent = fmt(total - t0); });
+    audio.addEventListener("loadedmetadata", () => { $("dur").textContent = fmt(playEnd() - t0); });
     $("timeline").addEventListener("click", onTimelineClick);
     $("prev-page").addEventListener("click", () => { $("follow").checked = false; showPage(scorePage - 1); });
     $("next-page").addEventListener("click", () => { $("follow").checked = false; showPage(scorePage + 1); });
@@ -157,14 +161,31 @@
           v.boxes.some((b) => b.page === scorePage && x >= b.x0 && x <= b.x1 && y >= b.y0 && y <= b.y1));
         mc = hit ? +hit[0] : undefined;
       } else {
-        const g = e.target.closest("g.measure");
+        // the bar under the pointer: the element clicked, or else (blank space inside a
+        // bar is not part of any drawn element) the bar whose box contains the point
+        let g = null;
+        {   // the bar whose staves are under the pointer (a slur may reach into the next bar)
+          const gs = [...$("score").querySelectorAll("g.measure")];
+          const boxes = gs.map(barClientRect);
+          let k = boxes.findIndex((r) => e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom);
+          if (k < 0) {        // between staves: nearest bar in the same row of the score
+            let best = Infinity;
+            boxes.forEach((r, j) => {
+              if (e.clientY < r.top - 40 || e.clientY > r.bottom + 40) return;
+              const dx = e.clientX < r.left ? r.left - e.clientX : e.clientX > r.right ? e.clientX - r.right : 0;
+              const dy = e.clientY < r.top ? r.top - e.clientY : e.clientY > r.bottom ? e.clientY - r.bottom : 0;
+              if (dx + dy < best) { best = dx + dy; k = j; }
+            });
+          }
+          g = k >= 0 ? gs[k] : null;
+        }
         if (!g) return;
         mc = idToMc()[g.getAttribute("data-id") || g.id];
       }
       if (mc === undefined) return;
       if (picking) { pickBar(mc); return; }
       $("follow").checked = true;
-      const occ = played.findIndex((p) => p.mc === mc);
+      const occ = nearestOccurrence(mc);
       if (occ >= 0) seekTo(played[occ].start_sec);
     });
     document.addEventListener("keydown", (e) => {
@@ -179,23 +200,41 @@
       ? `<optgroup label="${esc(w.items[0].title.split(" – ")[0])}">${w.items.map((p) => `<option value="${esc(p.id)}">${esc(p.title.split(" – ").slice(1).join(" – ") || p.title)}</option>`).join("")}</optgroup>`
       : `<option value="${esc(w.items[0].id)}">${esc(w.items[0].title)}</option>`).join("");
     audio.addEventListener("ended", playNextMovement);
+    audio.addEventListener("play", () => clearTimeout(nextTimer));   // the listener pressed play first
     sel.addEventListener("change", () => { location.hash = sel.value; load(sel.value); });
     initLibrary();
     $("doubts-list").addEventListener("click", (e) => {
       const b = e.target.closest(".doubt-chip");
       if (!b) return;
-      const occ = played.findIndex((p) => p.mc === +b.dataset.mc);
+      const occ = nearestOccurrence(+b.dataset.mc);
       $("follow").checked = true;
       if (occ >= 0) seekTo(played[occ].start_sec);
       else highlightMeasure(+b.dataset.mc);
     });
-    const start = decodeURIComponent(location.hash.slice(1)) || (index[0] && index[0].id);
+    let wanted = "";
+    try { wanted = decodeURIComponent(location.hash.slice(1)); } catch (e) { wanted = ""; }
+    // an old or mistyped link (a piece that is no longer on the site) opens the first piece
+    const start = index.some((p) => p.id === wanted) ? wanted : (index[0] && index[0].id);
     if (start) { sel.value = start; load(start); } else { $("title").textContent = "No pieces built yet — run `qc site`."; }
     setLang(lang, true);
   }
 
+  const MOVEMENT_GAP_MS = 3000;
+  const START_LEAD_SEC = 0.6;    // the alignment can place the first bar a little after its first attack
+  // where this movement really ends: when its last chord has died away
+  const playEnd = () => (data && data.alignment && data.alignment.sound_end_sec) || total;
+  let nextTimer = null, loadSeq = 0, metaHandler = null;
+
+  // one "when the new audio is ready" action at a time: a newer one replaces an older one
+  function onAudioReady(fn) {
+    if (metaHandler) audio.removeEventListener("loadedmetadata", metaHandler);
+    metaHandler = () => { metaHandler = null; fn(); };
+    audio.addEventListener("loadedmetadata", metaHandler, {once: true});
+  }
+
   function nextMovementId() {
     const i = index.findIndex((p) => p.id === data.id);
+    if (i < 0) return null;
     const next = index[i + 1];
     return next && next.work === index[i].work && next.has_audio ? next.id : null;
   }
@@ -210,10 +249,25 @@
   }
 
   async function load(id) {
+    const seq = ++loadSeq;                 // a later load() makes this one stop
+    const autoplay = autoplayNext;
+    autoplayNext = false;
+    if (metaHandler) { audio.removeEventListener("loadedmetadata", metaHandler); metaHandler = null; }
+    clearTimeout(nextTimer);
     audio.pause();
     stopCount();
     clearLoop(true);
-    data = await (await fetch(`pieces/${encodeURIComponent(id)}/data.json`)).json();
+    let fresh;
+    try {
+      const r = await fetch(`pieces/${encodeURIComponent(id)}/data.json`);
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      fresh = await r.json();
+    } catch (e) {
+      if (seq === loadSeq) $("title").textContent = `This piece could not be loaded (${id}).`;
+      return;
+    }
+    if (seq !== loadSeq) return;
+    data = fresh;
     byMc = {};
     data.measures.forEach((m) => { byMc[m.mc] = m; });
     const al = data.alignment;
@@ -222,15 +276,24 @@
     $("rec-select").innerHTML = recs.map((r, k) => `<option value="${k}">${esc(r.name)}</option>`).join("");
     if (al && al.audio) {
       useAlignment(al);
-      audio.addEventListener("loadedmetadata", () => {
-        audio.currentTime = played.length ? played[0].start_sec : 0;   // start at measure 1 of this movement
-        if (autoplayNext) { autoplayNext = false; audio.play().catch(() => {}); }
-      }, {once: true});
+      onAudioReady(() => {
+        audio.playbackRate = (+$("speed").value) / 100;   // a new file starts at normal speed
+        // start just before measure 1, so that the attack of the first note is not cut off
+        audio.currentTime = played.length ? Math.max(0, played[0].start_sec - START_LEAD_SEC) : 0;
+        if (autoplay) {                   // a short silence between movements, as in a concert
+          // a little of the recording before the first note (a whole-work file holds the
+          // other movements too, so never go back further than that)
+          audio.currentTime = played.length ? Math.max(0, played[0].start_sec - 1.5) : 0;
+          clearTimeout(nextTimer);
+          nextTimer = setTimeout(() => { if (audio.paused) audio.play().catch(() => {}); }, MOVEMENT_GAP_MS);
+        }
+      });
       $("no-audio").hidden = true; $("play").disabled = false; $("practice").hidden = false;
     } else {
       // no recording: draw the timeline in score order, one unit per measure
       let x = 0;
       played = data.measures.map((m, i) => ({occurrence: i, mc: m.mc, label: m.label, start_sec: x, end_sec: (x += 1), f: m}));
+      if (metaHandler) { audio.removeEventListener("loadedmetadata", metaHandler); metaHandler = null; }
       audio.removeAttribute("src"); $("no-audio").hidden = false; $("play").disabled = true; $("practice").hidden = true;
     }
     total = played.length ? played[played.length - 1].end_sec : 1;
@@ -251,6 +314,7 @@
     // make one recording the one that plays (its clip and its measure times)
     data.alignment = al;
     played = al.measures.map((m) => ({...m, f: byMc[m.mc]}));
+    lastIndex = -1;
     audio.src = `pieces/${encodeURIComponent(data.id)}/${al.audio}`;
     total = played.length ? played[played.length - 1].end_sec : 1;
     t0 = played.length ? played[0].start_sec : 0;
@@ -285,14 +349,14 @@
       if (ia >= 0 && ib >= ia) loop = {...loop, ia, ib, s: played[ia].start_sec, e: played[ib].end_sec};
       else clearLoop(true);
     }
-    audio.addEventListener("loadedmetadata", () => {
+    onAudioReady(() => {
       audio.playbackRate = rate;
       const q = played[Math.max(0, j)];
       audio.currentTime = q ? q.start_sec + frac * (q.end_sec - q.start_sec) : t0;
       onTime();
       if (wasPlaying) audio.play().catch(() => {});
-    }, {once: true});
-    $("dur").textContent = fmt(total - t0);
+    });
+    $("dur").textContent = fmt(playEnd() - t0);
     render();
   }
 
@@ -420,14 +484,15 @@
   async function showPage(n) {
     if (!data.score || n < 1 || n > data.score.pages || n === scorePage) return;
     scorePage = n;
+    const forId = data.id;
     const base = `pieces/${encodeURIComponent(data.id)}/score/`;
     if (data.score.kind === "image") {           // the printed page (scores read from a PDF)
       const [w, h] = data.score.page_sizes[n - 1];
       $("score").innerHTML = `<div class="qc-page" style="aspect-ratio:${w}/${h}">` +
-        `<img src="${base}${data.score.page_files[n - 1]}" alt="${t("score")} ${n}"></div>`;
+        `<img src="${base}${data.score.page_files[n - 1]}?v=${data.score.v || ""}" alt="${t("score")} ${n}"></div>`;
     } else {
-      const svg = await (await fetch(`${base}page-${n}.svg`)).text();
-      if (scorePage !== n) return;               // another page was requested meanwhile
+      const svg = await (await fetch(`${base}page-${n}.svg?v=${data.score.v || ""}`)).text();
+      if (scorePage !== n || data.id !== forId) return;   // another page or piece was requested meanwhile
       $("score").innerHTML = svg;
     }
     $("page-label").textContent = `${t("page")} ${n} / ${data.score.pages}`;
@@ -435,6 +500,29 @@
     drawLoop();
     drawDoubts();
     onTime();
+  }
+
+  // A bar's own area: its staves and barline. Slurs, ties, hairpins and tempo words that
+  // reach into the next bar are left out, or the box would cover two bars.
+  function barParts(g) {
+    const parts = [...g.querySelectorAll(":scope > g.staff, :scope > g.barLine")];
+    return parts.length ? parts : [g];
+  }
+  function barBBox(g) {
+    let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+    barParts(g).forEach((el) => {
+      const b = el.getBBox();
+      x0 = Math.min(x0, b.x); y0 = Math.min(y0, b.y); x1 = Math.max(x1, b.x + b.width); y1 = Math.max(y1, b.y + b.height);
+    });
+    return {x: x0, y: y0, width: x1 - x0, height: y1 - y0};
+  }
+  function barClientRect(g) {
+    let left = Infinity, top = Infinity, right = -Infinity, bottom = -Infinity;
+    barParts(g).forEach((el) => {
+      const r = el.getBoundingClientRect();
+      left = Math.min(left, r.left); top = Math.min(top, r.top); right = Math.max(right, r.right); bottom = Math.max(bottom, r.bottom);
+    });
+    return {left, top, right, bottom};
   }
 
   function highlightMeasure(mc) {
@@ -464,7 +552,7 @@
     if (!g) return;
     g.classList.add("qc-now");
     try {                                         // soft background box behind the bar
-      const b = g.getBBox();
+      const b = barBBox(g);
       const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
       rect.setAttribute("class", "qc-box");
       ["x", "y", "width", "height"].forEach((k, i) => rect.setAttribute(k, [b.x - 4, b.y - 4, b.width + 8, b.height + 8][i]));
@@ -577,7 +665,26 @@
     const ol = $("points");
     ol.innerHTML = "";
     if (!g) { $("glossary-box").hidden = true; return; }
+    // Bars that no listening point covers get a short grey card made only from the analysis
+    // (section, estimated key, probable lead), so the guide does not seem to stop.
+    const idx = {};
+    data.measures.forEach((m, k) => { if (!(String(m.label) in idx)) idx[String(m.label)] = k; });
+    let covered = -1;
+    const addGap = (a, b) => { if (b >= a) ol.appendChild(gapCard(a, b)); };
+    const MIN_GAP = 3;          // shorter stretches are just the edges of the points around them
+    const addGapIfLong = (x, y) => { if (y - x + 1 >= MIN_GAP) addGap(x, y); };
     g.listening_points.forEach((p, i) => {
+      const a = idx[String(p.start_measure)];
+      let b = idx[String(p.end_measure)];
+      // bars the text itself mentions (e.g. "[m. 62]" in a point for m. 59-61) count as covered
+      for (const r of String(p.text).matchAll(/\[m\.\s*([0-9]+[a-z]?)(?:\s*[-–]\s*([0-9]+[a-z]?))?\]/g)) {
+        for (const lab of [r[1], r[2]]) {
+          const k = lab ? idx[lab] : undefined;
+          if (k !== undefined && b !== undefined && k > b && k <= b + 3) b = k;
+        }
+      }
+      if (a !== undefined && a > covered + 1) addGapIfLong(covered + 1, a - 1);
+      if (b !== undefined) covered = Math.max(covered, b);
       const li = document.createElement("li");
       li.className = "point"; li.dataset.start = p.start_measure; li.dataset.end = p.end_measure; li.dataset.i = i;
       const pi = data.piece.parts.indexOf(p.focus_part);
@@ -590,9 +697,54 @@
       });
       ol.appendChild(li);
     });
+    if (covered < data.measures.length - 1) addGapIfLong(covered + 1, data.measures.length - 1);
     $("overview").querySelectorAll(".mref").forEach((el) => el.addEventListener("click", () => seekLabel(el.dataset.label)));
     $("glossary-box").hidden = !(g.glossary && g.glossary.length);
     $("glossary").innerHTML = (g.glossary || []).map((x) => `<dt>${esc(x.term)}</dt><dd>${esc(x.explanation)}</dd>`).join("");
+  }
+
+  function gapCard(a, b) {
+    const ms = data.measures.slice(a, b + 1);
+    const uniq = (xs) => xs.filter((x, k) => x && xs.indexOf(x) === k);
+    const secs = uniq(ms.map((m) => m.section)).slice(0, 3);
+    const keys = uniq(ms.map((m) => m.key)).slice(0, 3).map((k) => keyText(k));
+    const count = {};
+    ms.forEach((m) => { if (m.lead && m.lead !== "none") count[m.lead] = (count[m.lead] || 0) + 1; });
+    const lead = Object.keys(count).sort((x, y) => count[y] - count[x])[0];
+    const la = ms[0].label, lb = ms[ms.length - 1].label;
+    const range = lang === "zh" ? (la === lb ? `第 ${la} 小节` : `第 ${la}–${lb} 小节`) : (la === lb ? `m. ${la}` : `m. ${la}–${lb}`);
+    const bits = lang === "zh"
+      ? [secs.length && `段落：${secs.join("、")}`, keys.length && `调性（程序估计）：${keys.join(" → ")}`,
+         lead && `主旋律大多在${partName(lead)}（程序推测）`]
+      : [secs.length && `Section: ${secs.join(", ")}`, keys.length && `Key (estimated): ${keys.join(" → ")}`,
+         lead && `The tune is mostly in ${partName(lead)} (a computer guess)`];
+    const li = document.createElement("li");
+    li.className = "point gap";
+    li.dataset.start = la; li.dataset.end = lb;
+    li.innerHTML = `<div class="meta"><span>${esc(range)}</span></div><div class="head">${esc(t("gap_head"))}</div>
+      <p class="txt">${esc(bits.filter(Boolean).join(lang === "zh" ? "。" : ". "))}${lang === "zh" ? "。" : "."}</p>`;
+    li.addEventListener("click", () => seekLabel(la));
+    return li;
+  }
+
+  // "How this was made", in the reader's language (the analysis writes these notes in English)
+  function methodNotes() {
+    const n = data.method_notes || {}, out = [], zh = lang === "zh";
+    if (n.lead) out.push(zh ? "“谁在拉主旋律”是程序根据音高变化、级进、节奏独立性、音区和主题出现情况推测的；把握不大的地方仅供参考。"
+      : "Who has the tune is a computer guess (pitch variety, stepwise motion, rhythm, register, where the theme appears); treat uncertain spans as hints.");
+    if (n.harmony) {
+      const expert = /Expert/i.test(n.harmony);
+      out.push(expert ? (zh ? "调性与和弦来自音乐学家的专家标注（DCML ABC 语料库）。" : "Keys and chords come from expert annotations (DCML ABC corpus).")
+        : (zh ? "调性与和弦由程序自动估计，可能有误。" : "Keys and chords are estimated automatically and may contain errors."));
+    }
+    if (n.score) {
+      const pct = +((/(\d+)% of measures/.exec(n.score) || [])[1] || 0);
+      const empty = +((/(\d+) measure\(s\) have no notes/.exec(n.score) || [])[1] || 0);
+      if (!pct && !empty) out.push(zh ? "乐谱读取完整：每个小节的时值都对得上。" : "The score was read completely: every bar adds up.");
+      else out.push(zh ? `乐谱由扫描识别而来：约 ${pct}% 的小节时值对不上${empty ? `，${empty} 个小节没读到音符` : ""}。节奏和织体细节可能有误，段落、调性和整体走向更可靠。`
+        : `The score was read from a scan: about ${pct}% of bars do not add up${empty ? `, ${empty} bar(s) have no notes` : ""}. Rhythm and texture details may be wrong; sections, keys and the overall shape are more reliable.`);
+    }
+    return out;
   }
 
   function renderFacts() {
@@ -624,10 +776,10 @@
         ${hs != null ? `<div class="bar"><i style="width:${Math.round(hs * 100)}%"></i></div>` : ""}</div>`;
     }).join("");
     $("variations").querySelectorAll(".var").forEach((el) => el.addEventListener("click", () => seekLabel(el.dataset.label)));
-    $("method").innerHTML = Object.values(data.method_notes || {}).map((m) => `<li>${esc(m)}</li>`).join("");
+    $("method").innerHTML = methodNotes().map((m) => `<li>${esc(m)}</li>`).join("");
     const c = data.credits || {};
     const audioCredit = (data.alignment && data.alignment.credit) || c.audio;
-    $("credits").textContent = [c.score && `Score: ${c.score}`, audioCredit && `Recording: ${audioCredit}`].filter(Boolean).join(" · ");
+    $("credits").textContent = [c.score && `${t("score_word")}: ${c.score}`, audioCredit && `${t("recording")}: ${audioCredit}`].filter(Boolean).join(" · ");
     drawCompare();
   }
 
@@ -638,12 +790,24 @@
     return ans;
   }
 
-  function onTime() {
+  // The highlight is moved a little ahead of the clock while playing: the eye needs a moment
+  // to find the bar, so a highlight exactly on time looks slightly late.
+  const LOOKAHEAD_SEC = 0.15;     // 0.08 still looked late in fast passages (checked by ear)
+  let lastIndex = -1;
+
+  function onTime(why) {
     if (!played.length) return;
     const sec = data.alignment ? audio.currentTime : 0;
-    if (data.alignment && !audio.paused && !loop && sec > total + 2.5) { audio.pause(); playNextMovement(); }
+    // the movement is over when its last chord has died away (not when the last bar starts to fade)
+    const endSec = (data.alignment && data.alignment.sound_end_sec) || total + 2.5;
+    if (data.alignment && !audio.paused && !loop && sec > endSec + 0.3) { audio.pause(); playNextMovement(); }
     $("cur").textContent = fmt(Math.max(0, sec - t0));
-    const i = currentIndex(sec);
+    const lane = $("lane-sections");
+    $("playhead").style.left = `${lane.offsetLeft + lane.offsetWidth * Math.max(0, Math.min(1, (sec - t0) / span()))}px`;
+    const i = currentIndex(sec + (audio.paused ? 0 : LOOKAHEAD_SEC));
+    // called every animation frame while playing: only redraw when the bar changes
+    if (why === "frame" && i === lastIndex) return;
+    lastIndex = i;
     const p = played[i], f = p.f;
     $("now-measure").textContent = p.label;
     highlightMeasure(p.mc);
@@ -653,21 +817,27 @@
     $("now-tex").textContent = (t("textures")[f.texture] || f.texture);
     document.querySelectorAll(".row-label[data-part]").forEach((el) =>
       el.classList.toggle("is-lead", el.dataset.part === f.lead || el.dataset.part === f.co_lead));
-    // playhead: lanes start after the label column
-    const tl = $("timeline"), lane = $("lane-sections");
-    const x = lane.offsetLeft + lane.offsetWidth * Math.max(0, Math.min(1, (sec - t0) / span()));
-    $("playhead").style.left = `${x}px`;
     updateCompareNow();
     // highlight the guide point that contains this measure
     const pos = (lab) => (labelOcc[lab] || [])[0] ?? -1;
     document.querySelectorAll(".point").forEach((el) => {
       const occS = labelOcc[el.dataset.start] || [], occE = labelOcc[el.dataset.end] || [];
       let on = false;
-      occS.forEach((s) => occE.forEach((e) => { if (e >= s && i >= s && i <= e) on = true; }));
+      occS.forEach((s) => {                       // each start with its own (first following) end
+        const e = occE.find((x) => x >= s);
+        if (e !== undefined && i >= s && i <= e) on = true;
+      });
       if (!occS.length && pos(el.dataset.start) === i) on = true;
       el.classList.toggle("current", on);
     });
-    void tl;
+  }
+
+  // a bar that is played several times (repeats, da capo): the time it is played nearest to now
+  function nearestOccurrence(mc) {
+    const now = currentIndex(audio.currentTime || 0);
+    let best = -1;
+    played.forEach((p, i) => { if (p.mc === mc && (best < 0 || Math.abs(i - now) < Math.abs(best - now))) best = i; });
+    return best;
   }
 
   function seekLabel(label) {
@@ -867,6 +1037,7 @@
   function loopWatch() {
     // checked every frame (timeupdate fires only ~4 times a second)
     if (loop && !audio.paused && !counting && audio.currentTime >= loop.e - 0.03) startLoop();
+    if (!audio.paused && data && data.alignment) onTime("frame");     // smooth highlight and playhead
     requestAnimationFrame(loopWatch);
   }
 
@@ -935,7 +1106,13 @@
     const works = [];
     hits.forEach((p) => { const w = works.find((x) => x.work === p.work); if (w) w.items.push(p); else works.push({work: p.work, items: [p]}); });
     $("lib-count").textContent = t("lib_count").replace("{m}", hits.length).replace("{w}", works.length);
-    if (!hits.length) { $("lib-list").innerHTML = `<p class="muted">${esc(t("lib_none"))}</p>`; return; }
+    if (!hits.length) {
+      const filtered = comp || mode || len || ens || needGuide;
+      $("lib-list").innerHTML = `<p class="muted">${esc(t("lib_none"))}</p>` +
+        (filtered ? `<button type="button" id="lib-clear" class="lib-btn">${esc(t("lib_clear"))}</button>` : "");
+      if (filtered) $("lib-clear").addEventListener("click", clearLibraryFilters);
+      return;
+    }
     const current = data && data.id;
     $("lib-list").innerHTML = works.map((w) => {
       const first = w.items[0], workTitle = first.title.split(" – ")[0];
@@ -954,7 +1131,15 @@
     }).join("");
   }
 
+  function clearLibraryFilters() {
+    ["lib-composer", "lib-mode", "lib-len", "lib-ens"].forEach((id) => { $(id).value = ""; });
+    $("lib-guide").checked = false;
+    renderLibrary();
+  }
+
   function initLibrary() {
+    ["lib-composer", "lib-mode", "lib-len", "lib-ens"].forEach((id) => { $(id).value = ""; });
+    $("lib-guide").checked = false;          // browsers may restore old form values after a reload
     const dlg = $("library");
     const open = () => { fillLibraryFilters(); renderLibrary(); if (dlg.showModal) dlg.showModal(); else dlg.setAttribute("open", ""); $("lib-q").focus(); };
     const close = () => { if (dlg.close) dlg.close(); else dlg.removeAttribute("open"); };

@@ -11,9 +11,9 @@
  "audio": {
   "path": "incoming/IMSLP82722-PMLP05226-mozart_k465.mp3",
   "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #82722, CC BY-NC-ND 3.0)",
-  "start_sec": 1109.5,
-  "end_sec": 1408.5,
-  "open_sec": 6.0,
+  "start_sec": 1107.4,
+  "end_sec": 1410.2,
+  "open_sec": 2.0,
   "range_from": "split",
   "license": "CC BY-NC-ND 3.0"
  }

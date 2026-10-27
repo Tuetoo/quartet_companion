@@ -12,42 +12,15 @@ from __future__ import annotations
 
 import asyncio
 import http.server
-import io
 import json
-import os
-import re
 import sys
 import threading
 from pathlib import Path
 
 
-class _Handler(http.server.SimpleHTTPRequestHandler):
-    """Static files with HTTP range support (browsers need it to seek in audio)."""
-
-    def send_head(self):
-        rng, path = self.headers.get("Range"), self.translate_path(self.path)
-        if not rng or not os.path.isfile(path):
-            return super().send_head()
-        size = os.path.getsize(path)
-        m = re.match(r"bytes=(\d*)-(\d*)", rng)
-        a, b = int(m.group(1) or 0), int(m.group(2) or size - 1)
-        with open(path, "rb") as f:
-            f.seek(a)
-            data = f.read(b - a + 1)
-        self.send_response(206)
-        self.send_header("Content-Type", self.guess_type(path))
-        self.send_header("Accept-Ranges", "bytes")
-        self.send_header("Content-Range", f"bytes {a}-{a + len(data) - 1}/{size}")
-        self.send_header("Content-Length", str(len(data)))
-        self.end_headers()
-        return io.BytesIO(data)
-
-    def log_message(self, *args):
-        pass
-
-
 def serve(site: Path, port: int = 8797) -> http.server.ThreadingHTTPServer:
-    handler = lambda *a, **k: _Handler(*a, directory=str(site), **k)   # noqa: E731
+    from quartet_companion.httpserve import RangeHandler        # the same server as `qc serve`
+    handler = lambda *a, **k: RangeHandler(*a, directory=str(site), **k)   # noqa: E731
     srv = http.server.ThreadingHTTPServer(("127.0.0.1", port), handler)
     threading.Thread(target=srv.serve_forever, daemon=True).start()
     return srv

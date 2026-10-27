@@ -193,8 +193,14 @@ def _render_pages_inproc(xml_path: str | Path, out_dir: str | Path, n_measures: 
         (out_dir / f"page-{p}.svg").write_text(tk.renderToSVG(p))
     mei = tk.getMEI()
     # measures in document order (MEI keeps the score order)
-    found = re.findall(r'<measure\b[^>]*?xml:id="([^"]+)"[^>]*?(?:\bn="([^"]*)")?[^>]*>', mei)
-    measures = [{"id": mid, "n": n, "page": tk.getPageWithElement(mid)} for mid, n in found]
+    measures = []
+    for tag in re.findall(r'<measure\b[^>]*>', mei):
+        mid = re.search(r'xml:id="([^"]+)"', tag)
+        if not mid:
+            continue
+        num = re.search(r'\bn="([^"]*)"', tag)
+        measures.append({"id": mid.group(1), "n": num.group(1) if num else "",
+                         "page": tk.getPageWithElement(mid.group(1))})
     info = {"pages": pages, "measures": measures, "matches_score": len(measures) == n_measures}
     (out_dir / "score.json").write_text(json.dumps(info))
     return info

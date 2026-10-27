@@ -2,559 +2,472 @@
  "language": "en",
  "model": "claude-sonnet-5-5",
  "verification": {
-  "verified": 67,
+  "verified": 51,
   "failed": 0,
   "unchecked": 0,
   "failures": [],
   "removed_points": 0,
   "before_removal": {
-   "verified": 67,
+   "verified": 51,
    "failed": 0,
    "unchecked": 0
-  }
+  },
+  "prose_issues": [
+   {
+    "point": "point 12 (Familiar material again)",
+    "problem": "[m. 5] is outside this point's range; move it or say it refers back"
+   },
+   {
+    "point": "point 12 (Familiar material again)",
+    "problem": "[m. 21] is outside this point's range; move it or say it refers back"
+   }
+  ]
  },
  "usage": [
   {
    "input": 59,
-   "output": 3931,
+   "output": 3424,
    "cache_read": 0,
-   "cache_write": 9019
+   "cache_write": 9842
   },
   {
-   "input": 4503,
-   "output": 4700,
-   "cache_read": 9019,
+   "input": 4010,
+   "output": 4493,
+   "cache_read": 9842,
    "cache_write": 0
   }
  ],
  "guide": {
-  "title": "Mozart: Eine kleine Nachtmusik, K. 525 – I. Allegro: A Listening Guide",
-  "overview": "This is a fast movement for string quartet, in G major. It has two big parts, and each one is marked to be repeated. The first violin usually has the tune. The other players mostly support it. Keys and chords here are estimated by software. The score also came from optical recognition with errors, so small details may be imprecise. Trust the big picture: the sections, the key changes, and loud versus soft. Who has the tune is only a rough guess in many bars.",
+  "title": "Mozart: Eine kleine Nachtmusik, K. 525 – I. Allegro",
+  "overview": "This movement is for string quartet: two violins, viola and cello. It is in G major and has two big parts, each marked as repeated. Part 1 is [m. 1-55] and Part 2 is [m. 56-137]. Listen for the opening tune, which comes back in Part 2. Keys and chords here are estimated by computer, so small details may be off. The facts give no loud or soft markings, so this guide does not describe dynamics.",
   "overview_claims": [
    {
     "type": "section",
-    "measure": "0",
+    "measure": "1",
     "value": "Part 1"
    },
    {
     "type": "section",
-    "measure": "55",
+    "measure": "56",
     "value": "Part 2"
    },
    {
     "type": "key",
-    "measure": "0",
+    "measure": "1",
     "value": "G major"
-   },
-   {
-    "type": "lead",
-    "measure": "0",
-    "value": "Violin 1"
    }
   ],
   "listening_points": [
    {
-    "start_measure": "0",
-    "end_measure": "1",
-    "headline": "The opening call, played together",
-    "text": "The piece starts loudly, with the main theme. The first violin plays it. The viola and cello play the same shape in lower octaves. They all play together in rhythm. This is called homophonic texture.",
+    "start_measure": "1",
+    "end_measure": "4",
+    "headline": "The opening tune, all four together",
+    "text": "The main theme starts in the first violin at [m. 1]. The second violin plays it at the same pitch. The viola and cello play it lower. From [m. 2-4] the parts play in unison or octaves, which means the same notes at the same time.",
     "focus_part": "all",
     "claims": [
      {
       "type": "theme",
-      "measure": "0",
+      "measure": "1",
       "value": "Violin 1"
      },
      {
-      "type": "dynamic",
-      "measure": "0",
-      "value": "f"
-     },
-     {
-      "type": "texture",
-      "measure": "0",
-      "value": "homophonic"
+      "type": "lead",
+      "measure": "1",
+      "value": "Violin 1"
      },
      {
       "type": "key",
-      "measure": "0",
+      "measure": "1",
       "value": "G major"
-     }
-    ]
-   },
-   {
-    "start_measure": "2",
-    "end_measure": "8",
-    "headline": "Violin 1 sings over the group",
-    "text": "After the opening, the first violin steps forward with the tune [m. 2-8]. The others play a lighter background. This is called melody plus accompaniment. The music stays loud, and the lead looks clear in the middle of this stretch.",
-    "focus_part": "Violin 1",
-    "claims": [
-     {
-      "type": "lead",
-      "measure": "4",
-      "value": "Violin 1"
      },
      {
       "type": "texture",
-      "measure": "4",
-      "value": "melody + accompaniment"
-     },
-     {
-      "type": "dynamic",
-      "measure": "4",
-      "value": "f"
-     }
-    ]
-   },
-   {
-    "start_measure": "9",
-    "end_measure": "16",
-    "headline": "A sudden hush",
-    "text": "At [m. 9] the music drops to soft. The first violin mostly keeps the tune. In a few bars the viola probably shares it [m. 11, 15].",
-    "focus_part": "Violin 1",
-    "claims": [
-     {
-      "type": "dynamic",
-      "measure": "9",
-      "value": "p"
-     },
-     {
-      "type": "lead",
-      "measure": "9",
-      "value": "Violin 1"
-     },
-     {
-      "type": "texture",
-      "measure": "9",
-      "value": "melody + accompaniment"
-     }
-    ]
-   },
-   {
-    "start_measure": "21",
-    "end_measure": "25",
-    "headline": "Brighter key and a loud peak",
-    "text": "The music moves to D major, a new key. It gets very loud [m. 21]. Then the viola and cello probably share the lead for a moment [m. 23-24]. The software estimates [m. 25] as the loudest, busiest point of the movement.",
-    "focus_part": "all",
-    "claims": [
-     {
-      "type": "modulation",
-      "measure": "21",
-      "value": "D major"
-     },
-     {
-      "type": "key",
-      "measure": "21",
-      "value": "D major"
-     },
-     {
-      "type": "dynamic",
-      "measure": "21",
-      "value": "ff"
-     },
-     {
-      "type": "climax",
-      "measure": "25",
-      "value": "ff"
-     },
-     {
-      "type": "lead",
-      "measure": "23",
-      "value": "Viola"
-     }
-    ]
-   },
-   {
-    "start_measure": "26",
-    "end_measure": "34",
-    "headline": "A quieter stretch in A major",
-    "text": "The key shifts again, this time to A major. After one loud bar, the music turns soft at [m. 27]. For a moment the lines move more independently [m. 29-30]. The lead is uncertain here, but it is probably the first violin.",
-    "focus_part": "Violin 1",
-    "claims": [
-     {
-      "type": "modulation",
-      "measure": "26",
-      "value": "A major"
-     },
-     {
-      "type": "key",
-      "measure": "26",
-      "value": "A major"
-     },
-     {
-      "type": "dynamic",
-      "measure": "27",
-      "value": "p"
-     },
-     {
-      "type": "texture",
-      "measure": "29",
-      "value": "independent lines"
-     }
-    ]
-   },
-   {
-    "start_measure": "35",
-    "end_measure": "54",
-    "headline": "Settling in D major, swinging loud and soft",
-    "text": "The music returns to D major and stays there to the end of Part 1. It alternates between soft and loud passages. Listen for the switch to loud at [m. 38], back to soft at [m. 42], and loud again at [m. 46]. The first violin probably leads most of the time. Part 1 ends softly at [m. 53-54].",
-    "focus_part": "Violin 1",
-    "claims": [
-     {
-      "type": "key",
-      "measure": "35",
-      "value": "D major"
-     },
-     {
-      "type": "dynamic",
-      "measure": "38",
-      "value": "f"
-     },
-     {
-      "type": "dynamic",
-      "measure": "42",
-      "value": "p"
-     },
-     {
-      "type": "dynamic",
-      "measure": "46",
-      "value": "f"
-     },
-     {
-      "type": "dynamic",
-      "measure": "53",
-      "value": "p"
-     }
-    ]
-   },
-   {
-    "start_measure": "55",
-    "end_measure": "58",
-    "headline": "Part 2 begins with the main theme",
-    "text": "Part 2 starts loudly with the main theme again. This time it is in D major and lower in pitch. Violin 1, Violin 2 and cello play it. Next the players play the same notes, either at the same height or in different octaves [m. 56-57].",
-    "focus_part": "all",
-    "claims": [
-     {
-      "type": "section",
-      "measure": "55",
-      "value": "Part 2"
-     },
-     {
-      "type": "theme",
-      "measure": "55",
-      "value": "Violin 1"
-     },
-     {
-      "type": "key",
-      "measure": "55",
-      "value": "D major"
-     },
-     {
-      "type": "dynamic",
-      "measure": "55",
-      "value": "f"
-     },
-     {
-      "type": "texture",
-      "measure": "56",
+      "measure": "2",
       "value": "unison/octaves"
      }
     ]
    },
    {
-    "start_measure": "59",
-    "end_measure": "68",
-    "headline": "Wandering through darker keys",
-    "text": "The music turns soft and moves through several keys. It goes to C major, then A minor, then G minor. Minor keys sound darker and more serious. The first violin probably has the tune, but in every other bar the second violin seems to share it.",
+    "start_measure": "5",
+    "end_measure": "10",
+    "headline": "The tune settles into melody and accompaniment",
+    "text": "Now the first violin clearly has the tune, and the others accompany it [m. 5-8]. The analysis is very confident about this lead. At [m. 9] the lines become more independent.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "5",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "5",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "9",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "11",
+    "end_measure": "21",
+    "headline": "Staying in G major, with chordal moments",
+    "text": "The music stays in the home key of G major. Several bars have the instruments moving together in chords, such as [m. 13-15]. The first violin probably leads most of this stretch.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "11",
+      "value": "G major"
+     },
+     {
+      "type": "texture",
+      "measure": "13",
+      "value": "homophonic"
+     },
+     {
+      "type": "lead",
+      "measure": "16",
+      "value": "Violin 1"
+     }
+    ]
+   },
+   {
+    "start_measure": "22",
+    "end_measure": "26",
+    "headline": "A first move to D major",
+    "text": "The key shifts to D major at [m. 22]. At [m. 24-25] the instruments move together in chords. The analysis cannot say who leads there, so treat it as shared.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "22",
+      "value": "D major"
+     },
+     {
+      "type": "key",
+      "measure": "22",
+      "value": "D major"
+     },
+     {
+      "type": "texture",
+      "measure": "24",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "27",
+    "end_measure": "38",
+    "headline": "Brief visit to A major",
+    "text": "At [m. 27] the key moves to A major. The texture changes often here between chords, a lead voice, and independent lines. Who leads is unclear. At [m. 36] the two violins share it.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "modulation",
+      "measure": "27",
+      "value": "A major"
+     },
+     {
+      "type": "key",
+      "measure": "27",
+      "value": "A major"
+     },
+     {
+      "type": "texture",
+      "measure": "36",
+      "value": "independent lines"
+     }
+    ]
+   },
+   {
+    "start_measure": "39",
+    "end_measure": "55",
+    "headline": "Back to D major to close Part 1",
+    "text": "D major returns at [m. 39] and lasts to the end of Part 1. Near the end, the instruments move in chords [m. 49-53]. The analysis marks [m. 51] as the loudest or busiest point. This is a computer estimate, and the score has no marking for it.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "39",
+      "value": "D major"
+     },
+     {
+      "type": "climax",
+      "measure": "51",
+      "value": "loudest/busiest point"
+     },
+     {
+      "type": "texture",
+      "measure": "49",
+      "value": "homophonic"
+     }
+    ]
+   },
+   {
+    "start_measure": "56",
+    "end_measure": "59",
+    "headline": "Part 2 begins with the opening tune",
+    "text": "Part 2 starts at [m. 56] with the main theme again. It is now lower, in D major. All four parts play it. At [m. 57-59] they play in unison or octaves, as at the opening.",
+    "focus_part": "all",
+    "claims": [
+     {
+      "type": "section",
+      "measure": "56",
+      "value": "Part 2"
+     },
+     {
+      "type": "theme",
+      "measure": "56",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "56",
+      "value": "D major"
+     },
+     {
+      "type": "texture",
+      "measure": "57",
+      "value": "unison/octaves"
+     }
+    ]
+   },
+   {
+    "start_measure": "60",
+    "end_measure": "66",
+    "headline": "Key changes: G major, then C major",
+    "text": "At [m. 60] the key becomes G major. The first violin has the tune over an accompaniment. At [m. 64] the key shifts to C major.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "key",
+      "measure": "60",
+      "value": "G major"
+     },
+     {
+      "type": "modulation",
+      "measure": "64",
+      "value": "C major"
+     },
+     {
+      "type": "key",
+      "measure": "64",
+      "value": "C major"
+     },
+     {
+      "type": "texture",
+      "measure": "60",
+      "value": "melody + accompaniment"
+     }
+    ]
+   },
+   {
+    "start_measure": "67",
+    "end_measure": "71",
+    "headline": "A darker turn to G minor",
+    "text": "At [m. 67] the key becomes G minor. A minor key usually sounds darker than the major keys around it. Listen for the change of colour.",
     "focus_part": "Violin 1",
     "claims": [
      {
       "type": "modulation",
-      "measure": "59",
-      "value": "C major"
-     },
-     {
-      "type": "key",
-      "measure": "59",
-      "value": "C major"
-     },
-     {
-      "type": "key",
-      "measure": "65",
-      "value": "A minor"
+      "measure": "67",
+      "value": "G minor"
      },
      {
       "type": "key",
       "measure": "67",
       "value": "G minor"
-     },
-     {
-      "type": "dynamic",
-      "measure": "59",
-      "value": "p"
      }
     ]
    },
    {
-    "start_measure": "69",
-    "end_measure": "72",
-    "headline": "A loud burst, then a soft moment",
-    "text": "At [m. 69] the music gets loud, with chords played together. Then it drops to soft at [m. 71] in D major. This sets up the return home.",
-    "focus_part": "all",
+    "start_measure": "72",
+    "end_measure": "75",
+    "headline": "Passing through D major and back home",
+    "text": "A short stop in D major comes at [m. 72-73]. Then G major returns at [m. 74].",
+    "focus_part": "Violin 1",
     "claims": [
      {
-      "type": "dynamic",
-      "measure": "69",
-      "value": "f"
-     },
-     {
-      "type": "texture",
-      "measure": "69",
-      "value": "homophonic"
-     },
-     {
       "type": "key",
-      "measure": "71",
+      "measure": "72",
       "value": "D major"
      },
      {
-      "type": "dynamic",
-      "measure": "71",
-      "value": "p"
+      "type": "modulation",
+      "measure": "74",
+      "value": "G major"
+     },
+     {
+      "type": "key",
+      "measure": "74",
+      "value": "G major"
      }
     ]
    },
    {
-    "start_measure": "73",
-    "end_measure": "84",
-    "headline": "Back in G major",
-    "text": "At [m. 73] the home key of G major returns. The music goes loud at [m. 75] and stays loud. The first violin clearly leads at [m. 79-82]. It then drops to soft at [m. 83].",
+    "start_measure": "76",
+    "end_measure": "79",
+    "headline": "The opening tune returns in G major",
+    "text": "At [m. 76] the main theme comes back at the original pitch in the first violin. The viola and cello play it too, lower. They play in unison or octaves, as at the start. This is the moment to listen for.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "theme",
+      "measure": "76",
+      "value": "Violin 1"
+     },
+     {
+      "type": "texture",
+      "measure": "76",
+      "value": "unison/octaves"
+     },
+     {
+      "type": "key",
+      "measure": "76",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "80",
+    "end_measure": "96",
+    "headline": "Familiar material again",
+    "text": "The first violin leads, with accompaniment, from [m. 80] on. The estimated chords here match those of [m. 5-21], so the music should feel familiar.",
+    "focus_part": "Violin 1",
+    "claims": [
+     {
+      "type": "texture",
+      "measure": "80",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "lead",
+      "measure": "80",
+      "value": "Violin 1"
+     },
+     {
+      "type": "key",
+      "measure": "80",
+      "value": "G major"
+     }
+    ]
+   },
+   {
+    "start_measure": "97",
+    "end_measure": "111",
+    "headline": "D major once more",
+    "text": "The key goes to D major at [m. 97]. The first violin probably leads. The second violin probably takes over briefly at [m. 105]. Lead confidence is lower here.",
     "focus_part": "Violin 1",
     "claims": [
      {
       "type": "modulation",
-      "measure": "73",
-      "value": "G major"
-     },
-     {
-      "type": "key",
-      "measure": "73",
-      "value": "G major"
-     },
-     {
-      "type": "dynamic",
-      "measure": "75",
-      "value": "f"
-     },
-     {
-      "type": "lead",
-      "measure": "79",
-      "value": "Violin 1"
-     },
-     {
-      "type": "dynamic",
-      "measure": "83",
-      "value": "p"
-     }
-    ]
-   },
-   {
-    "start_measure": "85",
-    "end_measure": "95",
-    "headline": "Soft music returns, dipping to very soft",
-    "text": "The music stays soft in G major. The first violin mostly leads, though the viola probably shares the tune in a few bars [m. 86, 90]. Listen for the music dropping to very soft around [m. 94].",
-    "focus_part": "Violin 1",
-    "claims": [
-     {
-      "type": "key",
-      "measure": "85",
-      "value": "G major"
-     },
-     {
-      "type": "dynamic",
-      "measure": "85",
-      "value": "p"
-     },
-     {
-      "type": "dynamic",
-      "measure": "94",
-      "value": "pp"
-     },
-     {
-      "type": "lead",
-      "measure": "87",
-      "value": "Violin 1"
-     }
-    ]
-   },
-   {
-    "start_measure": "96",
-    "end_measure": "101",
-    "headline": "A quick flash of loud D major",
-    "text": "The music jumps to a very loud D major at [m. 96]. It is a sharp contrast after the soft music before it. It drops back to soft by [m. 98].",
-    "focus_part": "Violin 1",
-    "claims": [
-     {
-      "type": "key",
-      "measure": "96",
+      "measure": "97",
       "value": "D major"
      },
      {
-      "type": "dynamic",
-      "measure": "96",
-      "value": "ff"
-     },
-     {
-      "type": "dynamic",
-      "measure": "98",
-      "value": "p"
-     }
-    ]
-   },
-   {
-    "start_measure": "102",
-    "end_measure": "114",
-    "headline": "Home key, then a sudden loud passage",
-    "text": "G major returns at [m. 102] and stays to the end. The music is soft at first, and the first violin clearly leads at [m. 107]. At [m. 111] it turns loud.",
-    "focus_part": "Violin 1",
-    "claims": [
-     {
       "type": "key",
-      "measure": "102",
-      "value": "G major"
-     },
-     {
-      "type": "dynamic",
-      "measure": "102",
-      "value": "p"
-     },
-     {
-      "type": "dynamic",
-      "measure": "111",
-      "value": "f"
+      "measure": "97",
+      "value": "D major"
      },
      {
       "type": "lead",
-      "measure": "107",
-      "value": "Violin 1"
+      "measure": "105",
+      "value": "Violin 2"
      }
     ]
    },
    {
-    "start_measure": "115",
-    "end_measure": "129",
-    "headline": "Soft, then loud, then soft again",
-    "text": "The music turns soft at [m. 115]. It gets loud at [m. 119]. Then the chords at [m. 121-125] are played together. It softens again at [m. 126], and the first violin is clearly in front at [m. 127].",
+    "start_measure": "112",
+    "end_measure": "126",
+    "headline": "Back in G major",
+    "text": "At [m. 112] the music returns to G major. It stays there to the end. Chords dominate [m. 122-126].",
     "focus_part": "Violin 1",
     "claims": [
      {
-      "type": "dynamic",
-      "measure": "115",
-      "value": "p"
+      "type": "modulation",
+      "measure": "112",
+      "value": "G major"
      },
      {
-      "type": "dynamic",
-      "measure": "119",
-      "value": "f"
+      "type": "key",
+      "measure": "112",
+      "value": "G major"
      },
      {
       "type": "texture",
-      "measure": "121",
+      "measure": "122",
       "value": "homophonic"
-     },
-     {
-      "type": "dynamic",
-      "measure": "126",
-      "value": "p"
-     },
-     {
-      "type": "lead",
-      "measure": "127",
-      "value": "Violin 1"
      }
     ]
    },
    {
-    "start_measure": "130",
-    "end_measure": "136",
-    "headline": "A loud finish in G major",
-    "text": "The last bars are loud and firm in G major. The first violin leads. The group closes with chords played together at [m. 136].",
+    "start_measure": "127",
+    "end_measure": "137",
+    "headline": "The final bars in G major",
+    "text": "The first violin leads over an accompaniment through [m. 127-135]. The movement ends at [m. 137] with the instruments moving together in chords.",
     "focus_part": "Violin 1",
     "claims": [
      {
-      "type": "dynamic",
-      "measure": "130",
-      "value": "f"
-     },
-     {
-      "type": "key",
-      "measure": "130",
-      "value": "G major"
-     },
-     {
       "type": "lead",
-      "measure": "131",
+      "measure": "132",
       "value": "Violin 1"
      },
      {
       "type": "texture",
-      "measure": "136",
+      "measure": "132",
+      "value": "melody + accompaniment"
+     },
+     {
+      "type": "texture",
+      "measure": "137",
       "value": "homophonic"
+     },
+     {
+      "type": "key",
+      "measure": "137",
+      "value": "G major"
      }
     ]
    }
   ],
   "glossary": [
    {
-    "term": "Homophonic",
-    "explanation": "All the players move together in the same rhythm, like a hymn."
-   },
-   {
-    "term": "Melody plus accompaniment",
-    "explanation": "One player has the tune, and the others play a lighter background."
-   },
-   {
-    "term": "Independent lines",
-    "explanation": "Each player has a different line, and the lines weave together."
-   },
-   {
-    "term": "Unison/octaves",
-    "explanation": "Players play the same notes, either at the same height or at different heights."
+    "term": "Theme",
+    "explanation": "A main tune that you can recognise when it comes back."
    },
    {
     "term": "Key",
-    "explanation": "The home note and scale that a passage is built around. Major keys sound brighter, and minor keys sound darker."
+    "explanation": "The home note and scale that the music centres on. Changing key changes the colour of the music."
    },
    {
     "term": "Modulation",
     "explanation": "A move from one key to another."
    },
    {
-    "term": "Dynamics (p, f, ff, pp)",
-    "explanation": "Loud and soft markings. p is soft, pp is very soft, f is loud, and ff is very loud."
+    "term": "Unison/octaves",
+    "explanation": "Instruments playing the same tune at the same time, at the same or different heights."
    },
    {
-    "term": "Main theme",
-    "explanation": "The opening tune. It is heard again at the start of Part 2."
+    "term": "Melody + accompaniment",
+    "explanation": "One part has the tune while the others support it."
+   },
+   {
+    "term": "Homophonic",
+    "explanation": "The parts move together, mostly in chords."
+   },
+   {
+    "term": "Independent lines",
+    "explanation": "Each part follows its own path at the same time."
+   },
+   {
+    "term": "Minor key",
+    "explanation": "A key that usually sounds darker or sadder than a major key."
    }
   ]
  },
- "facts_fingerprint": "89834335f567",
- "review": [
-  {
-   "date": "2026-10-24",
-   "edits": 10,
-   "note": "prose corrected after a line-by-line review against the facts"
-  },
-  {
-   "date": "2026-10-24",
-   "edits": 2,
-   "note": "prose corrected after a line-by-line review against the facts"
-  },
-  {
-   "date": "2026-10-24",
-   "edits": 2,
-   "note": "prose corrected after a line-by-line review against the facts"
-  }
- ]
+ "facts_fingerprint": "47b75751ce47"
 }

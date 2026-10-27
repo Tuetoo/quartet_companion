@@ -1,36 +1,40 @@
 {
- "id": "passacaglia",
- "title": "Handel–Halvorsen: Passacaglia for Violin and Viola",
- "composer": "G. F. Handel / Johan Halvorsen",
- "score": {
-  "type": "file",
-  "path": "pieces/passacaglia/score.mxl",
-  "original": "incoming/omr/passacaglia_typeset_omr.mxl"
- },
- "audio": {
-  "path": "incoming/IMSLP72056-PMLP29933-01Passacaglia.mp3",
-  "credit": "Roxana Pavel Goldstein & Elias Goldstein, IMSLP #72056 (EFF Open Audio License)",
-  "order": "all_repeats",
-  "license": "EFF Open Audio License"
- },
- "parts": [
-  "Violin",
-  "Viola"
- ],
- "period_measures": "auto",
- "repeats": [
-  [
-   "33",
-   "36"
+  "id": "passacaglia",
+  "title": "Handel–Halvorsen: Passacaglia for Violin and Viola",
+  "composer": "G. F. Handel / Johan Halvorsen",
+  "score": {
+    "type": "file",
+    "path": "pieces/passacaglia/score.mxl",
+    "original": "incoming/IMSLP72041-PMLP29933-Handel-Halvorsen_-_Passacaglia_for_Violin_and_Viola_(Hansens).pdf",
+    "credit": "OMR of the Wilhelm Hansen edition (1894), IMSLP #72041 (public domain)"
+  },
+  "audio": {
+    "path": "incoming/IMSLP72056-PMLP29933-01Passacaglia.mp3",
+    "credit": "Roxana Pavel Goldstein & Elias Goldstein, IMSLP #72056 (EFF Open Audio License)",
+    "license": "EFF Open Audio License",
+    "order": "repeats_at_37_51_55",
+    "order_note": "Performers repeat the \"a tempo rubato\" variation (end of page 1, \"Rep. ad lib.\"), not the \"con grazia\" one; found by listening on 24 and 27 Oct 2026."
+  },
+  "parts": [
+    "Violin",
+    "Viola"
   ],
-  [
-   "49",
-   "52"
-  ],
-  [
-   "53",
-   "56"
-  ]
- ],
- "repeats_note": "Repeats the performers play: 33-36, 49-52, 53-56. Found automatically (repeat signs + printed tempo marks) and confirmed by where the recording repeats itself (24 Oct 2026). Other printed repeats (25-28, 65-68 ad lib., 73-76, 77-80) are not played."
+  "period_measures": "auto",
+  "omr": true,
+  "structure": {
+    "marks": {
+      "25": "start",
+      "28": "end",
+      "33": "start",
+      "36": "end",
+      "48": "start",
+      "51": "end",
+      "52": "start",
+      "55": "end",
+      "63": "start",
+      "66": "end",
+      "75": "end"
+    },
+    "note": "Repeat signs as printed in the Hansen edition (OMR put the end of the 'a tempo rubato' repeat one bar early and missed its start)."
+  }
 }

@@ -1,20 +1,20 @@
 {
- "id": "beethoven135_4",
- "title": "Beethoven: String Quartet No.16 in F major, Op.135 – IV. Grave ma non troppo tratto",
- "composer": "Ludwig van Beethoven",
- "score": {
-  "type": "file",
-  "path": "pieces/beethoven135_4/score.musicxml",
-  "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/12397213",
-  "openscore_id": "12397213"
- },
- "audio": {
-  "path": "incoming/IMSLP243513-PMLP05128-beethoven_op135no16_borromeo.mp3",
-  "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #243513, CC BY-NC-ND 3.0)",
-  "start_sec": 1034.7,
-  "end_sec": 1463.88,
-  "open_sec": 6.0,
-  "range_from": "split",
-  "license": "CC BY-NC-ND 3.0"
- }
+  "id": "beethoven135_4",
+  "title": "Beethoven: String Quartet No.16 in F major, Op.135 – IV. Grave ma non troppo tratto",
+  "composer": "Ludwig van Beethoven",
+  "score": {
+    "type": "file",
+    "path": "pieces/beethoven135_4/score.musicxml",
+    "original": "OpenScore String Quartets (CC0): https://musescore.com/openscore-string-quartets/scores/12397213",
+    "openscore_id": "12397213"
+  },
+  "audio": {
+    "path": "incoming/IMSLP243513-PMLP05128-beethoven_op135no16_borromeo.mp3",
+    "credit": "Borromeo String Quartet, Isabella Stewart Gardner Museum (IMSLP #243513, CC BY-NC-ND 3.0)",
+    "start_sec": 1012.0,
+    "end_sec": 1463.88,
+    "open_sec": 2.0,
+    "range_from": "split",
+    "license": "CC BY-NC-ND 3.0"
+  }
 }

@@ -141,7 +141,7 @@
 </footer>
 <script src="app.js"></script>
 
-<dialog id="library" aria-labelledby="lib-title">
+<dialog id="library" aria-labelledby="lib-title"><form autocomplete="off" onsubmit="return false">
   <div class="lib-head">
     <h2 id="lib-title" data-i18n="library">Library</h2>
     <button id="lib-close" class="lib-x" type="button" aria-label="Close">×</button>
@@ -156,6 +156,6 @@
   </div>
   <p id="lib-count" class="muted small"></p>
   <div id="lib-list"></div>
-</dialog>
+</form></dialog>
 </body>
 </html>
