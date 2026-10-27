@@ -1,0 +1,800 @@
+[
+ {
+  "id": "beethoven135_1",
+  "work": "beethoven135",
+  "title": "Beethoven: String Quartet No.16 in F major, Op.135 – I. Allegretto",
+  "composer": "Ludwig van Beethoven",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F major",
+  "mode": "major",
+  "time_signature": "2/4",
+  "tempo": "I.",
+  "n_measures": 193,
+  "duration_sec": 386.4,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "beethoven135_2",
+  "work": "beethoven135",
+  "title": "Beethoven: String Quartet No.16 in F major, Op.135 – II. Vivace",
+  "composer": "Ludwig van Beethoven",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "II.",
+  "n_measures": 273,
+  "duration_sec": 201.4,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "beethoven135_3",
+  "work": "beethoven135",
+  "title": "Beethoven: String Quartet No.16 in F major, Op.135 – III. Lento assai, cantante e tranquillo",
+  "composer": "Ludwig van Beethoven",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "Db major",
+  "mode": "major",
+  "time_signature": "6/8",
+  "tempo": "III.",
+  "n_measures": 54,
+  "duration_sec": 409.1,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "beethoven135_4",
+  "work": "beethoven135",
+  "title": "Beethoven: String Quartet No.16 in F major, Op.135 – IV. Grave ma non troppo tratto",
+  "composer": "Ludwig van Beethoven",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F major",
+  "mode": "major",
+  "time_signature": "3/2",
+  "tempo": "IV.",
+  "n_measures": 277,
+  "duration_sec": 427.0,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "borodin2_1",
+  "work": "borodin2",
+  "title": "Borodin: String Quartet No.2 – I. Allegro moderato",
+  "composer": "Alexander Borodin",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D major",
+  "mode": "major",
+  "time_signature": "2/2",
+  "tempo": "I.",
+  "n_measures": 304,
+  "duration_sec": 538.3,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "borodin2_2",
+  "work": "borodin2",
+  "title": "Borodin: String Quartet No.2 – II. Scherzo Allegro",
+  "composer": "Alexander Borodin",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "II.  Scherzo",
+  "n_measures": 299,
+  "duration_sec": 335.4,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "borodin2_3",
+  "work": "borodin2",
+  "title": "Borodin: String Quartet No.2 – III. Notturno Andante",
+  "composer": "Alexander Borodin",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "A major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "III.  Notturno",
+  "n_measures": 180,
+  "duration_sec": 544.9,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "borodin2_4",
+  "work": "borodin2",
+  "title": "Borodin: String Quartet No.2 – IV. Finale Andante",
+  "composer": "Alexander Borodin",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D major",
+  "mode": "major",
+  "time_signature": "2/4",
+  "tempo": "IV.  Finale",
+  "n_measures": 672,
+  "duration_sec": 432.2,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "d810_1",
+  "work": "d810",
+  "title": "Schubert: String Quartet in D minor, D.810, No.14 (“Death and the Maiden”) – I. Allegro",
+  "composer": "Franz Schubert",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D minor",
+  "mode": "minor",
+  "time_signature": "4/4",
+  "tempo": "I.",
+  "n_measures": 341,
+  "duration_sec": 678.2,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "d810_2",
+  "work": "d810",
+  "title": "Schubert: String Quartet in D minor, D.810, No.14 (“Death and the Maiden”) – II. Andante con moto",
+  "composer": "Franz Schubert",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "G minor",
+  "mode": "minor",
+  "time_signature": "2/2",
+  "tempo": "II.",
+  "n_measures": 172,
+  "duration_sec": 800.1,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "d810_3",
+  "work": "d810",
+  "title": "Schubert: String Quartet in D minor, D.810, No.14 (“Death and the Maiden”) – III. Scherzo Allegro molto",
+  "composer": "Franz Schubert",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D minor",
+  "mode": "minor",
+  "time_signature": "3/4",
+  "tempo": "III.  Scherzo",
+  "n_measures": 165,
+  "duration_sec": 240.5,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "d810_4",
+  "work": "d810",
+  "title": "Schubert: String Quartet in D minor, D.810, No.14 (“Death and the Maiden”) – IV. Presto.",
+  "composer": "Franz Schubert",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D minor",
+  "mode": "minor",
+  "time_signature": "6/8",
+  "tempo": "IV.",
+  "n_measures": 756,
+  "duration_sec": 554.6,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "d929_1",
+  "work": "d929",
+  "title": "Schubert: Piano Trio No. 2 in E-flat, D. 929 – I. Allegro",
+  "composer": "Franz Schubert",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "Eb major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "Allegro.",
+  "n_measures": 644,
+  "duration_sec": 725.9,
+  "n_recordings": 1,
+  "ensemble": "trio"
+ },
+ {
+  "id": "debussy10_1",
+  "work": "debussy10",
+  "title": "Debussy: String Quartet in G minor, Op.10 – I. Animé et très décidé",
+  "composer": "Claude Debussy",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "G minor",
+  "mode": "minor",
+  "time_signature": "4/4",
+  "tempo": "I.",
+  "n_measures": 194,
+  "duration_sec": 370.3,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "debussy10_2",
+  "work": "debussy10",
+  "title": "Debussy: String Quartet in G minor, Op.10 – II. Assez vif et bien rythmé",
+  "composer": "Claude Debussy",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "G major",
+  "mode": "major",
+  "time_signature": "6/8",
+  "tempo": "II.",
+  "n_measures": 177,
+  "duration_sec": 225.3,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "debussy10_3",
+  "work": "debussy10",
+  "title": "Debussy: String Quartet in G minor, Op.10 – III. Andantino doucement expressif",
+  "composer": "Claude Debussy",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "Db major",
+  "mode": "major",
+  "time_signature": "6/8",
+  "tempo": "III.",
+  "n_measures": 123,
+  "duration_sec": 434.7,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "debussy10_4",
+  "work": "debussy10",
+  "title": "Debussy: String Quartet in G minor, Op.10 – IV. Très modéré",
+  "composer": "Claude Debussy",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "G major",
+  "mode": "major",
+  "time_signature": "4/4",
+  "tempo": "IV.",
+  "n_measures": 355,
+  "duration_sec": 401.4,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "dvorak96_1",
+  "work": "dvorak96",
+  "title": "Dvořák: String Quartet No.12, Op.96 (“American”) – I. Allegro ma non troppo",
+  "composer": "Antonín Dvořák",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F major",
+  "mode": "major",
+  "time_signature": "4/4",
+  "tempo": "I.",
+  "n_measures": 178,
+  "duration_sec": 472.1,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "dvorak96_2",
+  "work": "dvorak96",
+  "title": "Dvořák: String Quartet No.12, Op.96 (“American”) – II. Lento",
+  "composer": "Antonín Dvořák",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D minor",
+  "mode": "minor",
+  "time_signature": "6/8",
+  "tempo": "II.",
+  "n_measures": 97,
+  "duration_sec": 468.5,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "dvorak96_3",
+  "work": "dvorak96",
+  "title": "Dvořák: String Quartet No.12, Op.96 (“American”) – III. Molto vivace",
+  "composer": "Antonín Dvořák",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F minor",
+  "mode": "minor",
+  "time_signature": "3/4",
+  "tempo": "III.",
+  "n_measures": 196,
+  "duration_sec": 247.2,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "dvorak96_4",
+  "work": "dvorak96",
+  "title": "Dvořák: String Quartet No.12, Op.96 (“American”) – IV. Finale Vivace ma non troppo",
+  "composer": "Antonín Dvořák",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F major",
+  "mode": "major",
+  "time_signature": "2/4",
+  "tempo": "IV.  Finale",
+  "n_measures": 382,
+  "duration_sec": 349.3,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "haydn64_5_1",
+  "work": "haydn64_5",
+  "title": "Haydn: String Quartet in D major, Hob.III:63, Op.64 No.5 – I. Allegro moderato",
+  "composer": "Joseph Haydn",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D major",
+  "mode": "major",
+  "time_signature": "2/2",
+  "tempo": "I.",
+  "n_measures": 179,
+  "duration_sec": 370.0,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "haydn64_5_2",
+  "work": "haydn64_5",
+  "title": "Haydn: String Quartet in D major, Hob.III:63, Op.64 No.5 – II. Adagio cantabile",
+  "composer": "Joseph Haydn",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "A major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "II.",
+  "n_measures": 84,
+  "duration_sec": 288.4,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "haydn64_5_3",
+  "work": "haydn64_5",
+  "title": "Haydn: String Quartet in D major, Hob.III:63, Op.64 No.5 – III. Menuetto Allegretto",
+  "composer": "Joseph Haydn",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "III. Menuetto",
+  "n_measures": 67,
+  "duration_sec": 224.2,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "haydn64_5_4",
+  "work": "haydn64_5",
+  "title": "Haydn: String Quartet in D major, Hob.III:63, Op.64 No.5 – IV. Finale Vivace",
+  "composer": "Joseph Haydn",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D major",
+  "mode": "major",
+  "time_signature": "2/4",
+  "tempo": "IV.  Finale",
+  "n_measures": 129,
+  "duration_sec": 89.8,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "k465_1",
+  "work": "k465",
+  "title": "Mozart: String Quartet No.19 in C major, K.465 (Op. 10, No. 6) – I. Adagio",
+  "composer": "Wolfgang Amadeus Mozart",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "C major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "I.",
+  "n_measures": 246,
+  "duration_sec": 651.9,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "k465_2",
+  "work": "k465",
+  "title": "Mozart: String Quartet No.19 in C major, K.465 (Op. 10, No. 6) – II. Andante cantabile",
+  "composer": "Wolfgang Amadeus Mozart",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "II.",
+  "n_measures": 114,
+  "duration_sec": 441.5,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "k465_3",
+  "work": "k465",
+  "title": "Mozart: String Quartet No.19 in C major, K.465 (Op. 10, No. 6) – III. Menuetto Allegro",
+  "composer": "Wolfgang Amadeus Mozart",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "C major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "III. Menuetto",
+  "n_measures": 103,
+  "duration_sec": 302.2,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "k465_4",
+  "work": "k465",
+  "title": "Mozart: String Quartet No.19 in C major, K.465 (Op. 10, No. 6) – IV. Allegro",
+  "composer": "Wolfgang Amadeus Mozart",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "C major",
+  "mode": "major",
+  "time_signature": "2/4",
+  "tempo": "IV.",
+  "n_measures": 421,
+  "duration_sec": 444.5,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "k525_1",
+  "work": "k525",
+  "title": "Mozart: Eine kleine Nachtmusik, K. 525 – I. Allegro",
+  "composer": "W. A. Mozart",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "G major",
+  "mode": "major",
+  "time_signature": "4/4",
+  "tempo": "",
+  "n_measures": 137,
+  "duration_sec": 344.4,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "k525_2",
+  "work": "k525",
+  "title": "Mozart: Eine kleine Nachtmusik, K. 525 – II. Romanze (Andante)",
+  "composer": "W. A. Mozart",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "C major",
+  "mode": "major",
+  "time_signature": "4/4",
+  "tempo": "",
+  "n_measures": 74,
+  "duration_sec": 348.1,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "k525_3",
+  "work": "k525",
+  "title": "Mozart: Eine kleine Nachtmusik, K. 525 – III. Menuetto (Allegretto)",
+  "composer": "W. A. Mozart",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "G major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "",
+  "n_measures": 37,
+  "duration_sec": 134.2,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "k525_4",
+  "work": "k525",
+  "title": "Mozart: Eine kleine Nachtmusik, K. 525 – IV. Rondo (Allegro)",
+  "composer": "W. A. Mozart",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "G major",
+  "mode": "major",
+  "time_signature": "2/2",
+  "tempo": "",
+  "n_measures": 166,
+  "duration_sec": 245.3,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "mendelssohn13_1",
+  "work": "mendelssohn13",
+  "title": "Mendelssohn: String Quartet No.2, Op.13 – I. Adagio",
+  "composer": "Felix Mendelssohn",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "A minor",
+  "mode": "minor",
+  "time_signature": "3/4",
+  "tempo": "I.",
+  "n_measures": 252,
+  "duration_sec": 493.6,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "mendelssohn13_2",
+  "work": "mendelssohn13",
+  "title": "Mendelssohn: String Quartet No.2, Op.13 – II. Adagio non lento",
+  "composer": "Felix Mendelssohn",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "F major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "II.",
+  "n_measures": 125,
+  "duration_sec": 457.9,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "mendelssohn13_3",
+  "work": "mendelssohn13",
+  "title": "Mendelssohn: String Quartet No.2, Op.13 – III. Intermezzo Allegretto con moto",
+  "composer": "Felix Mendelssohn",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "A minor",
+  "mode": "minor",
+  "time_signature": "2/4",
+  "tempo": "III.  Intermezzo",
+  "n_measures": 164,
+  "duration_sec": 292.8,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "mendelssohn13_4",
+  "work": "mendelssohn13",
+  "title": "Mendelssohn: String Quartet No.2, Op.13 – IV. Presto",
+  "composer": "Felix Mendelssohn",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "A major",
+  "mode": "major",
+  "time_signature": "2/2",
+  "tempo": "IV.",
+  "n_measures": 397,
+  "duration_sec": 594.6,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "op18no5_1",
+  "work": "op18no5",
+  "title": "Beethoven: String Quartet Op. 18 No. 5 – I. Allegro",
+  "composer": "Ludwig van Beethoven",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "A major",
+  "mode": "major",
+  "time_signature": "6/8",
+  "tempo": "Allegro",
+  "n_measures": 225,
+  "duration_sec": 389.3,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "op18no5_2",
+  "work": "op18no5",
+  "title": "Beethoven: String Quartet Op. 18 No. 5 – II. Menuetto",
+  "composer": "Ludwig van Beethoven",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "A major",
+  "mode": "major",
+  "time_signature": "3/4",
+  "tempo": "Menuetto",
+  "n_measures": 106,
+  "duration_sec": 348.0,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "op18no5_3",
+  "work": "op18no5",
+  "title": "Beethoven: String Quartet Op. 18 No. 5 – III. Andante cantabile (theme and variations)",
+  "composer": "Ludwig van Beethoven",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "D major",
+  "mode": "major",
+  "time_signature": "2/4",
+  "tempo": "Andante cantabile",
+  "n_measures": 140,
+  "duration_sec": 561.6,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "op18no5_4",
+  "work": "op18no5",
+  "title": "Beethoven: String Quartet Op. 18 No. 5 – IV. Allegro",
+  "composer": "Ludwig van Beethoven",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "A major",
+  "mode": "major",
+  "time_signature": "2/2",
+  "tempo": "Allegro",
+  "n_measures": 301,
+  "duration_sec": 361.4,
+  "n_recordings": 1,
+  "ensemble": "quartet"
+ },
+ {
+  "id": "passacaglia",
+  "work": "passacaglia",
+  "title": "Handel–Halvorsen: Passacaglia for Violin and Viola",
+  "composer": "G. F. Handel / Johan Halvorsen",
+  "has_audio": true,
+  "languages": [
+   "en",
+   "zh"
+  ],
+  "key": "G minor",
+  "mode": "minor",
+  "time_signature": "4/4",
+  "tempo": "Largamente. MM.",
+  "n_measures": 97,
+  "duration_sec": 359.5,
+  "n_recordings": 1,
+  "ensemble": "other"
+ }
+]
